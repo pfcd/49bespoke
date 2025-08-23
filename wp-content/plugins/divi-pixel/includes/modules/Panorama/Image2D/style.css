@@ -1,0 +1,17 @@
+.dipi-panorma-image2d{
+    overflow: hidden;
+    position: relative;
+}
+.dipi-panorma-image2d img{
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: initial;
+    
+}
+.dipi-panorma-image2d .dipi-img-drag{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.et_pb_module.dipi_panorama{overflow: visible;}

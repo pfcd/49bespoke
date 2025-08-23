@@ -1,0 +1,80 @@
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB {
+
+  svg {
+    width  : 100%;
+    height : 100%;
+    display: block;
+    }
+
+  .et-fb-multiple-buttons-outer {
+
+    .et-fb-multiple-buttons-container {
+      margin-right: 0;
+      display: grid;
+      gap: 5px;
+    }
+
+    &.col-large .et-fb-multiple-buttons-container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    &.col-medium .et-fb-multiple-buttons-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    &.col-small .et-fb-multiple-buttons-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    &.col-very-small .et-fb-multiple-buttons-container {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    &.dswcp-mini-cart-icon-select .et-fb-multiple-buttons-container,
+    &.dswcp-swatches-icon-select .et-fb-multiple-buttons-container {
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    }
+
+    &.dswcp-checkout-img-select .et-fb-multiple-buttons-container {
+      grid-template-columns: 1fr;
+    }
+
+    &.dswcp-checkout-img-select .et-fb-multiple-buttons-container span.et-fb-multiple-buttons-toggle-internal {
+    background-color: transparent;
+    }
+
+    &.dswcp-mini-cart-icon-select .et-fb-multiple-buttons-container svg,
+    &.dswcp-swatches-icon-select .et-fb-multiple-buttons-container svg {
+      max-width: 50px;
+      margin: auto;
+      }
+
+    .et-fb-multiple-buttons-container {
+
+      li.et-fb-multiple-buttons-toggle {
+        margin : 0;
+
+        &:last-child {
+          flex-grow : 0;
+          }
+
+        span {
+          background : #F1F5F9;
+          padding    : 4px 5px;
+          }
+
+        .et-fb-multiple-buttons-toggle-internal {
+          border : 3px solid #F1F5F9;
+          }
+
+        .et-fb-multiple-buttons-toggle-internal__active {
+          border-color : #6A39E4;
+          }
+        }
+
+      .et-fb-multiple-buttons-toggle .et-fb-multiple-buttons-toggle-internal {
+        height : unset;
+        }
+      }
+    }
+  }

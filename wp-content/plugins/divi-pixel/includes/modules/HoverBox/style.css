@@ -1,0 +1,364 @@
+.dipi-anim-preload .dipi_hover_box * {
+    transition: none !important;
+}
+
+.dipi-anim-preload .dipi-hover-box-container {
+    display: none !important;
+}
+
+.dipi-hover-box-container, .dipi-hover-box-content, .dipi-hover-box-hover {
+    width: 100%;
+}
+
+.dipi-hover-box-container {
+    position: relative;
+    perspective: 1000px;
+    overflow: hidden;
+    transition: 1.3s;
+    border-style: solid;
+}
+
+.dipi-hover-box-inner-wrapper {
+    position: relative;
+    transition: 1.3s;
+    border-style: solid;
+}
+ .dipi-hover-box-content, 
+ .dipi-hover-box-hover {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    border-style: solid;
+    transition: 1s;
+}
+
+.dipi-hover-button:after {
+    font-size: inherit !important; 
+    line-height: inherit !important;
+}
+.dipi-hover-button[data-icon]:not([data-icon=""]):after{
+    content: attr(data-icon);
+}
+
+.dipi-hover-box-slide-top .dipi-hover-box-hover {
+    transform: translateX(0) translateY(100%);
+    backface-visibility: hidden;
+}
+
+.dipi_hover_box:hover .dipi-hover-box-slide-top .dipi-hover-box-hover {
+    transform: translateX(0) translateY(0);
+}
+
+.dipi-hover-box-slide-bottom .dipi-hover-box-hover {
+    transform: translateX(0) translateY(-100%);
+    backface-visibility: hidden;
+}
+
+.dipi_hover_box:hover .dipi-hover-box-slide-bottom .dipi-hover-box-hover {
+    transform: translateX(0) translateY(0);
+}
+
+.dipi-hover-box-slide-left .dipi-hover-box-hover {
+    transform: translateX(-100%) translateY(0);
+    backface-visibility: hidden;
+}
+
+.dipi_hover_box:hover .dipi-hover-box-slide-left .dipi-hover-box-hover {
+    transform: translateX(0) translateY(0);
+}
+
+.dipi-hover-box-slide-right .dipi-hover-box-hover {
+    transform: translateX(100%) translateY(0);
+    backface-visibility: hidden;
+}
+
+.dipi_hover_box:hover .dipi-hover-box-slide-right .dipi-hover-box-hover {
+    transform: translateX(0) translateY(0);
+}
+
+.dipi-hover-box-fade .dipi-hover-box-content,
+.dipi_hover_box:hover .dipi-hover-box-fade .dipi-hover-box-hover {
+    opacity: 1;
+}
+
+.dipi_hover_box:hover .dipi-hover-box-fade .dipi-hover-box-content,
+.dipi-hover-box-fade .dipi-hover-box-hover {
+    opacity: 0;
+}
+
+.dipi-hover-box-zoom .dipi-hover-box-content,
+.dipi_hover_box:hover .dipi-hover-box-zoom .dipi-hover-box-hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.dipi_hover_box:hover .dipi-hover-box-zoom .dipi-hover-box-content,
+.dipi-hover-box-zoom .dipi-hover-box-hover {
+    opacity: 0;
+    transform: scale(.8);
+}
+
+.dipi_hover_box:hover .dipi-hover-box-container .dipi-hover-box-content .dipi-hover-box-content-innner {
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+.dipi-hover-box-container .dipi-hover-box-content .dipi-hover-box-content-innner {
+    transition: opacity .3s linear;
+}
+
+.dipi-hover-box-container .dipi-hover-box-content > div,
+.dipi-hover-box-container .dipi-hover-box-hover > div {
+  width: 100%;
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-icon-wrap, 
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-icon-wrap {
+    padding: 15px 0 0
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-image-wrap,
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-image-wrap {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-image-wrap img, 
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-image-wrap img {
+    border-style: solid;
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-content-icon-circle,
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-hover-icon-circle {
+    padding: 25px;
+    border-radius: 100%;
+    line-height: 1;
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-content-icon-border,
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-hover-icon-border {
+    border: 3px solid
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-text,
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-text {
+    padding: 15px 0
+}
+
+.dipi-hover-box-container .dipi-hover-box-content .dipi-hover-box-heading, 
+.dipi-hover-box-container .dipi-hover-box-hover .dipi-hover-box-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.dipi-hover-box-container .dipi-content-button,
+.dipi-hover-box-container .dipi-hover-button {
+    display: inline-block;
+    transition: all .2s !important;
+}
+
+.dipi-hover-box-container .dipi-content-button:hover:after,
+.dipi-hover-box-container .dipi-hover-button:hover:after {
+  font-size: inherit  !important;
+}
+
+.dipi-hover-box-container .dipi-content-button:hover:before,
+.dipi-hover-box-container .dipi-hover-button:hover:before {
+  font-size: inherit !important;
+}
+
+/**
+ * Alignment : Top;
+ */
+.hover_box_align_front_top .dipi-hover-box-content,
+.hover_box_align_front_top_left .dipi-hover-box-content,
+.hover_box_align_front_top_right .dipi-hover-box-content {
+    align-items: flex-start !important;
+}
+
+.hover_box_align_front_top .dipi-hover-box-content-innner {
+    text-align: center;
+}
+
+.hover_box_align_front_top_left .dipi-hover-box-content-innner {
+    text-align: left;
+}
+
+.hover_box_align_front_top_right .dipi-hover-box-content-innner {
+    text-align: right;
+}
+
+.hover_box_align_front_top .dipi-content-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_front_top_left .dipi-content-image-icon-wrap {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_front_top_right .dipi-content-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+/**
+ * Letf, Center, Right
+ */
+.hover_box_align_front_left .dipi-hover-box-content-innner {
+    text-align: left;
+}
+
+.hover_box_align_front_left .dipi-content-image-icon-wrap {
+    margin-left: 0 !important; 
+    margin-right: auto !important;
+}
+
+.hover_box_align_front_center .dipi-hover-box-content-innner {
+    text-align: center;
+}
+
+.hover_box_align_front_right .dipi-hover-box-content-innner {
+    text-align: right;
+}
+
+.hover_box_align_front_right .dipi-content-image-icon-wrap {
+    margin-left: auto !important; 
+    margin-right: 0 !important;
+}
+
+/**
+ * Bottom
+ */
+.hover_box_align_front_bottom .dipi-hover-box-content,
+.hover_box_align_front_bottom_left .dipi-hover-box-content,
+.hover_box_align_front_bottom_right .dipi-hover-box-content {
+    align-items: flex-end !important;
+}
+
+.hover_box_align_front_bottom .dipi-hover-box-content-innner {
+    text-align: center;
+}
+
+.hover_box_align_front_bottom_left .dipi-hover-box-content-innner {
+    text-align: left;
+}
+
+.hover_box_align_front_bottom_right .dipi-hover-box-content-innner {
+    text-align: right;
+}
+
+.hover_box_align_front_bottom .dipi-content-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_front_bottom_left .dipi-content-image-icon-wrap {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_front_bottom_right .dipi-content-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+/**
+ * Alignment Bacl : Top;
+ */
+.hover_box_align_back_top .dipi-hover-box-hover,
+.hover_box_align_back_top_left .dipi-hover-box-hover,
+.hover_box_align_back_top_right .dipi-hover-box-hover {
+    align-items: flex-start !important;
+}
+
+.hover_box_align_back_top .dipi-hover-box-hover-innner {
+    text-align: center;
+}
+
+.hover_box_align_back_top_left .dipi-hover-box-hover-innner {
+    text-align: left;
+}
+
+.hover_box_align_back_top_right .dipi-hover-box-hover-innner {
+    text-align: right;
+}
+
+.hover_box_align_back_top .dipi-hover-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_back_top_left .dipi-hover-image-icon-wrap {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_back_top_right .dipi-hover-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+/**
+ * Letf, Center, Right
+ */
+.hover_box_align_back_left .dipi-hover-box-hover-innner {
+    text-align: left;
+}
+
+.hover_box_align_back_left .dipi-hover-image-icon-wrap {
+    margin-left: 0 !important; 
+    margin-right: auto !important;
+}
+
+.hover_box_align_back_center .dipi-hover-box-hover-innner {
+    text-align: center;
+}
+
+.hover_box_align_back_right .dipi-hover-box-hover-innner {
+    text-align: right;
+}
+
+.hover_box_align_back_right .dipi-hover-image-icon-wrap {
+    margin-left: auto !important; 
+    margin-right: 0 !important;
+}
+
+/**
+ * Bottom
+ */
+.hover_box_align_back_bottom .dipi-hover-box-hover,
+.hover_box_align_back_bottom_left .dipi-hover-box-hover,
+.hover_box_align_back_bottom_right .dipi-hover-box-hover {
+    align-items: flex-end !important;
+}
+
+.hover_box_align_back_bottom .dipi-hover-box-hover-innner {
+    text-align: center;
+}
+
+.hover_box_align_back_bottom_left .dipi-hover-box-hover-innner {
+    text-align: left;
+}
+
+.hover_box_align_back_bottom_right .dipi-hover-box-hover-innner {
+    text-align: right;
+}
+
+.hover_box_align_back_bottom .dipi-hover-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_back_bottom_left .dipi-hover-image-icon-wrap {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.hover_box_align_back_bottom_right .dipi-hover-image-icon-wrap {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}

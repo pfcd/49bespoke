@@ -1,0 +1,124 @@
+.dsdep-checklist {
+  ul {
+    list-style-type : none;
+    padding         : 0;
+
+    li {
+      position      : relative;
+      padding-left  : 24px;
+      margin-bottom : 24px;
+
+      &.excluded {
+        opacity : 0.5;
+        }
+
+      &:before {
+        content     : "\4e" !important;
+        font-family : ETModules;
+        color       : $mainColor;
+        left        : 0;
+        top         : 0;
+        position    : absolute;
+        font-weight : bold;
+        font-size   : inherit;
+        line-height : 28px;
+        }
+      }
+    }
+
+  &.checklist-inline ul li {
+    display       : inline-block;
+    padding-right : 20px;
+
+    &:last-child {
+      margin-right : 0;
+      }
+    }
+
+
+  &.checklist-secondary {
+    ul li:before {
+      color : $secondColor;
+      }
+    }
+
+  &.checklist-dark {
+    ul li:before {
+      color : $darkGrey;
+      }
+    }
+
+  &.checklist-white {
+    ul li:before {
+      color : #FFF;
+      }
+    }
+
+  &.checklist-4-col, &.checklist-3-col, &.checklist-2-col {
+    ul {
+      display   : flex;
+      flex-wrap : wrap;
+
+      li {
+        width : 100%;
+        }
+      }
+    }
+
+  &.checklist-4-col ul {
+    li {
+      @media (min-width : $breakSmall) {
+        width         : 50%;
+        padding-right : 20px;
+        }
+
+      @media (min-width : $breakSmall) and (max-width : $breakLarge) {
+        &:nth-child(2n) {
+          padding-right : 0;
+          }
+        }
+      @media (min-width : $breakLarge) {
+        width : 25%;
+
+        &:nth-child(4n) {
+          padding-right : 0;
+          }
+        }
+      }
+    }
+
+  &.checklist-3-col ul {
+    li {
+      @media (min-width : $breakSmall) {
+        width         : 50%;
+        padding-right : 20px;
+        }
+      @media (min-width : $breakSmall) and (max-width : $breakLarge) {
+        &:nth-child(2n) {
+          padding-right : 0;
+          }
+        }
+      @media (min-width : $breakLarge) {
+        width : 33.33%;
+
+        &:nth-child(3n) {
+          padding-right : 0;
+          }
+        }
+      }
+    }
+
+  &.checklist-2-col ul {
+    li {
+      @media (min-width : $breakSmall) {
+        width         : 50%;
+        padding-right : 20px;
+
+        &:nth-child(2n) {
+          padding-right : 0;
+          }
+        }
+      }
+    }
+  }
+

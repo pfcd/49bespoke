@@ -1,0 +1,80 @@
+.dsdep-testimonial,
+.et-db #et-boc .et-l .dsdep-testimonial {
+  padding        : 0;
+  background     : transparent;
+  display        : flex;
+  flex-direction : column-reverse;
+  width          : 100%;
+
+  .et_pb_testimonial_portrait {
+    border       : 1px solid;
+    border-color : $mainColor;
+    margin       : 20px auto 0;
+    width        : 48px !important;
+    height       : 48px !important;
+    float        : none !important;
+    }
+
+  .et_pb_testimonial_description {
+    border-radius : $mainRadius;
+    border        : solid 1px;
+    border-color  : $darkBorderColor;
+    padding       : 16px;
+    float         : none !important;
+    margin        : 0 !important;
+    }
+
+  .et_pb_testimonial_content, .et_pb_testimonial_meta {
+    font-size : 14px;
+    }
+
+  .et_pb_testimonial_author {
+    color     : $baseHeaderColor;
+    font-size : 16px;
+    }
+
+  // Rating
+  &.has-rating {
+    .et_pb_testimonial_description_inner {
+      position    : relative;
+      padding-top : 46px;
+
+      &:before, &:after {
+        font-family    : ETModules;
+        position       : absolute;
+        left           : 0;
+        top            : 0;
+        letter-spacing : 5px;
+        }
+
+      &:before {
+        content : "\e033" "\e033" "\e033" "\e033" "\e033";
+        color   : #CACACA;
+        }
+
+      &:after {
+        color : $secondColor;
+        }
+      }
+
+    &.stars-1 .et_pb_testimonial_description_inner:after {
+      content : "\e033";
+      }
+
+    &.stars-2 .et_pb_testimonial_description_inner:after {
+      content : "\e033" "\e033";
+      }
+
+    &.stars-3 .et_pb_testimonial_description_inner:after {
+      content : "\e033" "\e033" "\e033";
+      }
+
+    &.stars-4 .et_pb_testimonial_description_inner:after {
+      content : "\e033" "\e033" "\e033" "\e033";
+      }
+
+    &.stars-5 .et_pb_testimonial_description_inner:after {
+      content : "\e033" "\e033" "\e033" "\e033" "\e033";
+      }
+    }
+  }

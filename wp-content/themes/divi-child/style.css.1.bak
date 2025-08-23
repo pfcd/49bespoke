@@ -1,0 +1,211 @@
+<?php
+function dt_enqueue_styles() {
+    $parenthandle = 'divi-style'; 
+    $theme = wp_get_theme();
+    wp_enqueue_style($parenthandle, get_template_directory_uri() . '/style.css', 
+        array(), 
+        $theme->parent()->get('Version')
+    );
+    wp_enqueue_style('child-style', get_stylesheet_uri(),
+        array($parenthandle),
+        $theme->get('Version') 
+    );
+}
+add_action('wp_enqueue_scripts', 'dt_enqueue_styles');
+
+/**
+ * Filter by Featured @ WooCommerce Products Admin
+ */
+add_filter('woocommerce_products_admin_list_table_filters', 'bbloomer_featured_filter');
+function bbloomer_featured_filter($filters) {
+    $filters['featured_choice'] = 'bbloomer_filter_by_featured';
+    return $filters;
+}
+function bbloomer_filter_by_featured() {
+    $current_featured_choice = isset($_REQUEST['featured_choice']) ? wc_clean(wp_unslash($_REQUEST['featured_choice'])) : false;
+    $output = '<select name="featured_choice" id="dropdown_featured_choice"><option value="">Filter by featured status</option>';
+    $output .= '<option value="onlyfeatured" ' . selected('onlyfeatured', $current_featured_choice, false) . '>Featured Only</option>';
+    $output .= '<option value="notfeatured" ' . selected('notfeatured', $current_featured_choice, false) . '>Not Featured</option>';
+    $output .= '</select>';
+    echo $output;
+}
+add_filter('parse_query', 'bbloomer_featured_products_query');
+function bbloomer_featured_products_query($query) {
+    global $typenow;
+    if ($typenow == 'product' && !empty($_GET['featured_choice'])) {
+        $query->query_vars['tax_query'][] = array(
+            'taxonomy' => 'product_visibility',
+            'field' => 'slug',
+            'terms' => 'featured',
+            'operator' => $_GET['featured_choice'] == 'onlyfeatured' ? 'IN' : 'NOT IN',
+        );
+    }
+    return $query;
+}
+
+// Defining product Attributes term names to be displayed on variable product title
+add_filter('woocommerce_available_variation', 'filter_available_variation_attributes', 10, 3);
+function filter_available_variation_attributes($data, $product, $variation) {
+    $attribute_names = array('Custom', 'Color');
+    foreach ($data['attributes'] as $attribute => $value) {
+        $attribute = str_replace('attribute_', '', $attribute);
+        $attribute_name = wc_attribute_label($attribute, $variation);
+        if ((is_array($attribute_names) && in_array($attribute_name, $attribute_names)) || $attribute_names === 'all') {
+            $value = taxonomy_exists($attribute) ? get_term_by('slug', $value, $variation)->name : $value;
+            $data['for_title'][$attribute_name] = $value;
+        }
+    }
+    return $data;
+}
+
+// Add custom field to variation admin
+add_action('woocommerce_variation_options_pricing', 'add_custom_variation_name_field', 10, 3);
+function add_custom_variation_name_field($loop, $variation_data, $variation) {
+    woocommerce_wp_text_input(
+        array(
+            'id' => '_custom_variation_name_' . $variation->ID,
+            'label' => __('Custom Variation Name', 'woocommerce'),
+            'placeholder' => 'Enter unique variation name',
+            'desc_tip' => true,
+            'description' => 'This name will display when this variation is selected.',
+            'value' => get_post_meta($variation->ID, '_custom_variation_name', true),
+        )
+    );
+}
+
+// Save the custom variation name
+add_action('woocommerce_save_product_variation', 'save_custom_variation_name_field', 10, 2);
+function save_custom_variation_name_field($variation_id, $i) {
+    $custom_name = isset($_POST['_custom_variation_name_' . $variation_id]) ? sanitize_text_field($_POST['_custom_variation_name_' . $variation_id]) : '';
+    update_post_meta($variation_id, '_custom_variation_name', $custom_name);
+}
+
+// Add custom variation name to variation data
+add_filter('woocommerce_available_variation', 'add_custom_variation_name_to_data', 10, 3);
+function add_custom_variation_name_to_data($data, $product, $variation) {
+    $custom_name = get_post_meta($variation->get_id(), '_custom_variation_name', true);
+    $data['custom_variation_name'] = $custom_name ?: '';
+    return $data;
+}
+
+// Enqueue script to update product table name and image
+add_action('wp_enqueue_scripts', 'update_product_table_variation_script', 20);
+function update_product_table_variation_script() {
+    if (is_product_category()) { // Target category pages with product tables
+        wp_enqueue_script('jquery');
+        wp_enqueue_script('wc-add-to-cart-variation');
+
+        wc_enqueue_js("
+            jQuery(document).ready(function($) {
+                console.log('[VariationUpdater] Script initialized on page:', window.location.href);
+
+                // Log all forms to debug
+                var allForms = $('form');
+                console.log('[VariationUpdater] Total forms on page:', allForms.length);
+                allForms.each(function(i) {
+                    console.log('[VariationUpdater] Form', i, 'class:', $(this).attr('class'));
+                });
+
+                // Target variation forms (adjust class if needed)
+                var forms = $('form.variations_form'); // Default WooCommerce class, may need adjustment
+                console.log('[VariationUpdater] Found', forms.length, 'variation forms with class .variations_form');
+
+                forms.each(function() {
+                    var form = $(this);
+                    var row = form.closest('tr');
+                    if (!row.length) {
+                        console.log('[VariationUpdater] Error: Table row not found for form');
+                        return;
+                    }
+                    console.log('[VariationUpdater] Table row found for form');
+
+                    // Find name and image elements in the row
+                    var nameElement = row.find('.single-product-link');
+                    var imageElement = row.find('.product-table-image');
+                    if (!nameElement.length) {
+                        console.log('[VariationUpdater] Error: Name element (.single-product-link) not found in row');
+                    } else {
+                        console.log('[VariationUpdater] Name element found with text:', nameElement.text());
+                    }
+                    if (!imageElement.length) {
+                        console.log('[VariationUpdater] Error: Image element (.product-table-image) not found in row');
+                    } else {
+                        console.log('[VariationUpdater] Image element found with src:', imageElement.attr('src'));
+                    }
+
+                    var originalName = nameElement.length ? nameElement.text().trim() : '';
+                    var originalImage = imageElement.length ? imageElement.attr('src') : '';
+
+                    // Primary method: show_variation event
+                    form.on('show_variation', function(event, variation) {
+                        console.log('[VariationUpdater] Show Variation triggered with data:', variation);
+                        if (variation && variation.custom_variation_name) {
+                            if (nameElement.length) {
+                                nameElement.text(variation.custom_variation_name);
+                                console.log('[VariationUpdater] Updated name to:', variation.custom_variation_name);
+                            } else {
+                                console.log('[VariationUpdater] Name element missing during update');
+                            }
+                            if (imageElement.length && variation.image && variation.image.full_src) {
+                                imageElement.attr('src', variation.image.full_src);
+                                console.log('[VariationUpdater] Updated image to:', variation.image.full_src);
+                            }
+                        } else {
+                            console.log('[VariationUpdater] No custom_variation_name in variation data');
+                        }
+                    }).on('hide_variation', function() {
+                        console.log('[VariationUpdater] Hide Variation triggered');
+                        if (nameElement.length) {
+                            nameElement.text(originalName);
+                            console.log('[VariationUpdater] Restored original name:', originalName);
+                        }
+                        if (imageElement.length && originalImage) {
+                            imageElement.attr('src', originalImage);
+                            console.log('[VariationUpdater] Restored original image:', originalImage);
+                        }
+                    });
+
+                    // Fallback: Listen for variation ID change
+                    form.on('change', 'input.variation_id', function() {
+                        var variation_id = $(this).val();
+                        console.log('[VariationUpdater] Variation ID changed to:', variation_id);
+                        if (variation_id && variation_id !== '0') {
+                            var variations = form.data('product_variations') || wc_variation_data.variations;
+                            if (!variations) {
+                                console.log('[VariationUpdater] Error: No variation data available');
+                                return;
+                            }
+                            console.log('[VariationUpdater] Variations data loaded:', variations);
+                            var selected_variation = variations.find(function(v) {
+                                return v.variation_id == parseInt(variation_id);
+                            });
+                            if (selected_variation && selected_variation.custom_variation_name) {
+                                if (nameElement.length) {
+                                    nameElement.text(selected_variation.custom_variation_name);
+                                    console.log('[VariationUpdater] Updated name to:', selected_variation.custom_variation_name);
+                                } else {
+                                    console.log('[VariationUpdater] Name element missing during fallback update');
+                                }
+                                if (imageElement.length && selected_variation.image && selected_variation.image.full_src) {
+                                    imageElement.attr('src', selected_variation.image.full_src);
+                                    console.log('[VariationUpdater] Updated image to:', selected_variation.image.full_src);
+                                }
+                            } else {
+                                console.log('[VariationUpdater] No custom_variation_name in selected variation');
+                            }
+                        } else {
+                            if (nameElement.length) {
+                                nameElement.text(originalName);
+                                console.log('[VariationUpdater] Restored original name:', originalName);
+                            }
+                            if (imageElement.length && originalImage) {
+                                imageElement.attr('src', originalImage);
+                                console.log('[VariationUpdater] Restored original image:', originalImage);
+                            }
+                        }
+                    });
+                });
+            });
+        ");
+    }
+}

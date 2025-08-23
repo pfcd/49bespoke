@@ -1,0 +1,359 @@
+/*! See ../license.txt for licensing and copyright information applicable to this plugin */
+
+/*  Settings container */
+#ds_woo_carousel-settings-container {
+    margin : 30px 15px;
+}
+
+@media (min-width : 1200px) {
+    #ds_woo_carousel-settings-container {
+        margin : 30px 15px;
+    }
+}
+
+/*  Settings window */
+#ds_woo_carousel-settings {
+    border-radius      : 4px;
+    font-weight        : normal;
+    -webkit-transition : all ease-in 0.3s;
+    transition         : all ease-in 0.3s;
+    font-size          : 14px;
+    line-height        : 1.6;
+    font-family        : "Open Sans", sans-serif;
+}
+
+#ds_woo_carousel-settings h1,
+#ds_woo_carousel-settings h2,
+#ds_woo_carousel-settings h3,
+#ds_woo_carousel-settings h4,
+#ds_woo_carousel-settings h5,
+#ds_woo_carousel-settings h6 {
+    font-family : "Open Sans", sans-serif;
+    line-height : 1.2;
+}
+
+/* Settings tab content */
+#ds_woo_carousel-settings-tabs-content {
+    box-shadow       : 0 2px 7px 0 rgba(0, 0, 0, 0.08);
+    background-color : #fff;
+    padding          : 20px 20px 34px;
+}
+
+#ds_woo_carousel-settings-tabs-content > div {
+    display : none;
+}
+
+#ds_woo_carousel-settings-tabs-content > .ds_woo_carousel-settings-active {
+    display : block;
+}
+
+#ds_woo_carousel-settings-tabs-content p {
+    margin-top : 10px;
+    font-size  : 14px;
+}
+
+#ds_woo_carousel-settings-tabs-content ol {
+    margin-bottom : 20px;
+}
+
+#ds_woo_carousel-settings-tabs-content #ds_woo_carousel-settings-about ul {
+    list-style: disc inside;
+}
+
+
+/**
+ * #.# Settings Header
+ *
+ */
+#ds_woo_carousel-settings-header {
+    background      : #2f0082;
+    position        : relative;
+    padding         : 16px 23px;
+    justify-content : space-between;
+    display         : flex;
+    flex-wrap       : wrap;
+    align-items     : center;
+}
+
+#ds_woo_carousel-settings-header .ds_woo_carousel-settings-logo img {
+    display        : inline-block;
+    vertical-align : middle;
+    margin-right   : 10px;
+    width          : 35px;
+}
+
+#ds_woo_carousel-settings-header .ds_woo_carousel-settings-logo {
+    margin-right : 15px;
+}
+
+#ds_woo_carousel-settings-header .ds_woo_carousel-settings-logo h2 {
+    margin         : 0;
+    color          : #fff;
+    font-size      : 20px;
+    font-weight    : bold;
+    display        : inline-block;
+    vertical-align : middle;
+}
+
+#ds_woo_carousel-settings-header a, #ds_woo_carousel-settings-header-links a {
+    text-decoration     : none;
+    color               : #ffffff;
+    font-size           : 14px;
+    opacity             : 0.54;
+    font-weight         : 600;
+    margin-left         : 20px;
+    padding             : 8px 16px 8px 35px;
+    display             : inline-block;
+    border-radius       : 4px;
+    background-size     : 22px 22px;
+    background-repeat   : no-repeat;
+    background-position : 7px center;
+    box-shadow          : none;
+}
+
+#ds_woo_carousel-settings-header-links a:first-of-type {
+    margin-left : 0;
+}
+
+#ds_woo_carousel-settings-header a:hover, #ds_woo_carousel-settings-header-links a:hover {
+    opacity : 1;
+}
+
+@media (max-width : 660px) {
+    #ds_woo_carousel-settings-header {
+        justify-content : center;
+    }
+
+    #ds_woo_carousel-settings-header .ags-settings-logo {
+        width      : 100%;
+        margin     : 0 auto 8px;
+        text-align : center;
+    }
+
+    #ds_woo_carousel-settings-header-links {
+        text-align : center;
+    }
+}
+
+#ds_woo_carousel-settings-header a.active,
+#ds_woo_carousel-settings-header-links a.active {
+    opacity : 1;
+}
+
+#ds_woo_carousel-settings-header-link-settings {
+    background-image : url(../includes/images/settings.svg);
+}
+
+#ds_woo_carousel-settings-header-link-support {
+    background-image : url(../includes/images/help.svg);
+}
+
+/**
+ * #.# Settings Tabs
+ *
+ */
+#ds_woo_carousel-settings-tabs {
+    margin           : 0;
+    background-color : #340f96;
+    overflow         : hidden;
+}
+
+#ds_woo_carousel-settings-tabs li {
+    margin      : 0;
+    float       : left;
+    display     : inline-block;
+    font-weight : 600;
+    font-size   : 14px;
+}
+
+@media (max-width : 600px) {
+    #ds_woo_carousel-settings-tabs li {
+        float     : none;
+        display   : block;
+        font-size : 13px;
+    }
+}
+
+#ds_woo_carousel-settings-tabs li a {
+    background-color   : transparent;
+    opacity            : 0.9;
+    color              : #fff;
+    cursor             : pointer;
+    padding            : 13px 16px !important;
+    outline            : none;
+    text-decoration    : none;
+    -webkit-transition : all ease-in 0.3s;
+    transition         : all ease-in 0.3s;
+    box-shadow         : none;
+    display            : block;
+    letter-spacing     : 0.29px;
+}
+
+#ds_woo_carousel-settings-tabs li a:hover {
+    opacity          : 1;
+    background-color : #2f0082;
+}
+
+#ds_woo_carousel-settings-tabs li.ds_woo_carousel-settings-active a {
+    opacity          : 1;
+    background-color : #6a61e6;
+}
+
+
+/*etm exclude start*/
+/**
+ * #.# License key activation styles
+ *
+ */
+
+#ds_woo_carousel_license_form {
+    background-color : #fff;
+    text-align       : left;
+    border           : solid 1px #e0dfdf;
+    max-width        : 900px;
+    margin           : 20px auto 30px;
+    box-shadow       : 0 3px 25px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media (min-width : 900px) {
+    #ds_woo_carousel_license_form {
+        display : flex;
+    }
+
+    #ds_woo_carousel_license_form_header {
+        flex  : initial;
+        width : 300px;
+    }
+
+    #ds_woo_carousel_license_form_body {
+        flex : 1;
+    }
+}
+
+#ds_woo_carousel_license_form_header {
+    background-color : #2f0081;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    flex-grow        : 1;
+    padding          : 8px 10px 10px 10px;
+    margin           : 0;
+}
+
+#ds_woo_carousel_license_form_header a {
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+}
+
+#ds_woo_carousel_license_form_header img {
+    height  : 74px;
+    padding : 30px 10px;
+}
+
+#ds_woo_carousel_license_form h3 {
+    font-size : 22px;
+    margin    : 0 0 15px 0;
+}
+
+#ds_woo_carousel_license_form p {
+    margin-bottom : 20px;
+}
+
+#ds_woo_carousel_license_form p.submit {
+    margin  : 20px 0 0 0;
+    padding : 0;
+}
+
+#ds_woo_carousel_license_form input[type="submit"] {
+    font-size        : 14px;
+    font-weight      : 600;
+    border-radius    : 4px;
+    border           : 2px solid;
+    padding          : 7px 13px;
+    cursor           : pointer;
+    height           : auto;
+    color            : #fff !important;
+    background-color : #9068ff !important;
+    border-color     : #9068ff !important;
+    line-height      : normal !important;
+    box-shadow       : none !important;
+}
+
+#ds_woo_carousel_license_form input[type="submit"]:hover {
+    background-color : #340f96 !important;
+    border-color     : #340f96 !important;
+}
+
+#ds_woo_carousel_license_form_body label span {
+    font-size : 14px;
+}
+
+#ds_woo_carousel_license_form label {
+    display : table;
+    width   : 100%;
+}
+
+#ds_woo_carousel_license_form label > * {
+    display : table-cell;
+}
+
+#ds_woo_carousel_license_form label > span {
+    width       : 100px;
+    text-align  : left;
+    font-weight : bold;
+}
+
+#ds_woo_carousel_license_form input[type="text"] {
+    width            : 100%;
+    height           : 36px;
+    border-radius    : 4px;
+    border           : solid 1px #dde2e5;
+    background-color : #f3f6f8;
+    padding          : 0 10px;
+}
+
+#ds_woo_carousel_license_form input[type="text"]:focus {
+    border-color : #6a61e6;
+    box-shadow   : none;
+}
+
+#ds_woo_carousel_license_form_body {
+    padding   : 35px;
+    flex-grow : 3;
+}
+
+#ds_woo_carousel_license_form_body h3 {
+    color       : #2f0081;
+    font-weight : 600;
+    text-align  : left;
+}
+
+#ds_woo_carousel_license_form_error {
+    border-width     : 0 0 0 4px !important;
+    border-style     : solid;
+    padding          : 10px 15px !important;
+    line-height      : 1.5;
+    font-size        : 15px !important;
+    color            : #3D3B38 !important;
+    box-shadow       : 0 0 7.2px 2.8px rgba(61, 59, 56, 0.04);
+    position         : relative;
+    border-radius    : 1px;
+    background-color : #FFE5E5 !important;
+    border-color     : #CC4A49;
+}
+
+#ds_woo_carousel_license_form_error a {
+    color       : inherit !important;
+    font-weight : 700;
+}
+
+#ds_woo_carousel_license_key_activation_page #ds_woo_carousel_license_form {
+    margin : 50px auto 0;
+}
+
+#ds_woo_carousel_license_key_box {
+    margin-top : 20px;
+}
+
+/** End license key activation styles **/
+/*etm exclude end*/

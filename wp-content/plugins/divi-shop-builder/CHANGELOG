@@ -1,0 +1,653 @@
+Version 2.0.22 February 5, 2025
+- Add "Load via Ajax" option to the Mini Cart module
+
+Version 2.0.21 January 14, 2025
+- Customizable Price Filter Behavior: Added new dropdown options under the Min/Max Settings for the price filter, allowing users to customize how minimum and maximum values are enforced
+
+Version 2.0.20 December 12, 2024
+- Fix: Unwanted ajax shop reloads on certain devices
+
+Version 2.0.19 November 14, 2024
+- Skip cart nonce checking when fetching cart update without making changes,
+- Fix js error on cart item remove
+
+Version 2.0.18 October 2, 2024
+- Fix: Mini Cart module not working
+
+Version 2.0.17 September 23, 2024
+- Expandable hierarchy filter - include a toggle button;
+- Fix - Expandable hierarchy filter doesn't work in checkbox option
+- Fix: Issue with product count request serials on pages with multiple filter modules
+- Disable show_if for some fields because it was causing issues, for example, when layout was imported from different context or sometimes field was visible or not
+
+Version 2.0.16 August 31, 2024
+- Fix: Ajax ordering issue
+- Change: Disabled condition setting for some module settings due to issues in the Divi Builder
+
+Version 2.0.15 August 1, 2024
+- Fix: In the Woo Products Filters / Woo Shop+ modules, if a URL specifies more than one shop filter of the same type, it doesn't work correctly on page load
+
+Version 2.0.14 June 26, 2024
+- Woo Shop + Module:
+    - Add 'important' declarations to button styles.
+    - Provide an option to modify the border color for the active icons in grid/list views.
+    - Some icons may not display properly within the button component on the frontend
+    - Add option to display percentage badges
+    - Add margin option to sale price
+- Filters Module:
+    - Implement a feature to display horizontal filters as a scrollable section on smaller devices.
+    - Correct an issue where the border and padding around the title of selected filters may not display correctly.
+- Thank You Module:
+    - Update selectors for styling options
+    - Provide an option to modify the margin for title, and padding for order details.
+- Login module:
+    - Add styling options for error notice
+- Register module:
+    - Add styling options for error notice
+- Fixes:
+    - Ensure WooCommerce notices are displayed at the top of the account content module.
+    - Address an issue where styling adjustments do not affect the old price text size and pagination alignment in Woo Shop +.
+    - Notices module: Styling options may be not working for group notices
+    - Mini Cart: Fix for JS issue in the Visual Builder
+
+Version 2.0.13 April 8, 2024
+- Further improvements made to the last update
+
+Version 2.0.12 April 4, 2024
+- Fix: When there are filters that are conditional on product category, there may be an infinitely looping ajax request and/or shop pagination may break
+
+Version 2.0.11 March 23, 2024
+- Performance improvement: Fix unnecessarily duplicated database query
+- Fix issues with custom taxonomy filtering
+
+Version 2.0.10 March 15, 2024
+- Add login, register modules
+- Fix some issues related to product count changes
+
+Version 2.0.9 February 19, 2024
+- Button styling issue fix
+- Filtering: add option to display categories as images
+- Filtering: price filtering: fix number input width in Firefox
+- Filtering: add option "Show Subcategories After Clicking On Parent Category"
+
+Version 2.0.8 February 5, 2024
+- Fix: Woo Shop + ajax loading may not work after the previous update
+- Fix: Woo Products Filters module compatibility issue with certain browser(s)
+
+Version 2.0.7 January 23, 2024
+- Add Sorting module type to the Woo Products Filters child module
+- Fix: Potential JS error on page load if there is no ajax-enabled Shop+ module on the page
+- Fix: Potential issues with checkout modules
+- Declare HPOS support outside of license key check
+- Fix: Sorting control in filtering module may affect invisible shop modules instead of only the first visible shop module filtering target
+- Fix: Add to cart redirect wasn't working in the Woo Shop + module with ajax enabled
+- Fix: In the Woo Products Filters module, there may be a JavaScript error in the visual builder associated with filters that are displayed as a dropdown field
+- Improve compatibility with certain caching plugin(s)
+- Woo Notices Module : add border settings
+- Multistep checkout: update design settings
+
+Version 2.0.6 January 18, 2024
+- Woo Shop + : New options to display products by tag or attribute
+
+Version 2.0.5 January 11, 2024
+- Fix: Price filtering doesn't work in the Woo Products Filters module when the display of selected filters is disabled
+- Remove extra quotation mark in Woo Products Filters module output
+
+Version 2.0.4 January 3, 2024
+- Load module template files using absolute paths
+- Minor fixes related to security and PHP compatibility
+- Filtering: tooltip design settings are not visible
+- Fix: Default step label in VB
+- Fix: No filtering options message isn't removed when there are filtering options available
+
+Version 2.0.3 December 14, 2023
+- Fix: When the cart is updated via ajax (such as when an item is added via ajax), Divi's default header cart item count doesn't update
+
+Version 2.0.2 December 14, 2023
+- Extra check to make sure the plugin doesn't inject form tags into checkout pages that don't use the Divi Shop Builder checkout modules
+- Fix: Some payment gateway(s) may not render when loading the payment section of checkout via ajax while Divi Shop Builder is active
+
+Version 2.0.1 December 1, 2023
+- Filtering: Color and images swatches - New design settings
+- Multistep Checkout Module (Beta): Improvements, mixed fixes
+- Mini Cart - mobile improvements
+
+Version 2.0.0 November 22, 2023
+- Feature: Woo Mini Cart module with side cart functionality
+- Feature: Mini Cart navigation menu integration
+- Feature: Woo Multi-Step Checkout module to facilitate building a multi-step checkout flow using Divi Shop Builder and Divi modules
+- Feature: WooCommerce product attributes can be assigned numeric values, and these values can be used for numeric range filtering in the Woo Products Filters module
+- Feature: WooCommerce product attributes can be assigned colors, and these colors can be used for color swatch filtering in the Woo Products Filters module
+- Feature: WooCommerce product attributes can be assigned images from the media library, and these images can be used for filtering in the Woo Products Filters module
+- Feature: "Enable dynamic variable product images" option in the Woo Shop + module changes which product images are shown for variable products in when a product variation matches currently selected attribute filtering and has its own featured image. For example, in a clothing store where products have a Color attribute and a variable t-shirt product where different variations have different colors, filtering by attribute value Yellow will show the image for the Yellow variation instead of the main product image in the Woo Shop + product list
+- Feature: "Custom taxonomy" filter type in the Woo Products Filters module allows creating filters based on custom product taxonomies such as those created by third-party plugins (for example, some product brands plugins)
+- Feature: "Show Filter" option in the Woo Products Filters child modules to allow for filters to be hidden if no products in the current filtered view match any of the filter values (for example, when none of the currently displayed products have any value for a filterable product attribute)
+- Feature: "Show Filter" option in the Woo Products Filters child modules to allow for filters to be shown only when a certain product category is selected in product category filtering
+- Feature: Woo Products Filters module horizontal layout option
+- Feature: Option to show a Clear link in the Woo Products Filters child module (in the filter title area)
+- Feature: Add a new "Product Attribute" display option to the Woo Shop+ module, which can display product attribute values in the shop grid
+- Feature: Add a new "Custom Product Taxonomy" display option to the Woo Shop+ module, which can display custom product taxonomy terms (for example, product brands added via a product brands plugin) in the shop grid
+- Fix: In the Woo Products Filters module, Selected Filters text for price range filters was not translatable via a module setting
+- Fix: Miscellaneous fix(es) related to multiple Woo Products Filters modules on the same page
+- Fix: In the Woo Products Filters module, changes to filters may apply right away even if there is an Apply button
+- Improvement: The search filter in the Woo Products Filters module should now recognize product SKUs for search and search suggestions (full SKUs only)
+- Improvement: Load non-minified version of woo-products-filters.min.js when in SCRIPT_DEBUG mode
+
+Version 1.2.41 November 9, 2023
+- Fix: Sale / Top Rated / Best Selling views weren't working in Woo Shop+ module
+- Improve warning messages
+
+Version 1.2.40 November 4, 2023
+-Fix: possible styling issues
+
+Version 1.2.39 October 24, 2023
+- Woo Shop + - Set defaults for number of columns for tablet and phone
+- Woo Products Filters child module: add Show "All" Option
+- Fix: When removing the last item from the cart, the page goes blank instead of showing the empty cart message
+
+Version 1.2.38 October 5, 2023
+- Add support for custom taxonomy pages (for example, from the Perfect Brands plugin) to the Woo Shop+ module's "Use Current Page" feature
+- Fix PHP deprecation notice related to simplehtmldom
+- Fix: Price and rating filtering were based on rounded whole numbers instead of the decimal price/rating values
+- Fix: The Woo Products Filters module may not work correctly when the current URL has an anchor component (#)
+
+Version 1.2.37 September 18, 2023
+- Add: Woo Shop + module - design settings for SKU item
+
+Version 1.2.36 September 15, 2023
+- Fix: Filtering Module -  responsive multi module support
+- Add: SKU item to Woo Shop + Module
+
+Version 1.2.35 September 6, 2023
+- Woo Shop+ - Add new feature: flip between 2 images on product shop/category page.
+- Fix: Potential PHP warning related to product counts ajax request
+
+Version 1.2.34 August 14, 2023
+- Fix: When the Woo Shop + module is used on a Divi theme builder template for the search page, the Use Current Page option doesn't display search results
+
+Version 1.2.33 July 28, 2023
+- Fix undefined $ error
+
+Version 1.2.32 July 6, 2023
+- Added "Query String Variables" settings section to Woo Products Filters module
+- Woo Shop module loads in-page instead of via ajax when filtering is applied on the initial page load
+- Fix: Product images may not load in the Woo Shop+ module when ajax loading is used and Jetpack lazy loading is enabled
+- Fix: Adding the Account Navigation module in the backend builder while in visual mode results in an error
+- Fix: In the visual builder, the Dashboard menu item is not displayed when it is added to the Account Navigation module
+- Added "Limit Product Description Length" toggle option in Woo Shop+ module
+
+Version 1.2.31 June 13, 2023
+- Fix: Some plugin(s) may conflict with Woo Shop + module ajax refresh, preventing the module from updating via ajax (for example, on pagination or changing sort options)
+
+Version 1.2.30 May 19, 2023
+- Fix: Divi Shop Builder breaks search functionality
+
+Version 1.2.29 May 11, 2023
+- Fix: The ordering dropdown doesn't work in the Woo Shop+ module when the Product View Type is Latest Products and ajax is enabled
+- Fix: Issue in meta query optimization for on sale filter (Woo Products Filters module)
+
+Version 1.2.28 May 1, 2023
+- Improve performance of filtering by on sale products with the Woo Products Filters module
+
+Version 1.2.27 April 25, 2023
+- Add additional settings to the Search module to allow search WooCommerce products by product name, description and optionally, by tag name
+
+Version 1.2.26 April 13, 2023
+- Fix: In some cases, it is not possible to change filtering in the Woo Product Filters module after the first change
+
+Version 1.2.25 April 9, 2023
+- Fix: Sometimes the price filter is applied even when it has not been changed by the user
+
+Version 1.2.24 April 7, 2023
+- Remove legacy customizer-based functionality
+- Fix: Unnecessary ajax reload of Woo Shop+ module on page load when no filters are enabled
+- Fix: Sometimes the price filter is applied even when it has not been changed by the user
+- Woo Shop +: Change the preloader position
+
+Version 1.2.23 March 28, 2023
+- Fix: documentation link
+- Add setting for In Stock text to the Woo Shop + module
+- My Account Content Module -> add '!important' CSS property to notices background color
+- Woo Shop + - remove duplicated CSS
+
+Version 1.2.22 March 15, 2023
+- Fix: potential critical error
+
+Version 1.2.21 March 14, 2023
+- Improve compatibility with certain other plugins such as Side Cart WooCommerce by XootiX
+
+Version 1.2.20 January 31, 2023
+- Fix: Notices were not displaying in the WooCommerce Notices module when the shop is reloaded via ajax (for example, after add to cart)
+
+Version 1.2.19 January 10, 2023
+- Fix incompatibility with some product option plugin(s)
+
+Version 1.2.18 December 13, 2022
+- Fix: changing the sort order in the Woo Shop + module reloads the page and may clear filtering, even when ajax is in use
+- Fix: Product filtering may not work in some cases
+- Fix: The ordering dropdown may not work in the Woo Shop + module in some cases
+- Fix: When there are multiple Woo Shop + modules on the same page, changing the ordering dropdown may affect all modules on the page
+- Fix: potential issue with pagination when there are multiple shop + modules on the page
+
+Version 1.2.17 November 26, 2022
+- Fix: Certain special characters in product titles may show up as HTML entities in the product filtering search feature
+
+Version 1.2.16 November 21, 2022
+- Fix: Reduce unnecessary ajax reloads of the Woo Shop + module (for example, when the window is resized, and at least in some cases on mobile scroll)
+- Fix an incompatibility with the Store Hours Manager Pickup & Delivery for WooCommerce plugin
+
+Version 1.2.15 October 27, 2022
+- Change permissions to access plugin admin page from install_plugins to manage_options
+- Fix: Potential memory leak in Woo Shop module
+
+Version 1.2.14 September 23, 2022
+- Fix: Woo Shop ajax doesn't work in theme builder sections
+
+Version 1.2.13 September 9, 2022
+- Add support for shop notices to the notices module
+
+Version 1.2.12 August 1, 2022
+- Add visibility setting to filtering child module
+
+Version 1.2.11 July 29, 2022
+- Fix: Grid/list view switcher is not working in Woo Shop + module when the shop is loaded via ajax
+
+Version 1.2.10 July 8, 2022
+- fix: ds_divi_shop_builder_first_activate option used in review admin notice is not set
+
+Version 1.2.9 July 6, 2022
+- improvements related to multiple shop modules on the same page
+- implemented a warning notice that appears above the "use for filtering" toggle in Woo Shop + if there is more than one Shop + module on the page with filtering enabled
+- The Woo Shop+ module is not visible in visual builder
+- Fix: Infinite loading when Enable Ajax option is active
+
+Version 1.2.8
+- Fix: An admin notice about needing to install and activate WooCommerce is displayed incorrectly (i.e. when WooCommerce actually is active)
+
+Version 1.2.7
+- Ajax shop loading not compatible with the option to redirect to cart after adding a product to the cart
+- Implement Admin notices
+
+Version 1.2.6 - June 19, 2022
+- Scroll to the top of the Woo Shop + module when ajax is enabled and the user navigates to a different page, or when clicking a category link and the category is loaded without a page load (occurs when an appropriate Woo Product Filters module is present)
+- Fix: Category links may load in the wrong module when there are multiple Woo Shop + modules on the same page and an appropriate Woo Product Filters module is present
+- Fix: Remove unnecessary no-cache header
+
+Version 1.2.5 - June 2, 2022
+- Fix performance issue in filters module
+
+Version 1.2.4 - May 31, 2022
+- Fix: Price Filter shows NaN
+- Fix: Filters not working in theme builder layouts
+- Fix:  Woo Shop + module > doesn't work
+
+Version 1.2.3 - May 30, 2022
+- Filters module: Mixed styling fixes and improvements
+- Fix: filtering category links outside of shop modules
+- Fix: category links in shop module may not work if category filter is set to hide children
+
+Version 1.2.2 - May 20, 2022
+- Fix: Woo Shop + : Error displays when 'Select option' button is clicked for variable products
+
+Version 1.2.1 - May 20, 2022
+- Fix: Woo Shop + module, Filters module: error displays in visual builder when new item is added in module settings
+
+Version 1.2.0 - May 17, 2022
+- Add: Filtering Module
+
+Version 1.1.32 - April 21, 2022
+- Fix: Thank You module: order not found render issues
+- Fix: Thank You module. Checkout Billing module: form fields border issue
+- Fix: Checkout Shipping module, Thank You module. Checkout Billing module: form fields border issue
+- Add: Checkout Order > Design > Table Headings, Checkout Order > Design > Table Body; border styles
+- Add: My Account content module: Login, Lost Password and Registration styling options and visual builder support
+- Fix: Woo Shop + : image overlay not visible
+- Fix: Woo Shop + : image overlay custom icon, list view button custom icon, grid view button custom icon not working
+- Add: Add notices to Checkout, Billing, My Account modules when WooCommerce endpoint is not set
+- Fix: Checkout Order module > place order button text is overwritten on page refresh and was not HTML escaped
+
+Version 1.1.31 - March 30, 2022
+- Improved: pagination link structure in Woo Shop + module
+
+Version 1.1.30 - March 29, 2022
+- Fix issue with Page Type setting in Woo Notice module (Divi built-in) when Divi Shop Builder is active - the selected option displayed in the visual builder may change when Divi Shop Builder is activated (this fix is for the checkout page)
+
+Version 1.1.29 - March 28, 2022
+- Fix issue with Page Type setting in Woo Notice module (Divi built-in) when Divi Shop Builder is active - the selected option displayed in the visual builder may change when Divi Shop Builder is activated
+
+Version 1.1.28 - March 25, 2022
+- Fix: Adding and removing payment methods, and setting the default payment method, may not work in the Payment Methods section of the Account Content module
+
+Version 1.1.27 - January 4, 2022
+- Fix: related to the last update (WooCommerce Subscription plugin support)
+
+Version 1.1.26 - January 4, 2022
+- My Account Content, My Account Navigation: WooCommerce Subscription plugin support
+
+Version 1.1.25 - December 17, 2021
+- Fix: My account module > View Order pages show invalid order
+
+Version 1.1.24 - December 15, 2021
+- Fix: My account module > Orders Page: Pagination doesn't work
+- Fix: My account module : some menu items are not being displayed
+- Fix: My account module : buttons padding and icon issues
+
+Version 1.1.23 - October 28, 2021
+- Fix: The Payment Methods screen and custom screens did not work in the Account Content module
+
+Version 1.1.22 - October 22, 2021
+- Add cart items check and cart totals re-calculation to Checkout Order module
+
+Version 1.1.21 - October 7, 2021
+- Add: Account Content -> output login and register forms for not logged in users
+
+Version 1.1.20 - September 29, 2021
+- Fix potential underscore.js conflict (revised)
+
+Version 1.1.19 - September 29, 2021
+- Fix: Thank you module ->  update selector for text, links and headings settings
+- Update WC tested up
+
+Version 1.1.18 - September 28, 2021
+- Fix: Account Content > Design > Form fields / Form dropdowns > use focus borders don't show
+- Add: Account Content > Orders -> View Order Text -> Order Details Margin
+- Add: Account Content > Orders -> Billing / Shipping padding, margin, background color
+- Add: Account Content > Adresses -> Billing / Shipping padding, margin, border styles background color
+- Fix: Account Content > Billing / Shipping address select height doesn't change
+- Fix: Account Content > update CSS selectors for min-height, background, box shadow
+- Fix: Account Content > Design > update problematic default values
+- Add: Account Content > new styling settings for Orders Pagination, View Order, Order Again
+- Fix: Account Content > Form / select focus don't work
+- Fix: Account Content > Table Headings > font weight is being overwritten
+- Fix: Account Content > mixed CSS issues in Visual Builder preview
+- Fix: User Image > Design >  update CSS selector for border
+- Fix: Account Navigation > Navigation Item> Hide Bullets
+- Add: Account Navigation > default icons for items
+- Improved previews for account pages in Visual Builder for Account Content Module
+- Add: Thank you module -> Downloads section support
+- Fix: Thank you module -> border style is being overwritten
+- Add: Thank you module -> global styling for module text, links and headings
+- Fix: Account Content > buttons -> box shadow in Visual Builder doesn't show
+- Fix potential underscore.js conflict
+
+Version 1.1.17 September 15th, 2021
+- Fix: Cart/Checkout Notice module: button styling issue in Visual Builder
+
+Version 1.1.16 September 14th, 2021
+- Add: Account Content module - global text, links and headings styles
+- Add: Account Content module - padding to tables headings and table columns
+- Add: Account Content module - background color to tables headings and table columns
+- Add: Account Navigation module - align options for horizontal navigation
+
+Version 1.1.15 September 13th, 2021
+- Add: Account Content module - Highlight Mark styling options
+- Fix: Account Navigation module - margin bottom doesn't work
+- Add: Account Navigation module - border styling
+- Add: Account Content module - margin and padding for labels
+- Fix: Account Content module - buttons don't display
+- Fix: Account Content module - font size for no downloads notice doesn't work
+- Fix: Certain order review module styling was affecting elements added by some payment gateway(s) in the order review module
+
+Version 1.2.14 September 23, 2022
+- Fix: Woo Shop ajax doesn't work in theme builder sections
+
+Version 1.2.13 September 9, 2022
+- Add support for shop notices to the notices module
+
+Version 1.2.12 August 1, 2022
+- Add visibility setting to filtering child module
+
+Version 1.2.11 July 29, 2022
+- Fix: Grid/list view switcher is not working in Woo Shop + module when the shop is loaded via ajax
+
+Version 1.2.10 July 8, 2022
+- fix: ds_divi_shop_builder_first_activate option used in review admin notice is not set
+
+Version 1.2.9 July 6, 2022
+- improvements related to multiple shop modules on the same page
+- implemented a warning notice that appears above the "use for filtering" toggle in Woo Shop + if there is more than one Shop + module on the page with filtering enabled
+- The Woo Shop+ module is not visible in visual builder
+- Fix: Infinite loading when Enable Ajax option is active
+
+Version 1.2.8
+- Fix: An admin notice about needing to install and activate WooCommerce is displayed incorrectly (i.e. when WooCommerce actually is active)
+
+Version 1.2.7
+- Ajax shop loading not compatible with the option to redirect to cart after adding a product to the cart
+- Implement Admin notices
+
+Version 1.2.6 - June 19, 2022
+- Scroll to the top of the Woo Shop + module when ajax is enabled and the user navigates to a different page, or when clicking a category link and the category is loaded without a page load (occurs when an appropriate Woo Product Filters module is present)
+- Fix: Category links may load in the wrong module when there are multiple Woo Shop + modules on the same page and an appropriate Woo Product Filters module is present
+- Fix: Remove unnecessary no-cache header
+
+Version 1.2.5 - June 2, 2022
+- Fix performance issue in filters module
+
+Version 1.2.4 - May 31, 2022
+- Fix: Price Filter shows NaN
+- Fix: Filters not working in theme builder layouts
+- Fix:  Woo Shop + module > doesn't work
+
+Version 1.2.3 - May 30, 2022
+- Filters module: Mixed styling fixes and improvements
+- Fix: filtering category links outside of shop modules
+- Fix: category links in shop module may not work if category filter is set to hide children
+
+Version 1.2.2 - May 20, 2022
+- Fix: Woo Shop + : Error displays when 'Select option' button is clicked for variable products
+
+Version 1.2.1 - May 20, 2022
+- Fix: Woo Shop + module, Filters module: error displays in visual builder when new item is added in module settings
+
+Version 1.2.0 - May 17, 2022
+- Add: Filtering Module
+
+Version 1.1.32 - April 21, 2022
+- Fix: Thank You module: order not found render issues
+- Fix: Thank You module. Checkout Billing module: form fields border issue
+- Fix: Checkout Shipping module, Thank You module. Checkout Billing module: form fields border issue
+- Add: Checkout Order > Design > Table Headings, Checkout Order > Design > Table Body; border styles
+- Add: My Account content module: Login, Lost Password and Registration styling options and visual builder support
+- Fix: Woo Shop + : image overlay not visible
+- Fix: Woo Shop + : image overlay custom icon, list view button custom icon, grid view button custom icon not working
+- Add: Add notices to Checkout, Billing, My Account modules when WooCommerce endpoint is not set
+- Fix: Checkout Order module > place order button text is overwritten on page refresh and was not HTML escaped
+
+Version 1.1.31 - March 30, 2022
+- Improved: pagination link structure in Woo Shop + module
+
+Version 1.1.30 - March 29, 2022
+- Fix issue with Page Type setting in Woo Notice module (Divi built-in) when Divi Shop Builder is active - the selected option displayed in the visual builder may change when Divi Shop Builder is activated (this fix is for the checkout page)
+
+Version 1.1.29 - March 28, 2022
+- Fix issue with Page Type setting in Woo Notice module (Divi built-in) when Divi Shop Builder is active - the selected option displayed in the visual builder may change when Divi Shop Builder is activated
+
+Version 1.1.28 - March 25, 2022
+- Fix: Adding and removing payment methods, and setting the default payment method, may not work in the Payment Methods section of the Account Content module
+
+Version 1.1.27 - January 4, 2022
+- Fix: related to the last update (WooCommerce Subscription plugin support)
+
+Version 1.1.26 - January 4, 2022
+- My Account Content, My Account Navigation: WooCommerce Subscription plugin support
+
+Version 1.1.25 - December 17, 2021
+- Fix: My account module > View Order pages show invalid order
+
+Version 1.1.24 - December 15, 2021
+- Fix: My account module > Orders Page: Pagination doesn't work
+- Fix: My account module : some menu items are not being displayed
+- Fix: My account module : buttons padding and icon issues
+
+Version 1.1.23 - October 28, 2021
+- Fix: The Payment Methods screen and custom screens did not work in the Account Content module
+
+Version 1.1.22 - October 22, 2021
+- Add cart items check and cart totals re-calculation to Checkout Order module
+
+Version 1.1.21 - October 7, 2021
+- Add: Account Content -> output login and register forms for not logged in users
+
+Version 1.1.20 - September 29, 2021
+- Fix potential underscore.js conflict (revised)
+
+Version 1.1.19 - September 29, 2021
+- Fix: Thank you module ->  update selector for text, links and headings settings
+- Update WC tested up
+
+Version 1.1.18 - September 28, 2021
+- Fix: Account Content > Design > Form fields / Form dropdowns > use focus borders don't show
+- Add: Account Content > Orders -> View Order Text -> Order Details Margin
+- Add: Account Content > Orders -> Billing / Shipping padding, margin, background color
+- Add: Account Content > Adresses -> Billing / Shipping padding, margin, border styles background color
+- Fix: Account Content > Billing / Shipping address select height doesn't change
+- Fix: Account Content > update CSS selectors for min-height, background, box shadow
+- Fix: Account Content > Design > update problematic default values
+- Add: Account Content > new styling settings for Orders Pagination, View Order, Order Again
+- Fix: Account Content > Form / select focus don't work
+- Fix: Account Content > Table Headings > font weight is being overwritten
+- Fix: Account Content > mixed CSS issues in Visual Builder preview
+- Fix: User Image > Design >  update CSS selector for border
+- Fix: Account Navigation > Navigation Item> Hide Bullets
+- Add: Account Navigation > default icons for items
+- Improved previews for account pages in Visual Builder for Account Content Module
+- Add: Thank you module -> Downloads section support
+- Fix: Thank you module -> border style is being overwritten
+- Add: Thank you module -> global styling for module text, links and headings
+- Fix: Account Content > buttons -> box shadow in Visual Builder doesn't show
+- Fix potential underscore.js conflict
+
+Version 1.1.17 September 15th, 2021
+- Fix: Cart/Checkout Notice module: button styling issue in Visual Builder
+
+Version 1.1.16 September 14th, 2021
+- Add: Account Content module - global text, links and headings styles
+- Add: Account Content module - padding to tables headings and table columns
+- Add: Account Content module - background color to tables headings and table columns
+- Add: Account Navigation module - align options for horizontal navigation
+
+Version 1.1.15 September 13th, 2021
+- Add: Account Content module - Highlight Mark styling options
+- Fix: Account Navigation module - margin bottom doesn't work
+- Add: Account Navigation module - border styling
+- Add: Account Content module - margin and padding for labels
+- Fix: Account Content module - buttons don't display
+- Fix: Account Content module - font size for no downloads notice doesn't work
+- Fix: Certain order review module styling was affecting elements added by some payment gateway(s) in the order review module
+
+Version 1.1.14 August 2, 2021
+- Fix fatal error in Cart List module
+
+Version 1.1.13 July 30th, 2021
+- Security fix: Add missing HTML escaping
+
+Version 1.1.12 June 16th, 2021
+- Fix: The plugin may conflict with certain JavaScript-based functionality in other plugins and/or in WordPress core
+- Fix: PHP 8 compatibility
+- Performance improvement: Don't generate Divi builder JavaScript data unless the builder is enabled
+
+Version 1.1.11 June 4th, 2021
+- Fix: sale badge styling issue
+- Fix: sale badge styles are overwritten with child theme styles
+- Fix: new badge background color preview in Visual Builder doesn't work
+- Fix: new badge font-weight option doesn't work
+
+Version 1.1.10 May 26th, 2021
+- Rebuild
+- Fix: sale badge displays for all products
+
+Version 1.1.9 May 25th, 2021
+- New: set custom text for Sale and New badges
+
+Version 1.1.8 May 17th, 2021
+- Fix: Shipping cost calculation doesn't work properly
+- Fix: compatibility with Rank Math Seo when using classic editor
+
+Version 1.1.7 May 13th, 2021
+- Fix: unable to save "Custom Product Description for Divi Shop Builder" field when empty
+
+Version 1.1.6 May 7th, 2021
+- Fix conflict with SG Optimizer plugin
+- Updated WooCommerce and WordPress tested up to tag
+
+Version 1.1.5 April 27th, 2021
+- Fix: Divi Switch conflict, cart modules are duplicated on frontend
+
+Version 1.1.4 April 22th, 2021
+- Added custom icons to accounts modules
+- Fix: compatibility error notice in visual builder with WP 5.7.1 and Divi 4.9.4
+- Fix: Woo Shop + Module, sorting may not working properly
+- Fix: Cart List Module: thumbnail column responsive settings
+
+Version 1.1.3 April 17th, 2021
+- Fix: Thank you module -> Order Details Table -> Border issue
+- Fix: Compatibility issue with Fast plugin
+- Fix: Compatibility problem with Germanized for WooCommerce Plugin
+- Fix: Thank you module: table styling issue
+- Thank you module: added new design options
+- Thank you page - display custom content if page visited without making order
+- Thank you module - added spacing to thank you message
+- Fix: Thank you page setting is being displayed twice
+- Fix: Incompatibility with Custom Fields by RightPress
+- Resolve conflict between lodash and underscore
+- Potential Yoast SEO and Divi Shop Builder conflict
+
+Version 1.1.2 March 4th, 2021
+- Fix the issue "too many redirections" on the checkout when thank you page is not set
+
+Version 1.1.1 February 16th, 2021
+- Thank you module - add spacing to thank you message
+- Fix Yoast SEO and Divi Shop Builder conflict
+- Thank you module - added demo switch that allows to display thank you module content with demo data on the frontent without making a purchase
+
+Version 1.1.0 February 11th, 2021
+- Added “Thank You” Divi module to stylise WooCommerce order confirmation page
+
+Version 1.0.3 February 2, 2021
+- Fixed: list / grid view  pagination issue.
+- Woo Shop +: don't display short description when custom description is enabled
+- Woo Shop +: fixed product container margin issue
+- Added to Woo Shop +
+- Star Rating: change grey star color when rating is < 5
+- Pagination: add current page number color
+- Pagination: border settings affects only li elements. Add settings to change ul.page-numbers border styles
+- Sale badge: add border options
+- Badges: add spacing options
+- Badges: Seperate Badge Position for New Badge and Sale badge
+- List View: trim post excerpt
+- Image: Add spacing options
+- Add old price text options
+- Design options for Grid/ List buttons added
+- Fix: "Jumping" in List/Grid view
+
+Version 1.0.2  January 7, 2021
+- Added to the Woo Shop +:
+- display excerpt element for grid view
+- display excerpt or custom description for grid and list view. New metabox "custom description" added to the product settings.
+- set limit of words that are displayed for excerpt/ custom description, allow different values per desktop, tablet, and mobile
+- styling options for text "view cart" that is appearing when the product is added to the cart
+- "list/grid view toggle" that allows displaying both views
+- Fix: Module buttons with custom padding set revert to a default padding value on hover in the Visual Builder
+- Fix Cart List: no data title for quantity field
+- Fix: Scrolling page uncheckes payment method on the checkout page
+- Fix Cart and Checkout pages: background colors are applied from the theme customizer settings in the VB instead of the module settings
+- Fix: when having more than one module on the page, and opening the next page (clicking on the pagination), page changes for all modules and page scrolls to the top of the page.
+- Fix checkout order issues:
+- Spacing: Margin bottom doesn't work
+- Payments title
+- Place Order: button aligment doesn't work
+- Add custom CSS field to button
+- Add spacing to table elements
+- Change Payments background color and spacing
+
+Version 1.0.1  December 13, 2020
+- Change Cart Notice module name to Cart/Checkout Notice
+- Fix: checkout page placing order may not working currently
+- Fix: Woo Shop + Module - Page number changes for all modules on the page and scrolls to the top of the page.
+- Fix: checkout page issues when using theme builder
+- Fix: Woo Shop + and Woo Quick View plugin conflict, background image upload was not working
+- Fix: Woo Shop + button padding and shadow issue
+- Added a link to plugin settings page in the WP plugin list
+- Add checkout coupon code message about restrictions in use
+- Added addons tab to the settings page

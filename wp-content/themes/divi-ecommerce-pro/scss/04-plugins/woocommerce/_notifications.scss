@@ -1,0 +1,47 @@
+.woocommerce.et-db #et-boc .et-l, .woocommerce-page, .woocommerce, .woocommerce-page.et-db #et-boc .et-l {
+
+  .woocommerce-error, .woocommerce-info, .woocommerce-message {
+    a.button.wc-forward, a.woocommerce-Button {
+      padding    : 0 !important;
+      border     : none !important;
+      min-width  : auto;
+      background : transparent !important;
+      box-shadow : none !important;
+
+      &:hover {
+        padding    : 0 !important;
+        background : transparent !important;
+        }
+      }
+    }
+
+  .woocommerce-error {
+    text-align : left;
+    @include notificationMixin("error");
+
+    a.button.wc-forward, a.woocommerce-Button {
+      color : $danger !important;
+      }
+    }
+
+  .woocommerce-info {
+    text-align : left;
+    @include notificationMixin("general");
+
+    a.button.wc-forward, a.woocommerce-Button {
+      color : $mainColor !important;
+      }
+    }
+
+  .woocommerce-message {
+    text-align : left;
+    @include notificationMixin("success");
+
+    a.button.wc-forward, a.woocommerce-Button {
+      color : $success !important;
+      }
+    }
+  }
+
+
+

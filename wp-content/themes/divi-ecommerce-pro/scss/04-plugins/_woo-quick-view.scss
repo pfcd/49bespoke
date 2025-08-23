@@ -1,0 +1,89 @@
+.remodal {
+  border           : solid 1px;
+  border-color     : $lightBorderColor;
+  background-color : #FFF !important;
+  border-radius    : $mainRadius;
+  box-shadow       : $secondaryShadow;
+  padding          : 20px;
+
+  #wcqv_contend {
+    .product {
+      .images {
+        .thumbnail {
+          img {
+            border        : solid 1px;
+            border-color  : $lightBorderColor;
+            border-radius : $mainRadius;
+            @include transition();
+            }
+
+          &:hover img {
+            border-color : $mainColor;
+            }
+          }
+        }
+
+      .product_title.entry-title {
+        text-transform : none;
+        font-weight    : 600;
+        @include responsiveFontSize(28px, 26px, 24px);
+        padding-bottom : 0 !important;
+        }
+
+      .product_meta {
+        border-top   : 1px solid;
+        border-color : $lightBorderColor;
+        padding-top  : 15px;
+        }
+
+      .price {
+        margin-bottom : 30px;
+
+        .woocommerce-Price-amount {
+          color       : $baseHeaderColor;
+          font-weight : bold;
+          }
+        }
+
+      form.variations_form {
+        .variations {
+          margin-bottom : 20px;
+          }
+
+        .woocommerce-variation-description {
+          opacity   : 0.8;
+          font-size : 12px;
+          }
+
+        .woocommerce-variation-price {
+          margin-bottom : 15px;
+          }
+        }
+
+      .cart .button {
+        @include primaryButtonMixin();
+        }
+      }
+
+    // Input forms
+    input.text, input.input-text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select {
+      @include formInputMixin();
+      margin-bottom : 5px !important;
+      }
+
+    @media only screen and (min-width : 641px) {
+      .summary {
+        padding-left : 40px !important;
+        }
+      }
+    }
+
+  .remodal-close {
+    color : $baseHeaderColor;
+
+    &:hover {
+      background : transparent;
+      color      : $mainColor;
+      }
+    }
+  }

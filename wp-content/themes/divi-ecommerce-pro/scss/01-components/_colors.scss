@@ -1,0 +1,75 @@
+// Font Colors
+
+.dsdep-link-color-dark a,
+.dsdep-link-hover-color-dark a:hover,
+.dsdep-color-dark {
+  color : $darkGrey !important;
+  }
+
+.dsdep-heading-color-dark {
+  h1, h2, h3, h4, h5, h6 {
+    color : $darkGrey !important;
+    }
+  }
+
+.dsdep-link-color-light a,
+.dsdep-link-hover-color-light a:hover,
+.dsdep-color-light {
+  color : $lightGrey !important;
+  }
+
+.dsdep-heading-color-light {
+  h1, h2, h3, h4, h5, h6 {
+    color : $lightGrey !important;
+    }
+  }
+
+.dsdep-link-color-second a,
+.dsdep-link-hover-color-second a:hover,
+.dsdep-color-second {
+  color : $secondColor !important;
+  }
+
+.dsdep-heading-color-second {
+  h1, h2, h3, h4, h5, h6 {
+    color : $secondColor !important;
+    }
+  }
+
+.dsdep-link-color-primary a,
+.dsdep-link-hover-color-primary a:hover,
+.dsdep-color-primary {
+  color : $mainColor !important;
+  }
+
+.dsdep-heading-color-primary {
+  h1, h2, h3, h4, h5, h6 {
+    color : $mainColor !important;
+    }
+  }
+
+.dsdep-font-color {
+  color : $baseFontColor;
+  }
+
+.dsdep-heading-color {
+  color : $baseHeaderColor;
+  }
+
+// Border color
+
+.dsdep-border-color-light {
+  border-color : $lightBorderColor !important;
+  }
+
+.dsdep-border-color-dark {
+  border-color : $darkBorderColor !important;
+  }
+
+.dsdep-border-color-second {
+  border-color : $secondColor !important;
+  }
+
+.dsdep-border-color-primary {
+  border-color : $mainColor !important;
+  }

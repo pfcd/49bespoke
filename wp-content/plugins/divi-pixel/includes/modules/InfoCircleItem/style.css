@@ -1,0 +1,23 @@
+.et-db #et-boc .et-l #et-fb-app .dipi_info_circle .dipi_info_circle_item,
+.et-db #et-boc .et-l #et-fb-app .dipi_info_circle .dipi_info_circle_item .et_pb_module_inner,
+.dipi_info_circle .dipi_info_circle_item,
+.dipi_info_circle .dipi_info_circle_item .et_pb_module_inner {
+  position: unset !important;
+}
+.dipi_info_circle .dipi_info_circle_item > .et_parallax_bg_wrap {
+  display: none;
+}
+.dipi_info_circle .dipi_info_circle_item-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  animation-delay: 400ms;
+}
+.dipi_info_circle .dipi_info_circle_item .dipi-content-text{
+  text-align: center;
+}
+

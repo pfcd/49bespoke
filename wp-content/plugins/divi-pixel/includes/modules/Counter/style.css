@@ -1,0 +1,66 @@
+.dipi_counter{
+  position: relative;
+  /* display: -webkit-box; */
+  display: -webkit-inline-box;
+  display: -ms-flexbox;
+  display: flex;
+     -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
+  -webkit-box-pack: center;
+     -ms-flex-pack: center;
+   justify-content: center;
+}
+
+.dipi_counter {
+  -webkit-box-align: center;
+     -ms-flex-align: center;
+        align-items: center;
+}
+
+.dipi_counter .dipi_counter_number {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  top: 50%;
+  left: 50%;    
+  transform: translate(-50%, -50%);
+}
+.dipi_counter .half_circle .dipi_counter_number {
+   transform: translate(-50%, 0);
+}
+.dipi_counter > div,
+.dipi_counter_number_wrapper {
+    width: 100%;
+}
+.dipi_counter .half_circle svg.circle-container {
+   fill: transparent;
+}
+.dipi_counter .half_circle svg.circle-container .circle-text {
+   visibility: hidden;
+}
+.dipi_counter .half_circle svg.circle-container .foreground-circle {
+   stroke: transparent;
+}
+
+.dipi_counter .half_circle .circle-container{
+   overflow:visible
+}
+.dipi_counter .half_circle .dipi_label {
+   position: absolute;
+   top: 50%;
+   transform: translateY(100%);
+}
+
+.dipi_counter .half_circle .dipi_label.dipi_start_label {
+   left: 0;
+
+}
+.dipi_counter .half_circle .dipi_label.dipi_end_label {
+   right: 0;
+}
+.dipi_counter .dipi_counter_number_wrapper.half_circle {
+   margin: auto;
+   position: relative;
+}

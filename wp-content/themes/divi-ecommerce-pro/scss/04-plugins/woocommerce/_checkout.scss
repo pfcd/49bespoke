@@ -1,0 +1,120 @@
+.dsdep-checkout .woocommerce, .dsdep-checkout .woocommerce-page {
+
+  @media (min-width : $breakLarge) {
+    form.checkout {
+      display         : flex;
+      justify-content : space-between;
+      flex-wrap       : wrap;
+      align-content   : flex-start;
+
+      .col2-set, .dsdep-checkout-order {
+        width : 48.5%;
+        }
+      }
+    }
+
+  .col2-set {
+    .col-1, .col-2 {
+      float : none;
+      width : 100%;
+      }
+    }
+
+  .form-row {
+    margin-bottom : 16px;
+    }
+
+  .woocommerce-NoticeGroup {
+    width   : 100%;
+    display : block;
+    }
+
+  .dsdep-checkout-order {
+    background-color : $lightGrey;
+    padding          : 35px 20px;
+    border-radius    : $mainRadius;
+
+    @media (min-width : $breakSmall) {
+      padding : 40px 30px;
+      }
+    @media (min-width : $breakLarge) {
+      padding : 48px;
+      }
+
+    table.shop_table {
+      @include orderTable();
+      }
+
+    h3 {
+      font-weight    : 600;
+      @include responsiveFontSize(28px, 26px, 24px);
+      padding-bottom : 24px;
+      }
+    }
+
+  .woocommerce-form-coupon-toggle {
+    margin-bottom : 40px;
+    }
+
+  #payment #place_order {
+    @include primaryButtonMixin();
+    @include mediumButtonMixin();
+    width : 100%;
+    }
+
+  #customer_details h3 {
+    @include responsiveFontSize(21px, 20px, 19px);
+    padding-bottom : 24px;
+    }
+  }
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background-color : transparent;
+  line-height      : $baseLineHeight;
+
+  ul.payment_methods {
+    border  : none;
+    padding : 15px;
+
+    li {
+      margin-bottom : 10px;
+      }
+
+    label {
+      display : inline-block;
+      cursor  : pointer;
+      }
+
+    input[type="radio"] {
+      @include formRadioMixin();
+      vertical-align : text-bottom;
+
+      &:checked + label {
+        font-weight : 600 !important;
+        }
+      }
+    }
+
+  div.payment_box {
+    background    : #FFF;
+    box-shadow    : $secondaryShadow;
+    border-radius : $mainRadius;
+    font-size     : 14px;
+
+    &:before {
+      border-bottom-color : #FFF;
+      }
+    }
+
+  .woocommerce-terms-and-conditions-wrapper {
+    margin-bottom : 20px;
+    }
+
+  .woocommerce-privacy-policy-text {
+    font-size     : 13px;
+    margin-bottom : 20px;
+    }
+  }
+

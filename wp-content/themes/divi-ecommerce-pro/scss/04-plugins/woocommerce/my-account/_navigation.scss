@@ -1,0 +1,38 @@
+.dsdep-my-account .woocommerce-MyAccount-navigation {
+  margin-bottom : 24px;
+  background    : $lightGrey;
+  border-radius : $mainRadius;
+
+  ul {
+    list-style-type : none;
+    padding         : 16px;
+    display         : flex;
+    margin          : 0;
+    flex-wrap       : wrap;
+    justify-content : space-around;
+
+    li {
+      margin : 7px;
+
+      a {
+        padding     : 0;
+        display     : block;
+        text-align  : center;
+        font-weight : bold;
+        color       : $baseHeaderColor;
+        @include responsiveFontSize(19px, 17px, 16px);
+
+        &:hover {
+          color : $mainColor !important;
+          }
+        }
+
+      &.is-active {
+        a {
+          color : $mainColor !important;
+          }
+        }
+      }
+    }
+
+  }

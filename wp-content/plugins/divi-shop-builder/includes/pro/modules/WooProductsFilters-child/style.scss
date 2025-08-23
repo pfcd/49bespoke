@@ -1,0 +1,915 @@
+$dsbf_fontColor        : #999;
+$dsbf_headingColor     : #2f2f2f;
+$dsbf_borderColor      : #e7e7e7;
+$dsbf_backgroundColor  : #eee;
+$dsbf_accentColor      : #2ea3f2;
+$dsbf_accentColorLight : #eaf5fd;
+$dsbf_red              : #cf202a;
+$dsbf_lineHeight       : 1.7em;
+$dsbf_fontSize         : 14px;
+$dsbf_checkboxSize     : 18px;
+$dsbf_boxShadow        : 0 8px 30px 0 rgba(61, 59, 56, 0.07);
+$dsbf_transition       : all 0.2s ease-in-out;
+
+// Icons:
+// e800 search
+// e801 arrow down
+// e802 arrow up
+// e803 check
+// e804 close
+
+@mixin inputField() {
+  outline          : none;
+  width            : 100%;
+  border-width     : 0;
+  border-style     : solid;
+  border-radius    : 0;
+  background-color : $dsbf_backgroundColor;
+  border-color     : $dsbf_backgroundColor;
+  color            : $dsbf_fontColor;
+  font-size        : $dsbf_fontSize;
+  line-height      : $dsbf_lineHeight;
+  transition       : $dsbf_transition;
+  }
+
+@mixin DSBfont($icon) {
+  content                 : $icon;
+  font-family             : "Divi Shop Builder";
+  font-style              : normal;
+  font-variant            : normal;
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+  font-weight             : 400;
+  line-height             : 1;
+  }
+
+/*----------- Filter ----------------*/
+
+.ags-wc-filters-section {
+
+  /* Filter Inner */
+  .ags-wc-filters-section-inner {
+    ul {
+      list-style : none !important;
+      padding    : 0;
+      }
+    }
+
+  /* Toggled section */
+  &.ags-wc-filters-section-toggle-closed {
+    .ags-wc-filters-section-inner {
+      display : none;
+      }
+    }
+  }
+
+/*----------- Filter Title ----------------*/
+
+.ags_woo_products_filters .ags-wc-filters-section-title {
+  h4 {
+    font-size      : 16px;
+    line-height    : 1.2em;
+    font-weight    : 600;
+    padding-bottom : 0;
+    }
+  }
+
+.ags-wc-filters-section-title {
+  display: flex;
+  }
+
+.ags-wc-filters-section-title {
+  &::after {
+    display : none;
+    }
+
+  /* Title Toggled */
+  &.ags-wc-filters-section-toggle {
+    position        : relative;
+    cursor          : pointer;
+    display         : flex;
+    gap             : 5px;
+    flex-wrap       : nowrap;
+    justify-content : space-between;
+    align-items     : center;
+
+    h4 {
+      flex : 1;
+      }
+
+    &::after {
+      @include DSBfont("\e801");
+      display   : block;
+      color     : inherit;
+      font-size : 20px;
+      }
+    }
+  }
+
+.ags-wc-filters-section-toggle-closed .ags-wc-filters-section-title.ags-wc-filters-section-toggle:after {
+  content : "\e802";
+  }
+
+/*----------- Color Swatches Filter ----------------*/
+
+.ags-wc-filters-colors {
+
+  ul {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    }
+
+  li {
+    display : inline-block;
+
+    &:not(:last-of-type) {
+      padding-right  : 12px;
+      padding-bottom : 12px;
+      }
+
+    input {
+      visibility : hidden;
+      outline    : 0;
+      margin     : 0;
+      width      : 0;
+      height     : 0;
+      display    : none;
+
+      }
+
+    label {
+      display     : flex;
+      position    : relative;
+      cursor      : pointer;
+      align-items : center;
+
+      .ags_wc_filters_color_wrap {
+        width    : 2.5em;
+        height   : 2.5em;
+        display  : inline-flex;
+        position : relative;
+        }
+
+      .ags_wc_filters_color {
+        width          : 2.5em;
+        height         : 2.5em;
+        position       : relative;
+        vertical-align : middle;
+        }
+
+      .ags-wc-filters-product-att-name {
+        margin-left : 8px;
+        }
+
+      }
+
+    }
+
+  // Display Inline
+
+  // No labels
+
+  &.ags-wc-filters-labels-hide label {
+
+    > .ags-wc-filters-product-count {
+      position         : absolute;
+      top              : -5px;
+      right            : -5px;
+      min-width            : 1.4em;
+      min-height           : 1.4em;
+      font-size        : 0.9em;
+      line-height      : 1.4em;
+      background-color : #fff;
+      color            : #3e3e3e;
+      border-radius    : 50%;
+      text-align       : center;
+      box-shadow       : 0 0 10px rgba(0, 0, 0, 0.1);
+      font-weight      : 600
+      }
+    }
+
+  //&.ags-wc-filters-labels-hide .ags-wc-filters-product-att-name {
+  //  display : none;
+  //  }
+
+  &.ags-wc-filters-labels-hide li label .ags_wc_filters_tooltip:before {
+    left : 50%;
+    }
+
+  }
+
+/*----------- Color Swatches Filter Styles ----------------*/
+
+.ags-wc-filters-colors, .ags-wc-filters-images {
+
+  // Tooltip
+  .ags_wc_filters_tooltip {
+
+    color            : #fff;
+    background-color : #3e3e3e;
+    position         : absolute;
+    top              : -2em;
+    transform        : translateX(-50%);
+    border-radius    : 4px;
+    line-height      : 30px;
+    padding          : 0 10px;
+    opacity          : 0;
+    visibility       : hidden;
+    height           : auto;
+    overflow         : visible;
+    width            : auto;
+    display          : block;
+    white-space      : nowrap;
+    text-align       : center;
+    z-index          : 9999;
+
+    > span {
+      font-size : 12px;
+      }
+
+    .ags-wc-filters-product-count {
+      margin : 0.1em!important;
+      }
+
+    &:before {
+      content          : "";
+      display          : block;
+      top              : 100%;
+      left             : 50%;
+      border           : 5px solid transparent;
+      height           : 0;
+      width            : 0;
+      position         : absolute;
+      pointer-events   : none;
+      border-top-color : #3e3e3e;
+      margin-left      : -5px;
+      }
+
+    }
+
+  li:hover {
+    .ags_wc_filters_tooltip {
+      opacity    : 1;
+      visibility : visible;
+      }
+    }
+
+  }
+
+.ags-wc-filters-colors li .ags_wc_filters_tooltip {
+  left : 1.25em;
+  }
+
+.ags-wc-filters-images li .ags_wc_filters_tooltip {
+  left : 50%;
+  }
+
+// Circle
+
+.ags-wc-filters-swatch-1, .ags-wc-filters-swatch-2 {
+  label .ags_wc_filters_color, label .ags_wc_filters_label_image {
+    border-radius : 50%;
+    }
+  }
+
+//square
+.ags-wc-filters-swatch-5, .ags-wc-filters-swatch-6 {
+  label .ags_wc_filters_color, label .ags_wc_filters_label_image {
+    border-radius : 0;
+    }
+  }
+
+// Rounded corners
+
+.ags-wc-filters-swatch-3 label {
+  .ags_wc_filters_color, &.ags_wc_filters_label_image {
+    border-radius : 8px;
+    }
+  }
+
+.ags-wc-filters-swatch-4 label {
+
+  .ags_wc_filters_color, &.ags_wc_filters_label_image {
+    border-radius : 5px;
+    }
+  }
+
+.ags-wc-filters-swatch-1, .ags-wc-filters-swatch-3, .ags-wc-filters-swatch-5 {
+  input:checked + label {
+    .ags_wc_filters_color, &.ags_wc_filters_label_image {
+      box-shadow : 0 0 0 2px var(--ags-wc-attr-selected-color);
+      }
+    }
+  }
+
+.ags-wc-filters-swatch-2, .ags-wc-filters-swatch-4, .ags-wc-filters-swatch-6 {
+  input:checked + label {
+    .ags_wc_filters_color, &.ags_wc_filters_label_image {
+      box-shadow : 0 0 0 2px #fff, 0 0 0 4px var(--ags-wc-attr-selected-color);
+      }
+    }
+  }
+
+/*----------- Images Filter ----------------*/
+
+.ags-wc-filters-images {
+
+  --ags-wc-attr-img-border-color : #bebebe;
+
+  display                        : flex;
+  flex-direction                 : row;
+  flex-wrap                      : wrap;
+
+  li {
+    flex-grow     : 1;
+    flex-shrink   : 1;
+    padding-right  : 12px;
+    padding-bottom : 12px;
+    width: 100%;
+
+    input {
+      visibility : hidden;
+      outline    : 0;
+      margin     : 0;
+      width      : 0;
+      height     : 0;
+      display    : none;
+      }
+
+    input:checked + label {
+      background-color : var(--ags-wc-attr-selected-bg-color);
+      }
+
+    label {
+      display          : flex;
+      flex-wrap: wrap;
+      align-items      : center;
+      justify-content  : center;
+      position         : relative;
+      cursor           : pointer;
+      padding          : 5px;
+      height: 100%;
+      box-shadow       : 0 0 2px var(--ags-wc-attr-img-border-color);
+      background-color : var(--ags-wc-attr-bg-color);
+
+      img {
+        width          : auto;
+        max-width      : 100%;
+        }
+      }
+
+    .ags-wc-filters-product-att-name {
+      margin-right : 0.3em;
+      }
+
+    .ags-wc-filters-product-count {
+      margin : 0.1em!important;
+      }
+
+    }
+
+  &.ags-wc-filters-labels-hide {
+    img {
+      margin-right : 0;
+      }
+
+    .ags-wc-filters-product-att-name {
+      display : none;
+      }
+    }
+
+  &.ags-wc-filters-inputs-inline {
+    li {
+      width: unset;
+      }
+    }
+  }
+
+/*----------- Buttons ----------------*/
+
+.ags-wc-filters-buttons {
+  display     : flex;
+  flex-wrap   : wrap;
+  align-items : flex-start;
+  }
+
+.ags-wc-filters-buttons, .ags-wc-filters-selected-main {
+  .ags-wc-filters-button {
+    cursor : pointer;
+
+    &.ags-wc-filters-button-clear {
+      border-color     : $dsbf_red;
+      background-color : $dsbf_red;
+      color            : #fff;
+      }
+    }
+  }
+
+/*----------- Checkboxes & Radio buttons  ----------------*/
+
+.ags-wc-filters-checkbox-list, .ags-wc-filters-radio-button-list {
+  list-style : none !important;
+  padding    : 0;
+  
+  li {
+    display  : inline-block;
+    width    : 100%;
+    position : relative;
+
+    label {
+      transition : $dsbf_transition;
+      cursor     : pointer;
+      position   : relative;
+      }
+    }
+  }
+
+.ags-wc-filters-list-child {
+  padding-left : 24px !important;
+  }
+
+
+.ags-wc-filters-expand_hierarchy.ags-wc-filters-expanded-toggle::before {
+  content: "\E801";
+  font-family: 'Divi Shop Builder';
+  font-style: normal;
+  font-variant: normal;
+  color: #3a3a3a;
+  margin-left:5px;
+  }
+
+.ags-wc-filters-expand-hierarchy {
+	.ags-wc-filters-checkbox-list, .ags-wc-filters-radio-button-list {
+		.ags-wc-filters-has-children:not(.ags-wc-filters-expanded) > .ags-wc-filters-list-child {
+			display: none;
+		}
+	}
+}
+
+
+/*----------- Product Count ----------------*/
+
+.ags-wc-filters-product-count {
+  flex-shrink : 0;
+  }
+
+/*----------- Search Field ----------------*/
+
+.ags-wc-filters-search-container {
+
+  .ags-wc-filters-search-input-wrapper {
+    background-color : $dsbf_backgroundColor;
+    transition       : $dsbf_transition;
+    border-style     : solid;
+    }
+
+  input[type="search"] {
+    outline      : none;
+    width        : 100%;
+    border-width : 0 !important;
+    color        : $dsbf_fontColor;
+    font-size    : $dsbf_fontSize;
+    line-height  : $dsbf_lineHeight;
+    transition   : $dsbf_transition;
+    background   : transparent !important;
+    }
+
+  &.ags-wc-filters-search-with-icon {
+
+    .ags-wc-filters-search-input-wrapper {
+      display     : flex;
+      align-items : center;
+      position    : relative;
+
+      input[type="search"] {
+        flex : 1;
+        }
+
+      &:after {
+        @include DSBfont("\e800");
+        padding : 0 10px;
+        }
+      }
+    }
+
+  &.ags-wc-filters-search-with-suggestions {
+    display  : inline-block;
+    position : relative;
+    width    : 100%;
+    }
+  }
+
+/*----------- Dropdown ----------------*/
+
+.ags-wc-filters-search-container.ags-wc-filters-search-with-suggestions .ags-wc-filters-search-suggestions-container,
+.ags-wc-filters-dropdown-single .ags-wc-filters-dropdown-single-options,
+.ags-wc-filters-dropdown-multi .ags-wc-filters-dropdown-multi-options {
+  display          : none;
+  position         : absolute;
+  right            : 0;
+  top              : 100%;
+  width            : 100%;
+  z-index          : 9999;
+  background-color : #fff;
+
+  li {
+    a {
+      display         : block;
+      text-decoration : none;
+      color           : inherit;
+
+      &:hover {
+        transition : $dsbf_transition;
+        cursor     : pointer;
+        }
+      }
+    }
+  }
+
+/*----------- Select Fields ----------------*/
+
+.ags-wc-filters-dropdown-single,
+.ags-wc-filters-dropdown-multi {
+  display  : inline-block;
+  position : relative;
+  width    : 100%;
+  }
+
+.ags-wc-filters-dropdown-single .ags-wc-filters-active > a,
+.ags-wc-filters-dropdown-multi .ags-wc-filters-active > span {
+  position      : relative;
+  display       : block;
+  cursor        : pointer;
+  z-index       : 2;
+  @include inputField;
+  padding-right : 30px !important;
+
+  &::before {
+    @include DSBfont("\e801");
+    display          : inline-block;
+    position         : absolute;
+    right            : 0;
+    top              : 50%;
+    transform        : translateY(-50%);
+    font-size        : 20px;
+    background-color : inherit;
+    padding          : 0 5px;
+    }
+  }
+
+// Dropdown
+.ags-wc-filters-dropdown-single .ags-wc-filters-dropdown-single-options,
+.ags-wc-filters-dropdown-multi .ags-wc-filters-dropdown-multi-options {
+  .ags-wc-filters-list-child {
+    padding-left : 25px;
+    }
+  }
+
+// Dropdown list item text
+.ags-wc-filters-dropdown-single .ags-wc-filters-dropdown-single-options li a > span,
+.ags-wc-filters-dropdown-multi .ags-wc-filters-dropdown-multi-options label {
+  display     : flex;
+  width       : 100%;
+  align-items : center;
+  color       : inherit;
+  cursor      : pointer;
+  }
+
+// List item active
+.ags-wc-filters-dropdown-single .ags-wc-filters-dropdown-single-options li a.ags-wc-filters-active > span:after,
+.ags-wc-filters-dropdown-multi .ags-wc-filters-dropdown-multi-options input:checked + label:after {
+  @include DSBfont("\e803");
+  font-size   : 20px;
+  margin-left : auto;
+  }
+
+.ags-wc-filters-dropdown-single .ags-wc-filters-active span.value,
+.ags-wc-filters-dropdown-single .ags-wc-filters-dropdown-single-options span.value {
+  display : none;
+  }
+
+/*----------- Single Select Fields ----------------*/
+
+.ags-wc-filters-dropdown-single {
+  .option {
+    position : relative;
+    }
+  }
+
+/*----------- Multiple Select Fields ----------------*/
+
+.ags-wc-filters-dropdown-multi {
+  .ags-wc-filters-dropdown-multi-options {
+    input[type="checkbox"] {
+      padding       : 0;
+      height        : 0;
+      width         : 0;
+      margin-bottom : 0;
+      display       : none;
+      cursor        : pointer;
+      }
+    }
+
+  .ags-wc-filters-active > span {
+    white-space : nowrap;
+    overflow    : hidden;
+    }
+  }
+
+/*----------- Star Rating ----------------*/
+
+.ags-wc-filters-stars-control {
+  display     : flex;
+  flex-wrap   : wrap;
+  align-items : center;
+
+  .ags-wc-filters-stars {
+    margin-right : 5px;
+    }
+  }
+
+.ags-wc-filters-stars {
+  font-family : ETmodules;
+  cursor      : pointer;
+  line-height : 1;
+  }
+
+/*----------- Selected Section ----------------*/
+
+.ags-wc-filters-selected-outer {
+  display : none;
+  }
+
+.ags-wc-filters-selected-main {
+
+  .ags-wc-filters-selected {
+    display   : flex;
+    flex-wrap : wrap;
+
+    .ags-wc-filters-selected-inner {
+      display      : inline-flex;
+      align-items  : center;
+      cursor       : default;
+      border-width : 1px;
+      border-style : solid;
+      border-color : #dadada;
+
+      .ags-wc-filters-remove {
+        cursor      : pointer;
+        font-size   : 0;
+        line-height : 0;
+
+        &:before {
+          @include DSBfont("\e804");
+          }
+        }
+      }
+    }
+  }
+
+// Show Selected Filters in Visual Builder
+.et-fb .ags-wc-filters-selected-outer {
+  display : block;
+  }
+
+.et-fb .ags-wc-filters-selected-outer {
+  display : block;
+  }
+
+/*----------- Tag cloud ----------------*/
+
+.ags-wc-filters-tagcloud {
+  display   : flex;
+  flex-wrap : wrap;
+
+  li {
+    display : inline-block;
+
+    label {
+      display            : inline-flex;
+      align-items        : center;
+      justify-content    : center;
+      border-radius      : 3px;
+      -webkit-transition : $dsbf_transition;
+      transition         : $dsbf_transition;
+      cursor             : pointer;
+      }
+
+    input[type="radio"] {
+      -webkit-appearance : none;
+      -moz-appearance    : none;
+      appearance         : none;
+      display            : none;
+      opacity            : 0;
+      }
+
+    input[type="radio"]:checked + label, input[type="radio"]:checked:hover + label {
+      cursor : default;
+      }
+    }
+  }
+
+/*----------- Miscellanous ----------------*/
+
+.ags-wc-filters-filter-clear {
+  color     : #82828b;
+  font-size : 0.9em;
+  }
+
+.d-none {
+  display : none !important;
+  }
+
+.ags-wc-filters-hidden {
+  display : none !important;
+  }
+
+/*! @license
+This file includes code from range-slider, with or without modifications
+https://github.com/slawomir-zaziablo/range-slider
+range-slider is licensed under the following license.
+
+MIT License
+
+Copyright (c) 2017 Slawomir Zaziablo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+.ags-wc-filters-number-range-container {
+
+  .ags-wc-filters-number-inputs-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    }
+
+  .ags-wc-filters-number-inputs-wrapper label {
+    flex-basis: 100px;
+    flex-grow:0;
+    flex-shrink: 1;
+
+    display: flex;
+    align-items: center;
+    }
+
+  &.ags-wc-filters-number-range-slider_inputs {
+    .rs-container {
+      margin-bottom : 10px;
+      }
+    }
+
+  &.ags-wc-filters-number-range-slider {
+    .rs-container {
+      margin-top : 40px;
+      }
+    }
+
+  input.ags-wc-filters-slider {
+    opacity : 0;
+    }
+
+  input[type="number"] {
+    @include inputField;
+    //width : auto;
+    }
+
+  .rs-container {
+    height   : 45px;
+    position : relative;
+
+    * {
+      box-sizing            : border-box;
+      -webkit-touch-callout : none;
+      -webkit-user-select   : none;
+      -khtml-user-select    : none;
+      -moz-user-select      : none;
+      -ms-user-select       : none;
+      user-select           : none;
+      }
+
+    .rs-bg, .rs-selected {
+      height   : 8px;
+      left     : 0;
+      position : absolute;
+      top      : 0;
+      width    : 100%;
+      }
+
+    .rs-selected {
+      transition : $dsbf_transition;
+      width      : 0;
+      }
+
+    .rs-pointer {
+      cursor     : pointer;
+      height     : 16px;
+      width      : 16px;
+      left       : 0;
+      position   : absolute;
+      top        : 0;
+      transform  : translate(-25%, -25%);
+      transition : $dsbf_transition;
+      }
+
+    .rs-scale {
+      left        : 0;
+      position    : absolute;
+      top         : 0;
+      white-space : nowrap;
+
+      span {
+        float    : left;
+        position : relative;
+
+        &:last-child {
+          margin-left : -1px;
+          width       : 0;
+          }
+
+        ins {
+          color           : inherit;
+          display         : inline-block;
+          font-size       : 14px;
+          margin-top      : 20px;
+          text-decoration : none;
+          }
+        }
+      }
+
+    .rs-tooltip {
+      color       : inherit;
+      width       : auto;
+      min-width   : 60px;
+      height      : 30px;
+      line-height : 30px;
+      position    : absolute;
+      transform   : translate(-50%, -35px);
+      left        : 14px;
+      text-align  : center;
+      font-size   : 14px;
+      padding     : 0 10px;
+      cursor      : default;
+      }
+
+    &.rs-noscale {
+      span {
+        &::before {
+          display : none;
+          }
+
+        &:first-child::before, &:last-child::before {
+          display : block;
+          }
+        }
+      }
+
+    &.sliding {
+      .rs-pointer, .rs-selected {
+        transition : none;
+        }
+      }
+
+    &.disabled {
+      .rs-selected {
+        background-color : #ccc;
+        }
+
+      .rs-pointer {
+        background-color : #ccc;
+        cursor           : default;
+        }
+
+      .rs-scale span ins {
+        color : #999;
+        }
+
+      .rs-tooltip {
+        background-color : #ccc;
+        color            : #999;
+        }
+      }
+    }
+  }
+
+.ags_woo_shop_plus_multiview {
+  text-align : left;
+  }

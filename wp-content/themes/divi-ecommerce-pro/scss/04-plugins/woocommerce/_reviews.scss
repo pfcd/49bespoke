@@ -1,0 +1,49 @@
+// Reviews
+.dsdep-reviews {
+  #reviews {
+
+    h2.woocommerce-Reviews-title {
+      @include responsiveFontSize(28px, 26px, 24px);
+      font-weight : 600;
+      }
+
+    .commentlist {
+      .avatar {
+        border-radius : 50%;
+        border        : 2px solid !important;
+        border-color  : $mainColor !important;
+        }
+
+      .meta {
+        .woocommerce-review__author {
+          color   : $baseHeaderColor;
+          display : block;
+          }
+
+        .woocommerce-review__dash {
+          display : none;
+          }
+
+        time {
+          font-size     : 14px;
+          margin-bottom : 15px;
+          }
+        }
+      }
+
+    #respond {
+      .comment-reply-title {
+        font-size     : 18px;
+        font-weight   : 600;
+        color         : $baseHeaderColor;
+        margin-bottom : 10px;
+        display       : block;
+        }
+
+      input[type="submit"] {
+        @include secondButtonMixin();
+        box-shadow : $primaryShadow !important;
+        }
+      }
+    }
+  }

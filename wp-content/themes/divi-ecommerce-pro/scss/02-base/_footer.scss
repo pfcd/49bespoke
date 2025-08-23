@@ -1,0 +1,25 @@
+// General footer styles
+.dsdep-footer-widget-menu {
+  h4.title {
+    margin-bottom : 20px;
+    }
+
+  ul.menu {
+    li {
+      margin-bottom : 16px;
+
+      a {
+        color : inherit;
+        }
+
+      &.current-menu-item a, a:hover {
+        color           : $mainColor;
+        text-decoration : underline;
+        }
+      }
+    }
+
+  .et_pb_widget:last-of-type {
+    margin-bottom : 0 !important;
+    }
+  }

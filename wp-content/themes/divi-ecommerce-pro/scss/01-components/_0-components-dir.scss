@@ -1,0 +1,51 @@
+// ------------------------------------------------------------------------------------------- //
+//           Components dir handles the reusable elements such as
+//                                     buttons, cards etc.
+// ------------------------------------------------------------------------------------------- //
+@import "aligments";
+@import "buttons";
+@import "reponsive-displaying";
+@import "form";
+@import "notification";
+@import "shadow";
+@import "bg";
+@import "colors";
+@import "headers";
+@import "checklist";
+
+.dsdep-no-padding {
+  padding : 0 !important;
+  }
+
+.dsdep-borderRadius {
+  border-radius : $mainRadius;
+  }
+
+.dsdep-borderRadiusImage img {
+  border-radius : $mainRadius;
+  }
+
+.dsdep-small-row {
+  max-width : 1365px !important;
+  }
+
+.dsdep-flex-row-reverse {
+  @media (min-width : $breakLarge) {
+    flex-direction : row-reverse;
+
+    &.et_pb_gutters2 .et_pb_column:first-child {
+      margin-left  : 3% !important;
+      margin-right : 0;
+      }
+
+    &.et_pb_gutters3 .et_pb_column:first-child {
+      margin-left  : 5.5% !important;
+      margin-right : 0;
+      }
+
+    &.et_pb_gutters4 .et_pb_column:first-child {
+      margin-left  : 8% !important;
+      margin-right : 0;
+      }
+    }
+  }

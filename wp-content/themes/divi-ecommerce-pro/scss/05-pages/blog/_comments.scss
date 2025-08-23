@@ -1,0 +1,155 @@
+// Comment list
+ol.commentlist {
+  margin-top : 20px;
+
+  & > li {
+    margin-bottom : 30px;
+    }
+
+  .comment {
+
+    .comment-body {
+      border        : none;
+      padding       : 0;
+      margin-left   : 60px;
+      margin-bottom : 35px;
+      font-size     : 14px;
+
+      @media (max-width : $breakSmall) {
+        margin-left : 0;
+        }
+      }
+
+    .comment_avatar {
+      left : -60px;
+
+      @media (max-width : $breakSmall) {
+        position      : relative;
+        left          : auto;
+        top           : auto;
+        margin-bottom : 10px;
+        }
+
+      img {
+        overflow      : hidden;
+        width         : 45px;
+        height        : 45px;
+        max-width     : none !important;
+        border-radius : 50%;
+        border        : 1px solid !important;
+        border-color  : $lightBorderColor !important;
+        box-shadow    : $secondaryShadow !important;
+        }
+      }
+
+    &.bypostauthor {
+      .comment_avatar img {
+        box-shadow   : $primaryShadow !important;
+        border-color : $mainColor;
+        }
+
+      .comment_postinfo span.fn {
+        color : $mainColor;
+        }
+      }
+
+    span {
+      &.comment_date {
+        font-style : italic;
+        opacity    : 0.8;
+        }
+      }
+
+    .comment_area {
+      padding : 0;
+      }
+
+    .reply-container {
+      display    : block;
+      margin-top : 8px;
+      }
+
+    .comment-reply-link {
+      position : relative !important;
+      display  : inline-block !important;
+      float    : none !important;
+      top      : auto;
+      bottom   : auto;
+      left     : auto;
+      right    : auto;
+      @include underlineButton(primary);
+
+      &:after {
+        display : none;
+        }
+      }
+
+    .comment-reply-title {
+      span {
+        margin-bottom : 10px;
+        display       : block;
+        }
+      }
+
+    #respond {
+      margin-top : 0;
+      }
+    }
+  }
+
+
+#commentform {
+  input {
+    &[type="text"], &[type="email"], &[type="url"] {
+      @include formInputMixin();
+      @include formWhite();
+      }
+    }
+
+  textarea {
+    @include formTextareaMixin();
+    @include formWhite();
+    }
+
+  .form-submit {
+    text-align : center;
+    margin-top : 24px;
+
+    .et_pb_button {
+      @include secondButtonMixin();
+      box-shadow : $primaryShadow !important;
+      }
+    }
+
+
+  @media (min-width : 600px) {
+    .comment-form-author, .comment-form-email, .comment-form-url {
+      width : 33.33%;
+      float : left;
+
+      input {
+        display : block;
+        width   : 100% !important;
+        }
+      }
+    .comment-form-author, .comment-form-email {
+      padding-right : 10px;
+      }
+    }
+  }
+
+.comment-form-comment {
+  padding-bottom : 5px;
+  }
+
+#comment-wrap {
+  font-size : 14px;
+
+  h1.page_title {
+    @include responsiveFontSize(28px, 26px, 24px);
+    }
+
+  h3.comment-reply-title {
+    font-size : 16px;
+    }
+  }

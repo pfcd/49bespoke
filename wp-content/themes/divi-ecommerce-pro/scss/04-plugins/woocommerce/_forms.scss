@@ -1,0 +1,74 @@
+#et-boc .et-l .woocommerce {
+
+  // Label
+  label {
+    @include formLabelMixin();
+    }
+
+  // Input forms
+  input.text, input.input-text, input.title, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select {
+    @include formInputMixin();
+    margin-bottom : 5px !important;
+    }
+
+  // WooCommerce select
+  .select2-container--default .select2-selection--single {
+    @include formInputMixin();
+
+    .select2-selection__rendered {
+      line-height : 43px;
+      padding     : 0;
+      font-size   : 14px;
+      }
+
+    .select2-selection__arrow {
+      height : 43px;
+      }
+    }
+
+  // Textarea
+  textarea {
+    @include formTextareaMixin();
+    }
+
+  // Button
+  .woocommerce-Button, input[type=submit], button.button {
+    @include primaryButtonMixin();
+    }
+
+  // Radio button
+  input[type="radio"] {
+    @include formRadioMixin();
+    }
+
+  // Radio button
+  input[type="checkbox"] {
+    @include formCheckboxMixin();
+    }
+
+  form {
+    em {
+      font-size : 14px;
+      opacity   : 0.54;
+      }
+
+    form .form-row.woocommerce-invalid label {
+      color : $danger;
+      }
+
+    .form-row.woocommerce-invalid .select2-container,
+    .form-row.woocommerce-invalid input.input-text,
+    .form-row.woocommerce-invalid select {
+      border-color : $danger;
+      }
+    }
+  }
+
+.woocommerce-cart table.cart td.actions .coupon {
+  // Input forms
+  input.input-text {
+    @include formInputMixin();
+    margin-bottom : 5px !important;
+    font-size     : 13px !important;
+    }
+  }

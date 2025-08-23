@@ -1,0 +1,26 @@
+.dipi-fancy-text-container .fancy-text-wrap {
+    position: relative;
+}
+
+.fancy-text-wrap.dipi_morphext {
+    visibility: visible;
+}
+
+.fancy-text-wrap {
+    visibility: hidden;
+    text-decoration: inherit;
+}
+
+.fancy-text-wrap .animated {
+    text-decoration: inherit;
+    display: inline-block;
+}
+
+.fancy-text-suffix,
+.fancy-text-wrap,
+.fancy-text-prefix {
+    display: inline-block;
+}
+.dipi_fancy_text .fancy-text-prefix {
+    white-space: break-spaces;
+}

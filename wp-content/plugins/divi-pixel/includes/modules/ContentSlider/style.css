@@ -1,0 +1,161 @@
+.dipi_content_slider .dipi-content-slider {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.dipi_content_slider .dipi-content-slider .dipi-navigation {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.dipi_content_slider .dipi-content-slider .dipi-navigation .dipi-nav-button {
+    justify-content: center;
+    align-items: center;
+}
+.dipi_content_slider .dipi-content-slider .dipi-navigation .dipi-prev-button{
+    cursor: pointer;
+    transform:translate(-100%, -50%);
+    position: absolute;
+    left: 0px;
+}
+.dipi_content_slider .dipi-content-slider .dipi-navigation .dipi-next-button{
+    cursor: pointer;
+    transform:translate(100%, -50%);
+    position: absolute;
+    right: 0px;
+}
+.dipi_content_slider .dipi-next-button:after,
+.dipi_content_slider .dipi-prev-button:after {
+    content: attr(data-icon);
+    display: block;
+    font-family: ETmodules;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+}
+.dipi_content_slider.et_pb_module .dipi-nav-button.show_on_hover {
+    opacity: 0;
+}
+.dipi_content_slider .dipi-prev-button.dipi-nav-button.show_on_hover {
+    left: 0 !important;
+}
+.dipi_content_slider .dipi-next-button.dipi-nav-button.show_on_hover {
+    right: 0 !important;
+}
+.dipi_content_slider.et_pb_module:hover .dipi-nav-button.show_on_hover,
+.dipi_content_slider.et_pb_module .dipi-nav-button.show_on_hover:hover
+{
+  opacity: 1;
+}
+.dipi_content_slider .dipi-content-slider.label-top .dipi-progress-line,
+.dipi_content_slider .dipi-content-slider.label-top .content-slider-gradations-wrapper
+{
+    order: 2;
+}
+.dipi_content_slider .dipi-content-slider-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dipi_content_slider .dipi-progress-line {
+    background: #d8d8d8;
+    width: 100%;
+    height: 7px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+.dipi_content_slider div.dipi-content-slider  .dipi-progress-line {
+    overflow: visible;
+}
+.dipi_content_slider .dipi-progress-line-active {
+    background: #FF4200;
+    width: 50%;
+    height: 7px;
+    transition: all 0.3s;
+    border-style: solid;
+}
+.dipi_content_slider .dipi-progress-line-event-placeholder {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dipi_content_slider .dipi-content-slider.slider_with_pin .dipi-slider-pin,
+.dipi_content_slider .dipi-content-slider.slider_with_line .dipi-progress-line,
+.dipi_content_slider .dipi-content-slider.slider_with_line .dipi-progress-line-active,
+.dipi_content_slider .dipi-content-slider.slider_with_line .dipi-progress-line-event-placeholder,
+.dipi_content_slider .dipi-content-slider.slider_with_label .content-slider-item {
+    cursor: pointer;
+}
+.dipi_content_slider .dipi-slider-pin {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 7px solid #FF4200;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+    z-index: 1;
+}
+.dipi_content_slider .dipi_content_slider_child.et_pb_module {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 0;
+}
+.dipi_content_slider .dipi_content_slider_child:last-child {
+    width: 0;
+    flex-grow: 0;
+}
+.dipi_content_slider .content-slider-item {
+    transform: translateX(-50%);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.dipi_content_slider .dipi_content_slider_child .et_pb_module_inner {
+    height: 100%;
+}
+/*.dipi_content_slider .dipi_content_slider_child:first-child .content-slider-item {
+    transform: translateX(0);
+}
+.dipi_content_slider .dipi_content_slider_child:last-child .content-slider-item {
+    transform: translateX(-100%);
+}*/
+.dipi_content_slider .content-slider-gradations-wrapper {
+    transition: all 0.3s;
+}
+.dipi_content_slider .content-slider-gradations {
+    width: 1px;
+    height: 10px;
+    background: #FF4200;
+    display: block;
+    margin: auto;
+    transition: all 0.3s;
+}
+.dipi_content_slider .content-slider-item.active .content-slider-gradations {
+    width: 1px;
+    height: 10px;
+}
+.dipi_content_slider  .content-slider-label {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    padding: 4px 8px;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+.dipi_content_slider .content-slider-desc {
+    flex-grow: 1;
+    border-style: solid;
+    padding: 4px 8px;
+    transition: all 0.3s;
+}

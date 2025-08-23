@@ -1,0 +1,132 @@
+/*.wc-scroll-to-top::before {
+  font-size: 16px;
+}*/
+
+.wc-scroll-to-top {
+  all: unset;
+  font-weight: 800;
+  font-size: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: .3s;
+  z-index: 9999;
+  height: 40px;
+  border-radius: 6px;
+  width: 40px;
+  color: var(--wp--preset--color--background);
+  background: var(--wp--preset--color--primary);
+  font-size: 33px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wc-scroll-to-top:hover {
+  background: var(--wp--preset--color--hover);
+  color: var(--wp--preset--color--foreground);
+  border-radius: 6px;
+}
+
+/*post date*/
+.wp-block-post-date::before,
+.wp-block-comment-date::before{
+  content: "\f508";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.post-author-name.wp-block-post-author-name::before{
+  content: "\f110";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+.taxonomy-category.wp-block-post-terms::before{
+  content: "\f318";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+/*footer terms and condition menu*/
+/*.footer-terms-menu ul li span{
+  padding-right: 10px;
+  border-right: 1px solid var(--wp--preset--color--body-text);
+}
+
+*/
+
+.footer-terms-menu ul li span {
+  padding-right: 10px;
+  position: relative;
+}
+
+.footer-terms-menu ul li span::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 69%;
+  background-color: var(--wp--preset--color--body-text);
+}
+
+.footer-terms-menu ul li:last-child span::after{
+  display: none;
+}
+
+.header-search .wp-element-button {
+    background-color: var(--wp--preset--color--primary) !important;
+  padding: 10px;
+}
+
+.dashicons{
+  font-size: 27px;
+  text-decoration: none;
+}
+
+.error-icon .dashicons{
+    position: relative;
+    left: -31px;
+    margin-bottom: 40px;
+    color: var(--wp--preset--color--primary);
+    font-size: 73px;
+}
+
+.wc-block-grid__product-onsale{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+}
+.wc-block-grid__product-title{
+  font-size: var(--wp--preset--font-size--upper-heading)
+}
+
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link{
+padding:    var( --wp--custom--button-padding);
+}
+
+.wp-block-button a::after,
+.wp-block-button__link::after,
+.woocommerce ul.products li.product .button::after {
+  content: "\f344";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.wp-block-navigation-item a {
+  text-decoration: none;
+}

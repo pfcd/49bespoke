@@ -1,0 +1,40 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others.
+This file (and/or the corresponding source SCSS and/or CSS file) was last modified 2022-04-21
+ */
+
+.et-db #et-boc .et-l .et-fb-modules-list li {
+  &.ags_woo_notices,
+  &.ags_woo_cart_list,
+  &.ags_woo_cart_totals,
+  &.ags_woo_checkout_billing_info,
+  &.ags_woo_checkout_coupon,
+  &.ags_woo_checkout_order_review,
+  &.ags_woo_checkout_shipping_info,
+  &.ags_woo_shop_plus,
+  &.ags_woo_account_content,
+  &.ags_woo_account_navigation,
+  &.ags_woo_account_user_image,
+  &.ags_woo_account_user_name,
+  &.ags_woo_login_form,
+  &.ags_woo_register_form,
+  &.ags_woo_thank_you,
+  &.ags_woo_mini_cart,
+  &.ags_woo_multi_step_checkout,
+  &.ags_woo_products_filters {
+    border-left   : 5px solid #6A39E4 !important;
+    border-radius : 0 5px 5px 0 !important;
+
+    .et-fb-icon.et-fb-icon--svg {
+      margin : 0 auto 5px !important;
+      height : 18px !important;
+
+      svg {
+        height : 16px !important;
+        width  : auto;
+        }
+      }
+    }
+  }

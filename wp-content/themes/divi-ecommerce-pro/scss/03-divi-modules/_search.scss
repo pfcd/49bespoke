@@ -1,0 +1,40 @@
+.dsdep-search,
+.et-db #et-boc .et-l .dsdep-search {
+  border        : none !important;
+  border-radius : 0;
+
+  form.et_pb_searchform {
+    position : relative;
+    // search icon
+    &:before {
+      font-family : "ETmodules";
+      font-weight : 900 !important;
+      font-size   : 16px;
+      content     : "\55";
+      position    : absolute;
+      right       : 12px;
+      @include centerHeightUnk();
+      color       : $mainColor;
+      }
+    }
+
+  // Input forms
+  input[type=text], input[type=search] {
+    @include formInputMixin();
+    @include formWhite();
+    display      : block;
+    width        : 100%;
+    margin-right : 40px;
+    }
+
+  input.et_pb_searchsubmit {
+    height     : 43px;
+    width      : 40px;
+    border     : none !important;
+    background : transparent !important;
+    font-size  : 0 !important;
+    position   : absolute;
+    top        : 0;
+    right      : 0;
+    }
+  }

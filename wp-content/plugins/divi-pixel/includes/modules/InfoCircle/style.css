@@ -1,0 +1,267 @@
+.dipi_info_circle .dipi-info-circle-out {
+  width: 100%;
+  height: 100%;
+  background-color:transparent;
+  left: 50%;
+  top: 50%;
+}
+.dipi_info_circle .dipi-info-circle,
+.dipi_info_circle .dipi_info_circle_container:before
+{
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0;
+}
+.dipi_info_circle .dipi_info_circle-in {
+  width: 80%;
+  height: 80%;
+  background-color: #f8f8f8;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  display: flex;
+  opacity: 0;
+  transition-duration: 1000ms;
+  transition-property: opacity;
+  border-style: solid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: normal;
+}
+.dipi_info_circle .dipi_info_circle_container {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.dipi_info_circle .dipi_info_circle_container .dipi-info-circle-items .dipi_info_circle_item_container,
+.dipi_info_circle .dipi_info_circle_container .dipi-info-circle-items .dipi_info_circle_item_container:hover
+{ /* border of list */
+  border-style: none;
+}
+
+/*.dipi_info_circle .dipi_info_circle_container:before{
+  content: ' ';
+  width: calc(80% + 1px);
+  height: calc(80% + 1px);
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  position: absolute;
+  pointer-events: none;
+}*/
+
+.dipi_info_circle .dipi-info-circle.dipi_info_circle-small {
+  text-align: center;
+  z-index: 5;
+  cursor: pointer;
+}
+.dipi_info_circle .dipi_info_circle_container.icon_ani .dipi-info-circle.dipi_info_circle-small {
+  visibility: hidden;
+  line-height: 1em;
+}
+.dipi_info_circle .dipi-info-circle.dipi_info_circle-small,
+.dipi_info_circle .dipi-info-circle.dipi_info_circle-small .dipi-info-icon {
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+.dipi_info_circle .dipi_info_circle_item-info_image_icon-wrapper {
+  line-height: 100%;
+}
+.dipi_info_circle .dipi_info_circle_item .dipi_info_circle_item_container .dipi-info-image-icon-wrap.dipi-image-wrapper,
+.dipi_info_circle .dipi_info_circle_item .dipi_info_circle_item_container .dipi-info-image-icon-wrap.dipi-image-wrapper:hover 
+{
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+} 
+.dipi_info_circle .dipi-info-circle.dipi_info_circle-small .dipi-info-image-icon-wrap.dipi-image-wrapper
+{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.dipi_info_circle .dipi-info-circle.dipi_info_circle-small .dipi-info-image-icon-wrap.dipi-image-wrapper .dipi-info-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.dipi_info_circle .dipi_info_circle_item_container.active .dipi_info_circle-in{
+  z-index: 2 !important;
+  opacity: 1;
+  transition-duration: 1000ms;
+}
+.dipi_info_circle .dipi_info_circle_item_container .dipi_info_circle-in .content_link {
+  width: 100%;
+  height: 100%;
+}
+/* Animation code */
+.dipi_info_circle .bounceInInfoCircle {
+  animation-name: bounceInInfoCircle;
+}
+/* Show as list */
+@media only screen and (min-width: 981px) {
+  .dipi_info_circle .dipi_info-circle_list .dipi-info-circle-out {
+    display: none;
+  }
+  .dipi_info_circle .dipi_info-circle_list .dipi-info-circle,
+  .dipi_info_circle .dipi_info-circle_list .dipi_info_circle_container:before {
+    position: unset;
+    border-radius: unset;
+    transform: unset;
+  }
+  .dipi_info_circle.et_pb_module .dipi_info-circle_list .dipi_info_circle-in {
+    width: unset;
+    height: unset;
+    left: 0 !important;
+    top: 0 !important;
+    opacity: 1;
+    position: relative;
+  }
+
+  .dipi_info_circle .dipi_info-circle_list .dipi_info_circle_container {
+    width: auto;
+    height: auto;
+  }
+
+  .dipi_info_circle .dipi_info_circle_container.dipi_info-circle_list .dipi-info-circle-items .dipi_info_circle_item_container, 
+  .dipi_info_circle .dipi_info_circle_container.dipi_info-circle_list .dipi-info-circle-items .dipi_info_circle_item_container:hover
+  { /* border of list */
+    border-style: solid;
+  }
+
+  .dipi_info_circle .dipi_info-circle_list .dipi_info_circle_container:before {
+    content: '';
+  }
+  .dipi_info_circle .dipi_info-circle_list .dipi-info-circle.dipi_info_circle-small {
+    transform: unset;
+  }
+  /* Animation code */
+  .dipi_info_circle .dipi_info-circle_list .bounceInInfoCircle {
+    animation-name: bounceIn;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 768px){
+  .dipi_info_circle .dipi_info-circle_list_tablet .dipi-info-circle-out {
+    display: none;
+  }
+  .dipi_info_circle .dipi_info-circle_list_tablet .dipi-info-circle,
+  .dipi_info_circle .dipi_info-circle_list_tablet .dipi_info_circle_container:before {
+    position: unset;
+    border-radius: unset;
+    transform: unset;
+  }
+  
+  .dipi_info_circle.et_pb_module .dipi_info-circle_list_tablet .dipi_info_circle-in {
+    width: unset;
+    height: unset;
+    left: 0 !important;
+    top: 0 !important;
+    opacity: 1;
+    position: relative;
+  }
+  
+  .dipi_info_circle .dipi_info-circle_list_tablet .dipi_info_circle_container {
+    width: auto;
+    height: auto;
+  }
+  .dipi_info_circle .dipi_info_circle_container.dipi_info-circle_list_tablet .dipi-info-circle-items  .dipi_info_circle_item_container,
+  .dipi_info_circle .dipi_info_circle_container.dipi_info-circle_list_tablet .dipi-info-circle-items  .dipi_info_circle_item_container:hover { /* border of list */
+    border-style: solid;
+  }
+  .dipi_info_circle .dipi_info-circle_list_tablet .dipi_info_circle_container:before {
+    content: '';
+  }
+  .dipi_info_circle .dipi_info-circle_list_tablet .dipi-info-circle.dipi_info_circle-small {
+    transform: unset;
+  }
+  /* Animation code */
+  .dipi_info_circle .dipi_info-circle_list_tablet .bounceInInfoCircle {
+    animation-name: bounceIn;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .dipi_info_circle .dipi_info-circle_list_phone .dipi-info-circle-out {
+    display: none;
+  }
+  .dipi_info_circle .dipi_info-circle_list_phone .dipi-info-circle,
+  .dipi_info_circle .dipi_info-circle_list_phone .dipi_info_circle_container:before {
+    position: unset;
+    border-radius: unset;
+    transform: unset;
+  }
+  
+  .dipi_info_circle.et_pb_module .dipi_info-circle_list_phone .dipi_info_circle-in {
+    width: unset;
+    height: unset;
+    left: 0 !important;
+    top: 0 !important;
+    opacity: 1;
+    position: relative;
+  }
+  
+  .dipi_info_circle .dipi_info-circle_list_phone .dipi_info_circle_container {
+    width: auto;
+    height: auto;
+  }
+  .dipi_info_circle .dipi_info_circle_container.dipi_info-circle_list_phone .dipi-info-circle-items .dipi_info_circle_item_container,
+  .dipi_info_circle .dipi_info_circle_container.dipi_info-circle_list_phone .dipi-info-circle-items .dipi_info_circle_item_container:hover { /* border of list */
+    border-style: solid;
+  }
+  .dipi_info_circle .dipi_info-circle_list_phone .dipi_info_circle_container:before {
+    content: '';
+  }
+  .dipi_info_circle .dipi_info-circle_list_phone .dipi-info-circle.dipi_info_circle-small {
+    transform: unset;
+  }
+  /* Animation code */
+  .dipi_info_circle .dipi_info-circle_list_phone .bounceInInfoCircle {
+    animation-name: bounceIn;
+  }
+}
+
+@keyframes bounceInInfoCircle {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) scale3d(.6, .6, .6);
+  }
+
+  20% {
+    transform: translateX(-50%) translateY(-50%) scale3d(1.05, 1.05, 1.05);
+  }
+
+  40% {
+    transform: translateX(-50%) translateY(-50%) scale3d(.95, .95, .95);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale3d(1.02, 1.02, 1.02);
+  }
+
+  80% {
+    transform: translateX(-50%) translateY(-50%) scale3d(.98, .98, .98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale3d(1, 1, 1);
+  }
+}
+

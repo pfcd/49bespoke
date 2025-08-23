@@ -1,0 +1,174 @@
+/*! For licensing and copyright information applicable to the product that this file belongs to, please see ../license.txt. */
+.ags-wc-module-warning {
+  color: #fff;
+  background-color: #e09900;
+  line-height: 1.5em;
+  padding: 1em;
+}
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container {
+  margin-right: 0;
+  display: grid;
+  gap: 5px;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.col-large .et-fb-multiple-buttons-container {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.col-medium .et-fb-multiple-buttons-container {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.col-small .et-fb-multiple-buttons-container {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.col-very-small .et-fb-multiple-buttons-container {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.dswcp-mini-cart-icon-select .et-fb-multiple-buttons-container,
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.dswcp-swatches-icon-select .et-fb-multiple-buttons-container {
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.dswcp-checkout-img-select .et-fb-multiple-buttons-container {
+  grid-template-columns: 1fr;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.dswcp-checkout-img-select .et-fb-multiple-buttons-container span.et-fb-multiple-buttons-toggle-internal {
+  background-color: transparent;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.dswcp-mini-cart-icon-select .et-fb-multiple-buttons-container svg,
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer.dswcp-swatches-icon-select .et-fb-multiple-buttons-container svg {
+  max-width: 50px;
+  margin: auto;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container li.et-fb-multiple-buttons-toggle {
+  margin: 0;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container li.et-fb-multiple-buttons-toggle:last-child {
+  flex-grow: 0;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container li.et-fb-multiple-buttons-toggle span {
+  background: #F1F5F9;
+  padding: 4px 5px;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container li.et-fb-multiple-buttons-toggle .et-fb-multiple-buttons-toggle-internal {
+  border: 3px solid #F1F5F9;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container li.et-fb-multiple-buttons-toggle .et-fb-multiple-buttons-toggle-internal__active {
+  border-color: #6A39E4;
+}
+
+.et-db #et-boc .et-l .et-fb-option--DSLayoutMultiselect-DSB .et-fb-multiple-buttons-outer .et-fb-multiple-buttons-container .et-fb-multiple-buttons-toggle .et-fb-multiple-buttons-toggle-internal {
+  height: unset;
+}
+.wpz-term-select {
+  width: 100%;
+}
+
+.wpz-term-select .wpz-term-select-selection {
+  list-style: none;
+  width: 100%;
+  padding: 0 !important;
+  background-color: #fff;
+  color: #4c5866;
+  font-family: Open Sans, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.wpz-term-select .wpz-term-select-selection li {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  border: 1px solid #4c586636;
+  border-radius: 2px;
+}
+
+.wpz-term-select .wpz-term-select-selection li span {
+  flex-grow: 1;
+}
+
+.wpz-term-select .wpz-term-select-selection li a {
+  color: red;
+}
+
+.wpz-term-select .wpz-term-select-search {
+  width: 100%;
+  background-color: #f1f5f9;
+  color: #4c5866;
+  font-family: Open Sans, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  padding: 5px 10px;
+  line-height: 2em;
+}
+
+.wpz-term-select .wpz-term-select-search-suggestions {
+  list-style: none;
+  width: 100%;
+  position: absolute;
+  z-index: 99999;
+  background: #fff;
+  padding: 5px !important;
+  -webkit-box-shadow: 0 5px 30px rgba(43, 135, 218, 0.2);
+  box-shadow: 0 5px 30px rgba(43, 135, 218, 0.2);
+}
+
+.wpz-term-select .wpz-term-select-search-suggestions a {
+  width: 100%;
+  display: block;
+  color: #4c5866;
+  font-family: Open Sans, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 10px;
+}
+
+.wpz-term-select .wpz-term-select-search-suggestions a:hover {
+  background-color: #f1f5f9;
+}
+
+.wpz-term-select .wpz-term-select-search-suggestions li.wpz-term-select-none, .wpz-term-select .wpz-term-select-search-suggestions li.wpz-term-select-loading {
+  color: #4c5866;
+  font-family: Open Sans,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 10px;
+}
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others.
+This file (and/or the corresponding source SCSS and/or CSS file) was last modified 2022-04-21
+ */
+.et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_notices, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_cart_list, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_cart_totals, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_billing_info, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_coupon, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_order_review, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_shipping_info, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_shop_plus, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_content, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_navigation, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_user_image, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_user_name, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_login_form, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_register_form, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_thank_you, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_mini_cart, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_multi_step_checkout, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_products_filters {
+  border-left: 5px solid #6A39E4 !important;
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_notices .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_cart_list .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_cart_totals .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_billing_info .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_coupon .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_order_review .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_shipping_info .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_shop_plus .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_content .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_navigation .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_user_image .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_user_name .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_login_form .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_register_form .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_thank_you .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_mini_cart .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_multi_step_checkout .et-fb-icon.et-fb-icon--svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_products_filters .et-fb-icon.et-fb-icon--svg {
+  margin: 0 auto 5px !important;
+  height: 18px !important;
+}
+
+.et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_notices .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_cart_list .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_cart_totals .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_billing_info .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_coupon .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_order_review .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_checkout_shipping_info .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_shop_plus .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_content .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_navigation .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_user_image .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_account_user_name .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_login_form .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_register_form .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_thank_you .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_mini_cart .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_multi_step_checkout .et-fb-icon.et-fb-icon--svg svg, .et-db #et-boc .et-l .et-fb-modules-list li.ags_woo_products_filters .et-fb-icon.et-fb-icon--svg svg {
+  height: 16px !important;
+  width: auto;
+}

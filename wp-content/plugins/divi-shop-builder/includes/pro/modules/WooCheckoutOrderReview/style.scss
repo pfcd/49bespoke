@@ -1,0 +1,93 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+*/
+
+.ags_woo_checkout_order_review {
+    table.shop_table {
+        table-layout: fixed;
+
+        th.product-total {
+            width: 55%;
+        }
+    }
+
+    .place-order {
+        text-align: right;
+
+        &>* {
+            text-align: left;
+        }
+
+        #place_order {
+            float: none !important;
+
+            &.et_pb_custom_button_icon:after {
+                content: attr(data-icon);
+                font-family: "ETmodules" !important;
+                line-height: inherit;
+                font-size: inherit !important;
+            }
+        }
+    }
+
+    .wc_payment_method {
+
+        position: relative;
+
+        &.active > label::after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #0c67f4;
+            border-radius: 50%;
+            left: 3px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .input-radio {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+
+            &:checked~label::after {
+                content: '';
+                width: 8px;
+                height: 8px;
+                background: #0c67f4;
+                border-radius: 50%;
+                left: 3px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+        }
+
+        > label {
+
+            position: relative;
+            padding-left: 20px;
+            cursor: pointer;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+                height: 12px;
+                width: 12px;
+                background-color: transparent;
+                border-radius: 50%;
+                border: 1px solid #dfdcde;
+                border-color: #767676;
+                background: white;
+            }
+        }
+    }
+}

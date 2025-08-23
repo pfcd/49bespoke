@@ -1,0 +1,145 @@
+// ------------------------------------------------------------------------------------------- //
+//                                   Woocommerce styles
+// ------------------------------------------------------------------------------------------- //
+@import "forms";
+@import "notifications";
+@import "table";
+@import "order-details";
+@import "checkout";
+@import "my-account/0-my-account-dir";
+@import "cart";
+@import "sign-in";
+@import "archive-product";
+@import "pagination";
+@import "shop-category-list";
+@import "reviews";
+@import "cart-shortcode";
+
+.woocommerce {
+
+  address {
+    font-style : normal;
+    }
+
+  // Rating
+  .star-rating {
+    padding-bottom : 15px;
+
+    &:before {
+      color : #CACACA !important;
+      }
+
+    span:before {
+      color : $secondColor !important;
+      }
+    }
+
+  p.stars {
+    a {
+      color : #CACACA;
+
+      &:hover {
+        color : $secondColor;
+        }
+      }
+
+    &.selected a {
+      color : $secondColor;
+
+      &:not(.active)::before {
+        color : $secondColor;
+        }
+      }
+    }
+
+  // Bagdes
+  span.onsale, span.new-badge {
+    font-size      : 12px;
+    font-weight    : 600 !important;
+    border-radius  : 4px !important;
+    line-height    : normal !important;
+    padding        : 5px 10px !important;
+    text-transform : uppercase;
+    min-width      : 55px !important;
+    text-align     : center;
+    }
+
+  span.onsale {
+    color      : $baseHeaderColor !important;
+    background : $secondColor !important;
+    }
+
+  span.new-badge {
+    color      : #FFF !important;
+    background : $mainColor !important;
+    }
+
+  a.remove {
+    color       : $danger !important;
+    font-weight : normal;
+
+    &:hover {
+      background : $danger;
+      }
+    }
+
+  .woocommerce-customer-details {
+    address {
+      font-size : 14px;
+      opacity   : 0.8;
+      border    : none;
+      padding   : 0;
+
+      p.woocommerce-customer-details--phone,
+      p.woocommerce-customer-details--email {
+        padding-left   : 0;
+        padding-bottom : 0;
+
+        &:before {
+          display : none;
+          }
+        }
+      }
+    }
+
+  .et_pb_wc_add_to_cart .quantity input.qty {
+    max-width : 100px;
+    }
+
+  .quantity .qty {
+    min-width : 70px;
+    @include formInputMixin();
+    }
+
+  .widget_rating_filter ul li.chosen a::before,
+  .widget_layered_nav_filters ul li a::before,
+  .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen a::before {
+    color : $danger;
+    }
+  }
+
+.woocommerce table.shop_attributes {
+  margin-top : 15px;
+
+  th {
+    text-align : left;
+    }
+
+  tr:nth-child(even) td, tr:nth-child(even) th {
+    background-color : transparent;
+    }
+
+  th, td {
+    padding : 12px 8px;
+    }
+  }
+
+.et_pb_wc_add_to_cart form.cart .variations td.value span:after {
+  -webkit-transform : translateY(-250%) !important;
+  transform         : translateY(-250%) !important;
+  }
+
+.woocommerce-page .quantity input[type=number]::-webkit-inner-spin-button {
+  position : relative;
+  right    : -15px;
+  }

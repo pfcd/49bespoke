@@ -1,0 +1,278 @@
+/*
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others. Last modified 2023-08-14
+*/
+
+// Desktop
+@media all and (min-width:1024px) {
+	// body[class*=woocommerce]:not(.et-tb-has-body) // uncomment for theme customizer settings
+	body[class*=woocommerce] .ags-divi-wc-layout-grid {
+		&.products.columns-6 ul.products {
+			li.product {
+				width: 13.5%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&.last {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(6n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.products.columns-5 ul.products {
+				li.product {
+					width: 16.96% !important;
+					margin: 0 3.8% 2.992em 0 !important;
+					clear: none !important;
+
+					&.last {
+						margin-right: 0px !important;
+					}
+
+					&:nth-child(5n+1) {
+						clear: both !important;
+					}
+				}
+			}
+		&.products.columns-4 ul.products {
+				li.product {
+					width: 22.1%!important;
+					margin: 0 3.8% 2.992em 0!important;
+					clear: none!important;
+
+					&.last {
+						margin-right: 0px !important;
+					}
+
+					&:nth-child(4n+1) {
+						clear: both !important;
+					}
+				}
+			}
+		&.products.columns-3 ul.products {
+				li.product {
+					width: 30.6%!important;
+					margin: 0 3.8% 2.992em 0!important;
+					clear: none!important;
+
+					&.last {
+						margin-right: 0px !important;
+					}
+
+					&:nth-child(3n+1) {
+						clear: both !important;
+					}
+				}
+			}
+		&.products.columns-2 ul.products {
+				li.product {
+					width: 48%!important;
+					margin: 0 3.8% 2.992em 0!important;
+					clear: none!important;
+
+					&.last {
+						margin-right:0px!important;
+					}
+
+					&:nth-child(2n+1) {
+						clear: both!important;
+					}
+				}
+			}
+		&.products.columns-1 ul.products {
+				li.product {
+					width: 100%!important;
+					margin-right: 0!important;
+
+					&.last {
+					}
+
+					&:nth-child(n) {
+						width: 100%!important;
+						margin-right: 0!important;
+					}
+				}
+			}
+	}
+}
+
+// Tablet
+@media all and (min-width: 720px) and (max-width: 1024px) {
+	// body[class*=woocommerce]:not(.et-tb-has-body), // uncomment for theme customizer settings
+	body[class*=woocommerce] .ags-divi-wc-layout-grid {
+		&.product-columns-tablet-5 ul.products {
+			li.product:nth-child(n) {
+				width: 16.96%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(5n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(5n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.product-columns-tablet-4 ul.products {
+			li.product:nth-child(n) {
+				width: 22.1%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(4n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(4n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.product-columns-tablet-3 ul.products {
+			li.product:nth-child(n)  {
+				width: 30.6%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(3n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(3n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.product-columns-tablet-2 ul.products {
+			li.product:nth-child(n)  {
+				width: 48%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(2n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(2n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.product-columns-tablet-1 ul.products {
+			li.product:nth-child(n) {
+					width: 100%!important;
+					margin-right: 0!important;
+			}
+		}
+	}
+}
+
+// Mobile
+
+@media all and (max-width: 719px) {
+	// body[class*=woocommerce]:not(.et-tb-has-body), // uncomment for theme customizer settings
+	body[class*=woocommerce] .ags-divi-wc-layout-grid {
+ 		&.product-columns-phone-6 ul.products[class*=columns-] {
+			li.product:nth-child(n) {
+				width: 13.5%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(6n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(6n+1) {
+					clear: both !important;
+				}
+			}
+		}
+ 		&.product-columns-phone-5 ul.products[class*=columns-] {
+			li.product:nth-child(n) {
+				width: 16.96% !important;
+				margin: 0 3.8% 2.992em 0 !important;
+				clear: none!important;
+
+				&:nth-child(5n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(5n+1) {
+					clear: both !important;
+				}
+			}
+		}
+ 		&.product-columns-phone-4 ul.products[class*=columns-] {
+			li.product:nth-child(n) {
+				width: 22.1%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(4n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(4n+1) {
+					clear: both !important;
+				}
+			}
+		}
+ 		&.product-columns-phone-3 ul.products[class*=columns-] {
+			li.product:nth-child(n) {
+				width: 30.6%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(3n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(3n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.product-columns-phone-2 ul.products[class*=columns-] {
+			li.product:nth-child(n) {
+				width: 48%!important;
+				margin: 0 3.8% 2.992em 0!important;
+				clear: none!important;
+
+				&:nth-child(2n) {
+					margin-right: 0px !important;
+				}
+
+				&:nth-child(2n+1) {
+					clear: both !important;
+				}
+			}
+		}
+		&.product-columns-phone-1 ul.products[class*=columns-] {
+			li.product:nth-child(n) {
+				width: 100%!important;
+				margin-right: 0!important;
+			}
+		}
+	}
+}
+
+
+// Theme Customizer
+
+//.woocommerce.post-type-archive-product {
+//	&.ags-divi-wc-hide-sale-flash .product .onsale,
+//	&.ags-divi-wc-hide-product-count .woocommerce-result-count,
+//	&.ags-divi-wc-hide-product-sorting .woocommerce-ordering,
+//	&.ags-divi-wc-hide-add-to-cart .product .add_to_cart_button,
+//	&.ags-divi-wc-hide-thumbnail .product .wp-post-image,
+//	&.ags-divi-wc-hide-price .product .price,
+//	&.ags-divi-wc-hide-rating .product .star-rating {
+//		display: none;
+//	}
+//}

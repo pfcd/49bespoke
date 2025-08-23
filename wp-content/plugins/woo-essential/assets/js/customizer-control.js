@@ -1,0 +1,1 @@
+!function(n){wp.customize("dnwoo_data_visibility",function(o){o.bind(function(o){n("#customize-control-dnwoo_data_vb_fly_out").attr({style:"display:"+("fly-out"===o?"inline-block":"none")})})})}(jQuery);

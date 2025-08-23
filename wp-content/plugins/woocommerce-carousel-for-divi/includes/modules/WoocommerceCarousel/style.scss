@@ -1,0 +1,109 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (or the corresponding source CSS file) has been modified by WP Zone
+*/
+
+.dswc.swiper-container .dswc_item_wrapper,.swiper-container-autoheight, .swiper-container-autoheight .swiper-slide{
+  height: 100% !important;
+}
+.dswc.swiper-container .swiper-slide .dswc-featured-image:before{
+  content: "";transition: all .7s ease-out;
+}
+.dswc.swiper-container .swiper-slide:hover .dswc-featured-image{
+  position: relative;
+}
+.dswc.swiper-container .swiper-slide:hover .dswc-featured-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dswc .dswc_price .sale_price{
+  text-decoration: line-through;
+}
+.dswc .star-ratings {
+  position: relative; box-sizing: border-box; display: inline-block;
+}
+.dswc .star-ratings .star-grad{
+  position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;
+}
+.dswc .star-ratings .stop-color-first{
+  stop-color: rgb(255, 165, 0); stop-opacity: 1;
+}
+
+.dswc .star_rating_module_wrapper .stop-color-final {stop-color: rgb(203, 211, 227); stop-opacity: 1;}
+.dswc .star_rating_module_wrapper .widget-svg {width: 20px; height: 20px; transition: transform 0.2s ease-in-out 0s;}
+.dswc .star_rating_module_wrapper .star {fill: rgb(203, 211, 227); transition: fill 0.2s ease-in-out 0s;}
+.dswc .star_rating_module_wrapper .star-container{position: relative; display: inline-block; vertical-align: middle; padding-left: 0px; padding-right: 0px;}
+.dswc .swiper-pagination {position: static !important;}
+
+.dswc_woocommerce_carousel {
+
+  .dswc-featured-image {
+    display: block;
+    position: relative;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+
+    .dswc_badge_overlay_tl, .dswc_badge_overlay_tr, .dswc_badge_overlay_bl, .dswc_badge_overlay_br {
+      position: absolute;
+    }
+    .dswc_badge_overlay_tl {
+      left: 0px;
+      top: 0px;
+    }
+    .dswc_badge_overlay_tr {
+      right: 0px;
+      top: 0px;
+    }
+    .dswc_badge_overlay_bl {
+      left: 0px;
+      bottom: 0px;
+    }
+    .dswc_badge_overlay_br {
+      right: 0px;
+      bottom: 0px;
+    }
+
+  }
+
+  .star-rating {
+    display: inline-block;
+    float: none;
+    font-family: ETModules;
+
+  }
+
+  .sale_badge span {
+    display: inline-block;
+    color: initial;
+  }
+
+
+}
+
+.dswc_woocommerce_carousel:not(.dswc_arrows_outside) {
+
+  .prev_icon {
+    left: 0;
+  }
+
+  .next_icon {
+    right: 0;
+  }
+
+}
+
+.dswc_et_pb_button_module_wrapper>a {
+  display: inline-block;
+  }

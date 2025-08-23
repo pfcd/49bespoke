@@ -1,0 +1,89 @@
+.xoo-wsc-container {
+  line-height : $baseLineHeight;
+
+  .xoo-wsc-header {
+    border           : none;
+    background-color : $mainColor;
+    color            : #FFF;
+    }
+
+  .xoo-wsc-ctxt {
+    font-size : 16px;
+    }
+
+  .xoo-wsc-close {
+    font-size : 24px;
+    }
+
+  .xoo-wsc-product {
+    border-width : 1px 0 0 0;
+    border-style : solid;
+    border-color : $lightBorderColor;
+
+    .xoo-wsc-smr-del:hover {
+      color : $danger;
+      }
+
+    .xoo-wsc-img-col {
+      img {
+        border-radius : $mainRadius;
+        }
+      }
+
+    .xoo-wsc-sum-col {
+      line-height : 1.4;
+
+      .xoo-wsc-pname a {
+        color       : $baseHeaderColor;
+        font-size   : 15px;
+        font-weight : 600;
+
+        &:hover {
+          color : $mainColor;
+          }
+        }
+
+      .xoo-wsc-qty-price, span.amount {
+        font-size : 14px;
+        }
+      }
+    }
+
+  .xoo-wsc-footer {
+    border-width : 1px 0 0 0;
+    border-style : solid;
+    border-color : $lightBorderColor;
+
+    a.xoo-wsc-ft-btn-cart, a.xoo-wsc-ft-btn-continue {
+      @include outlineButtonMixin();
+      }
+
+    a.xoo-wsc-ft-btn-checkout {
+      @include primaryButtonMixin();
+      }
+    }
+
+  .xoo-wsc-subtotal {
+    font-size   : 20px;
+    font-weight : bold;
+    }
+  }
+
+.xoo-wsc-basket {
+  box-shadow    : $primaryShadow;
+  border-radius : $mainRadius;
+
+  .xoo-wsc-items-count {
+    background : $mainColor;
+    }
+
+  .xoo-wsc-bki {
+    color : $baseHeaderColor;
+    }
+
+  &:hover {
+    .xoo-wsc-bki {
+      color : $mainColor;
+      }
+    }
+  }

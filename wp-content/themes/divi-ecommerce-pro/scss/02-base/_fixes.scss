@@ -1,0 +1,12 @@
+// ------------------------------------------------------------------------------------------- //
+//                                          Divi fixes
+// ------------------------------------------------------------------------------------------- //
+
+// Remove grey line next to sidebar
+#main-content .container:before {
+  width : 0 !important;
+  }
+
+#page-container {
+  overflow : hidden;
+  }

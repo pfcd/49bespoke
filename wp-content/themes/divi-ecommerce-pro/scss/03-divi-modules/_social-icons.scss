@@ -1,0 +1,29 @@
+.dsdep-social-icons,
+.et-db #et-boc .et-l .dsdep-social-icons {
+
+  .et_pb_social_icon a.icon {
+    margin-right     : 16px;
+    margin-bottom    : 16px;
+    width            : 40px !important;
+    height           : 40px !important;
+    text-align       : center !important;
+    background-color : #FFF !important;
+    color            : $mainColor !important;
+    border-radius    : $mainRadius;
+    border           : 1px solid;
+    border-color     : $darkBorderColor;
+
+    &:hover {
+      color            : #FFF !important;
+      background-color : $mainColor !important;
+      }
+
+    &:before {
+      font-size   : 18px;
+      line-height : 40px;
+      height      : 40px;
+      width       : 40px;
+      color       : inherit;
+      }
+    }
+  }

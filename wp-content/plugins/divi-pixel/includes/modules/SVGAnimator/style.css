@@ -1,0 +1,6 @@
+.dipi-svg-animator-inner-wrapper {
+    display: flex;
+}
+.dipi_svg_animator .dipi-svg-animator-container svg {
+    display: block;
+}

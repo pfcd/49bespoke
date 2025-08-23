@@ -1,0 +1,18 @@
+.dipi_typing_text {}
+
+.dipi-typing {
+	display: flex;
+	flex-direction: row;
+}
+
+.dipi-typing-wrap {
+	border-style: solid;
+}
+
+.dipi-typing-text-prefix {
+	border-style: solid;
+}
+
+.dipi-typing-text-suffix {
+	border-style: solid;
+}

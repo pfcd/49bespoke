@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------------------------------- //
+//          GLOBAL VARIABLES
+// ------------------------------------------------------------------------------------------- //
+
+$containerWidth    : 1600px; // maximum width of container
+
+// Font
+$fontGeneral       : "Montserrat", Helvetica, Arial, Lucida, sans-serif; // general font used in project
+$fontHeading       : "Montserrat", Helvetica, Arial, Lucida, sans-serif; // font used for h1-h6 tags
+
+$baseFontSize      : 16px; // general font size
+$baseLineHeight    : 1.7; // general line height
+
+$baseFontWeight    : 400; // general font weight
+$baseHeadingWeight : 600; // h1-h6 tags font weight
+
+$baseFontColor     : #757575; // general font color
+$baseHeaderColor   : #232323; // h1-h6 tags font color
+
+// Color scheme
+$mainColor         : #006AFF; // main project color
+$mainHoverColor    : #0055CC; // main color hover state
+
+$secondColor       : #FCD800; // second project color
+$secondHoverColor  : #E8C700; // second color hover state
+
+$success           : #3EBB79; // notification color: success
+$warning           : #FCD800; // notification color: warning / info
+$danger            : #FF0035; // notification color:error
+$general           : $mainColor; // notification color: general
+
+$lightBorderColor  : #EFEFEF; // color for light borders
+$darkBorderColor   : rgba(117, 117, 117, .16); // color for dark borders
+
+$whiteColor        : #FFF;
+$lightGrey         : #F6F6F6;
+$darkGrey          : #232323;
+
+// Rounded corners
+$mainRadius        : 6px; // general border radius
+$formRadius        : 6px;
+$buttonRadius      : 6px;
+
+// Responsive breakpoints
+$breakSmall        : 767px; // breakpoint value: phones
+$breakLarge        : 980px; // breakpoint value: tablets
+
+$primaryShadow     : 0 7px 50px 0 rgba(41, 100, 216, 0.2);
+$secondaryShadow   : 0 7px 50px 0 rgba(0, 0, 0, 0.08);

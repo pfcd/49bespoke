@@ -1,0 +1,76 @@
+.woocommerce nav.woocommerce-pagination,
+.et-db #et-boc nav.woocommerce-pagination {
+
+  ul.page-numbers {
+    padding     : 0;
+    line-height : normal;
+    width       : 100%;
+    text-align  : center;
+    border      : none;
+
+    li {
+      border   : none;
+      float    : none;
+      overflow : visible;
+      }
+    }
+
+  span.current, a.page-numbers {
+    display       : inline-block;
+    margin        : 5px !important;
+    padding       : 0 10px;
+    line-height   : 50px;
+    border-radius : $mainRadius;
+    font-weight   : 700 !important;
+    text-align    : center;
+    min-width     : 50px;
+    }
+
+  a.page-numbers {
+    color      : $baseFontColor !important;
+    background : #EFEFEF;
+    font-size  : 21px;
+
+    &:hover {
+      color : $mainColor !important;
+      }
+
+    &.next, &.prev {
+      background : transparent !important;
+      color      : $mainColor !important;
+      font-size  : 25px;
+      
+      &:hover {
+        color : $mainHoverColor !important;
+        }
+      }
+    }
+
+  span.current {
+    color      : #FFF !important;
+    box-shadow : $primaryShadow;
+    background : $mainColor;
+    font-size  : 21px !important;
+    }
+
+  @media (max-width : 600px) {
+    .pages {
+      display       : block;
+      margin-bottom : 12px;
+      margin-right  : 0 !important;
+      float         : none;
+      }
+
+    a {
+      float   : none;
+      display : inline-block;
+      }
+
+    span {
+      &.current, &.extend {
+        float   : none;
+        display : inline-block;
+        }
+      }
+    }
+  }

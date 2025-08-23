@@ -1,0 +1,122 @@
+.dipi_carousel_child {
+  	display: flex;
+  	align-items: center;
+}
+
+.dipi_carousel_child .et_pb_module_inner {
+	width: 100%;
+}
+
+.dipi-image-wrap {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.dipi-carousel-icon {
+	transition: 0.3s;
+}
+.dipi-carousel-icon-circle-border {
+	border: 3px solid;
+}
+.dipi-carousel-icon-circle {
+    padding: 25px;
+    border-radius: 100%;
+    font-size: 48px;
+}
+
+.dipi_carousel_child .dipi-carousel-image {
+	display: block;
+	margin: auto;
+	overflow: hidden;
+}
+
+.dipi_carousel_child .dipi-carousel-image img {
+	position: relative;
+	border-style: solid;
+	height: auto;
+	display: block;
+	width: 100%;
+}
+
+.dipi_carousel_child .dipi-carousel-item-content {
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+	width: 100%;
+	padding: 20px;
+	border-style: solid;
+	position: relative;
+}
+
+.dipi_carousel_child .dipi-carousel-item-title {
+  	margin-bottom: 15px;
+  	padding: 0;
+}
+
+.dipi_carousel_child .dipi-carousel-item-desc {
+	font-size: 14px;
+	line-height: 15px;
+  	margin-bottom: 15px;
+}
+
+.dipi_carousel_child .dipi-carousel-button-wrapper {
+	flex: 1;
+}
+
+.dipi_carousel_child .dipi-carousel-button {
+	font-size: 20px;
+	display: inline-block;
+	border-style: solid;
+}
+
+.dipi_carousel_child .dipi-carousel-button:hover:after,
+.dipi_carousel_child .dipi-carousel-button:hover:before {
+	font-size: inherit !important;
+	line-height: inherit;
+}
+.dipi_carousel .dipi-carousel-child-wrapper > a,
+.et_pb_menu .et-menu-nav li .dipi_carousel .dipi-carousel-child-wrapper > a,
+.et_pb_menu .et-menu-nav li ul.sub-menu .dipi_carousel .dipi-carousel-child-wrapper > a {
+	height: auto;
+}
+
+.dipi-carousel-child-wrapper .dipi-carousel-image img {
+	transition-timing-function: cubic-bezier(0.2, 0, 0.3, 1);
+	transition-duration: 1s;
+}
+
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-zoomin img {transform: scale(1.1);}
+
+.dipi-carousel-image.dipi-zoomout img {transform: scale(1.1);}
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-zoomout img {transform: scale(1);}
+
+.dipi-carousel-image.dipi-rotate img {height: 100%; width: 100%;}
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-rotate img {transform: scale(1.1) rotate(2deg);}
+
+.dipi-carousel-image.dipi-move-up img{transform: scale(1.15);}
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-move-up img{transform: scale(1.15) translateY(-10px);}
+
+.dipi-carousel-image.dipi-move-down img{transform: scale(1.15);}
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-move-down img{transform: scale(1.15) translateY(10px);}
+
+.dipi-carousel-image.dipi-move-right img{transform: scale(1.1);}
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-move-right img{transform: scale(1.1) translateX(10px);}
+
+.dipi-carousel-image.dipi-move-left img{transform: scale(1.1);}
+.dipi-carousel-child-wrapper:hover .dipi-carousel-image.dipi-move-left img{transform: scale(1.1) translateX(-10px);}
+
+
+.dipi-carousel-image{
+	position: relative;
+}
+.dipi_carousel_child .dipi-carousel-image img.dipi-c-hover-img{
+	position:absolute;
+	top:0;
+}
+.dipi-carousel-image.dipi-c-has-hover .dipi-c-img{
+	transition: all .5;
+	z-index: 1;
+}
+.dipi-carousel-image.dipi-c-has-hover:hover .dipi-c-img{
+	opacity: 0;
+}

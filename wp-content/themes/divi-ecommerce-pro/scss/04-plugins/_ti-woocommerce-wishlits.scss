@@ -1,0 +1,225 @@
+.dsdep-wishlist .tinv-wishlist,
+#et-boc .et-l .dsdep-wishlist .tinv-wishlist {
+  .tinv-header {
+    margin-bottom : 38px;
+
+    h2 {
+      font-weight : 600;
+      @include responsiveFontSize(37px, 34px, 30px);
+      }
+    }
+
+  p.cart-empty {
+    padding-bottom : 48px;
+    }
+
+  .empty-wishlist-image {
+    margin-bottom : 24px;
+    }
+
+  button, a.button {
+    &:after {
+      display : none;
+      }
+    }
+
+  table.tinvwl-table-manage-list {
+    line-height : 1.5;
+
+    input[type="checkbox"] {
+      @include formCheckboxMixin();
+      }
+
+    thead th, tfoot {
+      font-size  : 14px;
+      background : #EFEFEF;
+      padding    : 16px 10px !important;
+      }
+
+    td {
+      padding : 25px 10px !important;
+      }
+
+    td.product-thumbnail {
+      img {
+        border        : 1px solid;
+        border-color  : $lightBorderColor;
+        border-radius : $mainRadius;
+        }
+      }
+
+    td.product-name {
+      a {
+        color       : inherit;
+        font-weight : 600;
+
+        &:hover {
+          color : $mainColor;
+          }
+        }
+      }
+
+    td.product-price {
+      del {
+        opacity   : 0.75;
+        font-size : 13px;
+        }
+
+      ins {
+        font-weight : bold;
+        }
+      }
+
+    td.product-stock {
+      i {
+        margin-right : 5px;
+        }
+
+      .in-stock i {
+        color     : $success;
+        font-size : 16px;
+        }
+
+      .out-of-stock i {
+        color     : $danger;
+        font-size : 20px;
+        }
+      }
+
+    td.product-date {
+      font-size : 14px;
+      }
+
+    td.product-remove {
+      button {
+        color            : #FFF !important;
+        background-color : #CACACA;
+        padding-left     : 0;
+
+        &:hover {
+          background-color : $danger;
+          }
+        }
+      }
+
+    td.product-action {
+      min-width : 175px;
+
+      button, a.button {
+        @include secondButtonMixin();
+        box-shadow : $primaryShadow;
+        }
+      }
+
+    tfoot {
+      select {
+        @include formInputMixin();
+        }
+
+      button {
+        @include primaryButtonMixin();
+
+        &[value="product_apply"] {
+          @include outlineButtonMixin();
+          }
+        }
+      }
+    }
+
+  .social-buttons {
+    span {
+      margin-bottom : 16px;
+      }
+
+    ul {
+      padding : 0;
+
+      li {
+        a {
+          margin-right     : 16px;
+          margin-bottom    : 16px;
+          width            : 40px !important;
+          height           : 40px !important;
+          text-align       : center !important;
+          background-color : #FFF !important;
+          color            : $mainColor !important;
+          border-radius    : $mainRadius;
+          border           : 1px solid;
+          border-color     : $darkBorderColor;
+
+          &:hover {
+            color            : #FFF !important;
+            background-color : $mainColor !important;
+            }
+
+          i {
+            font-size   : 18px;
+            line-height : 40px;
+            color       : inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+
+// Popup
+.tinv-modal {
+  .tinv-modal-inner {
+    border-radius : $mainRadius;
+    box-shadow    : $secondaryShadow;
+
+    .icon_big_heart_check {
+      color : $success;
+      }
+
+    .icon_big_times {
+      color : $danger;
+      }
+    }
+
+  .tinvwl-buttons-group {
+    button.tinvwl_button_view {
+      @include primaryButtonMixin();
+      }
+
+    button.tinvwl_button_close {
+      @include outlineButtonMixin();
+      }
+    }
+  }
+
+// Button
+.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button,
+.widget_wishlist_products_counter a.wishlist_products_counter {
+  color : inherit;
+
+  &:hover {
+    color : $mainColor;
+    }
+
+  &:before {
+    color     : $danger;
+    font-size : 25px !important;
+    }
+  }
+
+// Shortcode
+.wishlist_products_counter {
+  color : inherit !important;
+
+  &:hover {
+    color : $mainColor !important;
+    }
+
+  &:before {
+    color          : $mainColor;
+    font-size      : 25px !important;
+    vertical-align : middle;
+    line-height    : normal;
+    }
+
+  .wishlist_products_counter_number {
+    font-weight : bold;
+    }
+  }

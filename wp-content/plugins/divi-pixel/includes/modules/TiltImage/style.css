@@ -1,0 +1,158 @@
+.et-db #et-boc .et-fb-modules-list ul>li.dipi_tilt_image:before,
+.et-fb-all-modules .dipi_tilt_image:before {
+    content: "&" !important;
+    /* font-family: 'ETmodules' !important; */
+    color: white;
+}
+
+.et-fb-all-modules .dipi_tilt_image {
+    background-color: #2c3d49 !important;
+    color: white !important;
+    overflow: visible !important;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.et-fb-all-modules .dipi_tilt_image span {
+    font-size: 10px !important;
+}
+
+.dipi_tilt_image {
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 0 !important;
+	-webkit-transform: translateZ(0);
+}
+
+.dipi_tilt_image .dipi-tilt-overlay-icon-circle {
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.dipi_tilt_image .dipi-tilt-overlay-icon-border {
+  border: 3px solid;
+}
+
+.dipi-tilt-overlay-desc {
+	font-size: 14px;
+	line-height: 15px;
+	padding-bottom: 30px;
+}
+
+.dipi_tilt_image .dipi-tilt-image {
+	border-style: solid;
+}
+
+.dipi-tilt-image-wrap > img {
+	position: relative;
+	border-style: solid;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.dipi-tilt-image-wrap {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	overflow: visible !important;
+	transform-style: preserve-3d!important;
+	-webkit-backface-visibility: hidden; 
+  	backface-visibility: hidden;
+}
+
+.dipi-tilt-image-wrap a {
+    width: 100%;
+}
+
+.dipi-tilt-image-overlay {
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all .3s;
+	/* Safari Overlay Fix ohne Z? */
+	/* transform: translateZ(0); */ 
+	backface-visibility: hidden;
+	border-style: solid;
+}
+
+.dipi-tilt-overlay {
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all .3s;
+	transform: translateZ(0);
+	backface-visibility: hidden;
+	border-style: solid;
+  	display: flex;
+  	align-items: center;
+}
+
+.dipi-tilt-overlay-wrap {
+	width: 100%;
+  	padding: 20px;
+  	margin: 20px;
+}
+
+.dipi-tilt-overlay-icon {
+	margin-bottom: 20px;
+}
+
+.dipi-tilt-overlay-image-icon-wrap {
+	padding: 0 0 15px 0;
+	margin: auto;
+	position: relative;
+}
+
+.dipi-tilt-overlay-image-icon-wrap img{
+	border-style: solid;
+}
+
+.dipi-tilt-overlay-btn {
+	display: block;
+}
+
+.dipi_tilt_image .dipi-tilt-overlay-btn:hover:after {
+	font-size: inherit !important;
+}
+
+.dipi_tilt_image .dipi-tilt-overlay-btn:hover:before {
+	font-size: inherit !important;
+}
+
+.dipi_tilt_image .js-tilt-glare {
+	-webkit-transform: translateZ(10px);
+}
+
+
+/* Fix for Divi Advanced Font Settings default */
+.dipi_tilt_image h1.dipi-tilt-overlay-title {
+	font-size: 30px;
+}
+.dipi_tilt_image h2.dipi-tilt-overlay-title {
+	font-size: 26px;
+}
+.dipi_tilt_image h3.dipi-tilt-overlay-title {
+	font-size: 22px;
+}
+.dipi_tilt_image h4.dipi-tilt-overlay-title {
+	font-size: 18px;
+}
+.dipi_tilt_image h5.dipi-tilt-overlay-title {
+	font-size: 16px;
+}
+.dipi_tilt_image h6.dipi-tilt-overlay-title {
+	font-size: 14px;
+}

@@ -1,0 +1,66 @@
+.divi-pixel-mockup {
+    width: 100%;
+    position: relative;
+}
+.divi-pixel-mockup picture,
+.divi-pixel-mockup>picture>img {
+    width: 100%;
+}
+
+.div-pixel-mockup-screen>img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-pixel-mockup-screen {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 1;
+    
+}
+.divi-pixel-mockup[data-mockup='iphone-pro-front'],
+.divi-pixel-mockup[data-mockup='iphone-pro-right'],
+.divi-pixel-mockup[data-mockup='iphone-pro-left'] {overflow: hidden;}
+.divi-pixel-mockup[data-mockup='iphone-pro-front'] .div-pixel-mockup-screen ,
+.divi-pixel-mockup[data-mockup='iphone-pro-right'] .div-pixel-mockup-screen,  
+.divi-pixel-mockup[data-mockup='iphone-pro-left'] .div-pixel-mockup-screen {
+    border-radius: 40px;
+}
+
+.div-pixel-mockup-screen.transformed {
+    opacity: 1;
+}
+
+.div-pixel-mockup-screen .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.dipi-image-showcase-wrapper,
+.dipi_image_showcase_child {
+    height: 100%;
+}
+
+.dipi_image_showcase_child>div {
+    height: 100%;
+}
+
+.dipi_image_showcase .div-pixel-mockup-img {
+    /* z-index: 2; */
+    position: relative;
+}
+.dipi_image_showcase_child>.et_pb_module_inner img{
+    width:100%;height: 100%;
+}
+.divi-pixel-mockup-vs .dipi_image_showcase_child>.et_pb_module_inner img{
+    width:100%;
+    height: auto;
+    transition: all .3s ease-in-out;
+}
+

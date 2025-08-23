@@ -1,0 +1,22 @@
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    padding: 18px 21px;
+  }
+  
+  @media screen and (min-width: 1000px) {
+  
+    .wp-block-navigation__submenu-icon{
+      position: absolute;
+      right: 4px;
+    }
+  }
+
+  .home a , .wp-block-site-title a ,.site-sidebar  a, .site-footer a{
+    text-decoration: none!important;
+   }
+
+   .shop-now-paragraph a{
+    color:#fff;
+}
+.shop-now-paragraph a:hover{
+  color:#e1dada;
+}

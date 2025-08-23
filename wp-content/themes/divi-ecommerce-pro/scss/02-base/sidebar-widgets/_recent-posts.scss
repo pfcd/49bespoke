@@ -1,0 +1,47 @@
+// Recent Posts Widget
+
+#sidebar .et_pb_widget,
+.dsdep-sidebar .et_pb_widget {
+
+  &.widget_recent_comments,
+  &.widget_recent_entries {
+    ul {
+      li {
+        padding  : 15px 0;
+        position : relative;
+        margin   : 0;
+
+        a {
+          color       : $baseHeaderColor;
+          font-weight : bold;
+
+          &:hover {
+            color : $mainColor;
+            }
+          }
+
+        span.post-date {
+          display        : block;
+          font-size      : 12px;
+          text-transform : uppercase;
+          }
+
+        &:not(:last-child):before {
+          content      : "";
+          width        : 80px;
+          border-top   : 1px solid;
+          position     : absolute;
+          left         : 0;
+          bottom       : 0;
+          border-color : $darkBorderColor;
+          }
+        }
+      }
+    }
+
+  &.widget_recent_comments {
+    li {
+      font-size : 14px;
+      }
+    }
+  }

@@ -1,0 +1,18 @@
+.ags_divi_wc_notices {
+
+    .et-fb-component-error {
+        width: 80%;
+        max-width: 1080px;
+        margin: 10px auto;
+        padding-bottom: 25px;
+    }
+
+    .et-fb-component-error__button-wrapper {
+        display: flex;
+
+        button,
+        .button {
+            flex: auto;
+        }
+    }
+}

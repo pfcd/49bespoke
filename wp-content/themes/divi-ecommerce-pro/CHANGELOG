@@ -1,0 +1,38 @@
+Version 1.0.10 October 2, 2023
+- Fix potential warning
+
+Version 1.0.9 June 13, 2023
+- Update Wishlist template
+
+Version 1.0.8 February 27, 2023
+- Fix potential critical error when updating theme
+
+Version 1.0.7 February 16, 2023
+- Update the default footer text
+
+Version 1.0.6
+- Updated license statements
+
+Version 1.0.5 September 15, 2021
+- Change site URL in updater for Aspen Grove Studios product version
+
+Version 1.0.4, May 27, 2021
+- Add AGS Info to the plugin header
+
+Version 1.0.3, February 26, 2021
+- Updated demo data importer
+- Removed /admin/importer directory
+- Add Addons tab to the admin area
+- Added new arguments to [dsdep-shop-categories] shortcode
+
+Version 1.0.2, December 18, 2020
+- Updated demo data
+- Fixed styling for Divi Shop and Related Products Modules
+- Added translation files
+- Updated text domain in woocommece/ti-wishlist-empty.php
+
+Version 1.0.1, November 12th 2020
+- Updated demo data
+- Fixed styling for Divi Countdown Timer module
+- Fixed typo in scss/app.css and customizer/customizer.php
+- Fixed form and button styling

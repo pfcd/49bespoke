@@ -1,0 +1,176 @@
+// Primary & Secondary Menu
+.et-db #et-boc .et-l .dsdep-menuPrimary,
+.et-db #et-boc .et-l .dsdep-menuSecondary {
+  ul.et-menu {
+    & > li.menu-item {
+      & > a {
+        position : relative;
+
+        &:hover {
+          opacity : 1 !important;
+          color   : $mainColor !important;
+          }
+        }
+
+      &.current-menu-item a {
+        font-weight : 600;
+        }
+
+      &.menu-item-has-children > a {
+        padding-right : 20px !important;
+        }
+      }
+
+    li.menu-item-has-children > a:after {
+      color : $mainColor !important;
+      @include centerHeightUnk();
+      }
+    }
+
+  ul.et-menu ul.sub-menu,
+  ul.et_mobile_menu {
+    border           : solid 1px;
+    border-color     : $lightBorderColor;
+    background-color : #FFF !important;
+    border-radius    : $mainRadius;
+    box-shadow       : $secondaryShadow;
+    padding          : 20px 0 !important;
+    z-index          : 99999;
+
+    li {
+      // display : block;
+      width : 100%;
+      }
+
+    a {
+      background-color : transparent !important;
+      }
+    }
+
+  ul.et-menu > li:not(.mega-menu) > ul.sub-menu {
+    li {
+      padding : 0 20px !important;
+      }
+
+    a {
+      width   : 100% !important;
+      padding : 6px 20px;
+      }
+    }
+
+
+  ul.et-menu ul.sub-menu {
+    li {
+      background-color : #FFF !important;
+      font-weight      : 600;
+      position         : relative;
+
+      &:before {
+        content               : "";
+        width                 : 4px;
+        height                : 4px;
+        -webkit-border-radius : 50%;
+        -moz-border-radius    : 50%;
+        border-radius         : 50%;
+        position              : absolute;
+        left                  : 0;
+        @include centerHeightUnk();
+        }
+
+      a {
+        border : none !important;
+        color  : inherit !important;
+
+        &:hover {
+          color            : $mainColor !important;
+          text-decoration  : underline;
+          background-color : transparent;
+          }
+        }
+
+      &.current-menu-item a {
+        text-decoration : underline;
+        color           : $mainColor !important;
+        }
+      }
+    }
+
+  .et-menu-nav li.mega-menu > ul > li > a:first-child {
+    color        : $darkGrey;
+    font-family  : $fontHeading;
+    font-size    : 17px !important;
+    font-weight  : 600 !important;
+    padding-left : 0 !important;
+    }
+
+  .nav li li {
+    &.menu-item-has-children > a:after {
+      content : "\35";
+      right   : 0;
+      }
+    }
+  }
+
+// Primary Menu
+.et-db #et-boc .et-l .dsdep-menuPrimary {
+  z-index : 99;
+
+  ul.et-menu {
+    & > li.menu-item {
+      margin-top    : 0 !important;
+      position      : relative;
+      padding-right : 14px !important;
+      padding-left  : 14px !important;
+
+      &:last-child {
+        padding-right : 0;
+        }
+
+      & > a {
+        padding : 15px 0 !important;
+        color   : inherit !important;
+        }
+      }
+    }
+  }
+
+.et-db #et-boc .et-l .et_pb_menu.dsdep-collapse-mobile-submenu .et_mobile_menu {
+  .menu-item-has-children {
+    & > a {
+      background-color : transparent;
+      position         : relative;
+
+      &:after {
+        font-family            : "ETmodules";
+        text-align             : center;
+        speak                  : none;
+        font-weight            : 600;
+        font-variant           : normal;
+        text-transform         : none;
+        -webkit-font-smoothing : antialiased;
+        position               : absolute;
+        font-size              : 18px;
+        content                : "\4c";
+        top                    : 11px;
+        right                  : 13px;
+        }
+      }
+
+    &.visible > a:after {
+      content : "\4d";
+      }
+    }
+
+  ul.sub-menu {
+    display    : none !important;
+    visibility : hidden !important;
+    transition : all 1.5s ease-in-out;
+    }
+
+  .visible > ul.sub-menu {
+    display    : block !important;
+    visibility : visible !important;
+    }
+  }
+
+

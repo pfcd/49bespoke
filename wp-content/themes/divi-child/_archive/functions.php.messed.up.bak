@@ -1,0 +1,164 @@
+<?php
+// === SHORTCODE: dynamic_product_table with subcategory grid ===
+if (!shortcode_exists('dynamic_product_table')) {
+    add_shortcode('dynamic_product_table', 'dynamic_category_product_table');
+}
+
+function dynamic_category_product_table() {
+    try {
+        if (!is_product_category()) {
+            return '';
+        }
+
+        $current_category = get_queried_object();
+        if (!is_object($current_category)) {
+            return '<!-- Invalid queried object -->';
+        }
+
+        if (empty($current_category->term_id) || empty($current_category->slug)) {
+            return '<!-- Missing category data -->';
+        }
+
+        $category_id = (int) $current_category->term_id;
+        $category_slug = sanitize_title($current_category->slug);
+
+        $subcategories = get_terms([
+            'taxonomy' => 'product_cat',
+            'parent' => $category_id,
+            'hide_empty' => false,
+        ]);
+
+        if (!empty($subcategories) && !is_wp_error($subcategories)) {
+            ob_start();
+            echo '<div class="subcategory-grid">';
+            foreach ($subcategories as $subcategory) {
+                $link = get_term_link($subcategory);
+                $thumbnail_id = get_term_meta($subcategory->term_id, 'thumbnail_id', true);
+                $image = wp_get_attachment_image($thumbnail_id, 'medium');
+                echo '<div class="subcategory-item">';
+                echo '<a href="' . esc_url($link) . '">';
+                echo $image ?: '<div class="subcategory-placeholder" style="width:100%;height:200px;background:#eee;"></div>';
+                echo '<div class="subcategory-name">' . esc_html($subcategory->name) . '</div>';
+                echo '</a>';
+                echo '</div>';
+            }
+            echo '</div>';
+
+            echo '<style>
+                .subcategory-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                    gap: 20px;
+                    margin: 20px 0;
+                }
+                .subcategory-item {
+                    text-align: center;
+                }
+                .subcategory-item img {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                    margin: 0 auto 10px;
+                }
+                .subcategory-name {
+                    font-weight: bold;
+                    font-size: 1.1em;
+                }
+            </style>';
+
+            return ob_get_clean();
+        }
+
+        return do_shortcode('[product_table id="1" category="' . esc_attr($category_slug) . '"]');
+
+    } catch (Throwable $e) {
+        return '<!-- Error in dynamic_category_product_table: ' . esc_html($e->getMessage()) . ' -->';
+    }
+}
+
+// === YITH Brand Short Description Field ===
+add_action('yith_product_brand_add_form_fields', 'add_brand_short_description_field');
+add_action('yith_product_brand_edit_form_fields', 'add_brand_short_description_field');
+function add_brand_short_description_field($term) {
+    $short_description = '';
+    if (is_object($term)) {
+        $short_description = get_term_meta($term->term_id, 'short_description', true);
+    }
+    ?>
+    <tr class="form-field">
+        <th scope="row" valign="top"><label for="short_description">Card Short Description</label></th>
+        <td>
+            <textarea name="short_description" id="short_description" rows="3" cols="50"><?php echo esc_textarea($short_description); ?></textarea>
+            <p class="description">Enter a short description for the brand card (recommended: at least 50 characters).</p>
+        </td>
+    </tr>
+    <?php
+}
+
+add_action('created_yith_product_brand', 'save_brand_short_description');
+add_action('edited_yith_product_brand', 'save_brand_short_description');
+function save_brand_short_description($term_id) {
+    if (isset($_POST['short_description'])) {
+        $short_description = sanitize_textarea_field($_POST['short_description']);
+        update_term_meta($term_id, 'short_description', $short_description);
+    }
+}
+
+// === SHORTCODE: brand_grid ===
+add_shortcode('brand_grid', 'brand_grid_shortcode');
+function brand_grid_shortcode() {
+    $all_brands = get_terms(array(
+        'taxonomy' => 'yith_product_brand',
+        'hide_empty' => false
+    ));
+
+    $brands = array_filter($all_brands, function($brand) {
+        return get_term_meta($brand->term_id, 'show_in_brand_partners', true) === '1';
+    });
+
+    if (empty($brands) || is_wp_error($brands)) {
+        return '<p>No brand partners found.</p>';
+    }
+
+    ob_start();
+    echo '<div class="brand-grid">';
+    foreach ($brands as $brand) {
+        $logo_id = get_term_meta($brand->term_id, 'thumbnail_id', true);
+        $logo_url = wp_get_attachment_url($logo_id) ?: get_stylesheet_directory_uri() . '/images/placeholder-logo.png';
+        $brand_link = get_term_link($brand);
+        $short_description = get_term_meta($brand->term_id, 'short_description', true);
+        $min_length = 50;
+        if (strlen($short_description) < $min_length) {
+            $short_description .= str_repeat(' ', $min_length - strlen($short_description));
+        }
+        ?>
+        <div class="brand-item">
+            <a href="<?php echo esc_url($brand_link); ?>" class="brand-logo-wrapper">
+                <img src="<?php echo esc_url($logo_url); ?>" alt="<?php echo esc_attr($brand->name); ?>">
+                <h3><?php echo esc_html($brand->name); ?></h3>
+                <p><?php echo esc_html($short_description); ?></p>
+            </a>
+        </div>
+        <?php
+    }
+    echo '</div>';
+    return ob_get_clean();
+}
+
+// === Translation Fix for WP 6.7+ ===
+add_action('init', function () {
+    $domains = [
+        'woocommerce-product-table',
+        'the-events-calendar',
+        'tribe-events-calendar-pro',
+        'woocommerce',
+        'formidable',
+        'wordpress-seo',
+    ];
+    foreach ($domains as $domain) {
+        if (is_textdomain_loaded($domain)) {
+            unload_textdomain($domain);
+        }
+        load_plugin_textdomain($domain, false, plugin_basename(dirname(__FILE__)) . '/languages');
+    }
+});

@@ -1,0 +1,2372 @@
+# Copyright (C) 2025 Barn2 Plugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Table 4.2.2\n"
+"Report-Msgid-Bugs-To: https://barn2.com/support-center/\n"
+"Last-Translator: Barn2 Plugins <support@barn2.com>\n"
+"Language-Team: Barn2 Plugins <support@barn2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-15T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: woocommerce-product-table\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-product-table.php
+msgid "WooCommerce Product Table"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-product-table.php
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-product-table.php
+msgid "Display and purchase WooCommerce products from a searchable and sortable table. Filter by anything."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-product-table.php
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-product-table.php
+msgid "https://barn2.com"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:154
+msgid "[View page]"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:615
+#: dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Custom_Settings_Fields.php:138
+#: src/Admin/Settings_Tab/Design.php:179
+#: src/Admin/Settings_Tab/Design.php:189
+#: src/Admin/Settings_Tab/Design.php:198
+#: src/Admin/Settings_Tab/Design.php:207
+#: src/Admin/Settings_Tab/Design.php:216
+#: src/Admin/Settings_Tab/Design.php:252
+#: src/Admin/Settings_Tab/Design.php:262
+#: src/Admin/Settings_Tab/Design.php:271
+#: src/Admin/Settings_Tab/Design.php:280
+#: src/Admin/Settings_Tab/Design.php:289
+#: src/Admin/Settings_Tab/Design.php:298
+#: src/Admin/Settings_Tab/Design.php:361
+#: src/Admin/Settings_Tab/Design.php:389
+msgid "Size"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+#: dependencies/barn2/table-generator/src/Table_Generator.php:647
+#: src/Admin/Settings_List.php:88
+#: src/Admin/Settings_Page.php:178
+msgid "Documentation"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+#: dependencies/barn2/table-generator/src/Table_Generator.php:647
+#: src/Admin/Settings_List.php:89
+#: src/Admin/Settings_Page.php:179
+msgid "Support"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:38
+#: src/Admin/Settings_Tab/Settings.php:62
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:54
+#, php-format
+msgid "View %s documentation"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:55
+msgid "Docs"
+msgstr ""
+
+#. translators: 1: licence key link start, 2: license key link end
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:155
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:210
+msgid "Auto-updates unavailable."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "License key successfully activated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "There was an error activating your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully deactivated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "The license key looks good!"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "There's a problem with your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:108
+#: dependencies/barn2/table-generator/src/Steps/Welcome.php:40
+#: src/Admin/Table_Generator/Steps/Welcome.php:44
+msgid "License key"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:110
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:113
+msgid "License Key"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Check"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Activate"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Deactivate"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:140
+msgid "License key deactivated."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:84
+#, php-format
+msgid "Thank you for installing %1$s. To get started, please %2$s enter your license key%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:109
+#, php-format
+msgid "Your license key for %1$s has expired. %2$sClick here to renew for 20%% discount%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:134
+#, php-format
+msgid "You no longer have a valid license for %1$s. Please %2$spurchase a new license key%3$s to continue using the plugin."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:162
+#, php-format
+msgid "%1$s - your site has moved to a new domain. Please %2$sreactivate your license key%3$s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/EDD_Licensing.php:168
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:91
+msgid "Your license key is active."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:111
+msgid "Please enter your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:113
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:391
+msgid "Your license key is invalid."
+msgstr ""
+
+#. translators: 1: account page link start, 2: account page link end
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:335
+#, php-format
+msgid "Invalid license key - please check your order confirmation email or %1$sAccount%2$s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:341
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:344
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:347
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:351
+msgid "Your license key is not valid for this plugin."
+msgstr ""
+
+#. translators: %s: The number of sites the license is activated on
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:357
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: The sites active description, e.g. '2 sites active'
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:360
+#, php-format
+msgid "Your license key has reached its activation limit (%s)."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:361
+#: dependencies/barn2/barn2-lib/src/Util.php:35
+#: src/Integration/Quick_View_Pro.php:89
+msgid "Read more"
+msgstr ""
+
+#. translators: support for RTL, 1: the license error, 2: a link
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:363
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:381
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: The license expiry date
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:376
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:379
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:582
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:586
+msgid "Your license key has expired."
+msgstr ""
+
+#. translators: 1: purchase link start, 2: purchase link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:592
+#, php-format
+msgid "Your license key has been disabled. Please %1$spurchase a new license key%2$s to continue using the plugin."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: PHP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:103
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:112
+#, php-format
+msgid "%1$s requires PHP %2$s or greater. Please update the PHP version used by your web server."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:136
+#, php-format
+msgid "%1$s requires WordPress %2$s or greater. Please update your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: Update Core <a> tag open. %3$s: <a> tag close. %4$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:146
+#, php-format
+msgid "%1$s requires WordPress %4$s or greater. Please %2$supdate%3$s your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:169
+#, php-format
+msgid "%1$s requires WooCommerce to be installed and active."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s Install/Upgrade/Activate WooCommerce link.
+#. translators: %1$s: Plugin name. %2$s: EDD link. %3$s Install/Upgrade/Activate EDD link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:175
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:224
+#, php-format
+msgid "%1$s requires %2$s to be installed and active.%3$s"
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:189
+#, php-format
+msgid "%1$s requires WooCommerce %2$s or greater. Please update your WooCommerce setup first."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s WooCommerce version required. %4$s Install/Upgrade/Activate WooCommerce link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:195
+#, php-format
+msgid "%1$s requires %2$s %3$s or greater. Please %4$s your WooCommerce setup first."
+msgstr ""
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:218
+#, php-format
+msgid "%1$s requires Easy Digital Downloads to be installed and active."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Simple_Plugin.php:102
+#, php-format
+msgid "%1$s could not complete its first activation because the following error occurred:<br>%2$s"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:101
+#, php-format
+msgid "%1$s database update required"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:101
+#, php-format
+msgid "<p>%1$s has been updated! To keep things running smoothly, we have to update your database to the newest version. The database update process runs in the background and may take a little while, so please be patient.</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:101
+#, php-format
+msgid "%1$s database update"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:101
+#, php-format
+msgid "<p>%1$s is updating the database in the background. The database update process may take a little while, so please be patient.</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:101
+#, php-format
+msgid "%1$s database update done"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:101
+#, php-format
+msgid "<p>%1$s database update complete. Thank you for updating to the latest version!</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Util.php:552
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Util.php:580
+msgid "You don't have permission to activate the plugin."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:151
+msgid "Could not find the appropriate step."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:196
+#: dependencies/barn2/table-generator/src/Routes/License.php:54
+msgid "Please enter a license key."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:199
+#: dependencies/barn2/table-generator/src/Routes/License.php:57
+msgid "Invalid action requested."
+msgstr ""
+
+#. translators: %s: The name of the plugin.
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:344
+#, php-format
+msgid "%s setup wizard"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:434
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:507
+#, php-format
+msgid "Warning: This will overwrite your existing settings for %s. Are you sure you want to continue?"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:484
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:492
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:541
+#: dependencies/barn2/table-generator/src/Table_Generator.php:647
+#: src/Admin/Settings_Page.php:183
+msgid "Setup wizard"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:487
+msgid "If you need to access the setup wizard again, please click on the button below."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:23
+msgid "More"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:24
+msgid "Extra features"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:25
+msgid "Enhance your site with these fantastic plugins from Barn2."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:23
+msgid "Ready"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:24
+msgid "Setup Complete"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome.php:25
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome_Free.php:24
+#: dependencies/barn2/table-generator/src/Steps/Welcome.php:28
+#: src/Admin/Table_Generator/Steps/Welcome.php:29
+msgid "Welcome"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Util.php:28
+msgid "Select an option"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Content_Table.php:187
+#: dependencies/barn2/table-generator/src/Routes/Supports.php:60
+#: src/Util/Columns.php:126
+msgid "Author"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Content_Table.php:202
+#: dependencies/barn2/table-generator/src/Routes/Supports.php:71
+msgid "Status"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Content_Table.php:205
+#: dependencies/barn2/table-generator/src/Routes/Supports.php:59
+msgid "Custom fields"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Content_Table.php:212
+#: src/Util/Columns.php:74
+msgid "Date"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Content_Table.php:550
+#: dependencies/barn2/table-generator/src/Traits/Columns_Aware.php:55
+msgid "Custom field"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#, php-format
+msgid "%s per page"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#, php-format
+msgid "%s limit"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:39
+#, php-format
+msgid "The maximum number of %contentType% in one table."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Settings_List.php:373
+#: src/Admin/Settings_Tab/Settings.php:268
+msgid "Search box"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Settings_List.php:385
+#: src/Admin/Settings_List.php:470
+#: src/Admin/Settings_List.php:519
+#: src/Admin/Settings_List.php:532
+#: src/Admin/Settings_Tab/Settings.php:279
+#: src/Admin/Settings_Tab/Settings.php:336
+#: src/Admin/Settings_Tab/Settings.php:382
+#: src/Admin/Settings_Tab/Settings.php:395
+msgid "Above table"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Settings_List.php:386
+#: src/Admin/Settings_List.php:471
+#: src/Admin/Settings_List.php:520
+#: src/Admin/Settings_List.php:533
+#: src/Admin/Settings_Tab/Settings.php:280
+#: src/Admin/Settings_Tab/Settings.php:337
+#: src/Admin/Settings_Tab/Settings.php:383
+#: src/Admin/Settings_Tab/Settings.php:396
+msgid "Below table"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Settings_List.php:387
+#: src/Admin/Settings_List.php:472
+#: src/Admin/Settings_List.php:521
+#: src/Admin/Settings_List.php:534
+#: src/Admin/Settings_Tab/Settings.php:281
+#: src/Admin/Settings_Tab/Settings.php:338
+#: src/Admin/Settings_Tab/Settings.php:384
+#: src/Admin/Settings_Tab/Settings.php:397
+msgid "Above and below table"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Settings_List.php:388
+#: src/Admin/Settings_List.php:522
+#: src/Admin/Settings_List.php:535
+#: src/Admin/Settings_Tab/Settings.php:282
+#: src/Admin/Settings_Tab/Settings.php:385
+#: src/Admin/Settings_Tab/Settings.php:398
+msgid "Hidden"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Settings_List.php:681
+#: src/Admin/Settings_Tab/Settings.php:476
+msgid "Caching"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+msgid "Cache table contents to improve load times."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Table_Generator/Table_Generator_Extras.php:39
+msgid "Button text"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Demo_Extra_Fields.php:16
+#: src/Admin/Table_Generator/Table_Generator_Extras.php:40
+#, php-format
+msgid "If your table uses the \"button\" column. <a href=\"%s\" target=\"_blank\">Read more</a>"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Plugin_Installer.php:42
+msgid "Plugin parameter is missing from the request."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Plugin_Installer.php:68
+msgid "Plugin successfully activated."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Plugin_Installer.php:70
+msgid "Something went wrong while downloading or installing the plugin."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Filters.php:31
+#: src/Util/Columns.php:82
+msgid "Categories"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Filters.php:31
+#: src/Util/Columns.php:86
+msgid "Tags"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Supports.php:57
+#, php-format
+msgid "Individual %contentType%"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Supports.php:60
+msgid "MIME type"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Supports.php:74
+#: src/Util/Columns.php:94
+msgid "Stock"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:91
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:108
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:141
+msgid "The table_id parameter is required."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:96
+msgid "Table successfully deleted"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:154
+msgid "Please enter a title for your table."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:158
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:285
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:100
+#: src/Admin/Table_Generator/Steps/Columns.php:177
+msgid "You must add at least one column."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:165
+#: src/Admin/Table_Generator/Steps/Content.php:270
+msgid "Please select one or more templates."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:216
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:217
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:218
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:220
+msgid " - Copy"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:231
+msgid "Table successfully duplicated."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Tables.php:233
+msgid "Error while duplicating table."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Taxonomies.php:42
+msgid "The post_type parameter was empty."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Routes/Terms.php:40
+msgid "The taxonomy parameter was empty."
+msgstr ""
+
+#. translators: %d: The ID of the product table that could not be found
+#: dependencies/barn2/table-generator/src/Shortcode.php:94
+#, php-format
+msgid "The product table (ID:%d) could not be found."
+msgstr ""
+
+#. translators: %d: The ID of the posts table that could not be found
+#: dependencies/barn2/table-generator/src/Shortcode.php:97
+#, php-format
+msgid "The posts table (ID:%d) could not be found."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:30
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:42
+#: src/Admin/Settings_List.php:178
+#: src/Admin/Table_Generator/Steps/Columns.php:27
+#: src/Admin/Table_Generator/Steps/Columns.php:43
+msgid "Columns"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:31
+#: src/Admin/Table_Generator/Steps/Columns.php:28
+msgid "Table columns"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:32
+#: src/Admin/Table_Generator/Steps/Columns.php:29
+msgid "Next, choose which columns to display in the table."
+msgstr ""
+
+#. translators: %s: Link to the responsive visibility documentation
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:44
+#: src/Admin/Table_Generator/Steps/Columns.php:48
+#, php-format
+msgid "Control which devices the column appears on. <a href=\"%s\" target=\"_blank\">Read more</a>"
+msgstr ""
+
+#. translators: %s: Link to the responsive priority documentation
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:46
+#: src/Admin/Table_Generator/Steps/Columns.php:51
+#, php-format
+msgid "Control the order in which columns are 'collapsed' on smaller screens. <a href=\"%s\" target=\"_blank\">Read more</a>"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Columns.php:96
+#: dependencies/barn2/table-generator/src/Steps/Filters.php:96
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:65
+#: dependencies/barn2/table-generator/src/Steps/Refine.php:63
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:67
+#: src/Admin/Table_Generator/Steps/AddToCart.php:172
+#: src/Admin/Table_Generator/Steps/Columns.php:168
+#: src/Admin/Table_Generator/Steps/Content.php:239
+#: src/Admin/Table_Generator/Steps/Filters.php:139
+#: src/Admin/Table_Generator/Steps/Performance.php:135
+msgid "The table_id parameter is missing."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:28
+#: src/Admin/Table_Generator/Steps/Create.php:28
+msgid "Create"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:29
+#: src/Admin/Table_Generator/Steps/Create.php:29
+msgid "Create a table"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:39
+msgid "Select a content type"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:43
+#: src/Admin/Table_Generator/Steps/Create.php:49
+msgid "Table name"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:43
+msgid "Give your table a friendly name to help you identify it later (e.g. \"Posts in the Weddings category\")"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:43
+#: src/Admin/Settings_List.php:293
+#: src/Admin/Table_Generator/Steps/Create.php:53
+#: src/Util/Columns.php:62
+msgid "Name"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:43
+msgid "What type of content do you want to display?"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Create.php:73
+msgid "Please enter a name for the table and select a content type."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Filters.php:28
+#: dependencies/barn2/table-generator/src/Steps/Filters.php:29
+#: src/Admin/Table_Generator/Steps/Filters.php:49
+msgid "Filters"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Filters.php:30
+#, php-format
+msgid "Filters are displayed above the table, and help users to search and refine the %contentType%."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Filters.php:40
+msgid "Which filters do you want to display?"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:27
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:28
+#: src/Admin/Table_Generator/Steps/Performance.php:29
+#: src/Admin/Table_Generator/Steps/Performance.php:30
+#: src/Admin/Table_Generator/Steps/Performance.php:47
+msgid "Performance"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:29
+#: src/Admin/Table_Generator/Steps/Performance.php:31
+msgid "Optimize your table load times."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:39
+#: src/Admin/Settings_List.php:232
+#: src/Admin/Table_Generator/Steps/Performance.php:52
+#: src/Admin/Table_Generator/Steps/Performance.php:57
+msgid "Lazy load"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:39
+#: src/Admin/Table_Generator/Steps/Performance.php:57
+#: src/Admin/Table_Generator/Steps/Performance.php:59
+msgid "Load table one page at a time"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:39
+#, php-format
+msgid "Enable this if the table will contain a large number of %contentType%."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Performance.php:39
+#, php-format
+msgid "%contentTypeUpper% limit"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Refine.php:28
+msgid "Refine"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Refine.php:29
+#, php-format
+msgid "Select your %contentType%"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Refine.php:39
+#, php-format
+msgid "Which %s do you want to display?"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Refine.php:144
+#: src/Admin/Table_Generator/Steps/Content.php:385
+msgid "Custom field must contain both the name and value."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:28
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:29
+msgid "Sort"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:30
+#, php-format
+msgid "How do you want to sort your %contentType%?"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:40
+#: src/Admin/Settings_List.php:288
+#: src/Admin/Table_Generator/Steps/Filters.php:62
+msgid "Sort by"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:40
+#: src/Admin/Settings_List.php:319
+#: src/Admin/Table_Generator/Steps/Filters.php:68
+msgid "Sort direction"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:40
+#: src/Admin/Settings_List.php:323
+#: src/Admin/Table_Generator/Steps/Filters.php:72
+msgid "Automatic"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:40
+#: src/Admin/Table_Generator/Steps/Filters.php:73
+msgid "Ascending (A to Z, old to new)"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Sort.php:40
+#: src/Admin/Table_Generator/Steps/Filters.php:74
+msgid "Descending (Z to A, new to old)"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Welcome.php:29
+msgid "Welcome to Posts Table Pro"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Welcome.php:30
+msgid "Create and display beautiful tables of your website content"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Welcome.php:62
+#: src/Admin/Table_Generator/Steps/Welcome.php:95
+msgid "No license details provided. Please enter a license."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Steps/Welcome.php:66
+#: src/Admin/Table_Generator/Steps/Welcome.php:105
+msgid "Please validate your license."
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Table_Generator.php:289
+msgid "Add New"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Table_Generator.php:293
+#: src/Admin/Settings_Tab/Tables.php:46
+msgid "Tables"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Table_Generator.php:647
+msgid "Posts Table Pro"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Traits/Columns_Aware.php:40
+msgid "Button"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Traits/Columns_Aware.php:42
+msgid "Last modified date"
+msgstr ""
+
+#: dependencies/barn2/table-generator/src/Traits/Columns_Aware.php:56
+msgid "Combined column"
+msgstr ""
+
+#: src/Admin/Settings_List.php:42
+#: src/Admin/Settings_Page.php:190
+msgid "Product tables"
+msgstr ""
+
+#: src/Admin/Settings_List.php:47
+#, php-format
+msgid "Looking for the product table settings? They have moved to a <a href=\"%1$s\">new location</a>. Refer to the <a href=\"%2$s\" target=\"_blank\">documentation</a> for help using the new Product Table builder."
+msgstr ""
+
+#: src/Admin/Settings_List.php:82
+msgid "Product tables settings"
+msgstr ""
+
+#: src/Admin/Settings_List.php:87
+msgid "The following options control the WooCommerce Product Table extension."
+msgstr ""
+
+#: src/Admin/Settings_List.php:107
+msgid "Shop integration"
+msgstr ""
+
+#: src/Admin/Settings_List.php:110
+msgid "Replace the following WooCommerce pages with a product table."
+msgstr ""
+
+#: src/Admin/Settings_List.php:113
+msgid "Use table layout for"
+msgstr ""
+
+#: src/Admin/Settings_List.php:116
+#: src/Admin/Table_Generator/Steps/Content.php:81
+#: src/Admin/Table_Generator/Table_Generator.php:136
+msgid "Shop page"
+msgstr ""
+
+#: src/Admin/Settings_List.php:123
+#: src/Admin/Table_Generator/Steps/Content.php:93
+#: src/Admin/Table_Generator/Table_Generator.php:137
+msgid "Product search results"
+msgstr ""
+
+#: src/Admin/Settings_List.php:130
+#: src/Admin/Table_Generator/Steps/Content.php:106
+#: src/Admin/Table_Generator/Table_Generator.php:138
+msgid "Product categories"
+msgstr ""
+
+#: src/Admin/Settings_List.php:137
+#: src/Admin/Table_Generator/Steps/Content.php:118
+#: src/Admin/Table_Generator/Table_Generator.php:139
+msgid "Product tags"
+msgstr ""
+
+#: src/Admin/Settings_List.php:144
+#: src/Admin/Table_Generator/Steps/Content.php:130
+#: src/Admin/Table_Generator/Table_Generator.php:140
+msgid "Product attributes"
+msgstr ""
+
+#: src/Admin/Settings_List.php:167
+#: src/Admin/Settings_Tab/Settings.php:143
+msgid "Table content"
+msgstr ""
+
+#. translators: 1: help link open tag, 2: help link close tag.
+#: src/Admin/Settings_List.php:171
+#: src/Admin/Settings_Tab/Settings.php:200
+#, php-format
+msgid "You can override any of the settings below for individual tables by %1$sadding options%2$s to the shortcode or block."
+msgstr ""
+
+#: src/Admin/Settings_List.php:181
+msgid "Enter the columns for your product tables."
+msgstr ""
+
+#: src/Admin/Settings_List.php:186
+#: src/Admin/Settings_Tab/Settings.php:212
+msgid "Description length"
+msgstr ""
+
+#: src/Admin/Settings_List.php:189
+#: src/Admin/Settings_Tab/Settings.php:215
+msgid "words"
+msgstr ""
+
+#: src/Admin/Settings_List.php:190
+#: src/Admin/Settings_Tab/Settings.php:216
+msgid "Enter -1 to show the full product description including formatting."
+msgstr ""
+
+#: src/Admin/Settings_List.php:199
+#: src/Integration/Quick_View_Pro.php:82
+msgid "Product links"
+msgstr ""
+
+#: src/Admin/Settings_List.php:202
+msgid "Include links to the single product page and taxonomy archives."
+msgstr ""
+
+#: src/Admin/Settings_List.php:203
+msgid "Use 'all' to enable all links, 'none' to hide them, or a comma-separated list of: 'sku', 'name', 'image', 'tags', 'categories', 'terms', or 'attributes'"
+msgstr ""
+
+#: src/Admin/Settings_List.php:208
+#: src/Admin/Table_Generator/Table_Generator_Extras.php:28
+msgid "Image size"
+msgstr ""
+
+#: src/Admin/Settings_List.php:211
+msgid "Enter a width x height in pixels, e.g. 70x50, or a standard image size such as 'thumbnail'"
+msgstr ""
+
+#: src/Admin/Settings_List.php:227
+msgid "Loading"
+msgstr ""
+
+#: src/Admin/Settings_List.php:235
+msgid "Load products one page at a time"
+msgstr ""
+
+#: src/Admin/Settings_List.php:236
+#: src/Admin/Table_Generator/Steps/Performance.php:60
+msgid "Enable this if you have many products or experience slow page load times."
+msgstr ""
+
+#. translators: 1: Help link open tag, 2: help link close tag
+#: src/Admin/Settings_List.php:239
+#, php-format
+msgid "Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the search, sorting, dropdown filters, and variations."
+msgstr ""
+
+#: src/Admin/Settings_List.php:251
+#: src/Admin/Table_Generator/Steps/Performance.php:73
+msgid "Product limit"
+msgstr ""
+
+#: src/Admin/Settings_List.php:254
+#: src/Admin/Table_Generator/Steps/Performance.php:75
+msgid "The maximum number of products in one table."
+msgstr ""
+
+#: src/Admin/Settings_List.php:255
+#: src/Admin/Table_Generator/Steps/Performance.php:76
+msgid "Enter -1 to show all products."
+msgstr ""
+
+#: src/Admin/Settings_List.php:264
+#: src/Admin/Settings_Tab/Settings.php:225
+msgid "Show hidden products"
+msgstr ""
+
+#: src/Admin/Settings_List.php:267
+#: src/Admin/Settings_Tab/Settings.php:228
+msgid "Include hidden products in the table"
+msgstr ""
+
+#: src/Admin/Settings_List.php:282
+msgid "Sorting"
+msgstr ""
+
+#: src/Admin/Settings_List.php:284
+msgid "How to sort products when the table is first loaded."
+msgstr ""
+
+#: src/Admin/Settings_List.php:292
+msgid "WooCommerce default"
+msgstr ""
+
+#: src/Admin/Settings_List.php:294
+#: src/Util/Columns.php:58
+msgid "SKU"
+msgstr ""
+
+#: src/Admin/Settings_List.php:295
+#: src/Util/Columns.php:110
+msgid "Price"
+msgstr ""
+
+#: src/Admin/Settings_List.php:296
+msgid "Popularity (sales)"
+msgstr ""
+
+#: src/Admin/Settings_List.php:297
+#: src/Widgets/Rating_Filter_Widget.php:33
+msgid "Average rating"
+msgstr ""
+
+#: src/Admin/Settings_List.php:298
+msgid "Date added"
+msgstr ""
+
+#: src/Admin/Settings_List.php:299
+msgid "Date modified"
+msgstr ""
+
+#: src/Admin/Settings_List.php:300
+msgid "Product ID"
+msgstr ""
+
+#: src/Admin/Settings_List.php:301
+msgid "Other"
+msgstr ""
+
+#: src/Admin/Settings_List.php:311
+msgid "Sort column"
+msgstr ""
+
+#: src/Admin/Settings_List.php:315
+msgid "Enter a column name, e.g. description, att:size. Only applied when lazy load is disabled."
+msgstr ""
+
+#: src/Admin/Settings_List.php:324
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr ""
+
+#: src/Admin/Settings_List.php:325
+msgid "Descending (Z to A, 99 to 1)"
+msgstr ""
+
+#: src/Admin/Settings_List.php:342
+msgid "Search and filter"
+msgstr ""
+
+#: src/Admin/Settings_List.php:344
+msgid "How customers search and filter products."
+msgstr ""
+
+#: src/Admin/Settings_List.php:348
+msgid "Product filters"
+msgstr ""
+
+#: src/Admin/Settings_List.php:352
+msgid "Disabled"
+msgstr ""
+
+#: src/Admin/Settings_List.php:353
+msgid "Show based on table content"
+msgstr ""
+
+#: src/Admin/Settings_List.php:354
+#: src/Admin/Settings_List.php:577
+msgid "Custom"
+msgstr ""
+
+#: src/Admin/Settings_List.php:356
+msgid "Filter the table by category, tag, attribute or taxonomy."
+msgstr ""
+
+#: src/Admin/Settings_List.php:365
+msgid "Custom filters"
+msgstr ""
+
+#: src/Admin/Settings_List.php:368
+msgid "Enter the filters as a comma-separated list."
+msgstr ""
+
+#: src/Admin/Settings_List.php:369
+msgid "E.g. categories,tags,att:color"
+msgstr ""
+
+#: src/Admin/Settings_List.php:376
+#: src/Admin/Settings_Tab/Settings.php:271
+msgid "Display a search box above your product tables"
+msgstr ""
+
+#: src/Admin/Settings_List.php:381
+#: src/Admin/Settings_Tab/Settings.php:275
+msgid "Number of products found"
+msgstr ""
+
+#: src/Admin/Settings_List.php:394
+msgid "Reset search"
+msgstr ""
+
+#: src/Admin/Settings_List.php:397
+msgid "Show a link to reset the search"
+msgstr ""
+
+#: src/Admin/Settings_List.php:412
+#: src/Admin/Settings_Tab/Settings.php:133
+#: src/Admin/Table_Generator/Steps/AddToCart.php:44
+#: src/Util/Defaults.php:88
+msgid "Add to cart"
+msgstr ""
+
+#: src/Admin/Settings_List.php:414
+msgid "How customers buy products from the table."
+msgstr ""
+
+#: src/Admin/Settings_List.php:418
+#: src/Admin/Table_Generator/Steps/AddToCart.php:49
+msgid "Add to cart method"
+msgstr ""
+
+#: src/Admin/Settings_List.php:422
+#: src/Admin/Table_Generator/Steps/AddToCart.php:53
+msgid "Cart buttons"
+msgstr ""
+
+#: src/Admin/Settings_List.php:423
+#: src/Admin/Settings_Tab/Design.php:398
+#: src/Admin/Table_Generator/Steps/AddToCart.php:54
+msgid "Checkboxes"
+msgstr ""
+
+#: src/Admin/Settings_List.php:424
+#: src/Admin/Table_Generator/Steps/AddToCart.php:55
+msgid "Cart buttons and checkboxes"
+msgstr ""
+
+#: src/Admin/Settings_List.php:430
+#: src/Admin/Table_Generator/Steps/AddToCart.php:62
+#: src/Admin/Table_Generator/Steps/AddToCart.php:67
+msgid "Quantities"
+msgstr ""
+
+#: src/Admin/Settings_List.php:433
+#: src/Admin/Table_Generator/Steps/AddToCart.php:67
+#: src/Admin/Table_Generator/Steps/AddToCart.php:69
+msgid "Show a quantity picker for each product"
+msgstr ""
+
+#: src/Admin/Settings_List.php:437
+#: src/Admin/Table_Generator/Steps/AddToCart.php:74
+msgid "Variations"
+msgstr ""
+
+#: src/Admin/Settings_List.php:441
+#: src/Admin/Table_Generator/Steps/AddToCart.php:78
+msgid "Show as dropdown lists"
+msgstr ""
+
+#: src/Admin/Settings_List.php:442
+#: src/Admin/Table_Generator/Steps/AddToCart.php:79
+msgid "Show one variation per row"
+msgstr ""
+
+#: src/Admin/Settings_List.php:443
+#: src/Admin/Table_Generator/Steps/AddToCart.php:80
+msgid "Read More button linking to the product page"
+msgstr ""
+
+#: src/Admin/Settings_List.php:445
+#: src/Admin/Table_Generator/Steps/AddToCart.php:84
+msgid "How to display the options for variable products."
+msgstr ""
+
+#: src/Admin/Settings_List.php:454
+#: src/Admin/Table_Generator/Steps/AddToCart.php:95
+msgid "Variation name format"
+msgstr ""
+
+#: src/Admin/Settings_List.php:458
+#: src/Admin/Table_Generator/Steps/AddToCart.php:99
+msgid "Full (product name + attributes)"
+msgstr ""
+
+#: src/Admin/Settings_List.php:459
+#: src/Admin/Table_Generator/Steps/AddToCart.php:100
+msgid "Attributes only"
+msgstr ""
+
+#: src/Admin/Settings_List.php:460
+#: src/Admin/Table_Generator/Steps/AddToCart.php:101
+msgid "Product name only"
+msgstr ""
+
+#: src/Admin/Settings_List.php:466
+msgid "Multi-select cart button"
+msgstr ""
+
+#: src/Admin/Settings_List.php:474
+msgid "The location of the cart button when ordering multiple products using checkboxes."
+msgstr ""
+
+#: src/Admin/Settings_List.php:479
+msgid "Multi-select cart button text"
+msgstr ""
+
+#: src/Admin/Settings_List.php:496
+#: src/Admin/Settings_Tab/Settings.php:161
+msgid "Pagination"
+msgstr ""
+
+#: src/Admin/Settings_List.php:498
+msgid "How to paginate products when there are multiple pages of results."
+msgstr ""
+
+#: src/Admin/Settings_List.php:502
+#: src/Admin/Settings_Tab/Settings.php:365
+msgid "Products per page"
+msgstr ""
+
+#: src/Admin/Settings_List.php:505
+#: src/Admin/Settings_Tab/Settings.php:368
+msgid "The number of products per page of results."
+msgstr ""
+
+#: src/Admin/Settings_List.php:506
+#: src/Admin/Settings_Tab/Settings.php:369
+msgid "Enter -1 to show all products on a single page."
+msgstr ""
+
+#: src/Admin/Settings_List.php:514
+#: src/Admin/Settings_Tab/Settings.php:377
+msgid "Products per page control"
+msgstr ""
+
+#: src/Admin/Settings_List.php:517
+#: src/Admin/Settings_Tab/Settings.php:380
+msgid "Allow customers to adjust the number of products per page."
+msgstr ""
+
+#: src/Admin/Settings_List.php:528
+#: src/Admin/Settings_Tab/Settings.php:391
+msgid "Pagination buttons"
+msgstr ""
+
+#: src/Admin/Settings_List.php:541
+#: src/Admin/Settings_Tab/Settings.php:404
+msgid "Pagination type"
+msgstr ""
+
+#: src/Admin/Settings_List.php:545
+#: src/Admin/Settings_Tab/Settings.php:408
+msgid "Page numbers"
+msgstr ""
+
+#: src/Admin/Settings_List.php:546
+#: src/Admin/Settings_Tab/Settings.php:409
+msgid "Prev - Next"
+msgstr ""
+
+#: src/Admin/Settings_List.php:547
+#: src/Admin/Settings_Tab/Settings.php:410
+msgid "Prev - Page numbers - Next"
+msgstr ""
+
+#: src/Admin/Settings_List.php:548
+#: src/Admin/Settings_Tab/Settings.php:411
+msgid "First - Prev - Next - Last"
+msgstr ""
+
+#: src/Admin/Settings_List.php:549
+#: src/Admin/Settings_Tab/Settings.php:412
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr ""
+
+#: src/Admin/Settings_List.php:566
+#: src/Admin/Settings_List.php:572
+#: src/Admin/Settings_Tab/Design.php:57
+#: src/Admin/Settings_Tab/Design.php:104
+msgid "Design"
+msgstr ""
+
+#: src/Admin/Settings_List.php:567
+msgid "Customize the design of the table."
+msgstr ""
+
+#: src/Admin/Settings_List.php:576
+#: src/Admin/Settings_Tab/Design.php:137
+msgid "Default"
+msgstr ""
+
+#: src/Admin/Settings_List.php:587
+#: src/Admin/Settings_Tab/Design.php:174
+msgid "Borders"
+msgstr ""
+
+#: src/Admin/Settings_List.php:590
+#: src/Admin/Settings_Tab/Design.php:177
+msgid "External border icon"
+msgstr ""
+
+#: src/Admin/Settings_List.php:590
+#: src/Admin/Settings_Tab/Design.php:177
+msgid "External"
+msgstr ""
+
+#: src/Admin/Settings_List.php:591
+#: src/Admin/Settings_Tab/Design.php:178
+#: src/Admin/Settings_Tab/Design.php:251
+msgid "The border for the outer edges of the table."
+msgstr ""
+
+#: src/Admin/Settings_List.php:592
+#: src/Admin/Settings_List.php:601
+#: src/Admin/Settings_List.php:610
+msgid "Width"
+msgstr ""
+
+#. translators: 'Header' in this context refers to the heading row of a table.
+#: src/Admin/Settings_List.php:599
+#: src/Admin/Settings_Tab/Design.php:187
+msgid "Header border icon"
+msgstr ""
+
+#. translators: 'Header' in this context refers to the heading row of a table.
+#: src/Admin/Settings_List.php:599
+#: src/Admin/Settings_Tab/Design.php:187
+#: src/Admin/Settings_Tab/Design.php:228
+#: src/Admin/Settings_Tab/Design.php:250
+msgid "Header"
+msgstr ""
+
+#: src/Admin/Settings_List.php:600
+#: src/Admin/Settings_Tab/Design.php:188
+#: src/Admin/Settings_Tab/Design.php:261
+msgid "The border for the bottom of the header row."
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_List.php:608
+msgid "Cell border icon"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_List.php:608
+msgid "Body"
+msgstr ""
+
+#: src/Admin/Settings_List.php:609
+#: src/Admin/Settings_Tab/Design.php:197
+#: src/Admin/Settings_Tab/Design.php:206
+#: src/Admin/Settings_Tab/Design.php:215
+#: src/Admin/Settings_Tab/Design.php:270
+#: src/Admin/Settings_Tab/Design.php:279
+#: src/Admin/Settings_Tab/Design.php:288
+#: src/Admin/Settings_Tab/Design.php:297
+msgid "The border between cells in your table."
+msgstr ""
+
+#: src/Admin/Settings_List.php:614
+#: src/Admin/Settings_Tab/Design.php:225
+msgid "Header background color"
+msgstr ""
+
+#: src/Admin/Settings_List.php:617
+#: src/Admin/Settings_List.php:631
+#: src/Admin/Settings_Tab/Design.php:229
+#: src/Admin/Settings_Tab/Design.php:237
+#: src/Admin/Settings_Tab/Design.php:311
+#: src/Admin/Settings_Tab/Design.php:319
+#: src/Admin/Settings_Tab/Design.php:326
+#: src/Admin/Settings_Tab/Design.php:333
+#: src/Admin/Settings_Tab/Design.php:346
+#: src/Admin/Settings_Tab/Design.php:354
+#: src/Admin/Settings_Tab/Design.php:374
+#: src/Admin/Settings_Tab/Design.php:382
+#: src/Admin/Settings_Tab/Design.php:401
+msgid "Color"
+msgstr ""
+
+#: src/Admin/Settings_List.php:621
+msgid "Header text"
+msgstr ""
+
+#: src/Admin/Settings_List.php:628
+msgid "Body background color"
+msgstr ""
+
+#: src/Admin/Settings_List.php:635
+msgid "Body text"
+msgstr ""
+
+#: src/Admin/Settings_List.php:655
+#: src/Admin/Settings_Tab/Settings.php:179
+#: src/Admin/Table_Generator/Table_Generator_Extras.php:22
+msgid "Advanced"
+msgstr ""
+
+#: src/Admin/Settings_List.php:660
+#: src/Admin/Settings_Tab/Settings.php:462
+msgid "AJAX"
+msgstr ""
+
+#: src/Admin/Settings_List.php:663
+#: src/Admin/Settings_Tab/Settings.php:465
+msgid "Use AJAX when adding to the cart"
+msgstr ""
+
+#: src/Admin/Settings_List.php:667
+#: src/Admin/Settings_Tab/Settings.php:469
+msgid "Shortcodes"
+msgstr ""
+
+#: src/Admin/Settings_List.php:670
+#: src/Admin/Settings_Tab/Settings.php:472
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr ""
+
+#: src/Admin/Settings_List.php:674
+msgid "Image lightbox"
+msgstr ""
+
+#: src/Admin/Settings_List.php:677
+msgid "Show product images in a lightbox"
+msgstr ""
+
+#: src/Admin/Settings_List.php:684
+#: src/Admin/Settings_Tab/Settings.php:479
+msgid "Cache table contents to improve load times"
+msgstr ""
+
+#: src/Admin/Settings_List.php:692
+#: src/Admin/Settings_Tab/Settings.php:487
+msgid "Cache expiration"
+msgstr ""
+
+#: src/Admin/Settings_List.php:695
+#: src/Admin/Settings_Tab/Settings.php:490
+msgid "hours"
+msgstr ""
+
+#: src/Admin/Settings_List.php:696
+#: src/Admin/Settings_Tab/Settings.php:491
+msgid "Your data will be refreshed after this length of time."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:75
+#: src/Admin/Settings_Page.php:76
+#: src/Admin/Settings_Page.php:96
+#: src/Admin/Settings_Page.php:129
+#: src/Admin/Table_Generator/Table_Generator.php:117
+msgid "Product Tables"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:135
+msgid "Use this page to configure default settings which will apply to all product tables."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:150
+msgid "Save Changes"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:151
+msgid "Clear Cache"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:156
+msgid "Reset to default"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:217
+msgid "Cache cleared."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:111
+msgid "Choose whether to use the default design, select a template or customize it to suit your requirements."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:132
+#: src/Admin/Table_Generator/Steps/Content.php:80
+msgid "Templates"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:133
+msgid "Choose a template and/or customize the styles below. Any settings you leave blank will default to your theme styles."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:138
+msgid "Minimal"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:139
+msgid "Dark"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:140
+msgid "Neutral"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:141
+msgid "Rounded"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:142
+msgid "Delicate"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:143
+msgid "Nature"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:196
+msgid "Horizontal cell border icon"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:196
+msgid "Horizontal cell"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:205
+msgid "Vertical cell border icon"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:205
+msgid "Vertical cell"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:214
+msgid "Button border icon"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:214
+msgid "Bottom"
+msgstr ""
+
+#. translators: 'Header' in this context refers to the heading row of a table.
+#: src/Admin/Settings_Tab/Design.php:236
+#: src/Admin/Settings_Tab/Design.php:260
+msgid "Cell"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:247
+msgid "Fonts"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:269
+msgid "Hyperlink"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:278
+msgid "Main button font"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:287
+msgid "Disable button font"
+msgstr ""
+
+#. translators: 'Cell' in this context refers to a cell in a table or spreadsheet.
+#: src/Admin/Settings_Tab/Design.php:296
+#: src/Admin/Settings_Tab/Design.php:332
+msgid "Quantity"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:307
+msgid "Button backgrounds"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:310
+msgid "Main button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:318
+msgid "Main button hover"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:325
+msgid "Disable button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:342
+msgid "Search"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:345
+#: src/Admin/Settings_Tab/Design.php:373
+msgid "Background"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:353
+#: src/Admin/Settings_Tab/Design.php:381
+msgid "Font"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:360
+#: src/Admin/Settings_Tab/Design.php:388
+msgid "Border"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:370
+msgid "Dropdowns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:411
+msgid "Cell backgrounds"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:415
+msgid "No alternate"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:416
+msgid "Alternate rows"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:417
+msgid "Alternate columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:424
+msgid "Corner style"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:428
+msgid "Theme default"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:429
+msgid "Square corners"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:430
+msgid "Rounded corners"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:431
+msgid "Fully rounded corners"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:152
+msgid "Product search"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:170
+msgid "Responsive options"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:188
+msgid "Uninstalling WooCommerce Product Table"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:232
+msgid "Show sticky header"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:235
+msgid "Show sticky header in the table"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:237
+msgid "If the sticky header option in your theme is conflicting with the sticky header in the product table, then use the Scroll Offset option to fix this."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:240
+msgid "Hide table header"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:243
+msgid "Hide column headings at the top of the table"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:247
+msgid "Show table footer"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:250
+msgid "Show column headings at the bottom of the table as well as the top"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:254
+msgid "Scroll offset"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:258
+msgid "Change the height that the page scrolls to when you move between pages in the product table."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:299
+msgid "Add to cart button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:305
+msgid "Multi add to cart button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:311
+msgid "Multi add to cart button - products selected"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:314
+msgid "Use the placeholder {items} for the number of selected items, {total} for the selected total, and {total_rounded} for the selected total rounded up or down."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:318
+msgid "Singular Text"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:324
+msgid "Plural Text"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:332
+msgid "Multi add to cart location"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:340
+msgid "The location of the cart button when ordering multiple products at once."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:345
+#: src/Frontend_Scripts.php:144
+#: src/Product_Table.php:472
+msgid "Select all"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:348
+msgid "Display a link to select all products in the table header"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:431
+msgid "Responsive display"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:435
+msgid "Click a plus icon to display a child row"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:436
+msgid "Expand all child rows automatically"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:437
+msgid "Click a plus icon to open a modal window"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:440
+msgid "How extra data is displayed when there are too many columns to fit in the table."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:501
+msgid "Date format"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:507
+msgid "No products message"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:513
+msgid "No products filtered message"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:532
+msgid "Delete data on uninstall"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Settings.php:535
+msgid "Permanently delete all WooCommerce Product Table settings and data when uninstalling the plugin"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/AddToCart.php:29
+#: src/Admin/Table_Generator/Steps/AddToCart.php:30
+msgid "Add to Cart"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Content.php:30
+#: src/Admin/Table_Generator/Steps/Content.php:35
+msgid "Content"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Content.php:31
+#: src/Admin/Table_Generator/Steps/Content.php:36
+msgid "Select your products"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Content.php:37
+#: src/Admin/Table_Generator/Steps/Content.php:38
+msgid "Location"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Content.php:39
+msgid "Select the shop templates where you want to display this table."
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Content.php:68
+msgid "Which products?"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Content.php:80
+msgid "Select templates"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Create.php:51
+msgid "Give your table a name to help you identify it later (e.g. “Products in the Clothing category”)"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Create.php:67
+msgid "How do you want to add the table to your store?"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Create.php:67
+msgid "Display"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Create.php:73
+msgid "Add to a page using a block or shortcode"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Create.php:77
+msgid "Display on a shop page (e.g. main storefront, category page, etc.)"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Create.php:141
+msgid "Please enter a name for the table."
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Filters.php:29
+#: src/Admin/Table_Generator/Steps/Filters.php:30
+msgid "Search & Sort"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Filters.php:44
+msgid "Search and sort"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Filters.php:54
+#: src/Admin/Table_Generator/Steps/Filters.php:57
+msgid "Enable filter dropdowns"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Filters.php:54
+msgid "Search filters"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Filters.php:58
+#, php-format
+msgid "Filters are displayed above the table, and help users to search and refine the products. You can also add %s to a sidebar."
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Filters.php:58
+msgid "filter widgets"
+msgstr ""
+
+#. translators: 1: Help link open tag, 2: help link close tag
+#: src/Admin/Table_Generator/Steps/Performance.php:63
+#, php-format
+msgid "Lazy load has %1$ssome limitations%2$s for the search, sorting and filters."
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Performance.php:67
+msgid "Lazy load is not compatible with \"Show one variation per row\" for variations. Standard loading will be used."
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Welcome.php:30
+msgid "Welcome to WooCommerce Product Table"
+msgstr ""
+
+#: src/Admin/Table_Generator/Steps/Welcome.php:31
+msgid "This wizard will guide you through the plugin setup process."
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator.php:115
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator.php:116
+msgid "Create and display beautiful tables of your website content."
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator.php:118
+msgid "Create and manage your product tables on this page. Display them using the Product Table block or shortcode."
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator.php:141
+#: src/Integration/WooCommerce_Wholesale_Pro.php:84
+#: src/Integration/WooCommerce_Wholesale_Pro.php:85
+msgid "Wholesale store"
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator.php:165
+msgid "Select a pre-saved product table. Go to Products > Tables to create or edit your tables."
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator.php:166
+msgid "An interactive product table."
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator_Extras.php:29
+msgid "Enter a width x height in pixels, e.g. 70x50, or a standard image size such as 'thumbnail'."
+msgstr ""
+
+#: src/Admin/Table_Generator/Table_Generator_Extras.php:42
+#: src/Table_Args.php:678
+msgid "Show details"
+msgstr ""
+
+#: src/Ajax_Handler.php:208
+msgid "View Cart"
+msgstr ""
+
+#: src/Ajax_Handler.php:233
+msgid "There was an error adding to the cart. Please try again."
+msgstr ""
+
+#: src/Cart_Handler.php:48
+#: src/Frontend_Scripts.php:143
+msgid "Please select one or more products."
+msgstr ""
+
+#: src/Cart_Handler.php:100
+msgid "No product selected. Please try again."
+msgstr ""
+
+#: src/Cart_Handler.php:107
+msgid "Please enter a quantity greater than 0."
+msgstr ""
+
+#: src/Cart_Handler.php:116
+msgid "This product is no longer available. Please select an alternative."
+msgstr ""
+
+#: src/Config_Builder.php:77
+msgctxt "show all products option"
+msgid "All"
+msgstr ""
+
+#: src/Data/Product_Custom_Field.php:165
+msgid "True"
+msgstr ""
+
+#: src/Data/Product_Custom_Field.php:165
+msgid "False"
+msgstr ""
+
+#. translators: %s: rating
+#: src/Data/Product_Reviews.php:21
+#: src/Widgets/Active_Filters_Widget.php:108
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#. translators: The sentence is 'out of 5'. The '%s' characters are replaced with extra HTML text.
+#: src/Data/Product_Reviews.php:24
+#, php-format
+msgid "out of %1$s5%2$s"
+msgstr ""
+
+#: src/Data/Product_Reviews.php:25
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Data/Product_Stock.php:22
+msgid "In stock"
+msgstr ""
+
+#: src/Data/Product_Stock.php:30
+#: templates/add-to-cart/variable.php:23
+msgid "Out of stock"
+msgstr ""
+
+#: src/Frontend_Scripts.php:117
+msgid "Showing _TOTAL_ products"
+msgstr ""
+
+#: src/Frontend_Scripts.php:118
+msgid "0 products"
+msgstr ""
+
+#: src/Frontend_Scripts.php:119
+msgid "(_MAX_ in total)"
+msgstr ""
+
+#: src/Frontend_Scripts.php:120
+msgid "Show _MENU_ per page"
+msgstr ""
+
+#: src/Frontend_Scripts.php:121
+#: src/Frontend_Scripts.php:122
+msgid "No matching products"
+msgstr ""
+
+#: src/Frontend_Scripts.php:123
+msgid "Search:"
+msgstr ""
+
+#: src/Frontend_Scripts.php:125
+msgid "First"
+msgstr ""
+
+#: src/Frontend_Scripts.php:126
+msgid "Last"
+msgstr ""
+
+#: src/Frontend_Scripts.php:127
+msgid "Next"
+msgstr ""
+
+#: src/Frontend_Scripts.php:128
+msgid "Previous"
+msgstr ""
+
+#: src/Frontend_Scripts.php:130
+msgctxt "thousands separator"
+msgid ","
+msgstr ""
+
+#: src/Frontend_Scripts.php:131
+msgctxt "decimal mark"
+msgid "."
+msgstr ""
+
+#. translators: ARIA text for sorting column in ascending order
+#: src/Frontend_Scripts.php:134
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#. translators: ARIA text for sorting column in descending order
+#: src/Frontend_Scripts.php:136
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: src/Frontend_Scripts.php:139
+msgid "Reset"
+msgstr ""
+
+#: src/Frontend_Scripts.php:145
+msgid "Clear all"
+msgstr ""
+
+#: src/Integration/Lead_Time.php:45
+msgid "Lead Time"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:307
+msgid "Product Addons"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:309
+msgid "These options control the Product Addons extension."
+msgstr ""
+
+#: src/Integration/Product_Addons.php:313
+msgid "Addons layout"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:316
+#: src/Integration/Product_Addons.php:328
+msgid "Vertical"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:317
+#: src/Integration/Product_Addons.php:329
+msgid "Horizontal"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:320
+msgid "Should product addons display horizontally or vertically within the table?"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:325
+msgid "Addon options layout"
+msgstr ""
+
+#: src/Integration/Product_Addons.php:332
+msgid "Should individual options for each addon display horizontally or vertically?"
+msgstr ""
+
+#: src/Integration/Quick_View_Pro.php:45
+msgid "Quick View"
+msgstr ""
+
+#: src/Integration/Quick_View_Pro.php:76
+msgid "Quick View Pro"
+msgstr ""
+
+#: src/Integration/Quick_View_Pro.php:78
+msgid "These options control the Quick View Pro extension."
+msgstr ""
+
+#: src/Integration/Quick_View_Pro.php:85
+msgid "Replace links to the product page with quick view."
+msgstr ""
+
+#: src/Integration/Quick_View_Pro.php:86
+msgid "Control what happens when clicking on a link to a product. "
+msgstr ""
+
+#: src/Integration/WooCommerce_Wholesale_Pro.php:209
+msgid "Wholesale order form"
+msgstr ""
+
+#: src/Integration/YITH_Request_Quote.php:77
+msgid "Request quote"
+msgstr ""
+
+#: src/Updates.php:61
+msgid "Learn more about this important update"
+msgstr ""
+
+#: src/Updates.php:107
+msgid "Default table"
+msgstr ""
+
+#: src/Updates.php:121
+msgid "Shop templates"
+msgstr ""
+
+#: src/Util/Columns.php:54
+msgid "ID"
+msgstr ""
+
+#: src/Util/Columns.php:66
+msgid "Description"
+msgstr ""
+
+#: src/Util/Columns.php:70
+msgid "Summary"
+msgstr ""
+
+#: src/Util/Columns.php:78
+msgid "Updated"
+msgstr ""
+
+#: src/Util/Columns.php:90
+msgid "Image"
+msgstr ""
+
+#: src/Util/Columns.php:98
+msgid "Reviews"
+msgstr ""
+
+#: src/Util/Columns.php:102
+msgid "Weight"
+msgstr ""
+
+#: src/Util/Columns.php:106
+msgid "Dimensions"
+msgstr ""
+
+#: src/Util/Columns.php:114
+msgid "Buy"
+msgstr ""
+
+#: src/Util/Columns.php:118
+msgid "Details"
+msgstr ""
+
+#: src/Util/Columns.php:122
+msgid "Total"
+msgstr ""
+
+#: src/Util/Defaults.php:97
+msgid "Add 1 item for {total}"
+msgstr ""
+
+#: src/Util/Defaults.php:106
+msgid "Add {items} items for {total}"
+msgstr ""
+
+#: src/Util/Settings.php:150
+msgid "The columns option is invalid. Please check you have entered valid column names."
+msgstr ""
+
+#: src/Widgets/Active_Filters_Widget.php:26
+msgid "[Barn2] Display a list of active filters for your product table."
+msgstr ""
+
+#: src/Widgets/Active_Filters_Widget.php:28
+msgid "Product Table: Active Filters"
+msgstr ""
+
+#: src/Widgets/Active_Filters_Widget.php:32
+msgid "Active filters"
+msgstr ""
+
+#: src/Widgets/Active_Filters_Widget.php:33
+#: src/Widgets/Attribute_Filter_Widget.php:81
+#: src/Widgets/Price_Filter_Widget.php:35
+#: src/Widgets/Rating_Filter_Widget.php:34
+msgid "Title"
+msgstr ""
+
+#. translators: %s: minimum price
+#. translators: %s: maximum price
+#. translators: %s: rating
+#: src/Widgets/Active_Filters_Widget.php:85
+#: src/Widgets/Active_Filters_Widget.php:93
+#: src/Widgets/Active_Filters_Widget.php:99
+#: src/Widgets/Active_Filters_Widget.php:108
+msgid "Remove filter"
+msgstr ""
+
+#. translators: %s: minimum price
+#: src/Widgets/Active_Filters_Widget.php:93
+#, php-format
+msgid "Min %s"
+msgstr ""
+
+#. translators: %s: maximum price
+#: src/Widgets/Active_Filters_Widget.php:99
+#, php-format
+msgid "Max %s"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:28
+msgid "[Barn2] Display a list of attributes to filter products in your product table."
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:30
+msgid "Product Table: Filter by Attribute"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:80
+msgid "Filter by"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:86
+msgid "Attribute"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:92
+msgid "Display type"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:94
+msgid "List"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:95
+msgid "Dropdown"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:101
+msgid "Query type"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:103
+msgid "AND"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:104
+msgid "OR"
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: src/Widgets/Attribute_Filter_Widget.php:206
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:244
+msgid "Apply"
+msgstr ""
+
+#: src/Widgets/Attribute_Filter_Widget.php:278
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:28
+msgid "[Barn2] Display a slider to filter your product table by price."
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:30
+msgid "Product Table: Filter by Price"
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:34
+msgid "Filter by price"
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:124
+msgid "Min price"
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:125
+msgid "Max price"
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:126
+msgid "Filter"
+msgstr ""
+
+#: src/Widgets/Price_Filter_Widget.php:128
+msgid "Price:"
+msgstr ""
+
+#: src/Widgets/Rating_Filter_Widget.php:27
+msgid "[Barn2] Display a list of star ratings to filter products in your product table."
+msgstr ""
+
+#: src/Widgets/Rating_Filter_Widget.php:29
+msgid "Product Table: Filter by Rating"
+msgstr ""
+
+#: templates/addons/radiobutton.php:23
+msgid "None"
+msgstr ""

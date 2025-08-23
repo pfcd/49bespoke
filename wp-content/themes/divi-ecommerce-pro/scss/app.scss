@@ -1,0 +1,33 @@
+/*
+ *
+ * IMPORTANT: UTILIZING THE AUTOMATIC UPDATE FEATURE OF THIS CHILD THEME WILL OVERWRITE ANY
+ * CUSTOM CODE PLACED WITHIN THIS FILE. IF YOU WISH TO AUTOMATICALLY UPDATE, PLEASE PLACE
+ * YOUR CODE IN THEME OPTIONS >> CUSTOM CSS OTHERWISE YOU CAN MANUALLY UPDATE THE THEME FILES
+ *
+ */
+
+// ------------------------------------------------------------------------------------------- //
+//                               Global Variables and Mixins
+// ------------------------------------------------------------------------------------------- //
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// ------------------------------------------------------------------------------------------- //
+//                                       Project Styles
+// ------------------------------------------------------------------------------------------- //
+
+/* Components */
+@import "01-components/0-components-dir";
+
+/* Base */
+@import "02-base/0-base-dir";
+
+/* Divi Modules */
+@import "03-divi-modules/0-divi-modules-dir";
+
+/*  Plugins */
+@import "04-plugins/0-plugins-dir";
+
+/* Pages */
+@import "05-pages/0-pages-dir";

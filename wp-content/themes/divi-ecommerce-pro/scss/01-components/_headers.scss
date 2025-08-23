@@ -1,0 +1,34 @@
+.dsdep-heading-with-line {
+  overflow : hidden;
+
+  h1, h2, h3, h4, h5, h6 {
+    position       : relative;
+    padding-bottom : 0;
+
+    &:after {
+      content     : "";
+      width       : 10000%;
+      height      : 1px;
+      position    : absolute;
+      border-top  : 1px solid;
+      margin-left : 15px;
+      @include centerHeightUnk();
+      }
+    }
+
+  &.line-dark {
+    h1, h2, h3, h4, h5, h6 {
+      &:after {
+        border-color : $darkBorderColor;
+        }
+      }
+    }
+
+  &.line-light {
+    h1, h2, h3, h4, h5, h6 {
+      &:after {
+        border-color : $lightBorderColor;
+        }
+      }
+    }
+  }

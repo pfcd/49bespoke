@@ -1,0 +1,29 @@
+.woocommerce-table--order-downloads td.download-file .button:after {
+    font-family: "ETmodules" !important;
+    line-height: inherit;
+    font-size: inherit !important;
+    margin-left: -1em;
+    left: auto;
+    opacity: 0;
+    display: inline-block;
+    font-size: 1.6em;
+}
+
+.ags_woo_account_addresses {
+
+    header.woocommerce-Address-title {
+        &:after {
+            clear: both;
+            display: table;
+            content: '';
+        }
+
+        h3 {
+            float: left;
+        }
+
+        a.edit {
+            float: right;
+        }
+    }
+}

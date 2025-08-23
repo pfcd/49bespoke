@@ -1,0 +1,79 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (or the corresponding source SCSS file) has been modified by Ahamed Arshad Azmi, Jonathan Hall and/or others.
+This file (or the corresponding source SCSS file) was last modified 2020-11-25
+*/
+
+.ags_woo_cart_list {
+
+    .product-remove .remove {
+        &:hover {
+            background: initial;
+        }
+
+        &:after {
+            content: attr(data-icon);
+            font-family: "ETmodules" !important;
+            line-height: inherit;
+            font-size: inherit !important;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .et_pb_custom_button_icon:after {
+        content: attr(data-icon) !important;
+    }
+
+    /**
+	* to fix the border type issue on cart table fields
+	* - divi doesnt add style for solid type border
+	* - woocommerce override border none with important
+	*/
+    .quantity input.qty,
+    table.cart td.actions .coupon input.input-text {
+
+        &::placeholder {
+            color: inherit;
+        }
+    }
+
+
+    button,
+    .button,
+    button.button {
+
+        &:after,
+        &:before {
+            position: relative;
+            font-size: inherit;
+        }
+
+        &:disabled[disabled],
+        &.disabled,
+        &[disabled] {
+            padding: .3em 1em;
+        }
+
+    }
+
+    table,
+    table.shop_table {
+        table-layout: fixed;
+
+        @media screen and (max-width: 768px) {
+            .product-thumbnail {
+
+                &::before{
+                    display: none;
+                }
+
+                display: block;
+            }
+        }
+    }
+}

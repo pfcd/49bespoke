@@ -1,0 +1,48 @@
+.brand-page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.brand-logo img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.brand-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.brand-description {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+.brand-back-link a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+  border-radius: 4px;
+}
+.brand-back-link a:hover {
+  background: #eaeaea;
+}
+
+.brand-wrapper ul.products {
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-logo img {
+    transition: transform 0.3s ease;
+}
+.brand-logo:hover img {
+    transform: scale(1.05);
+}
+.brand-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 30px;
+    justify-items: center;
+}

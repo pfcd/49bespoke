@@ -1,0 +1,94 @@
+.dsdep-blog,
+.et-db #et-boc .et-l .dsdep-blog {
+
+  .et_audio_content,
+  .et_main_video_container,
+  .et_pb_slider,
+  .et_pb_image_container,
+  .post_format-post-format-quote .et_quote_content,
+  &:not(.et_pb_blog_grid_wrapper) .entry-featured-image-url {
+    border-radius : $mainRadius;
+    margin        : -35px -30px 35px !important;
+    }
+
+  a.entry-featured-image-url {
+    margin-bottom : 0 !important;
+    }
+
+  .et_pb_post {
+    border        : 1px solid;
+    border-color  : $lightBorderColor !important;
+    border-radius : $mainRadius;
+    padding       : 35px 30px !important;
+    overflow      : hidden;
+
+    .entry-title {
+      @include responsiveFontSize(21px, 20px, 19px);
+      padding-bottom : 16px;
+      line-height    : 1.2;
+
+      &:hover {
+        color : $mainColor;
+        }
+      }
+
+    .post-meta {
+      text-transform : uppercase;
+      margin-bottom  : 16px;
+      font-size      : 12px !important;
+      line-height    : 1.5;
+      color          : $darkGrey;
+
+      .author a {
+        color : $darkGrey;
+
+        &:hover {
+          color : $mainColor;
+          }
+        }
+      }
+
+    .post-content {
+      font-size : 14px;
+
+      a.more-link {
+        @include secondButtonMixin();
+        box-shadow : $secondaryShadow;
+        margin-top : 16px;
+        display    : inline-block;
+        font-size  : 14px;
+        }
+      }
+    }
+  }
+
+.dsdep-blog-equal-height .dsdep-blog {
+  height : 100%;
+
+  .et_pb_blog_grid, .et_pb_ajax_pagination_container, .et_pb_salvattore_content, .column {
+    height : 100%;
+    }
+
+  .et_pb_post {
+    height         : 100% !important;
+    margin-bottom  : 0 !important;
+    display        : flex !important;
+    flex-direction : column;
+
+    .post-content {
+      display        : flex !important;
+      flex-direction : column;
+      height         : 100% !important;
+      align-items    : flex-start;
+
+      a.more-link {
+        display    : inline-block;
+        margin-top : auto !important;
+        }
+
+      .post-content-inner:not(:last-child) {
+        margin-bottom : 20px !important;
+        }
+      }
+    }
+  }

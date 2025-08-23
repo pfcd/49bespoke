@@ -1,0 +1,12 @@
+{
+    "name": "divi-space/divi-woocommerce-pages",
+    "authors": [
+        {
+            "name": "WP Zone",
+            "email": "info@divi.space"
+        }
+    ],
+    "require": {
+		"simplehtmldom/simplehtmldom": "2.0-RC2"
+	}
+}

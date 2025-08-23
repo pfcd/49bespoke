@@ -1,0 +1,131 @@
+2024-10-17 - version 2.2.0
+* Made compatible with WordPress 6.6
+* Made compatible with WooCommerce 9.3
+* Made compatible with WooCommerce Bundled Products
+* Resolved compatibility issue with WooCommerce Product Search
+* Fixed issue preventing the disabling of ‘Visible on product page’ and ‘Used for variation’ options under the attribute section
+* Fixed issue where the undo option wasn’t working after disabling ‘Visible on product page’ and ‘Used for variation’ under the attribute section when variations already exist for those attributes
+* Fixed issue preventing filtering of products or attributes in Cyrillic language
+* Fixed issue where the attribute filter was filtering products based on the attribute rather than its specific value
+
+2024-06-17 - version 2.1.3
+* Made compatible with WordPress 6.5
+* Made compatible with WooCommerce 8.9
+
+2024-02-07 - version 2.1.2
+* Made compatible with WordPress 6.4.3
+* Made compatible with WooCommerce 8.5
+* Made compatible to edit/update fields for all WooCommerce product types
+* An option to change the product type to an external
+
+2023-11-19 - version 2.1.1
+* Fixed issue with Product image on PREVIEW page.
+
+2023-11-07 - version 2.1.0
+* Made compatible with WordPress 6.4
+* Made compatible with WooCommerce 8.2
+* Made compatible with PHP 8.2
+* Made compatible with HPOS
+* Cancel sale price schedule button
+* WooCommerce hook for moving the product automatically into a sale category
+* Added padding and delimiter for setting up new SKU values
+* Fixed issue with revert functionality
+* Fixed issue with the sale price schedule
+* Fixed issue with schedule frequency
+* Fixed issue with out-of-stock visibility
+* Fixed the issue with adding the HTML tags in the description
+* Fixed UI issue on a search category
+
+2023-06-02 - version 2.0.1
+* Made compatible with WooCommerce 7.7
+* Fixed an issue with the display of the Sale price on the Store
+
+2023-05-05 - version 2.0.0
+* Important! Please note that we have optimized the code in the latest plugin upgrade. It is highly recommended to take a backup of your data before upgrading to the latest version
+* Made compatible with WordPress 6.2
+* Made compatible with WooCommerce 7.6
+* Made compatible with the Jetpack plugin
+* An option to bulk update the title as Sentence Case Format
+* An option to filter products based on Any Attribute
+* An option to filter products based on Product Status
+* Fixed an issue with the Custom Attribute filter
+* Fixed an issue with the time zone with Daily Frequency
+* Fixed an issue with Sale Price Schedule
+* Fixed an issue with WooCommerce filters on Shop Page
+
+2022-10-21 - version 1.2.1
+* Tested with WooCommerce 7.0.
+* An option to filter products by custom attribute values.
+* Added option to schedule sale price in bulk.
+
+2022-08-02 - version 1.2.0
+* Tested with WooCommerce 6.7.
+* Tested with WordPress 6.0.
+* An option to bulk update Tags.
+* Added Private option in the drop-down of Product visibility Status, where you can bulk update your products to Private status.
+* An option to filter products based on the Product image.
+* An option to filter products based on their weight.
+* Optimized Categories and Custom Attributes search.
+* Improved Schedule and Revert Schedule Jobs Performance.
+* Resolved Custom attributes memory overflow issue.
+* Resolved Greek Language Issue.
+
+2021-11-24 - version 1.1.0
+* Added Group Categories with AND feature.
+* Resolved Multi-site Activation issue.
+* Tested with WooCommerce 5.9.
+
+2021-10-22 - version 1.0.9
+* Resolved Stock filter issue.
+* Added new replace option in Description and short Description in update section.
+* Added SKU Filter Feature.
+* Resolved Activation issue.
+* Tested with WooCommerce 5.8.
+
+2021-07-14 - version 1.0.8
+* Tested with WooCommerce 5.6.
+
+2021-07-14 - version 1.0.7
+* Tested with WooCommerce 5.5.
+
+2021-06-11 - version 1.0.6
+* Tested with WooCommerce 5.4.
+
+2021-05-18 - version 1.0.5
+* Bulk create product variations using custom attributes.
+* Bulk remove custom attributes.
+* Tested with WooCommerce 5.3.
+
+2021-04-15 - version 1.0.4
+* Bulk Create Product Variations.
+* Bulk Edit Product Visibility.
+* Bulk Edit Product Type.
+* Filter Products using Stock Status.
+* Tested with WooCommerce 5.2.
+* Tested with Wordpress 5.7.
+* Compatible with Starter Templates(Astra) Plugin.
+
+2021-01-06 - version 1.0.3
+* Tested with WooCommerce 4.8.
+* Tested with WordPress 5.6.
+
+2020-08-11 - version 1.0.2
+* Filter Products Using Product's Description, Short Description and Custom Attributes.
+* Select/Unselect Products After Filtering.
+* Tested with WooCommerce 4.4.
+* Tested with WordPress 5.5.
+
+2020-04-07 - version 1.0.1
+* Bulk Edit WooCommerce Products.
+* Filter Products Before Bulk Edit.
+* Preview Products Before Bulk Edit.
+* Bulk Edit Product Properties.
+* Bulk Edit Product Variations.
+* Bulk Delete Products.
+* Schedule Jobs for Bulk update.
+* Use Regular Expression (regex) pattern matching.
+* Bulk Edit Product Attribute Values.
+* Bulk Edit Product Categories.
+* Bulk Edit Any Custom Product Fields.
+* UNDO last operation.
+

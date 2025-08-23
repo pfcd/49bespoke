@@ -1,0 +1,85 @@
+.dsdep-woo-tabs,
+.et-db #et-boc .et-l .dsdep-woo-tabs {
+  border : none !important;
+
+  ul.et_pb_tabs_controls {
+    background : transparent;
+    text-align : center;
+
+    &:after {
+      border-color : $lightBorderColor;
+      }
+
+    li {
+      float   : none;
+      display : inline-block;
+      border  : none;
+      padding : 0 20px;
+
+      a {
+        font-weight   : bold;
+        padding       : 9px 0;
+        border-bottom : 2px solid transparent;
+        display       : block;
+        }
+
+      &.et_pb_tab_active {
+        background : transparent;
+        }
+
+      &.et_pb_tab_active a, a:hover {
+        color        : $baseHeaderColor;
+        border-color : $mainColor;
+        }
+      }
+    }
+
+  .et_pb_tab {
+    padding : 37px 0 0;
+    }
+
+  .et_pb_tab_content {
+    // Reviews
+    @extend .dsdep-reviews;
+
+    // Additional info
+    table.woocommerce-product-attributes {
+      border : none;
+
+      th, td {
+        border : none;
+        }
+      }
+
+    & > h2 {
+      @include responsiveFontSize(28px, 26px, 24px);
+      font-weight : 600;
+      }
+
+    }
+
+  &.dsdep-woo-tab-with-background {
+    ul.et_pb_tabs_controls {
+      background : $lightGrey;
+      position   : relative;
+
+      &:before, &:after {
+        content    : "";
+        border     : none;
+        height     : 100%;
+        width      : 1000000%;
+        background : $lightGrey;
+        position   : absolute;
+        top        : 0;
+        }
+
+      &:before {
+        left : 100%;
+        }
+
+      &:after {
+        right : 100%;
+        }
+      }
+    }
+  }

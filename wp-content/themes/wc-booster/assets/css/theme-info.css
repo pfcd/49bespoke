@@ -1,0 +1,177 @@
+/* Theme Info */
+/* styles for admin page */
+
+.wc-booster--about-page--wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.wc-booster--about-page--wrapper .feature-list {
+  display: block;
+}
+.wc-booster--about-page--wrapper .wc-booster-header-left > .fs-notice {
+  display: none !important;
+}
+.wc-booster-header-left h2 {
+  color: #2f5075 !important;
+}
+
+.wc-booster--about-page--wrapper .wc-booster-admin-card-header {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 100%;
+  background: rgb(245, 245, 245);
+  box-shadow: 1px 1px 10px -7px black;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+}
+.wc-booster-admin-card-header {
+  color: #2f5075;
+}
+.wc-booster--about-page--wrapper .wc-booster-admin-card-header h2 {
+  margin: 0;
+
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.wc-booster--about-page--wrapper .wc-booster-admin-card-header p {
+  color: #2f5075;
+}
+.wc-booster--about-page--wrapper .wc-booster-header-right {
+  justify-self: flex-end;
+}
+
+#wc-booster-admin-about-page p,
+#wc-booster-admin-about-page {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 15px;
+}
+
+.wc-booster-admin-button {
+  padding: 10px 30px;
+  text-decoration: inherit;
+  background: #873651;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.75;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 35px;
+}
+.wc-booster-admin-button.premium-button {
+  margin-left: 5px;
+  color: #fff;
+}
+.wc-booster-admin-button:hover {
+  background: #2f5075;
+  color: #fff;
+}
+
+.wc-booster-about-side {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 30px 0;
+  box-shadow: 1px 1px 10px -7px black;
+}
+.wc-booster-about-side .wc-booster-admin-card {
+  background: rgb(248, 248, 248);
+  padding: 50px;
+  border-radius: 5px;
+  color: #2f5075;
+  text-align: center;
+}
+.wc-booster-about-side .wc-booster-admin-card h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  color: #2f5075;
+}
+.wc-booster-about-side .wc-booster-admin-card .wc-booster-admin-button {
+  margin-top: 5px;
+  display: inline-block;
+}
+.wc-booster-about-side .wc-booster-admin-card p,
+.wc-booster-about-side .wc-booster-admin-card h4 {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 15px;
+}
+
+.wc-booster-card-header-button-group {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.wc-booster-compare-table-subtitle {
+  font-size: 16px;
+}
+
+.wc-booster-compare-table-subtitle a,
+.olive-one-click-demo-import-banner p a {
+  text-decoration: none;
+  color: #873651 !important;
+}
+.wc-booster-compare-table-subtitle a:hover {
+  color: #2f5075 !important;
+}
+.wc-booster-compare-table-subtitle a:hover,
+.olive-one-click-demo-import-banner p a {
+  color: #2f5075;
+}
+.wc-booster-compare-table-subtitle a i {
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.wc-booster-compare-table table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 2em;
+  width: 100%;
+  color: #000;
+  box-shadow: 0 0 33px #0000001a;
+}
+.wc-booster-compare-table table th, .wc-booster-compare-table table tr td.table-header {
+  border-bottom: 1px solid #ffffff;
+  padding: 15px;
+  color: #2f5075;
+  font-weight: 700;
+}
+.wc-booster-compare-table table td {
+  padding: 1em;
+  text-align: center;
+  color: #2f5075;
+}
+.wc-booster-compare-table table td span {
+  font-size: 21px;
+  border-radius: 100%;
+  padding: 5px;
+  color: #d72b2b;
+}
+.wc-booster-compare-table table td span.dashicons.dashicons-yes {
+  text-align: center;
+  color: #4caf50;
+}
+.wc-booster-compare-table table tr:nth-child(odd) td {
+  background: #def0ff;
+}
+
+.wc-booster-compare-table table tr td.table-header {
+  padding: 25px;
+}

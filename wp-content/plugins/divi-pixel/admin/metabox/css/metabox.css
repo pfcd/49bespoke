@@ -1,0 +1,51 @@
+#testimonial_metabox_id {
+	position: relative;
+}
+
+.dipi-meta-box {
+	padding: 20px 0;
+}
+
+.dipi-field:not(:last-of-type) {
+	margin: 10px 0 12px;
+}
+
+.dipi-field:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.dipi-label {
+	width: 25%;
+}
+
+.dipi-label > label {
+	font-weight: 600;
+}
+
+.dipi-label, .dipi-input {
+	vertical-align: top;
+	float: left;
+	box-sizing: border-box;
+}
+
+.dipi-label~.dipi-input {
+	width: 75%;
+}
+
+.dipi-input {
+	width: 100%;
+}
+
+.dipi-input input, 
+.dipi-input select {
+	max-width: 99%;
+}
+
+.dipi-file_input.dipi-file_input {
+	line-height: 18px;
+	margin: 0;
+	padding: 4px;
+	width: 300px;
+}

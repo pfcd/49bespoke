@@ -1,0 +1,1898 @@
+# Copyright (C) 2020 Aspen Grove Studios
+# This file is distributed under the GNU General Public License v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Shop Builder 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/divi-shop-"
+"builder\n"
+"POT-Creation-Date: 2020-12-09 19:38:28+00:00\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: divi-shop-builder.php:113
+msgid "Shop Builder"
+msgstr ""
+
+#: divi-shop-builder.php:130
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Shop Builder"
+msgstr ""
+
+#: divi-shop-builder.php:156
+msgid "Documentation"
+msgstr ""
+
+#: divi-shop-builder.php:162
+msgid "About"
+msgstr ""
+
+#: divi-shop-builder.php:164
+msgid "License Key"
+msgstr ""
+
+#: divi-shop-builder.php:170
+msgid ""
+"Expand the Divi builder to your WooCommerce Shop, Cart, and Checkout pages. "
+"Build and customize all your ecommerce pages with Divi’s drag and drop "
+"builder."
+msgstr ""
+
+#: divi-shop-builder.php:171
+msgid ""
+"Divi Shop Builder includes %s 8 modules %s for styling default WooCommerce "
+"pages with Divi"
+msgstr ""
+
+#: divi-shop-builder.php:173 includes/modules/WooShop/WooShop.php:24
+#: includes/modules/WooShop/WooShop.php:25
+msgid "Woo Shop +"
+msgstr ""
+
+#: divi-shop-builder.php:174 includes/modules/WooCartList/WooCartList.php:19
+msgid "Cart List"
+msgstr ""
+
+#: divi-shop-builder.php:175 includes/modules/WooNotices/WooNotices.php:19
+msgid "Cart Notices"
+msgstr ""
+
+#: divi-shop-builder.php:176
+#: includes/modules/WooCartTotals/WooCartTotals.php:19
+#: includes/modules/WooCartTotals/WooCartTotals.php:243
+msgid "Cart Totals"
+msgstr ""
+
+#: divi-shop-builder.php:177
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:27
+msgid "Checkout Billing"
+msgstr ""
+
+#: divi-shop-builder.php:178
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:25
+msgid "Checkout Coupon"
+msgstr ""
+
+#: divi-shop-builder.php:179
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:25
+msgid "Checkout Order"
+msgstr ""
+
+#: divi-shop-builder.php:180
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:26
+msgid "Checkout Shipping"
+msgstr ""
+
+#: divi-shop-builder.php:183
+msgid "Main features"
+msgstr ""
+
+#: divi-shop-builder.php:185
+msgid ""
+"100+ configurations and styling options for unlimited layout possibilities"
+msgstr ""
+
+#: divi-shop-builder.php:186
+msgid ""
+"Extend Divi’s drag and drop editor to Shop, Cart, Account, and Checkout pages"
+msgstr ""
+
+#: divi-shop-builder.php:187
+msgid "Set what element to show in what order"
+msgstr ""
+
+#: divi-shop-builder.php:188
+msgid "Build a custom Cart page with the List, Total, and Notices modules"
+msgstr ""
+
+#: divi-shop-builder.php:189
+msgid ""
+"Customize every Checkout element with Billing, Coupon, Order, and Shipping "
+"modules"
+msgstr ""
+
+#: divi-shop-builder.php:190
+msgid "Edit form titles and input fields with custom text and style options"
+msgstr ""
+
+#: divi-shop-builder.php:191
+msgid "Includes hover effects for product images and CTA button style options"
+msgstr ""
+
+#: divi-shop-builder.php:192
+msgid ""
+"Add a list of products to any page with completely custom positioning and "
+"style"
+msgstr ""
+
+#: divi-shop-builder.php:193
+msgid "Lets you edit every aspect of WooCommerce with the Divi builder"
+msgstr ""
+
+#: divi-shop-builder.php:195
+msgid "Read More about plugin features"
+msgstr ""
+
+#: divi-shop-builder.php:197
+msgid "Product documentation"
+msgstr ""
+
+#: divi-shop-builder.php:198
+msgid ""
+"Get started your adventure with Divi Shop Builder with a %splugin "
+"documentation%s that covers the basics "
+msgstr ""
+
+#: divi-shop-builder.php:290
+msgid "Layout"
+msgstr ""
+
+#: divi-shop-builder.php:294
+msgid "Grid"
+msgstr ""
+
+#: divi-shop-builder.php:295
+msgid "List"
+msgstr ""
+
+#: divi-shop-builder.php:301
+msgid "Product columns"
+msgstr ""
+
+#: divi-shop-builder.php:302
+msgid "Changes the number of products per row for desktop devices."
+msgstr ""
+
+#: divi-shop-builder.php:351
+msgid "Display product count results"
+msgstr ""
+
+#: divi-shop-builder.php:352
+msgid ""
+"Enable/disable the WooCommerce results count. Count results show up on the "
+"WooCommerce product archive pages that displays the amount of products you "
+"are currently viewing and the total amount of products in your current query."
+msgstr ""
+
+#: divi-shop-builder.php:358 divi-shop-builder.php:372
+#: divi-shop-builder.php:386
+msgid "Don't display"
+msgstr ""
+
+#: divi-shop-builder.php:359 divi-shop-builder.php:373
+#: divi-shop-builder.php:387
+msgid "Above"
+msgstr ""
+
+#: divi-shop-builder.php:360 divi-shop-builder.php:374
+#: divi-shop-builder.php:388
+msgid "Below"
+msgstr ""
+
+#: divi-shop-builder.php:361 divi-shop-builder.php:375
+#: divi-shop-builder.php:389
+msgid "Above and below"
+msgstr ""
+
+#: divi-shop-builder.php:365
+msgid "Display product sorting"
+msgstr ""
+
+#: divi-shop-builder.php:366
+msgid ""
+"WooCommerce offers the ability to customize the sorting order of products "
+"with a few settings changes. Enable or disable display the product sorting "
+"on the archive pages. Change default sorting by going to WooCommerce > "
+"Settings >> Products >> Default Product Sorting "
+msgstr ""
+
+#: divi-shop-builder.php:379
+msgid "Display pagination"
+msgstr ""
+
+#: divi-shop-builder.php:393
+msgid "Display sale badges"
+msgstr ""
+
+#: divi-shop-builder.php:394
+msgid ""
+"When a product is on sale in your shop, WooCommerce adds a sales flash to "
+"that product to show customers that the product has a sale running to draw "
+"their attention to it. Enable/disable displaying the sale badges (flashes) "
+"on the archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:405
+msgid "Badges Position"
+msgstr ""
+
+#: divi-shop-builder.php:410
+msgid "Don't overlay on product image"
+msgstr ""
+
+#: divi-shop-builder.php:411
+msgid "Overlay on product image - top left"
+msgstr ""
+
+#: divi-shop-builder.php:412
+msgid "Overlay on product image - top right"
+msgstr ""
+
+#: divi-shop-builder.php:413
+msgid "Overlay on product image - bottom left"
+msgstr ""
+
+#: divi-shop-builder.php:414
+msgid "Overlay on product image - bottom right"
+msgstr ""
+
+#: divi-shop-builder.php:419
+msgid "Display add to cart buttons"
+msgstr ""
+
+#: divi-shop-builder.php:420
+msgid "Enable/disable displaying \"Add to Cart\" button on the archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:430
+msgid "Display add to cart quantity field"
+msgstr ""
+
+#: divi-shop-builder.php:431
+msgid ""
+"Enable/disable displaying add to cart quantity field on the archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:441
+msgid "Add to cart default quantity"
+msgstr ""
+
+#: divi-shop-builder.php:442
+msgid "Define a quantity for add to cart quantity field"
+msgstr ""
+
+#: divi-shop-builder.php:454
+msgid "Display product image"
+msgstr ""
+
+#: divi-shop-builder.php:455
+msgid "Enable/disable displaying product thumbnails on the archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:465
+msgid "Display prices"
+msgstr ""
+
+#: divi-shop-builder.php:466
+msgid "Enable/disable displaying product prices on the archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:476
+msgid "Display ratings"
+msgstr ""
+
+#: divi-shop-builder.php:477
+msgid ""
+"Enable/disable displaying product rating stars on the archive pages, below "
+"the image."
+msgstr ""
+
+#: divi-shop-builder.php:487
+msgid "Display categories"
+msgstr ""
+
+#: divi-shop-builder.php:488
+msgid "Enable/disable displaying the product category below the product price."
+msgstr ""
+
+#: divi-shop-builder.php:498
+msgid "Display stock"
+msgstr ""
+
+#: divi-shop-builder.php:499
+msgid ""
+"Show the \"stock quantity\" under each product in the shop, category and "
+"archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:522
+msgid "Display new badge"
+msgstr ""
+
+#: divi-shop-builder.php:523
+msgid "Enable/disable this feature."
+msgstr ""
+
+#: divi-shop-builder.php:561
+msgid "Days"
+msgstr ""
+
+#: divi-shop-builder.php:562
+msgid "Show a \"NEW\" badge for products published in the last X days"
+msgstr ""
+
+#: divi-shop-builder.php:582 divi-shop-builder.php:597
+#: divi-shop-builder.php:612 divi-shop-builder.php:1040
+#: includes/modules/WooShop/WooShop.php:336
+#: includes/modules/WooShop-child/WooShop-child.php:51
+msgid "New Badge"
+msgstr ""
+
+#: divi-shop-builder.php:628 includes/modules/WooCartList/WooCartList.php:157
+#: includes/modules/WooCartList/WooCartList.php:177
+#: includes/modules/WooCartList/WooCartList.php:197
+#: includes/modules/WooCartTotals/WooCartTotals.php:134
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:120
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:179
+#: includes/modules/WooNotices/WooNotices.php:293
+#: includes/modules/WooShop/WooShop.php:302
+#: includes/modules/WooShop/WooShop.php:337
+msgid "Button"
+msgstr ""
+
+#: divi-shop-builder.php:645 includes/modules/WooShop/WooShop.php:341
+msgid "Sorting Dropdown"
+msgstr ""
+
+#: divi-shop-builder.php:655 includes/modules/WooCartList/WooCartList.php:68
+#: includes/modules/WooShop/WooShop.php:338
+msgid "Quantity Field"
+msgstr ""
+
+#: divi-shop-builder.php:665 includes/modules/WooShop/WooShop.php:342
+msgid "Results Count"
+msgstr ""
+
+#: divi-shop-builder.php:674 includes/modules/WooShop/WooShop.php:340
+msgid "Product Description"
+msgstr ""
+
+#: divi-shop-builder.php:686 divi-shop-builder.php:695
+#: includes/modules/WooShop/WooShop.php:343
+msgid "Pagination"
+msgstr ""
+
+#: divi-shop-builder.php:705
+msgid "Page Number"
+msgstr ""
+
+#: divi-shop-builder.php:714
+msgid "Current Page Number"
+msgstr ""
+
+#: divi-shop-builder.php:724 divi-shop-builder.php:734 includes/helpers.php:18
+#: includes/modules/WooCartList/WooCartList.php:647
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:353
+#: includes/modules/WooCheckoutOrderReview/templates/review-order.php:12
+#: includes/modules/WooShop/WooShop.php:282
+msgid "Product"
+msgstr ""
+
+#: divi-shop-builder.php:821
+msgid "%s Font Family"
+msgstr ""
+
+#: divi-shop-builder.php:834
+msgid "%s Font Size"
+msgstr ""
+
+#: divi-shop-builder.php:850
+msgid "%s Font Style"
+msgstr ""
+
+#: divi-shop-builder.php:862
+msgid "%s Text Color"
+msgstr ""
+
+#: divi-shop-builder.php:886
+msgid "%s Border Radius"
+msgstr ""
+
+#: divi-shop-builder.php:915
+msgid "%s Background Color"
+msgstr ""
+
+#: divi-shop-builder.php:1032
+msgid "Product Archive"
+msgstr ""
+
+#: divi-shop-builder.php:1035
+msgid "Customize the WooCommerce shop page, category page, archive pages."
+msgstr ""
+
+#: divi-shop-builder.php:1043
+msgid ""
+"Display the NEW badge on the product that was recently added to your "
+"WooCommerce website. Settings is basing on the product publishing date."
+msgstr ""
+
+#: divi-shop-builder.php:1048 includes/modules/WooShop/WooShop.php:326
+msgid "Product Overlay"
+msgstr ""
+
+#: divi-shop-builder.php:1051
+msgid ""
+"Enables a product overlay with the custom text. The product overlay is "
+"displayed on the shop page, archive product pages and product category pages "
+"upon hovering the product image."
+msgstr ""
+
+#: divi-shop-builder.php:1055 includes/modules/WooShop/WooShop.php:327
+msgid "Additional customizations"
+msgstr ""
+
+#: divi-shop-builder.php:1069
+msgid "Settings do not work if page is built with the"
+msgstr ""
+
+#: divi-shop-builder.php:1070
+msgid "Divi Theme Builder"
+msgstr ""
+
+#: includes/extension.php:87
+msgid "Checkout modules conflict"
+msgstr ""
+
+#: includes/extension.php:88
+msgid ""
+"There are some modules conflict with Checkout modules. Please be ensure to "
+"place them on separate rows and not between checkout modules. Find the "
+"element by clicking below button"
+msgstr ""
+
+#: includes/extension.php:89
+msgid "Go to Element"
+msgstr ""
+
+#: includes/helpers.php:19 includes/modules/WooCartList/WooCartList.php:656
+#: includes/modules/WooShop/WooShop.php:48
+#: includes/modules/WooShop/WooShop.php:310
+#: includes/modules/WooShop-child/WooShop-child.php:55
+msgid "Price"
+msgstr ""
+
+#: includes/helpers.php:20 includes/modules/WooCartList/WooCartList.php:665
+msgid "Quantity"
+msgstr ""
+
+#: includes/helpers.php:21 includes/modules/WooCartList/WooCartList.php:674
+#: includes/modules/WooCartList/WooCartList.php:857
+#: includes/modules/WooCartTotals/WooCartTotals.php:288
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:354
+#: includes/modules/WooCheckoutOrderReview/templates/review-order.php:13
+#: includes/modules/WooCheckoutOrderReview/templates/review-order.php:45
+msgid "Subtotal"
+msgstr ""
+
+#: includes/implementation.php:22
+msgid "The specified context is invalid."
+msgstr ""
+
+#: includes/implementation.php:572
+msgid "New"
+msgstr ""
+
+#: includes/implementation.php:685
+msgid "In stock"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:29
+#: includes/modules/WooCartTotals/WooCartTotals.php:30
+msgid "Cart Contents"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:30
+msgid "Empty Cart"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:36
+#: includes/modules/WooCartTotals/WooCartTotals.php:40
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:46
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:158
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:215
+msgid "Table"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:40
+#: includes/modules/WooCartList/WooCartList.php:96
+#: includes/modules/WooCartList/WooCartList.php:432
+#: includes/modules/WooCartTotals/WooCartTotals.php:44
+#: includes/modules/WooCartTotals/WooCartTotals.php:72
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:50
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:90
+msgid "Table Headings"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:44
+#: includes/modules/WooCartList/WooCartList.php:113
+#: includes/modules/WooCartList/WooCartList.php:449
+#: includes/modules/WooCartTotals/WooCartTotals.php:48
+#: includes/modules/WooCartTotals/WooCartTotals.php:89
+#: includes/modules/WooCartTotals/WooCartTotals.php:202
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:54
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:98
+msgid "Table Body"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:48
+#: includes/modules/WooCartList/WooCartList.php:130
+#: includes/modules/WooCartTotals/WooCartTotals.php:52
+#: includes/modules/WooCartTotals/WooCartTotals.php:107
+msgid "Table Links"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:52
+msgid "Product Thumbnail"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:56
+msgid "Remove Button"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:60
+msgid "Update Cart Button"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:64
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:49
+msgid "Apply Coupon Button"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:72
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:53
+msgid "Coupon Code Field"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:76
+#: includes/modules/WooCartList/WooCartList.php:788
+msgid "Empty Cart Text"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:80
+msgid "Empty Cart Button"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:147
+#: includes/modules/WooCartList/WooCartList.php:501
+msgid "Empty cart text"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:220
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:42
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:83
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:136
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:186
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:300
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:41
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:82
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:135
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:185
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:299
+msgid "Fields"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:283
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:147
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:146
+msgid "Fields Focus"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:314
+#: includes/modules/WooCartList/WooCartList.php:367
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:196
+msgid "Field"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:378
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:207
+msgid "Field Focus"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:412
+#: includes/modules/WooCartList/WooCartList.php:413
+#: includes/modules/WooCartTotals/WooCartTotals.php:157
+#: includes/modules/WooCartTotals/WooCartTotals.php:158
+msgid "Table Border"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:481
+msgid "Cart Table"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:485
+msgid "Cart Table Headings"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:489
+msgid "Cart Table Body"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:493
+msgid "Remove button"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:497
+msgid "Remove button icon"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:505
+msgid "Empty cart button"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:523
+msgid "Remove Product Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:524
+msgid "Show or hide the \"remove product column\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:527
+#: includes/modules/WooCartList/WooCartList.php:540
+#: includes/modules/WooCartList/WooCartList.php:553
+#: includes/modules/WooCartList/WooCartList.php:566
+#: includes/modules/WooCartList/WooCartList.php:579
+#: includes/modules/WooCartList/WooCartList.php:592
+#: includes/modules/WooCartList/WooCartList.php:605
+msgid "Show"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:528
+#: includes/modules/WooCartList/WooCartList.php:541
+#: includes/modules/WooCartList/WooCartList.php:554
+#: includes/modules/WooCartList/WooCartList.php:567
+#: includes/modules/WooCartList/WooCartList.php:580
+#: includes/modules/WooCartList/WooCartList.php:593
+#: includes/modules/WooCartList/WooCartList.php:606
+msgid "Hide"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:536
+msgid "Thumbnail Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:537
+msgid "Show or hide the \"thumbnail column\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:549
+msgid "Product Name Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:550
+msgid "Show or hide the \"product name column\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:562
+msgid "Price Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:563
+msgid "Show or hide the \"price column\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:575
+msgid "Quantity Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:576
+msgid "Show or hide the \"quantity column\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:588
+msgid "Subtotal Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:589
+msgid "Show or hide the \"subtotal column\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:601
+msgid "Show Coupon Code Column"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:602
+msgid "Show or hide the \"coupon code\" from the cart."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:614
+msgid "Remove Product Column Name"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:615
+msgid "Change the \"remove product label\" to your custom text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:634
+msgid "Thumbnail Column Name"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:635
+msgid "Change the \"thumbnail label\" to your custom text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:643
+msgid "Product Name Column Name"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:644
+msgid "Change the \"name label\" to your custom text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:652
+msgid "Unit Price Column Name"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:653
+msgid "Change the \"price label\" to your custom text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:661
+msgid "Quantity Column Name"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:662
+msgid "Change the \"quantity label\" to your custom text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:670
+msgid "Subtotal Column Name"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:671
+msgid "Change the \"subtotal label\" to your custom text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:679
+msgid "Coupon Code Input Placeholder"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:680
+msgid ""
+"Specify custom short hint that describes the expected value of a coupon code "
+"field."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:683
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:307
+msgid "Coupon code"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:688
+msgid "Coupon Code Button Text"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:689
+msgid "Specify the \"coupon code\" button text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:692
+#: includes/modules/WooCartList/WooCartList.php:854
+#: includes/modules/WooCartList/WooCartList.php:1190
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:315
+#: includes/modules/WooCheckoutCoupon/templates/form-coupon.php:48
+msgid "Apply coupon"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:697
+msgid "Update Cart Button Text"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:698
+msgid "Specify the \"update cart\" button text."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:701
+#: includes/modules/WooCartList/WooCartList.php:855
+#: includes/modules/WooCartList/WooCartList.php:1200
+msgid "Update cart"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:706
+msgid "Product Image Size"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:707
+msgid "Change the \"product image\" size"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:722
+msgid "Use Image"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:723
+msgid "Use custom image for \"remove button icon\""
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:726
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:269
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:271
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:282
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:332
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:344
+#: includes/modules/WooShop/WooShop.php:396
+#: includes/modules/WooShop/WooShop.php:649
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:727
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:270
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:272
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:283
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:333
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:345
+#: includes/modules/WooShop/WooShop.php:397
+#: includes/modules/WooShop/WooShop.php:650
+msgid "No"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:735
+msgid "Remove Button Icon"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:736
+msgid "Change the \"remove button icon\" to custom icon"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:748
+msgid "Remove Button Image"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:749
+msgid "Change the \"remove button icon\" to custom image"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:751
+msgid "Upload an image"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:752
+msgid "Choose an Image"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:753
+msgid "Set As Image"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:763
+msgid "Remove Button Size"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:764
+msgid "Change the \"remove button icon\" size"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:779
+msgid "Remove Button Color"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:780
+msgid "Change the \"remove button icon\" color"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:789
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:795
+msgid "Empty Cart Button Text"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:796
+msgid "Return to shop"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:802
+msgid "Empty Cart Button URL"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:809
+msgid "Empty Cart Text Background Color"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:817
+#: includes/modules/WooCartTotals/WooCartTotals.php:302
+msgid "Table Headings Padding"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:818
+#: includes/modules/WooCartTotals/WooCartTotals.php:303
+msgid "Specify \"table headings\" custom padding"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:826
+#: includes/modules/WooCartTotals/WooCartTotals.php:311
+msgid "Table Body Padding"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:827
+#: includes/modules/WooCartTotals/WooCartTotals.php:312
+msgid "Specify \"table body\" custom padding"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:849
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:357
+msgid "My Awesome Product"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:850
+msgid "My Awesome Product quantity"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:851
+msgid "Remove this item"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:852
+msgid "Coupon"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:853
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:856
+#: includes/modules/WooCartTotals/WooCartTotals.php:279
+msgid "Cart totals"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:858
+#: includes/modules/WooCartTotals/WooCartTotals.php:297
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:356
+#: includes/modules/WooCheckoutOrderReview/templates/review-order.php:92
+msgid "Total"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:859
+#: includes/modules/WooCartTotals/WooCartTotals.php:324
+msgid "Proceed to checkout"
+msgstr ""
+
+#: includes/modules/WooCartList/WooCartList.php:1122
+msgid "Available on backorder"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:36
+msgid "Cart Totals Title"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:56
+msgid "Proceed to Checkout Button"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:124
+msgid "Cart Totals Heading"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:177
+msgid "Table Heading"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:247
+msgid "Cart Totals Table"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:251
+msgid "Cart Totals Table Headings"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:255
+msgid "Cart Totals Table Body"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:259
+msgid "Cart Totals Checkout Button"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:275
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:42
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:82
+#: includes/modules/WooShop/WooShop.php:40
+#: includes/modules/WooShop/WooShop.php:298
+#: includes/modules/WooShop-child/WooShop-child.php:53
+msgid "Title"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:276
+msgid "Specify the \"title\" text."
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:284
+msgid "Subtotal Text"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:285
+msgid "Specify the \"subtotal\" text."
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:293
+msgid "Total Text"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:294
+msgid "Specify the \"total\" text."
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:320
+msgid "Proceed To Checkout Button Text"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:321
+msgid "Specify \"proceed to checkout\" button text"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:329
+msgid "Proceed To Checkout Button Width"
+msgstr ""
+
+#: includes/modules/WooCartTotals/WooCartTotals.php:330
+msgid "Change the \"proceed to checkout\" width"
+msgstr ""
+
+#: includes/modules/WooCartTotals/templates/cart-totals.php:45
+#: includes/modules/WooCartTotals/templates/cart-totals.php:46
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:355
+msgid "Shipping"
+msgstr ""
+
+#. translators: %s location.
+#: includes/modules/WooCartTotals/templates/cart-totals.php:65
+msgid "(estimated for %s)"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:34
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:35
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:36
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:33
+msgid "Content"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:35
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:34
+msgid "Fields label"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:40
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:73
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:292
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:39
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:72
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:291
+msgid "Heading"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:41
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:56
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:296
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:40
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:55
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:295
+msgid "Labels"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:43
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:42
+msgid "Dropdown menus"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:304
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:303
+msgid "Dropdowns"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:322
+msgid "Billing title text"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:325
+msgid "Billing details"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:330
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:352
+msgid "First Name"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:333
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:355
+msgid "First name"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:338
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:360
+msgid "Last Name"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:341
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:363
+msgid "Last name"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:346
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:368
+msgid "Company"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:349
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:371
+msgid "Company name"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:354
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:376
+msgid "Country"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:357
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:379
+msgid "Country / Region"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:362
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:384
+msgid "Address 1"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:365
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:387
+msgid "Street address"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:370
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:392
+msgid "City"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:373
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:395
+msgid "Town / City"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:378
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:400
+msgid "State"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:381
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:403
+msgid "State / County"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:386
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:408
+msgid "Postcode"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:389
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:411
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:394
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:397
+msgid "Phone"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:402
+msgid "Email"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/WooCheckoutBillingInfo.php:405
+msgid "Email address"
+msgstr ""
+
+#: includes/modules/WooCheckoutBillingInfo/templates/form-billing.php:37
+msgid "Create an account?"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:41
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:69
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:246
+msgid "Coupon Toggle"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:45
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:83
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:250
+msgid "Coupon Content"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:99
+msgid "Coupon Content Border"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:144
+msgid "Coupon code field"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:266
+msgid "Show coupon via toggle"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:278
+msgid "Coupon toggle title"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:281
+msgid "Have a coupon?"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:287
+msgid "Coupon toggle clickable text"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:290
+msgid "Click here to enter your code"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:296
+msgid "Coupon content text"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:299
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:304
+msgid "Coupon input placeholder"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:312
+msgid "Apply coupon button text"
+msgstr ""
+
+#: includes/modules/WooCheckoutCoupon/WooCheckoutCoupon.php:320
+msgid "Coupon Toggle Background Color"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:58
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:140
+msgid "Payments"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:62
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:66
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:239
+msgid "Place Order"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:106
+msgid "Payment method title"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:114
+msgid "Payment description"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:122
+msgid "Privacy policy text"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:130
+msgid "Privacy policy links"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:219
+msgid "Table headings"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:223
+msgid "Table body"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:227
+msgid "Payments wrapper"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:231
+msgid "Payment methods container"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:235
+msgid "Payment method"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:260
+msgid "Order review heading"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:263
+msgid "Your order"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:268
+msgid "Show privacy policy"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:279
+msgid "Show terms and conditions"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:290
+msgid "Place order button text"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:293
+#: includes/modules/WooCheckoutOrderReview/templates/payment.php:8
+msgid "Place order"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/WooCheckoutOrderReview.php:358
+msgid "My Awesome Shipping Method"
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/templates/payment.php:29
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/templates/payment.php:29
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: includes/modules/WooCheckoutOrderReview/templates/payment.php:38
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: includes/modules/WooCheckoutOrderReview/templates/payment.php:40
+msgid "Update totals"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:321
+msgid "Shipping title text"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:324
+msgid "Ship to a different address?"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:329
+msgid "Shipping title toggled"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:341
+msgid "Show order notes?"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:416
+msgid "Order Notes"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/WooCheckoutShippingInfo.php:419
+msgid "Order notes"
+msgstr ""
+
+#: includes/modules/WooCheckoutShippingInfo/templates/form-shipping.php:54
+msgid "Additional information"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:31
+#: includes/modules/WooNotices/WooNotices.php:217
+msgid "Information Notice"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:35
+#: includes/modules/WooNotices/WooNotices.php:221
+msgid "Success Notice"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:39
+#: includes/modules/WooNotices/WooNotices.php:225
+msgid "Error Notice"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:84
+msgid "Information Notices Text"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:95
+msgid "Information Notices Link"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:106
+msgid "Success Notices Text"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:117
+msgid "Success Notices Link"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:128
+msgid "Error Notices Text"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:139
+msgid "Error Notices Link"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:152
+msgid "Information Notice Button"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:171
+msgid "Success Notice Button"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:190
+msgid "Error Notice Button"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:244
+msgid "Information Notice Background Color"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:252
+msgid "Success Notice Background Color"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:260
+msgid "Error Notice Background Color"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:268
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:269
+msgid "Enable test mode show notices per each type on front"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:272
+msgid "Enable"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:273
+msgid "Disable"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:291
+msgid "My Awesome Notice."
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:292
+msgid "A link"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:378
+msgid "Test link"
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:380
+msgid "My awesome info message "
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:382
+msgid "My awesome success message "
+msgstr ""
+
+#: includes/modules/WooNotices/WooNotices.php:384
+msgid "My awesome error message "
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:62
+msgid "Category"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:76
+msgid "In Stock"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:93
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:110
+msgid "Available On Backorder"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:127
+#: includes/modules/WooShop-child/WooShop-child.php:50
+msgid "Sale Badge"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:144
+msgid "Sale Price"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:161
+#: includes/modules/WooShop/WooShop.php:335
+msgid "Star Rating"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:177
+msgid "Star Rating Alignment"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:180
+msgid "Star Rating Size"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:183
+msgid "Star Rating Color"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:199
+#: includes/modules/WooShop/WooShop.php:290
+#: includes/modules/WooShop/WooShop.php:334
+msgid "Image"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:207
+msgid "Image Box Shadow"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:222
+msgid "Product Box Shadow"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:286
+msgid "Onsale"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:294
+#: includes/modules/WooShop/WooShop.php:333
+msgid "Overlay"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:306
+msgid "Rating"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:314
+msgid "Old Price"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:325
+msgid "Products"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:339
+msgid "Product Container"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:356
+msgid "Product View Type"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:360
+msgid "Default (Menu ordering + name)"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:361
+msgid "Latest Products"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:362
+msgid "Featured Products"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:363
+msgid "Sale Products"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:364
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:365
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:366
+msgid "Product Category"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:372
+msgid "Choose which type of product view you would like to display."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:392
+msgid "Use Current Page"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:399
+msgid ""
+"Only include products for the current page. Useful on archive and index "
+"pages. For example let's say you used this module on a Theme Builder layout "
+"that is enabled for product categories. Selecting the \"Sale Products\" view "
+"type above and enabling this option would show only products that are on "
+"sale when viewing product categories."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:414
+msgid "Product Count"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:417
+msgid "Define the number of products that should be displayed per page."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:424
+msgid "Included Categories"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:427
+msgid "All Categories"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:428
+msgid "Current Category"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:435
+msgid "Choose which categories you would like to include."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:443
+msgid "Order"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:447
+msgid "Default Sorting"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:448
+msgid "Sort by Menu Order"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:449
+msgid "Sort By Popularity"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:450
+msgid "Sort By Rating"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:451
+msgid "Sort By Date: Oldest To Newest"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:452
+msgid "Sort By Date: Newest To Oldest"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:453
+msgid "Sort By Price: Low To High"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:454
+msgid "Sort By Price: High To Low"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:457
+msgid "Choose how your products should be ordered."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:467
+msgid "Sale Badge Background Color"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:468
+msgid ""
+"Pick a color to use for the sales bade that appears on products that are on "
+"sale."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:478
+msgid "Overlay Icon Color"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:479
+msgid ""
+"Pick a color to use for the icon that appears when hovering over a product."
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:488
+msgid "Overlay Background Color"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:489
+msgid "Here you can define a custom color for the overlay"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:498
+msgid "Overlay Icon"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:499
+msgid "Here you can define a custom icon for the overlay"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:547
+msgid "Product Padding"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:558
+msgid "Product Margin"
+msgstr ""
+
+#: includes/modules/WooShop/WooShop.php:675
+msgid "%s Background"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:21
+msgid "Woo Shop + Component"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:52
+msgid "Featured Image"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:54
+msgid "Ratings"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:56
+msgid "Add to cart quantity"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:57
+msgid "Add to cart"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:58
+msgid "Categories"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:59
+msgid "Stock"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:67
+msgid "Choose Item"
+msgstr ""
+
+#: includes/modules/WooShop-child/WooShop-child.php:74
+msgid "Choose item to display."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:204
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:212
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr ""
+
+#: updater/license-key-activation.php:29 updater/license-key-activation.php:77
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: updater/license-key-activation.php:43
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: updater/license-key-activation.php:50
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: updater/license-key-activation.php:55
+msgid "Invalid license key."
+msgstr ""
+
+#: updater/license-key-activation.php:61
+msgid "Your license key is not active for this URL."
+msgstr ""
+
+#: updater/license-key-activation.php:66
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: updater/license-key-activation.php:72
+msgid ""
+"Your license key has reached its activation limit. Please deactivate the key "
+"on one of your other sites before activating it on this site."
+msgstr ""
+
+#: updater/license-key-activation.php:130
+msgid ""
+"An error occurred during license key deactivation: %s. Please try again or "
+"%scontact support%s."
+msgstr ""
+
+#: updater/license-key-activation.php:137
+msgid ""
+"An error occurred during license key deactivation. Please try again or "
+"%scontact support%s."
+msgstr ""
+
+#: updater/license-key-activation.php:150
+msgid ""
+"An error occurred during license key deactivation (your license key may be "
+"expired). Your license key has been removed from this site, but it may not "
+"have been properly deactivated on our server."
+msgstr ""
+
+#: updater/updater.php:41 updater/updater.php:92
+msgid "An unknown error has occurred. Please try again."
+msgstr ""
+
+#: updater/updater.php:76
+msgid "Thank you for purchasing %s. %s Please enter your license key below."
+msgstr ""
+
+#: updater/updater.php:85 updater/updater.php:129
+msgid "License Key:"
+msgstr ""
+
+#: updater/updater.php:98
+msgid "Continue"
+msgstr ""
+
+#: updater/updater.php:138
+msgid "Deactivate License Key"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpzone.co"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows you to customise WooCommerce product archives. Change the number of "
+"product columns and the number of products displayed per page. Toggle the "
+"display of core elements and enable some that are not included in "
+"WooCommerce core such as stock levels and product categories."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Aspen Grove Studios"
+msgstr ""

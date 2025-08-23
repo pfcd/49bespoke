@@ -1,0 +1,8 @@
+.dipi-image-magnifier .magnify {
+	display: block !important;
+}
+
+.dipi-image-magnifier img {
+	width: 100%;
+	height: auto;
+}

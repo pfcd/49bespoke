@@ -1,0 +1,23 @@
+/* select 2 custom csss */
+#elex_select_custom_attribute~.select2-container,
+#elex_select_exclude_categories~.select2-container,
+#elex_select_include_categories~.select2-container{
+    width: 100%;
+    border: 1px solid #cccccc !important;
+    border-radius: 0.25rem !important;
+    padding: 0 0.2rem !important;
+}
+#elex_select_custom_attribute~.select2-container .select2-selection.select2-selection--multiple,
+#elex_select_exclude_categories~.select2-container .select2-selection.select2-selection--multiple,
+#elex_select_include_categories~.select2-container .select2-selection.select2-selection--multiple{
+    border:none !important;
+}
+#elex_select_update_categories~.select2-container .select2-selection.select2-selection--multiple{
+    border:none !important;
+}
+#elex_select_update_categories~.select2-container{
+    width: 100%;
+    border: 1px solid #cccccc !important;
+    border-radius: 0.25rem !important;
+    padding: 0 0.2rem !important;
+}

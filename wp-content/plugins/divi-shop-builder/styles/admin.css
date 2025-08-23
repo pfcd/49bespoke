@@ -1,0 +1,404 @@
+/* See ../license.txt for licensing and copyright information applicable to this plugin */
+
+/*  Settings container */
+#ags_divi_wc-settings-container {
+    margin: 20px 15px;
+}
+
+/*  Settings window */
+#ags_divi_wc-settings {
+    border-radius: 29px;
+    font-weight: normal;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2; }
+  #gs_divi_wc-settings form > input[type=submit] {
+    font-weight: 600;
+    border-radius: 29px;
+    border: 2px solid;
+    cursor: pointer;
+    height: auto;
+    box-shadow: none !important;
+    color: #fff !important;
+    background-color: #FD925C !important;
+    border-color: #FD925C !important;
+    padding: 10px 25px !important;
+    font-size: 17px;
+    margin: 25px 0 0; }
+    #gs_divi_wc-settings form > input[type=submit]:hover {
+      background-color: #f86e31 !important;
+      border-color: #f86e31 !important; }
+
+#ags_divi_wc-settings h1,
+#ags_divi_wc-settings h2,
+#ags_divi_wc-settings h3,
+#ags_divi_wc-settings h4,
+#ags_divi_wc-settings h5,
+#ags_divi_wc-settings h6 {
+    font-family: "Montserrat", sans-serif;
+    line-height : 1.2;
+}
+
+#ags_divi_wc-settings h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#ags_divi_wc-settings p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+#ags_divi_wc-settings p > a {
+    font-weight: 600;
+    color: #FD925C; }
+
+#ags_divi_wc-settings ul {
+    font-size: 14px;
+}
+
+#ags_divi_wc-settings .mb-40 {
+    margin-bottom: 40px;
+}
+/* Settings tab content */
+#ags_divi_wc-settings-tabs-content {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 20px 20px 34px;
+    min-height: 300px;
+}
+
+#ags_divi_wc-settings-tabs-content > div {
+    display : none;
+}
+
+#ags_divi_wc-settings-tabs-content > .ags_divi_wc-settings-active {
+    display : block;
+}
+
+#ags_divi_wc-settings-tabs-content p {
+    margin-top : 10px;
+    font-size  : 14px;
+}
+
+#ags_divi_wc-settings-tabs-content ol {
+    margin-bottom : 20px;
+}
+
+#ags_divi_wc-settings-tabs-content #ags_divi_wc-settings-about ul {
+    list-style: disc inside;
+}
+
+
+/**
+ * #.# Settings Header
+ *
+ */
+#ags_divi_wc-settings-header {
+    background: #6A39E4;
+    position: relative;
+    padding: 16px 23px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; }
+
+#ags_divi_wc-settings-header .ags_divi_wc-settings-logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 35px;
+}
+
+#ags_divi_wc-settings-header .ags_divi_wc-settings-logo {
+    display: flex;
+    align-items: center;
+}
+
+#ags_divi_wc-settings-header .ags_divi_wc-settings-logo h1 {
+    margin         : 0;
+    color          : #fff;
+    font-size      : 15px;
+    font-weight    : 600;
+    letter-spacing: -0.2px;
+    display        : inline-block;
+    vertical-align : middle;
+}
+
+#ags_divi_wc-settings-header a, #ags_divi_wc-settings-header-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 8px 16px 8px 25px;
+    display: inline-block;
+    border-radius: 4px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    box-shadow: none;
+}
+
+#ags_divi_wc-settings-header-links a:first-of-type {
+    margin-left : 0;
+}
+
+#ags_divi_wc-settings-header a:hover, #ags_divi_wc-settings-header-links a:hover {
+    opacity : 1;
+    color: #fff;
+}
+
+@media (max-width : 660px) {
+    #ags_divi_wc-settings-header {
+        justify-content : center;
+    }
+
+    #ags_divi_wc-settings-header .ags-settings-logo {
+        width      : 100%;
+        margin     : 0 auto 8px;
+        text-align : center;
+    }
+
+    #ags_divi_wc-settings-header-links {
+        text-align : center;
+    }
+}
+
+#ags_divi_wc-settings-header a.active,
+#ags_divi_wc-settings-header-links a.active {
+    opacity : 1;
+    background-color: #5f9ea0;
+}
+
+#ags_divi_wc-settings-header-link-settings {
+    background-image : url(../includes/media/settings.svg);
+}
+
+#ags_divi_wc-settings-header-link-support {
+    background-image : url(../includes/media/help.svg);
+}
+
+/**
+ * #.# Settings Tabs
+ *
+ */
+#ags_divi_wc-settings-tabs {
+    margin: 0;
+    background-color: #6A39E4;
+    overflow: hidden;
+    border-top: 1px solid #8251FE;
+}
+
+#ags_divi_wc-settings-tabs li {
+    margin: 0;
+    float: left;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+@media (max-width : 600px) {
+    #ags_divi_wc-settings-tabs li {
+        float: none;
+        display: block;
+        font-size: 12px;
+    }
+}
+
+#ags_divi_wc-settings-tabs li a {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    padding: 13px 16px !important;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+    box-shadow: none;
+    display: block;
+    letter-spacing: 0.29px;
+}
+
+#ags_divi_wc-settings-tabs li a:hover {
+    opacity          : 1;
+    color: #fff;
+    background-color: #6A39E4
+}
+
+#ags_divi_wc-settings-tabs li.ags_divi_wc-settings-active a {
+    opacity: 1;
+    background-color: #8251FE;
+    color: #fff;
+}
+
+
+
+
+/**
+ * #.# License key activation styles
+ *
+ */
+
+#ags_divi_wc_license_form {
+    background-color : #fff;
+    text-align       : left;
+    border           : solid 1px #DAE0E3;
+    max-width        : 900px;
+    margin           : 20px auto 30px;
+    border-radius: 18px
+}
+
+@media (min-width : 900px) {
+    #ags_divi_wc_license_form {
+        display : flex;
+    }
+
+    #ags_divi_wc_license_form_header {
+        flex  : initial;
+        width : 300px;
+    }
+
+    #ags_divi_wc_license_form_body {
+        flex : 1;
+    }
+}
+
+#ags_divi_wc_license_form_header {
+    background-color : #6A39E4;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    padding          : 8px 10px 10px 10px;
+    margin           : 0;
+}
+
+@media (min-width: 920px) {
+    #ags_divi_wc_license_form_header {
+        border-radius: 18px 0 0 18px;
+    }
+}
+
+#ags_divi_wc_license_form_header a {
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+}
+
+#ags_divi_wc_license_form_header img {
+    height  : 74px;
+    padding : 30px 10px;
+}
+
+#ags_divi_wc_license_form h3 {
+    font-size : 22px;
+    margin    : 0 0 15px 0;
+}
+
+#ags_divi_wc_license_form p {
+    margin-bottom : 20px;
+}
+
+#ags_divi_wc_license_form p.submit {
+    margin  : 20px 0 0 0;
+    padding : 0;
+}
+
+#ags_divi_wc_license_form input[type="submit"] {
+    font-size        : 14px;
+    font-weight      : 500;
+    font-family: "Montserrat";
+    border-radius    : 29px;
+    border           : 2px solid;
+    padding          : 10px 20px;
+    cursor           : pointer;
+    height           : auto;
+    color            : #fff !important;
+    background-color : #FD925C !important;
+    border-color     : #FD925C !important;
+    line-height      : normal !important;
+    box-shadow       : none !important;
+    min-width: 230px;
+    min-height: 45px;
+}
+
+#ags_divi_wc_license_form input[type="submit"]:hover {
+    background-color : #FD925C !important;
+    border-color     : #FD925C !important;
+}
+
+#ags_divi_wc_license_form_body label span {
+    font-size : 12px;
+}
+
+#ags_divi_wc_license_form label {
+    display : table;
+    width   : 100%;
+}
+
+#ags_divi_wc_license_form label > * {
+    display : table-cell;
+}
+
+#ags_divi_wc_license_form label > span {
+    width       : 100px;
+    text-align  : left;
+}
+
+#ags_divi_wc_license_form input[type="text"] {
+    width            : 100%;
+    height           : 36px;
+    border-radius    : 8px;
+    border           : solid 1px #DAE0E3;
+    background-color : #fff;
+    padding          : 0 10px;
+}
+
+#ags_divi_wc_license_form input[type="text"]:focus {
+    border-color : #6a61e6;
+    box-shadow   : none;
+}
+
+#ags_divi_wc_license_form_body {
+    padding   : 35px;
+    flex-grow : 3;
+}
+
+#ags_divi_wc_license_form_body h3 {
+    color       : #3A3A3A;
+    font-weight : 600;
+    text-align  : left;
+    font-size: 14px;
+}
+
+#ags_divi_wc_license_form_error {
+    border-width     : 0 0 0 4px !important;
+    border-style     : solid;
+    padding          : 10px 15px !important;
+    line-height      : 1.5;
+    font-size        : 15px !important;
+    color            : #3D3B38 !important;
+    box-shadow       : 0 0 7.2px 2.8px rgba(61, 59, 56, 0.04);
+    position         : relative;
+    border-radius    : 1px;
+    background-color : #FFE5E5 !important;
+    border-color     : #CC4A49;
+}
+
+#ags_divi_wc_license_form_error a {
+    color       : inherit !important;
+    font-weight : 700;
+}
+
+#ags_divi_wc_license_key_activation_page #ags_divi_wc_license_form {
+    margin : 50px auto 0;
+}
+
+#ags_divi_wc_license_key_box {
+    margin-top : 20px;
+}
+
+/** End license key activation styles **/

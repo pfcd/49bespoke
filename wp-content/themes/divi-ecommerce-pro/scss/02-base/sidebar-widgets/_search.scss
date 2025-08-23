@@ -1,0 +1,44 @@
+#sidebar .et_pb_widget,
+.dsdep-sidebar .et_pb_widget,
+.et-db #et-boc .et-l .dsdep-sidebar .et_pb_widget {
+
+  &.widget_search, &.widget_product_search {
+
+    form {
+      position : relative !important;
+      // search icon
+      &:before {
+        font-family : "ETmodules";
+        font-weight : 900 !important;
+        font-size   : 16px;
+        content     : "\55";
+        position    : absolute;
+        right       : 12px;
+        top         : 0;
+        @include centerHeightUnk();
+        color       : $mainColor;
+        }
+      }
+
+    // Input forms
+    input[type=text], input[type=search] {
+      @include formInputMixin();
+      @include formWhite();
+      display      : block;
+      width        : 100%;
+      margin-right : 40px;
+      }
+
+    #searchsubmit, button[type="submit"] {
+      height     : 40px;
+      width      : 40px;
+      border     : none !important;
+      background : transparent !important;
+      font-size  : 0 !important;
+      position   : absolute;
+      top        : 0;
+      right      : 0;
+      cursor     : pointer;
+      }
+    }
+  }

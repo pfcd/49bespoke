@@ -1,0 +1,29 @@
+.dipi_text_highlighter .dipi-text-highlight-wrapper {
+  overflow: visible;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 5px;
+}
+.dipi_text_highlighter .dipi-text-affixes{
+  vertical-align: middle;
+}
+.dipi_text_highlighter .dipi-text-highlight-text {
+  z-index: 1;
+  position: relative;
+}
+.dipi_text_highlighter .dipi-text-highlight-wrapper svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: visible;
+  stroke-linecap: round;
+  /* stroke-linejoin: round; */
+}
+.dipi_text_highlighter .dipi-text-highlight-wrapper path {
+  fill: none;
+}

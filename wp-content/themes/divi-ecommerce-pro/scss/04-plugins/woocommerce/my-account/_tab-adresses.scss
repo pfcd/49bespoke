@@ -1,0 +1,41 @@
+.dsdep-my-account .woocommerce {
+
+  .woocommerce-Address-title {
+    margin-bottom : 14px;
+
+    h3 {
+      @include responsiveFontSize(28px, 26px, 24px);
+      font-weight : 600;
+      }
+
+    .edit {
+      @include responsiveFontSize(21px, 20px, 19px);
+      font-weight : bold;
+      }
+    }
+
+  .woocommerce-Addresses {
+    margin-top : 48px;
+
+    .u-column1 {
+      margin-bottom : 32px;
+      }
+
+    // Column border
+    @media (min-width : $breakSmall) {
+      .u-column1 {
+        position : relative;
+
+        &:before {
+          content      : "";
+          height       : 100%;
+          border-right : 1px solid;
+          border-color : $lightBorderColor;
+          position     : absolute;
+          right        : -4%;
+          top          : 0;
+          }
+        }
+      }
+    }
+  }

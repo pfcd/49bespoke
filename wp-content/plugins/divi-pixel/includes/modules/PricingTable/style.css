@@ -1,0 +1,54 @@
+.dipi_pricing_table.et_pb_module .et_pb_module.dipi_pricing_table_item{
+    margin-bottom:10px;
+}
+.dipi-pt-ribbon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dipi-pt-feature{justify-content: center;}
+.dipi-pt-btn-wrap,
+.dipi-pt-text{text-align: center;}
+.dipi-pt-feature-icon{margin-right: 5px;}
+.et_pb_module.dipi_pricing_table {position: relative;overflow: visible;}
+.dipi_pricing_table .et_pb_module_inner{position: initial;}
+.dipi-pt-feature,
+.dipi-pt-image,
+.dipi-pt-icon {display: flex;}
+
+.dipi-pt-image .et_pb_image_wrap{display: block;}
+.dipi-pt-image .et_pb_image_wrap img{width: 100%;display: block;border-style: solid;}
+ 
+
+
+/* Default Style */
+.dipi-pt-price-container{text-align: center;}
+.dipi-pt-price{
+    font-size: 80px;
+    line-height: 1.03em;
+    font-weight: 300;
+    vertical-align: middle;
+}
+.dipi-pt-price-prefix,
+.dipi-pt-price-suffix{
+    font-size: 16px;
+    color: #999;
+}
+.dipi-pt-price-prefix{
+    vertical-align: top;
+}
+.dipi-pt-price-suffix{vertical-align: bottom;}
+.dipi-pt-feature,
+.dipi-pt-feature .dipi-pt-feature-icon{
+    font-size: 16px;
+}
+
+.dipi_pricing_table p:empty {
+    display: none;
+}
+.dipi_pricing_table  p:not(.has-background):last-of-type {
+    padding-bottom: 0;
+}
+.dipi-pt-btn-wrap a{
+    display: inline-block;
+}

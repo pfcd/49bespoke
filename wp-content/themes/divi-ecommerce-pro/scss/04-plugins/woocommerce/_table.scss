@@ -1,0 +1,19 @@
+.woocommerce table.shop_table {
+  border : none;
+
+  thead {
+    tr {
+      th {
+        border      : none;
+        font-size   : 14px;
+        font-weight : 600;
+        color       : $baseFontColor;
+        }
+      }
+    }
+
+  th, td {
+    padding      : 16px 20px;
+    border-color : $lightBorderColor;
+    }
+  }

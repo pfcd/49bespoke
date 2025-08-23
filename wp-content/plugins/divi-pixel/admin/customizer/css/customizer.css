@@ -1,0 +1,164 @@
+/* Tab Default */
+
+.control-panel-dipi .accordion-section-title,
+.control-panel-dipi.accordion-section-title,
+.control-section-dipi .accordion-section-title,
+.control-section-dipi.accordion-section-title {
+    background-color: #f3f3f3 !important;
+    border-left-color: #f3f3f3 !important;
+}
+
+/* Tab Hover */
+
+.control-panel-dipi .accordion-section-title:focus,
+.control-panel-dipi:hover>.accordion-section-title,
+.control-section-dipi .accordion-section-title:focus,
+.control-section-dipi:hover>.accordion-section-title {
+    color: #ff4200 !important;
+    border-left-color: #ff4200 !important;
+    background-color: #fff !important;
+}
+
+.control-panel-dipi .accordion-section-title:focus:after,
+.control-panel-dipi:hover>.accordion-section-title:after,
+.control-section-dipi .accordion-section-title:focus:after,
+.control-section-dipi:hover>.accordion-section-title:after {
+    color: #ff4200 !important;
+}
+
+.control-panel-dipi .customize-panel-back:focus,
+.control-panel-dipi .customize-panel-back:hover,
+.control-section-dipi .customize-section-back:focus,
+.control-section-dipi .customize-section-back:hover {
+    color: #ff4200;
+    border-left-color: #ff4200;
+}
+
+.control-panel-dipi .customize-info .customize-help-toggle:focus,
+.control-panel-dipi .customize-info .customize-help-toggle:hover,
+.control-panel-dipi .customize-info.open .customize-help-toggle {
+    color: #ff4200 !important;
+}
+
+/* Increase customizer settings spacing */
+.control-section-dipi .customize-control {
+    padding-left: 20px;
+    width: 88%;
+}
+
+/* customizer Button for option disabled */
+
+.dipi_customizer_control_heading_cta {
+    color: #ffffff;
+    background-color: #fa4907;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 20px 0 10px;
+    box-shadow: 0 2px 10px -5px #79280a;
+    transition: all .3s ease-in-out;
+}
+.dipi_customizer_control_heading_cta:before {
+    content: "\e900";
+    font-family: 'divipixel';
+    padding-right: 5px;
+}
+.dipi_customizer_control_heading_cta:hover {
+	transform: translateY(-2px);
+	transition: all .3s ease-in-out;
+	box-shadow: 0 2px 10px -4px #79280a;
+    color: #ffffff;
+}
+
+
+/* customizer ui */
+.control-section.control-section-dipi {
+    background: #eeeeee !important;
+}
+
+.control-section-dipi .customize-control {
+    margin: 0;
+    width: calc(100% - 40px) !important;
+    padding: 5px 20px !important;
+}
+
+.control-section-dipi .customize-control.dipi-control-section-start {
+    background: #fff !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 -15px 15px -10px #dddede;
+}
+
+.control-section-dipi .customize-control.dipi-control-section-middle {
+    background: #fff !important;
+}
+
+.control-section-dipi .customize-control.dipi-control-section-end {
+    background: #ffffff !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+    box-shadow: 0 15px 15px -10px #dddede;
+}
+
+.control-panel-dipi .accordion-section-title {
+    display: flex;
+    align-items: center;
+}
+.control-panel-dipi .dipi-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
+}
+
+.control-panel-dipi:hover .dipi-icon {
+    filter: grayscale(0);
+}
+
+.customize-control-dipi-heading .dipi_content_wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.customize-control-dipi-heading .dipi_content_wrapper .dipi-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.customize-control-dipi-heading .dipi_content_wrapper .dipi_text_wrapper {
+    flex: 1;
+}
+
+/* Customizer Icon Control */
+.control-section-dipi .customize-control .et_font_icon {
+    min-width: 230px;
+    height: 160px;
+}
+
+/* Customizer Color Control */
+.control-section-dipi .iris-picker.iris-border {
+    border: none;
+}
+.control-section-dipi .iris-square {
+    width: 169px !important;
+}
+
+.control-section-dipi .iris-picker .iris-palette {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.control-section-dipi .iris-slider.iris-strip {
+    width: 15px !important;
+    margin-left: 9px !important;
+}
+
+.wp-customizer .wp-color-result:after {
+    z-index: 8 !important;
+}

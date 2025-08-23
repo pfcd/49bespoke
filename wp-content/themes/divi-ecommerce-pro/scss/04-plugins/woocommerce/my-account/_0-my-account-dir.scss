@@ -1,0 +1,27 @@
+@import "navigation";
+@import "tab-adresses";
+@import "tab-orders";
+@import "tab-details";
+
+.dsdep-my-account .woocommerce {
+  .woocommerce-MyAccount-content, .woocommerce-MyAccount-navigation {
+    float : none;
+    width : 100%
+    }
+
+  .woocommerce-MyAccount-content p:last-of-type {
+    button {
+      text-align : center;
+      margin     : 30px auto 0;
+      display    : block;
+      box-shadow : $primaryShadow;
+      }
+    }
+
+  form {
+    & > h2, & > h3 {
+      font-weight   : 600;
+      margin-bottom : 20px;
+      }
+    }
+  }

@@ -1,0 +1,420 @@
+/* See ../../style.css for licensing and attribution applicable to this theme */
+
+/*
+ * This file was modified by Dominika Rauk and/or others. Last modified 2021-02-25
+ */
+
+/**
+ * #.# Import Demo Tabs
+ *
+ */
+.ags-import-demo-button.button-primary {
+    font-size        : 14px;
+    font-weight      : 600;
+    border-radius    : 4px;
+    border           : 2px solid;
+    padding          : 7px 13px;
+    cursor           : pointer;
+    height           : auto;
+    color            : #FFF !important;
+    background-color : #9068FF !important;
+    border-color     : #9068FF !important;
+    line-height      : normal !important;
+    box-shadow       : none !important;
+}
+
+.ags-import-demo-button.button-primary:hover {
+    background-color : #340F96 !important;
+    border-color     : #340F96 !important;
+}
+
+.ags-import-demo-button.button-primary[disabled], .ags-import-demo-button.button-primary[disabled]:hover {
+    color            : #9A9C9E !important;
+    background-color : #ECECEC !important;
+    border-color     : #ECECEC !important;
+}
+
+/* Import Demo Notice Warning */
+
+.ags-settings-notice {
+    border           : none !important;
+    padding          : 10px 10px 10px 50px !important;
+    line-height      : 1.5;
+    font-size        : 15px !important;
+    color            : #3D3B38 !important;
+    box-shadow       : 0 2px 7px 0 rgba(0, 0, 0, 0.08);
+    position         : relative;
+    border-radius    : 4px;
+    background-color : #FEF6E3 !important;
+    margin           : 30px 0;
+}
+
+.ags-settings-notice a {
+    color       : inherit !important;
+    font-weight : 700;
+}
+
+.ags-settings-notice:before {
+    content    : "s" !important;
+    background : #FC3;
+}
+
+.ags-settings-notice:before {
+    font-family   : ETModules;
+    color         : #FFF;
+    text-align    : center;
+    position      : absolute;
+    top           : 0;
+    left          : 0;
+    font-size     : 20px;
+    width         : 36px;
+    line-height   : 60px;
+    height        : 100%;
+    border-radius : 4px;
+    display       : block !important;
+}
+
+/*  Settings container */
+#ags-settings-container {
+    margin : 30px 15px;
+}
+
+@media (min-width : 1200px) {
+    #ags-settings-container {
+        margin : 30px 15px;
+    }
+}
+
+/*  Settings window */
+#ags-settings {
+    border-radius      : 4px;
+    font-weight        : normal;
+    -webkit-transition : all ease-in 0.3s;
+    transition         : all ease-in 0.3s;
+    font-size          : 14px;
+    line-height        : 1.6;
+    font-family        : "Open Sans", sans-serif;
+}
+
+#ags-settings h1, #ags-settings h2, #ags-settings h3, #ags-settings h4, #ags-settings h5, #ags-settings h6 {
+    font-family : "Open Sans", sans-serif;
+    line-height : 1.2;
+}
+
+/* Settings tab content */
+#ags-settings-tabs-content {
+    box-shadow       : 0 2px 7px 0 rgba(0, 0, 0, 0.08);
+    background-color : #FFF;
+    padding          : 20px 20px 34px;
+}
+
+#ags-settings-tabs-content > div {
+    display : none;
+}
+
+#ags-settings-tabs-content > .ags-settings-active {
+    display : block;
+}
+
+#ags-settings-tabs-content p {
+    margin-top : 10px;
+    font-size  : 14px;
+}
+
+#ags-settings-tabs-content ol {
+    margin-bottom : 20px;
+}
+
+/**
+ * #.# Settings Header
+ *
+ */
+#ags-settings-header {
+    background      : #2F0082;
+    position        : relative;
+    padding         : 16px 23px;
+    justify-content : space-between;
+    display         : flex;
+    flex-wrap       : wrap;
+    align-items     : center;
+}
+
+#ags-settings-header .ags-settings-logo img {
+    display        : inline-block;
+    vertical-align : middle;
+    margin-right   : 10px;
+    width          : 35px;
+}
+
+#ags-settings-header .ags-settings-logo {
+    margin-right : 15px;
+}
+
+#ags-settings-header .ags-settings-logo h1 {
+    margin         : 0;
+    color          : #FFF;
+    font-size      : 20px;
+    font-weight    : bold;
+    display        : inline-block;
+    vertical-align : middle;
+}
+
+#ags-settings-header a, #ags-settings-header-links a {
+    text-decoration     : none;
+    color               : #FFFFFF;
+    font-size           : 14px;
+    opacity             : 0.54;
+    font-weight         : 600;
+    margin-left         : 20px;
+    padding             : 8px 16px 8px 35px;
+    display             : inline-block;
+    border-radius       : 4px;
+    background-size     : 22px 22px;
+    background-repeat   : no-repeat;
+    background-position : 7px center;
+    box-shadow          : none;
+}
+
+#ags-settings-header-links a:first-of-type {
+    margin-left : 0;
+}
+
+#ags-settings-header a:hover, #ags-settings-header-links a:hover {
+    opacity : 1;
+}
+
+@media (max-width : 660px) {
+    #ags-settings-header {
+        justify-content : center;
+    }
+
+    #ags-settings-header .ags-settings-logo {
+        width      : 100%;
+        margin     : 0 auto 8px;
+        text-align : center;
+    }
+
+    #ags-settings-header-links {
+        text-align : center;
+    }
+}
+
+#ags-settings-header a.active, #ags-settings-header-links a.active {
+    opacity          : 1;
+    background-color : #5F9EA0;
+}
+
+#ags-settings-header-link-settings {
+    background-image : url(../images/settings.svg);
+}
+
+#ags-settings-header-link-support {
+    background-image : url(../images/help.svg);
+}
+
+/**
+ * #.# Settings Tabs
+ *
+ */
+#ags-settings-tabs {
+    margin           : 0;
+    background-color : #340F96;
+    overflow         : hidden;
+}
+
+#ags-settings-tabs li {
+    margin      : 0;
+    float       : left;
+    display     : inline-block;
+    font-weight : 600;
+    font-size   : 14px;
+}
+
+@media (max-width : 600px) {
+    #ags-settings-tabs li {
+        float     : none;
+        display   : block;
+        font-size : 13px;
+    }
+}
+
+#ags-settings-tabs li a {
+    background-color   : transparent;
+    opacity            : 0.9;
+    color              : #FFF;
+    cursor             : pointer;
+    padding            : 13px 16px !important;
+    outline            : none;
+    text-decoration    : none;
+    -webkit-transition : all ease-in 0.3s;
+    transition         : all ease-in 0.3s;
+    box-shadow         : none;
+    display            : block;
+    letter-spacing     : 0.29px;
+}
+
+#ags-settings-tabs li a:hover {
+    opacity          : 1;
+    background-color : #2F0082;
+}
+
+#ags-settings-tabs li.ags-settings-active a {
+    opacity          : 1;
+    background-color : #6A61E6;
+}
+
+/**
+ * #.# TGMPA plugin installer
+ *
+ */
+
+#setting-error-tgmpa > p span:first-child {
+    margin-top : 0 !important;
+}
+
+
+/**
+ * #.# License key activation styles
+ *
+ */
+
+#AGS_THEME_license_form {
+    background-color : #FFF;
+    text-align       : left;
+    border           : solid 1px #E0DFDF;
+    max-width        : 900px;
+    margin           : 20px auto 30px;
+    box-shadow       : 0 3px 25px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media (min-width : 900px) {
+    #AGS_THEME_license_form {
+        display : flex;
+    }
+
+    #AGS_THEME_license_form_header {
+        flex  : initial;
+        width : 300px;
+    }
+
+    #AGS_THEME_license_form_body {
+        flex : 1;
+    }
+}
+
+#AGS_THEME_license_form_header {
+    background-color : #2F0081;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    flex-grow        : 1;
+    padding          : 8px 10px 10px 10px;
+    margin           : 0;
+}
+
+#AGS_THEME_license_form_header a {
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+}
+
+#AGS_THEME_license_form_header img {
+    padding : 30px 10px;
+}
+
+#AGS_THEME_license_form h3 {
+    font-size : 22px;
+    margin    : 0 0 15px 0;
+}
+
+#AGS_THEME_license_form p {
+    margin-bottom : 20px;
+}
+
+#AGS_THEME_license_form p.submit {
+    margin  : 20px 0 0 0;
+    padding : 0;
+}
+
+#AGS_THEME_license_form input[type="submit"] {
+    font-size        : 14px;
+    font-weight      : 600;
+    border-radius    : 4px;
+    border           : 2px solid;
+    padding          : 7px 13px;
+    cursor           : pointer;
+    height           : auto;
+    color            : #FFF !important;
+    background-color : #9068FF !important;
+    border-color     : #9068FF !important;
+    line-height      : normal !important;
+    box-shadow       : none !important;
+}
+
+#AGS_THEME_license_form input[type="submit"]:hover {
+    background-color : #340F96 !important;
+    border-color     : #340F96 !important;
+}
+
+#AGS_THEME_license_form_body label span {
+    font-size : 14px;
+}
+
+#AGS_THEME_license_form label {
+    display : table;
+    width   : 100%;
+}
+
+#AGS_THEME_license_form label > * {
+    display : table-cell;
+}
+
+#AGS_THEME_license_form label > span {
+    width       : 100px;
+    text-align  : left;
+    font-weight : bold;
+}
+
+#AGS_THEME_license_form input[type="text"] {
+    width            : 100%;
+    height           : 36px;
+    border-radius    : 4px;
+    border           : solid 1px #DDE2E5;
+    background-color : #F3F6F8;
+    padding          : 0 10px;
+}
+
+#AGS_THEME_license_form input[type="text"]:focus {
+    border-color : #6A61E6;
+    box-shadow   : none;
+}
+
+#AGS_THEME_license_form_body {
+    padding   : 35px;
+    flex-grow : 3;
+}
+
+#AGS_THEME_license_form_body h3 {
+    color       : #2F0081;
+    font-weight : 600;
+    text-align  : left;
+}
+
+#AGS_THEME_license_form_error {
+    color      : #F00000;
+    margin-top : 2px;
+}
+
+#AGS_THEME_license_form_error, #AGS_THEME_license_form p.description {
+    margin-left : 100px;
+    text-align  : left;
+}
+
+#AGS_THEME_license_key_activation_page #AGS_THEME_license_form {
+    margin : 50px auto 0;
+}
+
+#AGS_THEME_license_key_box {
+    margin-top : 20px;
+}
+
+/** End license key activation styles **/

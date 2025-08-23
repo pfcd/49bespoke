@@ -1,0 +1,44 @@
+.dipi-star-rating span {
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+    cursor: default;
+}
+
+.dipi-star-rating span.dipi-star-full:before {
+    content: "\2605";
+    display: block;
+    font-size: inherit;
+    font-family: inherit;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.dipi-star-rating span.dipi-star-1:before{ width: 10%; }
+.dipi-star-rating span.dipi-star-2:before{ width: 20%; }
+.dipi-star-rating span.dipi-star-3:before{ width: 30%; }
+.dipi-star-rating span.dipi-star-4:before{ width: 40%; }
+.dipi-star-rating span.dipi-star-5:before{ width: 50%; }
+.dipi-star-rating span.dipi-star-6:before{ width: 60%; }
+.dipi-star-rating span.dipi-star-7:before{ width: 70%; }
+.dipi-star-rating span.dipi-star-8:before{ width: 80%; }
+.dipi-star-rating span.dipi-star-9:before{ width: 90%; }
+
+.dipi_star_rating .dipi-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.display-type-inline .dipi-title {
+    margin-right: 8px;
+}
+
+.display-type-block .dipi-star-rating, .display-type-block .dipi-title {
+    display: block;
+}
+
+.display-type-inline .dipi-star-rating, .display-type-inline .dipi-title {
+    display: inline-block;
+}

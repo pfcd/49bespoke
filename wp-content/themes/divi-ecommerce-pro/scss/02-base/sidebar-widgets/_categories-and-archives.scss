@@ -1,0 +1,42 @@
+.et_pb_widget.widget_categories,
+.et_pb_widget.widget_archive,
+.et_pb_widget.widget_product_categories,
+.et_pb_widget.woocommerce-widget-layered-nav {
+
+  ul li {
+    padding  : 12px 0 !important;
+    position : relative;
+
+    &:first-child {
+      padding-top : 0;
+      }
+
+    &:last-child {
+      padding-bottom : 0;
+      }
+
+    a {
+      color       : $baseHeaderColor;
+      font-weight : 600;
+
+      &:hover {
+        color : $mainColor;
+        }
+      }
+
+    &.current-cat a {
+      color : $mainColor;
+      }
+
+    &:not(:last-child):before {
+      content      : "";
+      width        : 80px;
+      border-top   : 1px solid;
+      position     : absolute;
+      left         : 0;
+      bottom       : 0;
+      border-color : $darkBorderColor;
+      }
+    }
+
+  }

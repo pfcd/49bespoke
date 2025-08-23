@@ -1,0 +1,13 @@
+.et-db #et-boc .et-l .et-fb-modules-list li.dswc_woocommerce_carousel  {
+    border-left: 5px solid #6A39E4!important;
+    border-radius: 0 5px 5px 0 !important;
+    padding: 10px 15px 10px 10px;
+}
+
+li.dswc_woocommerce_carousel .et_module_title {
+    padding-top: 5px;
+}
+
+li.dswc_woocommerce_carousel .et-fb-icon svg {
+    height: 26px;
+}

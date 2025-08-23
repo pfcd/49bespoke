@@ -1,0 +1,13 @@
+.dsdep-contact-form,
+.et-db #et-boc .et-l .dsdep-contact-form {
+  input, p input {
+    @include formInputMixin();
+    @include formWhite();
+    }
+
+  textarea, p textarea {
+    @include formTextareaMixin();
+    @include formWhite();
+    }
+
+  }

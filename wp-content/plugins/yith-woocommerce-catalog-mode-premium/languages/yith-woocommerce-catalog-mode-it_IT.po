@@ -1,0 +1,1839 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Catalog Mode\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-20T17:12:16+00:00\n"
+"PO-Revision-Date: 2024-03-05 10:13:04+0000\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/ywctm-functions-premium.php:833
+msgctxt "Part of a sentence like: \"Hidden and replaced with:\""
+msgid "and replaced with:"
+msgstr "e sostituito con:"
+
+#. translators: all the placeholders are HTML tags to use in the string.
+#: includes/class-ywctm-button-label-post-type.php:1220
+msgctxt "Text showed when the exclusion list is empty."
+msgid "%1$sYou don't have any button or label yet.%2$s%3$sCreate your first button or label now!%4$s"
+msgstr "%1$sNon ci sono ancora pulsanti o etichette.%2$s%3$sCrea il tuo primo pulsante o la tua prima etichetta adesso!%4$s"
+
+#. translators: all the placeholders are HTML tags to use in the string.
+#: includes/admin/tables/class-ywctm-vendors-table.php:253
+msgctxt "Text showed when the exclusion list is empty."
+msgid "%1$sYou don't have any vendor yet.%2$s%3$sClick on the \"Add vendor\" button to add a vendor!%4$s"
+msgstr "%1$sNon ci sono venditori.%2$s%3$sAggiungi il tuo primo venditore dal pulsante \"Aggiungi venditore\"!%4$s"
+
+#. translators: all the placeholders are HTML tags to use in the string.
+#: includes/admin/tables/class-ywctm-exclusions-table.php:422
+msgctxt "Text showed when the exclusion list is empty."
+msgid "%1$sYou don't have any exclusion yet.%2$s%3$sClick on the \"Add exclusion\" button to exclude a product, a category or a tag!%4$s"
+msgstr "%1$sNon sono state ancora configurate delle esclusioni.%2$s%3$sClicca sul pulsante \"Aggiungi esclusione\" per escludere un prodotto, una categoria o un tag!!%4$s"
+
+#: class-yith-woocommerce-catalog-mode.php:331
+msgctxt "[WELCOME MODAL] Item description"
+msgid "and embark on a new adventure!"
+msgstr "e dai inizio all’avventura!"
+
+#: class-yith-woocommerce-catalog-mode.php:330
+msgctxt "[WELCOME MODAL] Item title"
+msgid "Set up the <mark>Catalog Mode</mark> in your shop"
+msgstr "Configura la <mark>modalità catalogo</mark> nel tuo shop"
+
+#: class-yith-woocommerce-catalog-mode.php:318
+msgctxt "[WELCOME MODAL] Modal description"
+msgid "Convert your shop into an online catalog by hiding prices and/or \"Add to Cart\" buttons"
+msgstr "Converti il tuo shop in un catalogo online nascondendo i prezzi e/o i pulsanti \"Aggiungi al carrello\""
+
+#: class-yith-woocommerce-catalog-mode.php:300
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin Recover Abandoned Cart"
+msgid "Contact users who have added products to the cart without completing the order and try to recover lost sales."
+msgstr "Contatta gli utenti che hanno aggiunto prodotti al carrello senza completare l'ordine e prova a recuperare le mancate vendite."
+
+#: class-yith-woocommerce-catalog-mode.php:292
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Customize My Account"
+msgid "Customize the My Account page of your customers by creating custom sections with promotions and ad-hoc content based on your needs."
+msgstr "Personalizza la pagina Il Mio Account dei tuoi clienti creando sezioni dedicate con promozioni e contenuti ad hoc in base alle loro esigenze."
+
+#: class-yith-woocommerce-catalog-mode.php:284
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic Pricing and Discounts"
+msgid "Increase conversions through dynamic discounts and price rules, and build powerful and targeted offers."
+msgstr "Aumenta le conversioni con le regole di prezzo e sconto dinamiche e crea offerte potenti e mirate."
+
+#: class-yith-woocommerce-catalog-mode.php:276
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product Add-Ons"
+msgid "Add paid or free advanced options to your product pages using fields like radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr "Aggiungi opzioni avanzate gratuite o a pagamento alle tue pagine prodotto usando campi come radio button, checkbox, select, input di testo personalizzati, ecc."
+
+#: class-yith-woocommerce-catalog-mode.php:268
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH Bookings"
+msgid "Enable a booking/appointment system to manage renting or booking of services, rooms, houses, cars, accommodation facilities and more."
+msgstr "Abilita un sistema prenotazioni/appuntamenti per gestire affitti o prenotazioni di servizi, stanze, case, auto, servizi ricettivi ecc."
+
+#: class-yith-woocommerce-catalog-mode.php:260
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Product Filter"
+msgid "Help your customers to easily find the products they are looking for and improve the user experience of your shop."
+msgstr "Aiuta i tuoi clienti a trovare facilmente i prodotti che stanno cercando e migliora la user experience del tuo shop."
+
+#: class-yith-woocommerce-catalog-mode.php:252
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid "Sell gift cards in your shop to increase your earnings and attract new customers."
+msgstr "Vendi buoni regalo nel tuo shop per aumentare i guadagni e attirare nuovi clienti."
+
+#: class-yith-woocommerce-catalog-mode.php:244
+msgctxt "[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid "Allow your customers to create lists of products they want and share them with family and friends."
+msgstr "Permetti ai tuoi clienti di creare liste di prodotti a cui sono interessati e condividerle con parenti ed amici."
+
+#: class-yith-woocommerce-catalog-mode.php:231
+msgctxt "[PREMIUM TAB] Item description"
+msgid "An information request form is the easiest and most effective way to push your customers for immediate contact and to quickly respond to their concerns or requests for a quote. You can use the form in the plugin or insert an ad hoc form created with the Contact Form 7, Gravity Form, Ninja Forms, Formidable Forms, or WP Forms plugins."
+msgstr "Un form di richiesta informazioni è la soluzione più facile ed efficace per spingere i tuoi clienti a un contatto immediato e per rispondere velocemente ai loro dubbi o a una richiesta di preventivo. Puoi utilizzare il form presente nel plugin o inserire un form ad hoc creato con i plugin Contact Form 7, Gravity Form, Ninja Forms, Formidable Forms o WP Forms."
+
+#: class-yith-woocommerce-catalog-mode.php:227
+msgctxt "[PREMIUM TAB] Item description"
+msgid "With the free version, you can hide prices and \"Add to cart\" buttons, but with the premium version you can go further: thanks to the builder you can create custom buttons and messages to show on your products, such as \"Call xxx number to check availability and prices\" or a call to action that pushes the user to buy the product in an ad hoc landing page."
+msgstr "Con la versione free puoi nascondere prezzi e pulsanti di aggiunta al carrello, ma con la premium puoi davvero andare oltre: grazie al builder puoi creare pulsanti e messaggi personalizzati da mostrare sui tuoi prodotti, come ad esempio un “Chiama il numero xxx per verificare disponibilità e prezzi” o una call to action che spinga l’utente ad acquistare il prodotto in una landing page ad hoc."
+
+#: class-yith-woocommerce-catalog-mode.php:223
+msgctxt "[PREMIUM TAB] Item description"
+msgid "Do you want to sell your products normally and hide the price and \"Add to cart\" button only on a specific product? Thanks to the exclusion list you can decide on which products to activate catalog mode and manage your shop with maximum versatility."
+msgstr "Vuoi vendere i tuoi prodotti normalmente e nascondere prezzo e pulsante di aggiunta al carrello solo su uno specifico prodotto? Grazie alla lista di esclusioni puoi decidere per quali prodotti attivare la modalità catalogo e gestire il tuo shop con la massima versatilità."
+
+#: class-yith-woocommerce-catalog-mode.php:219
+msgctxt "[PREMIUM TAB] Item description"
+msgid "In the premium version you can choose whether to enable catalog mode only for unregistered users or for users from certain countries. You can also decide to enable the catalog option - and thus prevent the purchase of new products - on specific days of the week or times of the year: the ideal option if you want to \"close\" your shop during the summer vacations or for personal reasons."
+msgstr "Nella versione premium puoi scegliere se abilitare la modalità catalogo solo per gli utenti non registrati o per quelli che provengono da determinati paesi. Inoltre, puoi decidere di attivare l'opzione catalogo – e quindi prevenire l’acquisto di nuovi prodotti – in specifici giorni della settimana o periodi dell’anno: l’opzione ideale se vuoi “chiudere” il tuo shop durante le vacanze estive o per motivi personali."
+
+#: class-yith-woocommerce-catalog-mode.php:230
+msgctxt "[PREMIUM TAB] Item title"
+msgid "Show an information request form on product pages"
+msgstr "Mostra un form di richiesta informazioni nelle pagine prodotto"
+
+#: class-yith-woocommerce-catalog-mode.php:226
+msgctxt "[PREMIUM TAB] Item title"
+msgid "Use the built-in builder to create buttons and text labels to show on your products"
+msgstr "Utilizza il builder integrato per creare pulsanti ed etichette di testo da mostrare sui tuoi prodotti"
+
+#: class-yith-woocommerce-catalog-mode.php:222
+msgctxt "[PREMIUM TAB] Item title"
+msgid "Choose which products to activate catalog mode for"
+msgstr "Scegli per quali prodotti attivare la modalità catalogo"
+
+#: class-yith-woocommerce-catalog-mode.php:218
+msgctxt "[PREMIUM TAB] Item title"
+msgid "Advanced options for enabling catalog mode"
+msgstr "Opzioni avanzate per l’attivazione della modalità catalogo"
+
+#: class-yith-woocommerce-catalog-mode.php:163
+#: includes/integrations/class-ywctm-multi-vendor.php:122
+msgctxt "buttons & labels settings tab description"
+msgid "Create buttons and labels to use with the plugin features."
+msgstr "Crea pulsanti ed etichette per utilizzare le funzionalità del plugin nei tuoi prodotti."
+
+#: class-yith-woocommerce-catalog-mode.php:158
+#: includes/integrations/class-ywctm-multi-vendor.php:117
+msgctxt "inquiry form settings tab description"
+msgid "Configure the inquiry form settings."
+msgstr "Configura le opzioni del modulo contatti."
+
+#: class-yith-woocommerce-catalog-mode.php:149
+#: class-yith-woocommerce-catalog-mode.php:188
+#: includes/integrations/class-ywctm-multi-vendor.php:108
+msgctxt "general settings tab description"
+msgid "Configure the plugin's general settings."
+msgstr "Configura qui le opzioni generali del plugin."
+
+#: class-yith-woocommerce-catalog-mode-premium.php:402
+msgctxt "Exclusion page popup edit button label "
+msgid "Edit exclusion"
+msgstr "Modifica esclusione"
+
+#: plugin-options/settings-options.php:37
+msgid "Hide \"Add to Cart\" in:"
+msgstr "Nascondi \"Aggiungi al carrello\" in:"
+
+#: plugin-options/inquiry-form-options.php:70
+msgid "General options"
+msgstr "Opzioni generali"
+
+#: plugin-options/exclusions-options.php:27
+msgid "Configure the exclusion list for the vendors."
+msgstr "Configura la lista esclusioni per i venditori."
+
+#: plugin-options/exclusions-options.php:23
+#: plugin-options/exclusions-options.php:40
+msgid "Add products, categories, or tags to the Exclusion List to define the products where the plugin features are used."
+msgstr "Aggiungi prodotti, categorie o tag alla lista Esclusioni per scegliere su quali prodotti attivare le funzionalità del plugin."
+
+#. translators: %s is the name of the button to replace the add to cart button.
+#: includes/ywctm-functions-premium.php:847
+msgid "%s in shop page"
+msgstr "%s nella pagina Shop"
+
+#. translators: %s is the name of the button to replace the add to cart button.
+#: includes/ywctm-functions-premium.php:840
+msgid "%s in product page"
+msgstr "%s nella pagina prodotto"
+
+#: includes/class-ywctm-button-label-post-type.php:963
+msgid "< Back to the Buttons & Labels table"
+msgstr "< Torna alla tabella Pulsanti & Etichette"
+
+#: includes/class-ywctm-button-label-post-type.php:271
+#: includes/ywctm-functions-premium.php:1724
+msgid "Are you sure you want to delete this item?"
+msgstr "Sei sicuro di voler cancellare questo articolo?"
+
+#: includes/class-ywctm-button-label-post-type.php:266
+#: includes/class-ywctm-button-label-post-type.php:319
+#: includes/ywctm-functions-premium.php:1719
+msgid "Delete"
+msgstr "Cancella"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:314
+#: includes/class-ywctm-button-label-post-type.php:1307
+msgid "Reset filters"
+msgstr "Resetta i filtri"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:409
+#: includes/class-ywctm-button-label-post-type.php:272
+#: includes/ywctm-functions-premium.php:1725
+msgid "Yes, delete"
+msgstr "Sì, cancella"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:408
+#: includes/class-ywctm-button-label-post-type.php:271
+#: includes/ywctm-functions-premium.php:1724
+msgid "This action cannot be undone and you will not be able to recover this data."
+msgstr "Quest'azione è irreversibile e non potrai recuperare questi dati."
+
+#: class-yith-woocommerce-catalog-mode-premium.php:408
+msgid "Are you sure you want to delete the selected items?"
+msgstr "Se sicuro di voler eliminare gli elementi selezionati?"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:407
+#: includes/class-ywctm-button-label-post-type.php:270
+#: includes/ywctm-functions-premium.php:1723
+msgid "Confirm delete"
+msgstr "Conferma cancellazione"
+
+#: plugin-options/premium-settings-options.php:32
+msgid "MaxMind License Key"
+msgstr "Chiave licenza MaxMind "
+
+#. translators: %1$s: opening link tag, %2$s: closing link tag
+#: plugin-options/premium-settings-options.php:31
+msgid "The key that will be used when dealing with MaxMind Geolocation services. You can read how to generate one in %1$s MaxMind Geolocation Integration documentation %2$s."
+msgstr "La chiave che verrà utilizzata per la gestione dei servizi MaxMind Geolocation. Puoi trovare come generarne una nella documentazione %1$s MaxMind Geolocation Integration%2$s."
+
+#: plugin-options/premium-settings-options.php:18
+msgid "Enable MaxMind Geolocation"
+msgstr "Abilita MaxMind Geolocation"
+
+#: plugin-options/premium-settings-options.php:17
+msgid "Enable to use the MaxMind service for your customers geolocation. This service can improve Geolocation accuracy."
+msgstr "Abilita per utilizzare il servizio di MaxMind per migliorare la geolocalizzazione dei clienti."
+
+#: views/panel/types/ywctm-default-form.php:179
+msgid "Move"
+msgstr "Sposta"
+
+#: includes/class-ywctm-button-label-post-type.php:252
+#: includes/ywctm-functions-premium.php:1738
+#: views/panel/types/ywctm-default-form.php:172
+msgid "Edit"
+msgstr "Modifica"
+
+#. translators: %1$s and %2$s are placeholder for <a/> html tag opening and closing.
+#: includes/class-ywctm-button-label-post-type.php:86
+msgid "You do not have permission to edit this button. %1$sClick here to view and edit your button%2$s."
+msgstr "Non hai i permessi per modificare questo pulsante. %1$sPer visualizzare e modificare il pulsante clicca qui%2$s."
+
+#. translators: %1$s opening B tag - %2$s closing B tag
+#: class-yith-woocommerce-catalog-mode.php:169
+msgctxt "[HELP TAB] Video title"
+msgid "Check this video to learn how to %1$sconvert your shop into a product catalog%2$s"
+msgstr "Guarda questo video per scoprire come %1$strasformare il tuo shop in un catalogo prodotti%2$s"
+
+#. translators: %s line break
+#: plugin-options/premium-settings-options.php:199
+msgid "If enabled, the shop will not receive orders during a specific time range. %s To set the times, please use 24 hour format. For example: if you do not take orders from 8 in the evening till 8 in the morning, use: 20.00 to 8.00."
+msgstr "Se abilitata, il negozio non riceverà ordini nell'intervallo orario specificato. %s Gli orari vanno impostati utilizzando il formato 24 ore. ES: per non ricevere ordini dalle 8 di sera alle 8 del mattino impostare come segue: Dalle 20.00 alle 8.00."
+
+#: views/panel/types/ywctm-multiple-times.php:61
+#: views/panel/types/ywctm-multiple-times.php:83
+#: views/panel/types/ywctm-multiple-times.php:158
+#: views/panel/types/ywctm-multiple-times.php:180
+msgctxt "Abbreviation for \"Minutes\""
+msgid "MM"
+msgstr "MM"
+
+#: views/panel/types/ywctm-multiple-times.php:50
+#: views/panel/types/ywctm-multiple-times.php:72
+#: views/panel/types/ywctm-multiple-times.php:147
+#: views/panel/types/ywctm-multiple-times.php:169
+msgctxt "Abbreviation for \"Hours\""
+msgid "HH"
+msgstr "HH"
+
+#: views/panel/types/ywctm-multiple-times.php:89
+#: views/panel/types/ywctm-multiple-times.php:186
+msgctxt "Part of the sentence: \"From [time] To [time] on [days of the week]\""
+msgid "on"
+msgstr "di"
+
+#: views/panel/types/ywctm-multiple-times.php:67
+#: views/panel/types/ywctm-multiple-times.php:164
+msgctxt "Part of the sentence: \"From [time] To [time] on [days of the week]\""
+msgid "To"
+msgstr "alle"
+
+#: views/panel/types/ywctm-multiple-times.php:45
+#: views/panel/types/ywctm-multiple-times.php:142
+msgctxt "Part of the sentence: \"From [time] To [time] on [days of the week]\""
+msgid "From"
+msgstr "Dalle"
+
+#: views/panel/types/ywctm-multiple-dates.php:56
+#: views/panel/types/ywctm-multiple-dates.php:118
+msgctxt "Part of the sentence: \"From [date] To [date]\""
+msgid "To"
+msgstr "al"
+
+#: views/panel/types/ywctm-multiple-dates.php:42
+#: views/panel/types/ywctm-multiple-dates.php:104
+msgctxt "Part of the sentence: \"From [date] To [date]\""
+msgid "From"
+msgstr "Dal"
+
+#: views/panel/types/ywctm-default-form.php:62
+msgctxt "Default form description"
+msgid "You can use the shortcode [terms] and [privacy_policy]"
+msgstr "Puoi usare lo shortcode [terms] e [privacy_policy]"
+
+#: views/panel/types/ywctm-default-form.php:36
+#: views/panel/types/ywctm-default-form.php:47
+msgctxt "Default form description"
+msgid "Separate classes with commas"
+msgstr "Separa le classi con la virgola"
+
+#: views/panel/types/ywctm-default-form.php:91
+msgctxt "Default form column"
+msgid "Activate"
+msgstr "Abilita"
+
+#: views/panel/types/ywctm-default-form.php:81
+msgctxt "Default form column"
+msgid "Required"
+msgstr "Necessario"
+
+#: views/panel/types/ywctm-default-form.php:73
+msgctxt "Default form column"
+msgid "Position"
+msgstr "Posizione"
+
+#: views/panel/types/ywctm-default-form.php:61
+msgctxt "Default form column"
+msgid "Description"
+msgstr "Descrizione"
+
+#: views/panel/types/ywctm-default-form.php:52
+msgctxt "Default form column"
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: views/panel/types/ywctm-default-form.php:46
+msgctxt "Default form column"
+msgid "Label Class"
+msgstr "Classe etichetta"
+
+#: views/panel/types/ywctm-default-form.php:41
+msgctxt "Default form column"
+msgid "Label"
+msgstr "Etichetta"
+
+#: views/panel/types/ywctm-default-form.php:35
+msgctxt "Default form column"
+msgid "Class"
+msgstr "Classe"
+
+#: views/panel/types/ywctm-default-form.php:27
+msgctxt "Default form column"
+msgid "Type"
+msgstr "Tipo"
+
+#: views/panel/types/ywctm-default-form.php:22
+msgctxt "Default form column"
+msgid "Name"
+msgstr "Nome"
+
+#. translators: %1$s line break, %2$s link opening, %3$s link closing
+#: plugin-options/inquiry-form-options.php:125
+msgctxt "string with placeholder do not translate or remove it"
+msgid "Enable to add reCAPTCHA option in default form. %1$s To start using reCAPTCHA V2, you need to %2$ssign up for an API key%3$s pair for your site."
+msgstr "Abilita per aggiungere l'opzione reCAPTCHA  al form predefinito. %1$s Per iniziare ad usare reCAPTCHA V2, devi %2$sregistrarti per ottenere una coppia di chiavi API%3$s per il tuo sito."
+
+#: plugin-options/inquiry-form-options.php:168
+msgctxt "Admin options title"
+msgid "Form options"
+msgstr "Opzioni modulo"
+
+#: plugin-options/inquiry-form-options.php:106
+msgctxt "Admin options title"
+msgid "Default form fields"
+msgstr "Modulo predefinito"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:101
+msgctxt "Field to add the Acceptance on form"
+msgid "Acceptance"
+msgstr "Consenso"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:100
+msgctxt "Textarea field"
+msgid "Textarea"
+msgstr "Area di testo"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:99
+msgctxt "Email field"
+msgid "Email"
+msgstr "Email"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:98
+msgctxt "Text field"
+msgid "Text"
+msgstr "Testo"
+
+#: includes/class-ywctm-button-label-post-type.php:908
+msgctxt "buttons & labels options group name"
+msgid "Options"
+msgstr "Opzioni"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:293
+msgctxt "Label for filter button in exclusion list"
+msgid "Filter"
+msgstr "Filtra"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:401
+msgctxt "Exclusion page popup save button label "
+msgid "Add exclusion to list"
+msgstr "Aggiungi esclusione all'elenco "
+
+#: class-yith-woocommerce-catalog-mode-premium.php:400
+msgctxt "Exclusion page popup title label "
+msgid "Add exclusion in list"
+msgstr "Aggiungi esclusione all'elenco"
+
+#: views/panel/types/ywctm-multiple-times.php:98
+#: views/panel/types/ywctm-multiple-times.php:189
+msgid "Sunday"
+msgstr "Domenica"
+
+#: views/panel/types/ywctm-multiple-times.php:97
+#: views/panel/types/ywctm-multiple-times.php:195
+msgid "Saturday"
+msgstr "Sabato"
+
+#: views/panel/types/ywctm-multiple-times.php:96
+#: views/panel/types/ywctm-multiple-times.php:194
+msgid "Friday"
+msgstr "Venerdì"
+
+#: views/panel/types/ywctm-multiple-times.php:95
+#: views/panel/types/ywctm-multiple-times.php:193
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: views/panel/types/ywctm-multiple-times.php:94
+#: views/panel/types/ywctm-multiple-times.php:192
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: views/panel/types/ywctm-multiple-times.php:93
+#: views/panel/types/ywctm-multiple-times.php:191
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: views/panel/types/ywctm-multiple-times.php:92
+#: views/panel/types/ywctm-multiple-times.php:190
+msgid "Monday"
+msgstr "Lunedì"
+
+#: views/panel/types/ywctm-multiple-times.php:91
+#: views/panel/types/ywctm-multiple-times.php:188
+msgid "All days"
+msgstr "Tutti i giorni"
+
+#. translators: 5s 'Plus' sign
+#: views/panel/types/ywctm-multiple-dates.php:26
+#: views/panel/types/ywctm-multiple-times.php:29
+msgid "%s Add rule"
+msgstr "%s Aggiungi regola"
+
+#: views/panel/types/ywctm-default-form.php:279
+msgid "This field is required"
+msgstr "Questo è un campo obbligatorio"
+
+#: views/panel/types/ywctm-default-form.php:276
+msgid "This field is already defined"
+msgstr "Questo è un campo già definito"
+
+#: templates/catalog-mode-default-form.php:36
+msgid "Send Your Request"
+msgstr "Invia la tua richiesta"
+
+#: plugin-options/premium-settings-options.php:234
+msgid "Disable the shop during this date range:"
+msgstr "Disabilita il negozio in questo intervallo di date:"
+
+#: plugin-options/premium-settings-options.php:224
+msgid "If enabled, the shop will not receive orders during a specific date range (for example: from 23 December to 9 January)"
+msgstr "Se abilitata, il negozio non riceverà ordini durante l'intervallo di date specificato (es: dal 23 dicembre al 9 gennaio)"
+
+#: plugin-options/premium-settings-options.php:221
+msgid "Disable shop during specific dates"
+msgstr "Disabilita negozio in date specifiche"
+
+#: plugin-options/premium-settings-options.php:209
+msgid "Disable shop during this time range:"
+msgstr "Disabilita negozio in questo intervallo di ore:"
+
+#: plugin-options/premium-settings-options.php:195
+msgid "Disable the shop during specific time ranges"
+msgstr "Disabilita negozio in specifici intervalli orari"
+
+#: plugin-options/premium-settings-options.php:165
+#: plugin-options/settings-options.php:22
+msgid "If enabled, the Catalog Mode rules will also work for admin users."
+msgstr "Se abilitata, le regole di Catalog Mode verranno applicate anche agli amministratori."
+
+#: plugin-options/premium-settings-options.php:123
+msgid "Set geolocation rules for users"
+msgstr "Regole geolocalizzazione per utenti"
+
+#: plugin-options/premium-settings-options.php:112
+msgid "If enabled, you can set specific rules for users from different countries."
+msgstr "Abilita per impostare regole specifiche per gli utenti in base al loro paese di provenienza."
+
+#. translators: %s line break
+#: plugin-options/inquiry-form-options.php:303
+msgid "Use this option to include the product permalink in the email body.%sIn this way, you can identify from which product page the message was sent."
+msgstr "Usa questa opzione per includere il permalink del prodotto nel contenuto dell'email.%sIn questo modo puoi identificare da quale pagina prodotto è stato inviato il messaggio."
+
+#: plugin-options/inquiry-form-options.php:151
+msgid "Enter reCAPTCHA secret key"
+msgstr "Inserisci chiave segreta reCAPTCHA"
+
+#: plugin-options/inquiry-form-options.php:150
+msgid "Secret key"
+msgstr "Chiave segreta"
+
+#: plugin-options/inquiry-form-options.php:138
+msgid "Enter the reCAPTCHA site key"
+msgstr "Inserisci la chiave sito reCAPTCHA"
+
+#: plugin-options/inquiry-form-options.php:137
+msgid "Site key"
+msgstr "Chiave sito"
+
+#: plugin-options/inquiry-form-options.php:123
+msgid "Add a reCAPTCHA to the default form"
+msgstr "Aggiungi reCAPTCHA al modulo predefinito"
+
+#. translators: %s list of supported plugins
+#: plugin-options/inquiry-form-options.php:92
+msgid "Select which form to show. You can use the default form or it is possible to use another plugin and show a form created with %s"
+msgstr "Seleziona il modulo da mostrare. Puoi utilizzare il modulo predefinito oppure un modulo creato con %s"
+
+#: plugin-options/inquiry-form-options.php:87
+msgid "Form to show"
+msgstr "Modulo da mostrare"
+
+#: plugin-options/inquiry-form-options.php:81
+msgid "Visible in products added to the Exclusion List only"
+msgstr "Visibile solo nei prodotti inseriti nella Lista Esclusioni"
+
+#: plugin-options/inquiry-form-options.php:13
+msgid "Select the form to display on the product page."
+msgstr "Seleziona il modulo da mostrare sulla pagina prodotto."
+
+#: includes/integrations/forms/default/ywctm-default-form.php:405
+msgid "We have received your inquiry message. Here's a recap of the details you have submitted:"
+msgstr "Abbiamo ricevuto il tuo messaggio. Ecco un riepilogo dei dettagli che hai inviato:"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:396
+msgid "Your inquiry was received."
+msgstr "Abbiamo ricevuto la tua richiesta."
+
+#: includes/integrations/forms/default/ywctm-default-form.php:387
+msgid "[{site_title}] We have received your inquiry."
+msgstr "[{site_title}] Abbiamo ricevuto la tua richiesta."
+
+#: includes/integrations/forms/default/ywctm-default-form.php:343
+#: includes/integrations/forms/default/ywctm-default-form.php:414
+msgid "Choose which format of email to send."
+msgstr "Scegli il formato email per l'invio."
+
+#: includes/integrations/forms/default/ywctm-default-form.php:339
+#: includes/integrations/forms/default/ywctm-default-form.php:410
+msgid "Email type"
+msgstr "Tipo email"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:334
+msgid "You have received a new inquiry message."
+msgstr "Hai ricevuto una nuova richiesta."
+
+#: includes/integrations/forms/default/ywctm-default-form.php:329
+#: includes/integrations/forms/default/ywctm-default-form.php:400
+msgid "Email body"
+msgstr "Contenuto email"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:325
+msgid "Inquiry message"
+msgstr "Messaggio richiesta"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:320
+#: includes/integrations/forms/default/ywctm-default-form.php:391
+msgid "Email heading"
+msgstr "Intestazione email"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:316
+msgid "[{site_title}] You have a new inquiry."
+msgstr "[{site_title}] Hai una nuova richiesta."
+
+#. translators: %s placeholders
+#: includes/integrations/forms/default/ywctm-default-form.php:314
+#: includes/integrations/forms/default/ywctm-default-form.php:323
+#: includes/integrations/forms/default/ywctm-default-form.php:332
+#: includes/integrations/forms/default/ywctm-default-form.php:385
+#: includes/integrations/forms/default/ywctm-default-form.php:394
+#: includes/integrations/forms/default/ywctm-default-form.php:403
+msgid "Available placeholders: %s"
+msgstr "Segnaposto disponibili: %s"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:311
+#: includes/integrations/forms/default/ywctm-default-form.php:382
+msgid "Email subject"
+msgstr "Oggetto email"
+
+#. translators: %s default email
+#: includes/integrations/forms/default/ywctm-default-form.php:306
+msgid "Enter recipients (comma separated) for this email. Defaults to %s"
+msgstr "Inserisci i destinatari (separati dalla virgola) per questa email. Predefinito: %s"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:302
+msgid "Recipient(s)"
+msgstr "Destinatari"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:118
+msgid "Wide"
+msgstr "Ampio"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:117
+msgid "Last"
+msgstr "Ultimo"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:116
+msgid "First"
+msgstr "Primo"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:82
+msgid "I have read and accepted your [terms] and [privacy_policy]"
+msgstr "Ho letto e accetto [terms] e [privacy_policy]"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:75
+msgid "Acceptance"
+msgstr "Consenso"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:63
+msgid "Message"
+msgstr "Messaggio"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:51
+msgid "Email"
+msgstr "Email"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:39
+msgid "Last Name"
+msgstr "Cognome"
+
+#: includes/integrations/forms/default/ywctm-default-form.php:27
+msgid "First Name"
+msgstr "Nome"
+
+#: includes/integrations/forms/default/panel/class-ywctm-default-form-field.php:59
+msgid "Save Field"
+msgstr "Salva campo"
+
+#: includes/integrations/forms/default/panel/class-ywctm-default-form-field.php:58
+msgid "Edit field"
+msgstr "Modifica campo"
+
+#: includes/integrations/forms/default/emails/class-ywctm-request-mail.php:50
+msgid "Inquiry email for the admin"
+msgstr "Email richiesta per amministratore"
+
+#: includes/integrations/forms/default/emails/class-ywctm-request-mail.php:48
+msgid "Catalog Mode: Admin Email"
+msgstr "Catalog Mode: Email admin "
+
+#: includes/integrations/forms/default/emails/class-ywctm-request-mail-customer.php:50
+msgid "Copy of the inquiry email for the customer"
+msgstr "Copia dell'email di richiesta per il cliente"
+
+#: includes/integrations/forms/default/emails/class-ywctm-request-mail-customer.php:48
+msgid "Catalog Mode: Customer Email"
+msgstr "Catalog Mode: Email cliente"
+
+#. translators: %s email address
+#: includes/integrations/forms/default/class-ywctm-default-form.php:275
+msgid " %s is not a valid email address."
+msgstr "%s non è un indirizzo email valido."
+
+#. translators: %s field name
+#: includes/integrations/forms/default/class-ywctm-default-form.php:265
+msgid "%s is required."
+msgstr "%s è necessario."
+
+#: includes/integrations/forms/default/class-ywctm-default-form.php:236
+msgid "Your message has been sent successfully. You'll find a copy in your mailbox."
+msgstr "Il tuo messaggio è stato inviato correttamente. Troverai una copia nella tua mailbox."
+
+#: class-yith-woocommerce-catalog-mode-premium.php:410
+#: includes/class-ywctm-button-label-post-type.php:273
+#: includes/integrations/forms/default/class-ywctm-default-form.php:208
+#: includes/ywctm-functions-premium.php:1726
+msgid "No"
+msgstr "No"
+
+#: includes/integrations/forms/default/class-ywctm-default-form.php:208
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/integrations/forms/default/class-ywctm-default-form.php:174
+msgid "Please check the re-Captcha form."
+msgstr "Verifica il modulo re-Captcha."
+
+#: includes/integrations/forms/default/class-ywctm-default-form.php:124
+msgid "required"
+msgstr "necessario"
+
+#: includes/integrations/forms/default/class-ywctm-default-form.php:87
+msgid "The mail you have entered seems to be wrong."
+msgstr "L'email inserita non è corretta."
+
+#: includes/integrations/forms/default/class-ywctm-default-form.php:86
+msgid "This is a required field."
+msgstr "Questo campo è necessario."
+
+#: includes/class-ywctm-button-label-post-type.php:976
+msgid "Enter a name to identify this button or label."
+msgstr "Inserisci un nome per identificare questo pulsante o etichetta."
+
+#: includes/class-ywctm-button-label-post-type.php:975
+msgid "This field is required."
+msgstr "Questo campo è necessario."
+
+#: includes/class-ywctm-button-label-post-type.php:972
+msgid "Name"
+msgstr "Nome"
+
+#: includes/class-ywctm-button-label-post-type.php:944
+msgid "Slide Left"
+msgstr "Slide Left"
+
+#: includes/class-ywctm-button-label-post-type.php:943
+msgid "Slide Top"
+msgstr "Slide Top"
+
+#: includes/class-ywctm-button-label-post-type.php:942
+msgid "Shake"
+msgstr "Shake"
+
+#: includes/class-ywctm-button-label-post-type.php:941
+msgid "Push"
+msgstr "Push"
+
+#: includes/class-ywctm-button-label-post-type.php:940
+msgid "Press"
+msgstr "Press"
+
+#: includes/class-ywctm-button-label-post-type.php:939
+msgid "Move Hover Color"
+msgstr "Move Hover Color"
+
+#: includes/class-ywctm-button-label-post-type.php:938
+msgid "Grow Button"
+msgstr "Grow Button"
+
+#: includes/class-ywctm-button-label-post-type.php:937
+msgid "Float"
+msgstr "Float"
+
+#: includes/class-ywctm-button-label-post-type.php:936
+msgid "Fade"
+msgstr "Fade"
+
+#: includes/class-ywctm-button-label-post-type.php:933
+msgid "Choose a hover animation."
+msgstr "Applica una animazione all'hover"
+
+#: includes/class-ywctm-button-label-post-type.php:931
+msgid "Hover animation"
+msgstr "Animazione hover"
+
+#: includes/class-ywctm-button-label-post-type.php:873
+msgid "Set a margin to manage the space around the button or label."
+msgstr "Imposta un margine per gestire lo spazio intorno all'elemento."
+
+#: includes/class-ywctm-button-label-post-type.php:847
+msgid "Set the border radius."
+msgstr "Imposta l'arrotondamento dei bordi"
+
+#: includes/class-ywctm-button-label-post-type.php:846
+msgid "Border radius"
+msgstr "Border radius"
+
+#: includes/class-ywctm-button-label-post-type.php:827
+msgid "Set the border thickness."
+msgstr "Imposta lo spessore dei bordi"
+
+#: includes/class-ywctm-button-label-post-type.php:826
+msgid "Border thickness"
+msgstr "Spessore bordo"
+
+#: includes/class-ywctm-button-label-post-type.php:821
+msgid "Hover colors"
+msgstr "Colori hover"
+
+#: includes/class-ywctm-button-label-post-type.php:803
+msgid "Set hover colors."
+msgstr "Imposta colori hover."
+
+#: includes/class-ywctm-button-label-post-type.php:797
+msgid "Default colors"
+msgstr "Colori predefiniti"
+
+#: includes/class-ywctm-button-label-post-type.php:793
+#: includes/class-ywctm-button-label-post-type.php:817
+msgid "Borders"
+msgstr "Bordi"
+
+#: includes/class-ywctm-button-label-post-type.php:788
+#: includes/class-ywctm-button-label-post-type.php:812
+msgid "Text"
+msgstr "Testo"
+
+#: includes/class-ywctm-button-label-post-type.php:783
+#: includes/class-ywctm-button-label-post-type.php:807
+msgid "Background"
+msgstr "Sfondo"
+
+#: includes/class-ywctm-button-label-post-type.php:779
+msgid "Set default colors."
+msgstr "Imposta colori predefiniti."
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:271
+msgid "All types"
+msgstr "Tutte le tipologie"
+
+#. translators: %1$s start hours value - %2$s end hours value
+#. translators: %1$s start minutes value - %2$s end minutes value
+#: class-yith-woocommerce-catalog-mode-premium.php:395
+#: class-yith-woocommerce-catalog-mode-premium.php:397
+msgid "Please only insert a number between %1$s and %2$s"
+msgstr "Inserisci solo un numero tra %1$s e %2$s"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:213
+#: class-yith-woocommerce-catalog-mode-premium.php:216
+#: includes/integrations/elementor/ywctm-elementor.php:29
+#: includes/integrations/elementor/ywctm-elementor.php:33
+msgid "YITH Catalog Mode Inquiry Form"
+msgstr "YITH Catalog Mode Inquiry Form"
+
+#: includes/ywctm-functions-premium.php:142
+#: includes/ywctm-functions-premium.php:161
+#: includes/ywctm-functions-premium.php:200
+msgid "Replace the button URL with a custom one. Leave empty to use the default URL."
+msgstr "Sostituisci l'URL del pulsante con un link a tua scelta. Lascia il campo vuoto per utilizzare l'URL predefinito."
+
+#: includes/ywctm-functions-premium.php:140
+#: includes/ywctm-functions-premium.php:159
+#: includes/ywctm-functions-premium.php:198
+msgid "Override URL:"
+msgstr "Sovrascrivi URL:"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:480
+#: includes/admin/meta-boxes/class-ywctm-product-metabox.php:125
+msgid "Add to exclusion list"
+msgstr "Aggiungi alla lista delle esclusioni"
+
+#: includes/class-ywctm-button-label-post-type.php:928
+msgid "Optional: add a custom URL."
+msgstr "Inserisci l'URL a cui reindirizzare l'utente al click sull'elemento."
+
+#: includes/class-ywctm-button-label-post-type.php:917
+#: includes/class-ywctm-button-label-post-type.php:927
+msgid "Custom URL"
+msgstr "A un URL personalizzato"
+
+#: includes/class-ywctm-button-label-post-type.php:921
+msgid "Select whether to link this button or remain as a static label."
+msgstr "Scegli se aggiungere un link a questo elemento o utilizzarlo come un'etichetta statica."
+
+#: includes/class-ywctm-button-label-post-type.php:920
+msgid "Link To:"
+msgstr "L'elemento linka:"
+
+#: includes/class-ywctm-button-label-post-type.php:916
+msgid "Product Page"
+msgstr "Alla pagina del prodotto in cui è inserito"
+
+#: includes/class-ywctm-button-label-post-type.php:915
+msgid "Unlinked text label"
+msgstr "A niente - non aggiungere link"
+
+#: plugin-options/settings-options.php:38
+msgid "Choose where to hide \"Add to Cart\"."
+msgstr "Scegli dove nascondere il pulsante \"Aggiungi al carrello\"."
+
+#: plugin-options/premium-settings-options.php:321
+msgid "Choose to hide or to show product prices and whether to apply these to all products or only to the exclusion list."
+msgstr "Scegli se nascondere o mostrare i prezzi dei prodotti e se applicare queste impostazioni a tutti i prodotti o solo a quelli inseriti nella Lista Esclusioni."
+
+#: plugin-options/premium-settings-options.php:256
+msgid "Hide \"Add to Cart\""
+msgstr "Nascondi \"Aggiungi al carrello\""
+
+#: plugin-options/premium-settings-options.php:255
+msgid "Show \"Add to Cart\""
+msgstr "Mostra \"Aggiungi al carrello\""
+
+#: plugin-options/premium-settings-options.php:249
+msgid "Choose to hide \"Add to Cart\" and whether to apply these to all products or only to the exclusion list."
+msgstr "Scegli se nascondere o mostrare il pulsante \"Aggiungi al carrello\" e se applicare queste impostazioni a tutti i prodotti o solo a quelli inseriti nella Lista Esclusioni."
+
+#: plugin-options/premium-settings-options.php:162
+#: plugin-options/settings-options.php:19
+msgid "Catalog mode for administrators"
+msgstr "Catalog Mode per gli amministratori"
+
+#: plugin-options/premium-settings-options.php:56
+msgid "Choose to apply the admin settings to all or only to selected vendors."
+msgstr "Scegli se applicare le impostazioni dell'amministratore a tutti i venditori o solo a quelli selezionati."
+
+#: plugin-options/premium-settings-options.php:55
+msgid "Apply the admin settings to all or only to selected vendors."
+msgstr "Applica le impostazioni dell'amministratore a tutti i venditori o solo a quelli selezionati."
+
+#: plugin-options/inquiry-form-options.php:218
+msgid "Choose whether to show the form is visible in the page or it is hidden in a toggled section."
+msgstr "Scegli se mostrare il modulo interamente visibile nella pagina oppure nascosto in un pulsante toggle (apri/chiudi)."
+
+#: plugin-options/inquiry-form-options.php:77
+msgid "Choose to make the inquiry form visible to all products or only to the ones in the exclusion list."
+msgstr "Scegli se mostrare il modulo contatti su tutti i prodotti o solo su quelli inseriti nella Lista Esclusioni."
+
+#. translators: %s name of the plugin
+#: init.php:37
+msgid "%s is enabled but not effective. In order to work, it requires WooCommerce."
+msgstr "%s è abilitato ma non in funzione. Richiede WooCommerce per funzionare correttamente."
+
+#: includes/ywctm-functions-premium.php:103
+msgid "Choose whether to show or hide the inquiry form on these product pages."
+msgstr "Scegli se mostrare o nascondere il modulo contatti in queste pagine prodotto."
+
+#: includes/class-ywctm-button-label-post-type.php:667
+#: includes/class-ywctm-button-label-post-type.php:1036
+msgctxt "preview button placeholder text"
+msgid "Contact Us"
+msgstr "Contattaci"
+
+#: includes/class-ywctm-button-label-post-type.php:745
+msgctxt "buttons & labels options group name"
+msgid "Style"
+msgstr "Stile"
+
+#: includes/class-ywctm-button-label-post-type.php:657
+msgctxt "buttons & labels options group name"
+msgid "Content"
+msgstr "Contenuto"
+
+#: includes/class-ywctm-button-label-post-type.php:119
+msgctxt "Post Type Singular Name"
+msgid "Buttons & Labels"
+msgstr "Pulsanti ed etichette"
+
+#: includes/class-ywctm-button-label-post-type.php:118
+msgctxt "Post Type General Name"
+msgid "Buttons & Labels"
+msgstr "Pulsanti ed etichette"
+
+#: class-yith-woocommerce-catalog-mode.php:161
+#: includes/integrations/class-ywctm-multi-vendor.php:120
+msgctxt "buttons & labels settings tab name"
+msgid "Buttons & Labels"
+msgstr "Pulsanti ed etichette"
+
+#: class-yith-woocommerce-catalog-mode.php:156
+#: includes/integrations/class-ywctm-multi-vendor.php:115
+msgctxt "inquiry form settings tab name"
+msgid "Inquiry Form"
+msgstr "Modulo contatti"
+
+#: class-yith-woocommerce-catalog-mode.php:152
+#: includes/integrations/class-ywctm-multi-vendor.php:111
+msgctxt "exclusion settings tab name"
+msgid "Exclusion List"
+msgstr "Elenco Esclusioni"
+
+#: class-yith-woocommerce-catalog-mode.php:147
+#: includes/integrations/class-ywctm-multi-vendor.php:106
+msgctxt "general settings tab name"
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. Description of the plugin
+#: init.php
+msgid "<code><strong>YITH WooCommerce Catalog Mode</strong></code> allows hiding product prices, cart and checkout from your store and turning it into a performing product catalogue. You will be able to adjust your catalogue settings as you prefer based on your requirements. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>"
+msgstr "<code><strong>YITH WooCommerce Catalog Mode</strong></code> permette di nascondere i prezzi dei prodotti, carrello e checkout dal tuo negozio trasformandolo in un catalogo prodotti. Potrai adattare le impostazioni del tuo catalogo come preferisci in base alle tue esigenze. <a href=\"https://yithemes.com/\" target=\"_blank\">Ottieni altri plugin per il tuo e-commerce su <strong>YITH</strong></a>"
+
+#: plugin-options/premium-settings-options.php:350
+msgid "Optional: choose a label to replace ALL the hidden prices."
+msgstr "Opzionale: scegli un'etichetta per sostituire TUTTI i prezzi dove sono stati nascosti."
+
+#: plugin-options/premium-settings-options.php:346
+msgid "Where hidden, replace price with:"
+msgstr "Dove nascosto, sostituisci il prezzo con:"
+
+#: plugin-options/premium-settings-options.php:328
+msgid "Hide price"
+msgstr "Nascondi prezzo"
+
+#: plugin-options/premium-settings-options.php:327
+msgid "Show price"
+msgstr "Mostra prezzo"
+
+#: plugin-options/premium-settings-options.php:321
+msgid "Note: if you hide the price, \"Add to cart\" will be hidden too."
+msgstr "Attenzione: se nascondi il prezzo, anche il pulsante \"Aggiungi al carrello\" verrà nascosto."
+
+#: plugin-options/premium-settings-options.php:320
+msgid "Price settings in Catalog Mode"
+msgstr "Impostazioni prezzo in Catalog Mode"
+
+#: plugin-options/premium-settings-options.php:308
+msgid "In shop pages, replace \"Add to cart\" with:"
+msgstr "Nelle pagine Shop, sostituisci \"Aggiungi al carrello\" con:"
+
+#: plugin-options/premium-settings-options.php:302
+#: plugin-options/premium-settings-options.php:312
+msgid "Optional: choose a custom button to replace ALL the hidden \"Add to cart\" buttons or links."
+msgstr "Opzionale: scegli un pulsante personalizzato per sostituire TUTTI i pulsanti o i link \"Aggiungi al carrello\" ovunque siano stati nascosti."
+
+#: plugin-options/premium-settings-options.php:298
+msgid "In product pages, replace \"Add to cart\" with:"
+msgstr "Nelle pagine prodotto sostituisci \"Aggiungi al carrello\" con:"
+
+#: plugin-options/premium-settings-options.php:293
+#: plugin-options/settings-options.php:70
+msgid "Use this option to hide product variations where \"Add to cart\" is hidden."
+msgstr "Utilizza quest'opzione per nascondere le variazioni lì dove è nascosto il pulsante \"Aggiungi al carrello\"."
+
+#: plugin-options/premium-settings-options.php:290
+#: plugin-options/settings-options.php:67
+msgid "Hide product variations"
+msgstr "Nascondi le variazioni del prodotto"
+
+#: plugin-options/premium-settings-options.php:275
+#: plugin-options/premium-settings-options.php:337
+msgid "Items in the exclusion list only"
+msgstr "Solo prodotti della Lista Esclusioni"
+
+#: plugin-options/premium-settings-options.php:274
+#: plugin-options/premium-settings-options.php:336
+msgid "All products"
+msgstr "Tutti i prodotti"
+
+#: plugin-options/premium-settings-options.php:266
+#: plugin-options/settings-options.php:49
+msgid "Product page"
+msgstr "Pagina prodotto"
+
+#: plugin-options/premium-settings-options.php:265
+#: plugin-options/settings-options.php:48
+msgid "Shop page"
+msgstr "Pagina Negozio"
+
+#: plugin-options/premium-settings-options.php:264
+#: plugin-options/settings-options.php:47
+msgid "All pages"
+msgstr "Tutte le pagine"
+
+#: plugin-options/premium-settings-options.php:262
+msgid "in"
+msgstr "in"
+
+#: plugin-options/premium-settings-options.php:248
+msgid "\"Add to Cart\" settings in Catalog Mode"
+msgstr "Impostazioni \"Aggiungi al carrello\" per Catalog Mode"
+
+#: plugin-options/premium-settings-options.php:190
+#: plugin-options/settings-options.php:30
+msgid "Use this option to hide the \"Cart\" page, \"Checkout\" page and all the \"Add to Cart\" buttons in the shop."
+msgstr "Utilizza quest'opzione per nascondere la pagina \"Carrello\", la pagina \"Checkout\" e tutti i pulsanti \"Aggiungi al carrello\"."
+
+#: plugin-options/premium-settings-options.php:187
+#: plugin-options/settings-options.php:27
+msgid "Disable shop"
+msgstr "Disattiva shop"
+
+#: plugin-options/premium-settings-options.php:183
+msgid "Step 2: set your Catalog Mode options"
+msgstr "Step 2: personalizza le impostazioni"
+
+#: plugin-options/premium-settings-options.php:173
+msgid "If enabled, guest users can't see the review tab in the product pages."
+msgstr "Abilita per nascondere le recensioni dei prodotti agli utenti che non hanno effettuato l'accesso."
+
+#: plugin-options/premium-settings-options.php:170
+msgid "Hide the review tab for guest users"
+msgstr "Nascondi la sezione \"Recensioni\" agli utenti ospiti"
+
+#: plugin-options/premium-settings-options.php:145
+msgid "from"
+msgstr "da"
+
+#: plugin-options/premium-settings-options.php:136
+#: plugin-options/premium-settings-options.php:272
+#: plugin-options/premium-settings-options.php:334
+msgid "for"
+msgstr "per"
+
+#: plugin-options/premium-settings-options.php:130
+msgid "Disable Catalog Mode"
+msgstr "Disattiva Catalog Mode"
+
+#: plugin-options/premium-settings-options.php:129
+msgid "Enable Catalog Mode"
+msgstr "Attiva Catalog Mode"
+
+#: plugin-options/premium-settings-options.php:122
+msgid "Choose to enable or disable the Catalog Mode settings to users from specific countries."
+msgstr "Scegli se attivare o disattivare le impostazioni di Catalog Mode per tutti gli utenti provenienti da specifici paesi."
+
+#: plugin-options/premium-settings-options.php:113
+msgid "Additional geolocation filter"
+msgstr "Filtri di geolocalizzazione aggiuntivi"
+
+#: plugin-options/premium-settings-options.php:104
+#: plugin-options/premium-settings-options.php:139
+msgid "Only guest users"
+msgstr "Solo ospiti (guest)"
+
+#: plugin-options/premium-settings-options.php:103
+#: plugin-options/premium-settings-options.php:138
+msgid "All users"
+msgstr "Tutti gli utenti"
+
+#: plugin-options/premium-settings-options.php:101
+msgid "Choose to enable the Catalog Mode for all users or only to guest users."
+msgstr "Scegli se abilitare la modalità catalogo per tutti gli utenti o solo quelli che non hanno effettuato l'accesso (guest)."
+
+#: plugin-options/premium-settings-options.php:98
+msgid "Enable Catalog Mode for"
+msgstr "Attiva la modalità catalogo per"
+
+#: plugin-options/premium-settings-options.php:94
+msgid "Step 1: set your users rules"
+msgstr "Step 1: imposta le regole utente"
+
+#: plugin-options/premium-settings-options.php:72
+msgid "Vendors in exclusion list"
+msgstr "I venditori nella lista Esclusioni"
+
+#: plugin-options/premium-settings-options.php:71
+msgid "All vendors"
+msgstr "Tutti i venditori"
+
+#: plugin-options/premium-settings-options.php:69
+msgid "to"
+msgstr "a"
+
+#: plugin-options/premium-settings-options.php:63
+msgid "Do not apply admin settings"
+msgstr "Non applicare le impostazioni dell'amministratore"
+
+#: plugin-options/premium-settings-options.php:62
+msgid "Apply admin settings"
+msgstr "Applica le impostazioni dell'amministratore"
+
+#: plugin-options/premium-settings-options.php:48
+msgid "If enabled, the administrator settings will override the vendors' settings"
+msgstr "Se attiva, le impostazioni dell'amministratore sovrascrivono quelle dei venditori"
+
+#: plugin-options/premium-settings-options.php:45
+msgid "Admininstrator overrides vendors' settings"
+msgstr "L'amministratore sovrascrive le impostazioni dei venditori"
+
+#: plugin-options/inquiry-form-options.php:299
+msgid "Include product Permalink"
+msgstr "Includi il permalink del prodotto"
+
+#: plugin-options/inquiry-form-options.php:291
+msgid "Toggle button colors"
+msgstr "Colori pulsante toggle"
+
+#: plugin-options/inquiry-form-options.php:268
+msgid "Toggle button text colors"
+msgstr "Colori testo pulsante toggle"
+
+#: plugin-options/inquiry-form-options.php:245
+msgid "Send an inquiry"
+msgstr "Invia una richiesta"
+
+#: plugin-options/inquiry-form-options.php:243
+msgid "Toggle button text"
+msgstr "Testo pulsante toggle"
+
+#: plugin-options/inquiry-form-options.php:238
+msgid "Enter a custom text to show before the inquiry form."
+msgstr "Inserisci un testo personalizzato da mostrare prima del modulo contatti."
+
+#: plugin-options/inquiry-form-options.php:236
+msgid "Text before form"
+msgstr "Testo prima del modulo"
+
+#: plugin-options/inquiry-form-options.php:223
+msgid "Tab title"
+msgstr "Testo del toggle"
+
+#: plugin-options/inquiry-form-options.php:209
+msgid "Hidden in toggle"
+msgstr "Nascosto in una sezione toggle"
+
+#: plugin-options/inquiry-form-options.php:208
+msgid "Classic"
+msgstr "Classico"
+
+#: plugin-options/inquiry-form-options.php:204
+msgid "Form style"
+msgstr "Stile modulo"
+
+#: plugin-options/inquiry-form-options.php:193
+msgid "After \"Add to cart\" button"
+msgstr "Dopo il pulsante Aggiungi al carrello"
+
+#: plugin-options/inquiry-form-options.php:192
+msgid "After short description"
+msgstr "Dopo la descrizione breve"
+
+#: plugin-options/inquiry-form-options.php:191
+msgid "After price"
+msgstr "Dopo il prezzo"
+
+#: plugin-options/inquiry-form-options.php:186
+msgid "Form Position"
+msgstr "Posizione modulo"
+
+#: plugin-options/inquiry-form-options.php:182
+msgid "Choose to show the inquiry form inside a WooCommerce tab or in the short description area."
+msgstr "Scegli se mostrare il modulo contatti all'interno di una delle tab di WooCommerce o nell'area della descrizione breve."
+
+#: plugin-options/inquiry-form-options.php:178
+msgid "Short description area"
+msgstr "Nell'area della descrizione breve"
+
+#: plugin-options/inquiry-form-options.php:177
+msgid "WooCommerce Tabs"
+msgstr "In una tab della pagina prodotto"
+
+#: plugin-options/inquiry-form-options.php:173
+msgid "Show form in:"
+msgstr "Mostra il modulo:"
+
+#: plugin-options/inquiry-form-options.php:80
+msgid "Visible in all products"
+msgstr "Visibile su tutti i prodotti"
+
+#: plugin-options/inquiry-form-options.php:79
+msgid "Hidden in all products"
+msgstr "Nascosto in tutti i prodotti"
+
+#: plugin-options/inquiry-form-options.php:74
+msgid "Set inquiry form as:"
+msgstr "Imposta il modulo contatti come:"
+
+#: plugin-options/inquiry-form-options.php:12
+msgid "Choose form"
+msgstr "Scegli il modulo"
+
+#: plugin-options/exclusions-options.php:26
+msgid "List of vendors"
+msgstr "Elenco venditori"
+
+#: plugin-options/exclusions-options.php:22
+msgid "List of excluded items"
+msgstr "Elenco articoli esclusi"
+
+#: includes/ywctm-functions-premium.php:1163
+msgid "No contact form found"
+msgstr "Nessun form di contatto trovato"
+
+#: includes/ywctm-functions-premium.php:1161
+msgid "Plugin not activated or not installed"
+msgstr "Plugin non attivato o non installato"
+
+#: includes/ywctm-functions-premium.php:1060
+#: plugin-options/inquiry-form-options.php:225
+msgid "Inquiry form"
+msgstr "Modulo contatti"
+
+#: includes/ywctm-functions-premium.php:1054
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/ywctm-functions-premium.php:1053
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: includes/ywctm-functions-premium.php:1052
+msgid "Item Name"
+msgstr "Nome articolo"
+
+#: includes/ywctm-functions-premium.php:904
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/ywctm-functions-premium.php:903
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/integrations/forms/contact-form-7/ywctm-contact-form-7.php:80
+#: includes/integrations/forms/default/class-ywctm-default-form.php:222
+#: includes/integrations/forms/gravity-forms/ywctm-gravity-forms.php:80
+#: includes/integrations/forms/wpforms/ywctm-wpforms.php:78
+#: includes/ywctm-functions-premium.php:902
+msgid "Product"
+msgstr "Prodotto"
+
+#. translators: %s is the name of the button to replace the price.
+#: includes/ywctm-functions-premium.php:882
+msgid "Replaced with %s"
+msgstr "Sostituito con %s"
+
+#: includes/ywctm-functions-premium.php:231
+#: includes/ywctm-functions-premium.php:274
+msgid "(no name)"
+msgstr "(nessun nome)"
+
+#: includes/ywctm-functions-premium.php:227
+#: includes/ywctm-functions-premium.php:273
+msgid "Nothing"
+msgstr "Niente"
+
+#. translators: %1$s: open <b> tag - %2$s: close </b> tag - %3$s: open link tag - %4$s: close link tag
+#: class-yith-woocommerce-catalog-mode-premium.php:207
+#: class-yith-woocommerce-catalog-mode-premium.php:221
+#: includes/integrations/elementor/ywctm-elementor.php:23
+#: includes/integrations/elementor/ywctm-elementor.php:38
+msgid "This widget inherits the style from the settings of %1$sYITH Catalog Mode%2$s plugin that you can edit %3$shere%4$s"
+msgstr "Questo widget eredita lo stile dalle impostazioni del plugin %1$sYITH Catalog Mode%2$s che puoi modificare da %3$squi%4$s"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:199
+#: class-yith-woocommerce-catalog-mode-premium.php:202
+#: includes/integrations/elementor/ywctm-elementor.php:14
+#: includes/integrations/elementor/ywctm-elementor.php:18
+msgid "YITH Catalog Mode Button"
+msgstr "YITH Catalog Mode - pulsante"
+
+#: includes/class-ywctm-button-label-post-type.php:1182
+msgid "(Copy)"
+msgstr "(Copia)"
+
+#: includes/class-ywctm-button-label-post-type.php:1048
+msgid "Save"
+msgstr "Salva"
+
+#: includes/class-ywctm-button-label-post-type.php:1045
+msgid "Update"
+msgstr "Aggiorna"
+
+#: includes/class-ywctm-button-label-post-type.php:1030
+msgid "Preview"
+msgstr "Anteprima"
+
+#: includes/class-ywctm-button-label-post-type.php:891
+msgid "Set a padding to manage the space inside the button or label."
+msgstr "Imposta un valore per distanziare il contenuto interno dal bordo."
+
+#: includes/class-ywctm-button-label-post-type.php:890
+msgid "Padding"
+msgstr "Spaziatura interna"
+
+#: includes/class-ywctm-button-label-post-type.php:854
+msgid "Right"
+msgstr "Destro"
+
+#: includes/class-ywctm-button-label-post-type.php:856
+msgid "Left"
+msgstr "Sinistro"
+
+#: includes/class-ywctm-button-label-post-type.php:872
+msgid "Margin"
+msgstr "Margine"
+
+#: includes/class-ywctm-button-label-post-type.php:752
+msgid "Set a size for this button or label."
+msgstr "Imposta una dimensione per questo pulsante."
+
+#: includes/class-ywctm-button-label-post-type.php:751
+msgid "Width"
+msgstr "Larghezza"
+
+#: includes/class-ywctm-button-label-post-type.php:740
+msgid "Icon colors"
+msgstr "Colori icona"
+
+#: includes/class-ywctm-button-label-post-type.php:727
+msgid "Set colors for icon."
+msgstr "Imposta i colori per l'icona."
+
+#: includes/class-ywctm-button-label-post-type.php:736
+#: plugin-options/inquiry-form-options.php:264
+#: plugin-options/inquiry-form-options.php:287
+msgid "Hover"
+msgstr "Hover"
+
+#: includes/class-ywctm-button-label-post-type.php:731
+#: includes/ywctm-functions-premium.php:1099
+#: plugin-options/inquiry-form-options.php:259
+#: plugin-options/inquiry-form-options.php:282
+msgid "Default"
+msgstr "Predefinito"
+
+#: includes/class-ywctm-button-label-post-type.php:716
+#: includes/class-ywctm-button-label-post-type.php:855
+msgid "Bottom"
+msgstr "In basso"
+
+#: includes/class-ywctm-button-label-post-type.php:715
+msgid "Middle"
+msgstr "Al centro"
+
+#: includes/class-ywctm-button-label-post-type.php:714
+#: includes/class-ywctm-button-label-post-type.php:853
+msgid "Top"
+msgstr "In alto"
+
+#: includes/class-ywctm-button-label-post-type.php:712
+msgid "Set the icon/image vertical alignment."
+msgstr "Scegli l'allineamento verticale per l'icona/immagine."
+
+#: includes/class-ywctm-button-label-post-type.php:710
+msgid "Icon/image alignment"
+msgstr "Allineamento icona/immagine"
+
+#: includes/class-ywctm-button-label-post-type.php:704
+msgid "Upload your custom icon."
+msgstr "Carica la tua icona."
+
+#: includes/class-ywctm-button-label-post-type.php:702
+msgid "Upload your icon"
+msgstr "Carica la tua icona"
+
+#: includes/class-ywctm-button-label-post-type.php:695
+msgid "Set the icon size in pixels."
+msgstr "Imposta la dimensione dell'icona in pixel."
+
+#: includes/class-ywctm-button-label-post-type.php:693
+msgid "Icon size"
+msgstr "Dimensione icona"
+
+#: includes/class-ywctm-button-label-post-type.php:686
+msgid "Choose one of default icons."
+msgstr "Scegli una delle icone predefinite."
+
+#: includes/class-ywctm-button-label-post-type.php:684
+msgid "Choose icon"
+msgstr "Scegli l'icona"
+
+#: includes/class-ywctm-button-label-post-type.php:676
+msgid "Upload custom icon"
+msgstr "Carica un'icona personalizzata"
+
+#: includes/class-ywctm-button-label-post-type.php:675
+msgid "Choose from default icons"
+msgstr "Scegli fra le icone predefinite"
+
+#: includes/class-ywctm-button-label-post-type.php:674
+#: includes/class-ywctm-button-label-post-type.php:935
+msgid "None"
+msgstr "Nessuna"
+
+#: includes/class-ywctm-button-label-post-type.php:672
+msgid "Optional: add one of the default icons or upload a custom one."
+msgstr "Opzionale: aggiungi un'icona predefinita oppure caricane una personalizzata."
+
+#: includes/class-ywctm-button-label-post-type.php:670
+msgid "Icon"
+msgstr "Icona"
+
+#: includes/class-ywctm-button-label-post-type.php:664
+msgid "Enter a text for the label."
+msgstr "Inserisci un testo."
+
+#: includes/class-ywctm-button-label-post-type.php:663
+msgid "Label text"
+msgstr "Testo"
+
+#: includes/class-ywctm-button-label-post-type.php:440
+msgid "Insert Icon"
+msgstr "Inserisci un'icona"
+
+#: includes/class-ywctm-button-label-post-type.php:439
+msgid "Close"
+msgstr "Chiudi"
+
+#: includes/class-ywctm-button-label-post-type.php:438
+msgid "Choose an icon"
+msgstr "Scegli un'icona"
+
+#: includes/class-ywctm-button-label-post-type.php:354
+msgid "Add name"
+msgstr "Aggiungi nome"
+
+#: includes/class-ywctm-button-label-post-type.php:259
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: includes/class-ywctm-button-label-post-type.php:223
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/class-ywctm-button-label-post-type.php:127
+msgid "Not found in Trash"
+msgstr "Nessun risultato nel Cestino"
+
+#: includes/class-ywctm-button-label-post-type.php:126
+msgid "Not found"
+msgstr "Nessun risultato"
+
+#: includes/class-ywctm-button-label-post-type.php:125
+msgid "Search button or label"
+msgstr "Cerca pulsante o etichetta"
+
+#: includes/class-ywctm-button-label-post-type.php:124
+msgid "View button or label"
+msgstr "Visualizza pulsante o etichetta"
+
+#: includes/class-ywctm-button-label-post-type.php:123
+msgid "Edit button or label"
+msgstr "Modifica pulsante o etichetta"
+
+#: includes/class-ywctm-button-label-post-type.php:122
+msgid "New button or label"
+msgstr "Nuovo pulsante o etichetta"
+
+#: includes/class-ywctm-button-label-post-type.php:121
+#: includes/class-ywctm-button-label-post-type.php:1231
+msgid "Create a new button or label"
+msgstr "Crea nuovo pulsante o etichetta"
+
+#: includes/class-ywctm-button-label-post-type.php:120
+msgid "Add button or label"
+msgstr "Aggiungi un pulsante o un'etichetta"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:354
+msgid "Vendors"
+msgstr "Vendor"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:333
+msgid "Select vendors"
+msgstr "Seleziona i vendor"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:330
+msgid "Search vendors"
+msgstr "Cerca venditori"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:310
+msgid "Update vendor"
+msgstr "Modifica venditore"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:202
+#: includes/admin/tables/class-ywctm-vendors-table.php:264
+#: includes/admin/tables/class-ywctm-vendors-table.php:310
+msgid "Add vendor"
+msgstr "Aggiungi venditore"
+
+#. translators: %s number of vendors
+#: includes/admin/tables/class-ywctm-vendors-table.php:165
+msgid "%s vendors removed successfully"
+msgstr "%s vendor rimossi con successo"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:163
+msgid "1 vendor removed successfully"
+msgstr "1 vendor rimosso con successo"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:111
+msgid "Vendor"
+msgstr "Vendor"
+
+#. translators: %s number of vendors
+#: includes/admin/tables/class-ywctm-vendors-table.php:85
+msgid "%s vendors added successfully"
+msgstr "%s vendor aggiunti con successo"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:83
+msgid "1 vendor added successfully"
+msgstr "1 vendor aggiunto con successo"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:62
+msgid "vendors"
+msgstr "vendor"
+
+#: includes/admin/tables/class-ywctm-vendors-table.php:61
+msgid "vendor"
+msgstr "vendor"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:632
+msgid "Exclusions"
+msgstr "Esclusioni"
+
+#. translators: %s item type
+#: includes/admin/tables/class-ywctm-exclusions-table.php:517
+msgid "%s to edit"
+msgstr "%s per modificare"
+
+#: includes/ywctm-functions-premium.php:169
+msgid "Enable to override the default settings for price."
+msgstr "Attiva per sovrascrivere le impostazioni predefinite per il prezzo."
+
+#: includes/ywctm-functions-premium.php:111
+msgid "Enable to override the default settings for the \"Add to cart\" button."
+msgstr "Abilita per sovrascrivere le impostazioni predefinite per il pulsante \"Aggiungi al carrello\"."
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:583
+msgid "Select which product tags to add in the exclusion list."
+msgstr "Seleziona quali tag inserire nella Lista Esclusioni."
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:582
+msgid "Select tags"
+msgstr "Seleziona tag"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:579
+msgid "Search tags"
+msgstr "Cerca tag"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:571
+msgid "Select which product categories to add in the exclusion list."
+msgstr "Seleziona quali categorie inserire nella Lista Esclusioni."
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:570
+msgid "Select categories"
+msgstr "Seleziona categorie"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:567
+msgid "Search categories"
+msgstr "Cerca categorie"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:559
+msgid "Select which products to add to the exclusion list."
+msgstr "Seleziona quali prodotti inserire nella Lista Esclusioni."
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:558
+msgid "Select products"
+msgstr "Seleziona prodotti"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:556
+msgid "Search products"
+msgstr "Cerca prodotti"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:548
+msgid "Choose whether to add specific products, categories or tags to the exclusion list."
+msgstr "Scegli se aggiungere specifici prodotti, categorie o tag nella Lista Esclusioni."
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:546
+msgid "Item type"
+msgstr "Tipo di articolo"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:274
+#: includes/admin/tables/class-ywctm-exclusions-table.php:544
+msgid "Tags"
+msgstr "Tag"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:273
+#: includes/admin/tables/class-ywctm-exclusions-table.php:543
+msgid "Categories"
+msgstr "Categorie"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:272
+#: includes/admin/tables/class-ywctm-exclusions-table.php:542
+msgid "Products"
+msgstr "Prodotti"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:485
+msgid "Update exclusion"
+msgstr "Aggiorna esclusione"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:368
+#: includes/admin/tables/class-ywctm-exclusions-table.php:433
+#: includes/admin/tables/class-ywctm-exclusions-table.php:485
+msgid "Add exclusion"
+msgstr "Aggiungi esclusione"
+
+#. translators: number of excluisions deleted
+#: includes/admin/tables/class-ywctm-exclusions-table.php:326
+msgid "%s exclusions removed successfully"
+msgstr "%s esclusioni rimosse correttamente"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:324
+msgid "1 exclusion removed successfully"
+msgstr "1 esclusione rimossa correttamente"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:235
+#: includes/admin/tables/class-ywctm-vendors-table.php:130
+msgid "Remove from list"
+msgstr "Rimuovi dalla lista"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:119
+msgid "Exclusion updated successfully"
+msgstr "Esclusione aggiornata correttamente"
+
+#. translators: %s: number of excluisions added
+#: includes/admin/tables/class-ywctm-exclusions-table.php:104
+msgid "%s exclusions added successfully"
+msgstr "%s esclusioni aggiunte correttamente"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:102
+msgid "1 exclusion added successfully"
+msgstr "1 esclusione aggiunta correttamente"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:58
+msgid "items"
+msgstr "articoli"
+
+#: includes/admin/tables/class-ywctm-exclusions-table.php:57
+msgid "item"
+msgstr "articolo"
+
+#. translators: %s sample phone number
+#: includes/ywctm-functions-premium.php:1573
+msgid "If you love this product and wish for a customized quote contact us at number %s and we will be happy to provide you with more info!"
+msgstr "Se ti piace questo prodotto e vuoi ricevere un preventivo, contattaci al numero %s e saremo felici di poterti dare ulteriori informazioni!"
+
+#. translators: %s sample phone number
+#: includes/ywctm-functions-premium.php:1573
+msgid "Contact us to inquire about this product"
+msgstr "Per maggiori informazioni su questo prodotto contattaci"
+
+#: includes/ywctm-functions-premium.php:1570
+msgid "Sample Label"
+msgstr "Etichetta d'esempio"
+
+#: includes/ywctm-functions-premium.php:1506
+msgid "LOGIN TO SEE PRICE"
+msgstr "ACCEDI PER VEDERE IL PREZZO"
+
+#: includes/ywctm-functions-premium.php:1504
+msgid "Sample Button 3"
+msgstr "Pulsante di esempio 3"
+
+#: includes/ywctm-functions-premium.php:1440
+msgid "SEND INQUIRY"
+msgstr "INVIA UNA RICHIESTA"
+
+#: includes/ywctm-functions-premium.php:1438
+msgid "Sample Button 2"
+msgstr "Pulsante di esempio 2"
+
+#: includes/ywctm-functions-premium.php:1375
+msgid "ASK INFO"
+msgstr "RICHIEDI INFORMAZIONI"
+
+#: includes/ywctm-functions-premium.php:1373
+msgid "Sample Button 1"
+msgstr "Pulsante di esempio 1"
+
+#: class-yith-woocommerce-catalog-mode.php:186
+#: plugin-options/settings-options.php:15
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:490
+#: includes/admin/meta-boxes/class-ywctm-product-metabox.php:82
+msgid "Catalog Mode Options"
+msgstr "Opzioni Catalog Mode"
+
+#: includes/ywctm-functions-premium.php:190
+msgid "Replace price with:"
+msgstr "Sostituisci il prezzo con:"
+
+#: includes/ywctm-functions-premium.php:180
+msgid "Set price as:"
+msgstr "Imposta il prezzo come:"
+
+#: includes/ywctm-functions-premium.php:167
+msgid "Use custom options for price"
+msgstr "Utilizza opzioni personalizzate per il prezzo"
+
+#: includes/ywctm-functions-premium.php:151
+msgid "Replace \"Add to Cart\" in shop pages with:"
+msgstr "Sostituisci \"Aggiungi al carrello\" nelle pagine Shop con:"
+
+#: includes/ywctm-functions-premium.php:132
+msgid "Replace \"Add to Cart\" in the product page with:"
+msgstr "Sostituisci \"Aggiungi al carrello\" nella pagina prodotto con:"
+
+#: includes/ywctm-functions-premium.php:122
+msgid "Set \"Add to Cart\" as:"
+msgstr "Imposta \"Aggiungi al carrello\" come:"
+
+#: includes/ywctm-functions-premium.php:120
+#: includes/ywctm-functions-premium.php:178
+#: includes/ywctm-functions-premium.php:826
+#: includes/ywctm-functions-premium.php:829
+#: includes/ywctm-functions-premium.php:872
+#: includes/ywctm-functions-premium.php:875
+msgid "Hidden"
+msgstr "Nascosto"
+
+#: includes/ywctm-functions-premium.php:119
+#: includes/ywctm-functions-premium.php:177
+#: includes/ywctm-functions-premium.php:826
+#: includes/ywctm-functions-premium.php:829
+#: includes/ywctm-functions-premium.php:872
+#: includes/ywctm-functions-premium.php:875
+msgid "Visible"
+msgstr "Visibile"
+
+#: includes/ywctm-functions-premium.php:109
+msgid "Use custom options for \"Add to Cart\""
+msgstr "Utilizza opzioni personalizzate per \"Aggiungi al carrello\""
+
+#: includes/ywctm-functions-premium.php:101
+msgid "Inquiry Form"
+msgstr "Modulo contatti"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:393
+msgid "Select at least one tag"
+msgstr "Seleziona almeno un tag"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:392
+msgid "Select at least one category"
+msgstr "Seleziona almeno una categoria"
+
+#: class-yith-woocommerce-catalog-mode-premium.php:391
+msgid "Select at least one product"
+msgstr "Seleziona almeno un prodotto"
+
+#. Plugin URI of the plugin
+#: init.php
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-catalog-mode/"
+msgstr ""

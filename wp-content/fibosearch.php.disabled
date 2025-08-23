@@ -1,0 +1,140 @@
+<?php error_log('[HC] fibosearch.php loaded'); 
+
+<?php
+// [SHORTINIT MODE] FiboSearch runtime filters.
+// Hide products & categories that belong to WooCommerce categories marked hc_hidden=1.
+
+if ( ! defined('ABSPATH') ) { exit; }
+
+/**
+ * Return IDs of categories explicitly marked hidden (hc_hidden=1).
+ * Shortinit-safe: uses direct SQL only.
+ */
+if ( ! function_exists('hc_fs_hidden_cat_ids') ) {
+    function hc_fs_hidden_cat_ids() {
+        global $wpdb;
+        $sql = $wpdb->prepare(
+            "SELECT tm.term_id
+             FROM {$wpdb->termmeta} tm
+             INNER JOIN {$wpdb->term_taxonomy} tt ON tt.term_id = tm.term_id
+             WHERE tm.meta_key = %s AND tm.meta_value = %s AND tt.taxonomy = %s",
+            'hc_hidden', '1', 'product_cat'
+        );
+        $ids = $wpdb->get_col($sql);
+        if ( ! is_array($ids) ) return [];
+        return array_values(array_unique(array_map('intval', $ids)));
+    }
+}
+
+/**
+ * Return hidden category IDs INCLUDING all descendants.
+ * Shortinit-safe: builds the tree from wp_term_taxonomy.
+ */
+if ( ! function_exists('hc_fs_hidden_cat_ids_cascade') ) {
+    function hc_fs_hidden_cat_ids_cascade() {
+        static $all = null;
+        if ( $all !== null ) return $all;
+
+        global $wpdb;
+        $base = hc_fs_hidden_cat_ids();
+        if ( empty($base) ) { $all = []; return $all; }
+
+        // Build parent -> children map for product_cat.
+        $rows = $wpdb->get_results(
+            "SELECT term_id, parent FROM {$wpdb->term_taxonomy} WHERE taxonomy = 'product_cat'",
+            ARRAY_A
+        );
+        if ( empty($rows) ) { $all = $base; return $all; }
+
+        $children_of = [];
+        foreach ( $rows as $r ) {
+            $p = (int) $r['parent'];
+            $t = (int) $r['term_id'];
+            $children_of[$p][] = $t;
+        }
+
+        // DFS from each hidden term to collect all descendants.
+        $seen  = array_fill_keys($base, true);
+        $stack = $base;
+        while ( $stack ) {
+            $cur = array_pop($stack);
+            if ( ! empty($children_of[$cur]) ) {
+                foreach ( $children_of[$cur] as $child ) {
+                    if ( isset($seen[$child]) ) continue;
+                    $seen[$child] = true;
+                    $stack[] = $child;
+                }
+            }
+        }
+
+        $all = array_map('intval', array_keys($seen));
+        return $all;
+    }
+}
+
+/**
+ * Autocomplete: exclude PRODUCTS in hidden categories.
+ */
+add_filter('dgwt/wcas/search/product/args', function( $args ) {
+    $blocked = hc_fs_hidden_cat_ids_cascade();
+    if ( empty($blocked) ) return $args;
+
+    if ( ! isset($args['tax_query']) ) $args['tax_query'] = [];
+    $args['tax_query'][] = [
+        'taxonomy'         => 'product_cat',
+        'field'            => 'term_id',
+        'terms'            => $blocked,
+        'operator'         => 'NOT IN',
+        'include_children' => false, // already expanded
+    ];
+    return $args;
+});
+
+/**
+ * Autocomplete: exclude CATEGORY suggestions that are hidden.
+ */
+add_filter('dgwt/wcas/search/product_cat/args', function( $args ) {
+    $exclude = hc_fs_hidden_cat_ids_cascade();
+    if ( empty($exclude) ) return $args;
+
+    $args['exclude'] = isset($args['exclude'])
+        ? array_unique(array_merge((array) $args['exclude'], $exclude))
+        : $exclude;
+    return $args;
+});
+
+/**
+ * Pro TNT engine runtime: exclude hidden-category products.
+ */
+add_filter('dgwt/wcas/tntsearch/query/args', function( $args ) {
+    $blocked = hc_fs_hidden_cat_ids_cascade();
+    if ( empty($blocked) ) return $args;
+
+    if ( ! isset($args['tax_query']) ) $args['tax_query'] = [];
+    $args['tax_query'][] = [
+        'taxonomy'         => 'product_cat',
+        'field'            => 'term_id',
+        'terms'            => $blocked,
+        'operator'         => 'NOT IN',
+        'include_children' => false,
+    ];
+    return $args;
+});
+
+/**
+ * Search results page (when FiboSearch builds WP_Query): exclude hidden-category products.
+ */
+add_filter('dgwt/wcas/search_query/args', function( $args ) {
+    $blocked = hc_fs_hidden_cat_ids_cascade();
+    if ( empty($blocked) ) return $args;
+
+    if ( ! isset($args['tax_query']) ) $args['tax_query'] = [];
+    $args['tax_query'][] = [
+        'taxonomy'         => 'product_cat',
+        'field'            => 'term_id',
+        'terms'            => $blocked,
+        'operator'         => 'NOT IN',
+        'include_children' => false,
+    ];
+    return $args;
+});

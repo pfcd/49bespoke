@@ -1,0 +1,46 @@
+/* Widget- Price Filter */
+
+.et-boc .dsdep-sidebar .woocommerce.widget_price_filter,
+.et-boc #sidebar .woocommerce.widget_price_filter {
+
+  .price_slider_wrapper .ui-widget-content {
+    background-color : #DDD;
+    border-radius    : 0;
+    margin-bottom    : 20px;
+    }
+
+  .ui-slider {
+    .ui-slider-range {
+      background : $secondColor;
+      }
+
+    .ui-slider-handle {
+      background : $secondColor;
+      cursor     : pointer;
+
+      &:after {
+        display : none;
+        }
+      }
+    }
+
+  button.button {
+    @include outlineButtonMixin();
+    }
+
+  .price_label {
+    font-size   : 13px;
+    line-height : 29px !important;
+    font-weight : normal;
+    float       : right;
+
+    span {
+      padding       : 8px 10px;
+      background    : $lightGrey;
+      border-radius : $mainRadius;
+      font-weight   : 600;
+      }
+
+    }
+  }
+

@@ -1,0 +1,4759 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-09-07 12:04+0600\n"
+"PO-Revision-Date: 2024-09-07 12:05+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html;esc_attr;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .github\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Poedit-SearchPathExcluded-5: scripts\n"
+"X-Poedit-SearchPathExcluded-6: styles\n"
+
+#: includes/admin.php:57 includes/admin.php:58
+msgid "Woo Essential"
+msgstr ""
+
+#: includes/admin.php:72 includes/admin.php:73
+msgid "Woo Essential License"
+msgstr ""
+
+#: includes/admin.php:176 includes/admin.php:177
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:22
+msgid "Woo Product Carousel"
+msgstr ""
+
+#: includes/admin.php:182 includes/modules/NextWooGrid/NextWooGrid.php:27
+msgid "Woo Product Grid"
+msgstr ""
+
+#: includes/admin.php:187
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:22
+msgid "Woo Category Carousel"
+msgstr ""
+
+#: includes/admin.php:192 includes/modules/NextWooCatGrid/NextWooCatGrid.php:23
+msgid "Woo Category Grid"
+msgstr ""
+
+#: includes/admin.php:197
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:22
+msgid "Woo Category Masonry"
+msgstr ""
+
+#: includes/admin.php:202
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:23
+msgid "Woo Category Accordion"
+msgstr ""
+
+#: includes/admin.php:207
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:21
+msgid "Woo Product Accordion"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Woo Product Filter Masonry"
+msgstr ""
+
+#: includes/admin.php:217 includes/admin.php:248
+msgid "Woo Mini Cart"
+msgstr ""
+
+#: includes/admin.php:222
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:19
+msgid "Woo Ajax Search"
+msgstr ""
+
+#: includes/admin.php:271
+msgid "Home"
+msgstr ""
+
+#: includes/admin.php:276
+msgid "Modules"
+msgstr ""
+
+#: includes/admin.php:281
+msgid "Featuers"
+msgstr ""
+
+#: includes/admin.php:434 includes/admin.php:482 includes/admin.php:539
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/admin.php:448
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/admin.php:456
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/admin.php:461
+msgid "Invalid license."
+msgstr ""
+
+#: includes/admin.php:467
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/admin.php:472
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/admin.php:477
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/admin/view/admin-features.php:27
+msgid "Search features"
+msgstr ""
+
+#: includes/admin/view/admin-features.php:69
+msgid "pro"
+msgstr ""
+
+#: includes/admin/view/admin-modules.php:27
+msgid "Search Modules"
+msgstr ""
+
+#: includes/customizer.php:131
+msgid "Divi Mini Cart"
+msgstr ""
+
+#: includes/customizer.php:136
+msgid "Mini Cart Settings"
+msgstr ""
+
+#: includes/customizer.php:147
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:495
+msgid "Mini Cart Display"
+msgstr ""
+
+#: includes/customizer.php:174
+msgid "Fly Out Left / Right"
+msgstr ""
+
+#: includes/customizer.php:194
+msgid "Select Icon"
+msgstr ""
+
+#: includes/customizer.php:215
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:544
+msgid "Icon Size"
+msgstr ""
+
+#: includes/customizer.php:238
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:466
+#: includes/modules/NextWooGrid/NextWooGrid.php:453
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:590
+msgid "Icon Color"
+msgstr ""
+
+#: includes/customizer.php:259
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/customizer.php:280
+msgid "Icon Background Border Radius"
+msgstr ""
+
+#: includes/customizer.php:306
+msgid "Count Background Color"
+msgstr ""
+
+#: includes/customizer.php:327
+msgid "Count Color"
+msgstr ""
+
+#: includes/customizer.php:335
+msgid "Mini Cart Design"
+msgstr ""
+
+#: includes/customizer.php:353
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:28
+msgid "Mini Cart Window Background"
+msgstr ""
+
+#: includes/customizer.php:374
+msgid "Mini Cart Window Width"
+msgstr ""
+
+#: includes/customizer.php:400
+msgid "Cart Heading Font Size"
+msgstr ""
+
+#: includes/customizer.php:425
+msgid "Cart Heading Font Color"
+msgstr ""
+
+#: includes/customizer.php:446
+msgid "Image Size"
+msgstr ""
+
+#: includes/customizer.php:460
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:538
+msgid "Items Selected"
+msgstr ""
+
+#: includes/customizer.php:471
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:535
+msgid "Title Text"
+msgstr ""
+
+#: includes/customizer.php:494
+msgid "Title Font"
+msgstr ""
+
+#: includes/customizer.php:517
+msgid "Title Font Color"
+msgstr ""
+
+#: includes/customizer.php:538
+msgid "Title Font Size"
+msgstr ""
+
+#: includes/customizer.php:582
+msgid "Quantity Price Font Color"
+msgstr ""
+
+#: includes/customizer.php:603
+msgid "Quantity Price Font Size"
+msgstr ""
+
+#: includes/customizer.php:628
+msgid "Item Remove Button Color"
+msgstr ""
+
+#: includes/customizer.php:648
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:662
+msgid "Mini Cart Item Border Color"
+msgstr ""
+
+#: includes/customizer.php:668
+msgid "Subtotal Font Color"
+msgstr ""
+
+#: includes/customizer.php:689
+msgid "Subtotal Font Size"
+msgstr ""
+
+#: includes/customizer.php:714
+msgid "Subtotal Price Font Color"
+msgstr ""
+
+#: includes/customizer.php:735
+msgid "Subtotal Price Font Size"
+msgstr ""
+
+#: includes/customizer.php:749
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:482
+msgid "View Cart Button"
+msgstr ""
+
+#: includes/customizer.php:754 includes/functions.php:677
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:81
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:622
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:634
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:789
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:799
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:909
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:75
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:573
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:743
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:875
+#: includes/modules/NextWooGrid/NextWooGrid.php:73
+#: includes/modules/NextWooGrid/NextWooGrid.php:611
+#: includes/modules/NextWooGrid/NextWooGrid.php:814
+#: includes/modules/NextWooGrid/NextWooGrid.php:944
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:373
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:65
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:361
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:454
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:518
+msgid "View Cart"
+msgstr ""
+
+#: includes/customizer.php:762
+msgid "View Cart Text"
+msgstr ""
+
+#: includes/customizer.php:781
+msgid "View Button Background Color"
+msgstr ""
+
+#: includes/customizer.php:801
+msgid "View Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer.php:821
+msgid "View Button Text Color"
+msgstr ""
+
+#: includes/customizer.php:841
+msgid "View Button Text Hover Color"
+msgstr ""
+
+#: includes/customizer.php:862
+msgid "View Button Border Radius"
+msgstr ""
+
+#: includes/customizer.php:887
+msgid "View Button Border Color"
+msgstr ""
+
+#: includes/customizer.php:909
+msgid "View Button Font Style"
+msgstr ""
+
+#: includes/customizer.php:933
+msgid "View Buttons Font"
+msgstr ""
+
+#: includes/customizer.php:944
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:72
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:486
+msgid "Checkout Button"
+msgstr ""
+
+#: includes/customizer.php:949 includes/functions.php:686
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:385
+msgid "Checkout"
+msgstr ""
+
+#: includes/customizer.php:957
+msgid "Checkout Text"
+msgstr ""
+
+#: includes/customizer.php:976
+msgid "Checkout Button Background Color"
+msgstr ""
+
+#: includes/customizer.php:996
+msgid "Checkout Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer.php:1016
+msgid "Checkout Button Text Color"
+msgstr ""
+
+#: includes/customizer.php:1036
+msgid "Checkout Button Text Hover Color"
+msgstr ""
+
+#: includes/customizer.php:1057
+msgid "Checkout Button Border Radius"
+msgstr ""
+
+#: includes/customizer.php:1082
+msgid "Checkout Button Border Hover Color"
+msgstr ""
+
+#: includes/customizer.php:1104
+msgid "Checkout Button Font Style"
+msgstr ""
+
+#: includes/customizer.php:1128
+msgid "Checkout Buttons Font"
+msgstr ""
+
+#: includes/customizer.php:1140
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:91
+msgid "Empty Cart"
+msgstr ""
+
+#: includes/customizer.php:1145
+msgid "No products in the cart"
+msgstr ""
+
+#: includes/customizer.php:1153
+msgid "Empty Cart Text"
+msgstr ""
+
+#: includes/customizer.php:1172
+msgid "Empty Text Color"
+msgstr ""
+
+#: includes/customizer.php:1193
+msgid "Empty Cart Font Size"
+msgstr ""
+
+#: includes/customizer.php:1220
+msgid "Empty Font Style"
+msgstr ""
+
+#: includes/customizer.php:1244
+msgid "Emypty Font"
+msgstr ""
+
+#: includes/customizer.php:1256
+msgid "Coupon Code Display"
+msgstr ""
+
+#: includes/customizer.php:1270
+msgid "Show Coupon"
+msgstr ""
+
+#: includes/customizer.php:1285
+msgid "Show Shipping Fee"
+msgstr ""
+
+#: includes/customizer.php:1300
+msgid "Show Tax Fee"
+msgstr ""
+
+#: includes/customizer.php:1315
+msgid "Show Total Price"
+msgstr ""
+
+#: includes/customizer.php:1322 includes/customizer.php:1333
+msgid "Coupon Code Text"
+msgstr ""
+
+#: includes/customizer.php:1326 templates/woocommerce/cart/mini-cart.php:92
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/customizer.php:1350
+msgid "Coupon Code Text Color"
+msgstr ""
+
+#: includes/customizer.php:1368
+msgid "Coupon Code Icon Color"
+msgstr ""
+
+#: includes/customizer.php:1376
+msgid "Apply Button"
+msgstr ""
+
+#: includes/customizer.php:1381 templates/woocommerce/cart/mini-cart.php:97
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: includes/customizer.php:1389
+msgid "Place Holder Text"
+msgstr ""
+
+#: includes/customizer.php:1395 templates/woocommerce/cart/mini-cart.php:98
+msgid "Apply"
+msgstr ""
+
+#: includes/customizer.php:1402
+msgid "Apply Text"
+msgstr ""
+
+#: includes/customizer.php:1419
+msgid "Apply Button Text Color"
+msgstr ""
+
+#: includes/customizer.php:1437
+msgid "Apply Button Background Color"
+msgstr ""
+
+#: includes/customizer.php:1445 includes/customizer.php:1449
+#: templates/woocommerce/cart/mini-cart.php:112
+msgid "Discount"
+msgstr ""
+
+#: includes/customizer.php:1456
+msgid "Discount Text"
+msgstr ""
+
+#: includes/customizer.php:1473
+msgid "Discount Text Color"
+msgstr ""
+
+#: includes/customizer.php:1491
+msgid "Discount Price Color"
+msgstr ""
+
+#: includes/customizer.php:1509
+msgid "Remove Coupon Code Color"
+msgstr ""
+
+#: includes/customizer.php:1518
+msgid "Coupon Message"
+msgstr ""
+
+#: includes/customizer.php:1523 includes/functions.php:1500
+msgid "Coupon Removed Successfully."
+msgstr ""
+
+#: includes/customizer.php:1530
+msgid "Coupon Message Remove Text"
+msgstr ""
+
+#: includes/customizer.php:1547
+msgid "Coupon Message Remove Color"
+msgstr ""
+
+#: includes/customizer.php:1554
+msgid "Coupon Code Empty"
+msgstr ""
+
+#: includes/customizer.php:1561 includes/customizer.php:1623
+msgid "Coupon Message Successfully Text"
+msgstr ""
+
+#: includes/customizer.php:1578
+msgid "Coupon Message Empty Color"
+msgstr ""
+
+#: includes/customizer.php:1585
+msgid "Coupon Code Already Applied"
+msgstr ""
+
+#: includes/customizer.php:1592
+msgid "Coupon Message Applied Text"
+msgstr ""
+
+#: includes/customizer.php:1609
+msgid "Coupon Message Applied Color"
+msgstr ""
+
+#: includes/customizer.php:1616 includes/functions.php:1467
+msgid "Coupon applied successfully"
+msgstr ""
+
+#: includes/customizer.php:1640
+msgid "Coupon Message Success Color"
+msgstr ""
+
+#: includes/customizer.php:1647 includes/functions.php:1446
+msgid "Coupon Code is Invalid!"
+msgstr ""
+
+#: includes/customizer.php:1654
+msgid "Coupon Message Invaild Text"
+msgstr ""
+
+#: includes/customizer.php:1671
+msgid "Coupon Message Invaild Color"
+msgstr ""
+
+#: includes/customizer.php:1679 includes/customizer.php:1683
+msgid "Shipping Fee"
+msgstr ""
+
+#: includes/customizer.php:1690 includes/customizer.php:1744
+#: includes/customizer.php:1780
+msgid "Shipping Text"
+msgstr ""
+
+#: includes/customizer.php:1707
+msgid "Shipping Fee Text Color"
+msgstr ""
+
+#: includes/customizer.php:1725
+msgid "Shipping Icon Color"
+msgstr ""
+
+#: includes/customizer.php:1733
+msgid "Tax Fee"
+msgstr ""
+
+#: includes/customizer.php:1737 templates/woocommerce/cart/mini-cart.php:144
+msgid "Tax"
+msgstr ""
+
+#: includes/customizer.php:1761
+msgid "Tax Fee Text Color"
+msgstr ""
+
+#: includes/customizer.php:1769 includes/customizer.php:1773
+#: templates/woocommerce/cart/mini-cart.php:155
+msgid "Total"
+msgstr ""
+
+#: includes/customizer.php:1797
+msgid "Total Text Color"
+msgstr ""
+
+#: includes/functions.php:1263
+#: includes/modules/NextWooCarousel/layouts/layout-five.php:75
+#: includes/modules/NextWooCarousel/layouts/layout-four.php:77
+#: includes/modules/NextWooCarousel/layouts/layout-one.php:72
+#: includes/modules/NextWooCarousel/layouts/layout-six.php:77
+#: includes/modules/NextWooCarousel/layouts/layout-three.php:71
+#: includes/modules/NextWooCarousel/layouts/layout-two.php:76
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2247
+#: includes/modules/NextWooFilterMasonry/core/Templates.php:57
+#: includes/modules/NextWooGrid/layouts/layout-eight.php:83
+#: includes/modules/NextWooGrid/layouts/layout-five.php:79
+#: includes/modules/NextWooGrid/layouts/layout-four.php:76
+#: includes/modules/NextWooGrid/layouts/layout-one.php:115
+#: includes/modules/NextWooGrid/layouts/layout-seven.php:89
+#: includes/modules/NextWooGrid/layouts/layout-six.php:81
+#: includes/modules/NextWooGrid/layouts/layout-three.php:84
+#: includes/modules/NextWooGrid/layouts/layout-two.php:89
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1225
+#: templates/woocommerce/template-parts/woo-products-grid.php:137
+#: templates/woocommerce/template-parts/woo-products-grid.php:299
+#: templates/woocommerce/template-parts/woo-products-grid.php:413
+#: templates/woocommerce/template-parts/woo-products-grid.php:534
+#: templates/woocommerce/template-parts/woo-products-grid.php:625
+#: templates/woocommerce/template-parts/woo-products-grid.php:766
+#: templates/woocommerce/template-parts/woo-products-grid.php:923
+#: templates/woocommerce/template-parts/woo-products-grid.php:1045
+msgid "Rated"
+msgstr ""
+
+#: includes/functions.php:1263
+#: includes/modules/NextWooCarousel/layouts/layout-five.php:75
+#: includes/modules/NextWooCarousel/layouts/layout-four.php:77
+#: includes/modules/NextWooCarousel/layouts/layout-one.php:72
+#: includes/modules/NextWooCarousel/layouts/layout-six.php:77
+#: includes/modules/NextWooCarousel/layouts/layout-three.php:71
+#: includes/modules/NextWooCarousel/layouts/layout-two.php:76
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2247
+#: includes/modules/NextWooFilterMasonry/core/Templates.php:57
+#: includes/modules/NextWooGrid/layouts/layout-eight.php:83
+#: includes/modules/NextWooGrid/layouts/layout-five.php:79
+#: includes/modules/NextWooGrid/layouts/layout-four.php:76
+#: includes/modules/NextWooGrid/layouts/layout-one.php:115
+#: includes/modules/NextWooGrid/layouts/layout-seven.php:89
+#: includes/modules/NextWooGrid/layouts/layout-six.php:81
+#: includes/modules/NextWooGrid/layouts/layout-three.php:84
+#: includes/modules/NextWooGrid/layouts/layout-two.php:89
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1225
+#: templates/woocommerce/template-parts/woo-products-grid.php:138
+#: templates/woocommerce/template-parts/woo-products-grid.php:300
+#: templates/woocommerce/template-parts/woo-products-grid.php:414
+#: templates/woocommerce/template-parts/woo-products-grid.php:535
+#: templates/woocommerce/template-parts/woo-products-grid.php:626
+#: templates/woocommerce/template-parts/woo-products-grid.php:768
+#: templates/woocommerce/template-parts/woo-products-grid.php:925
+#: templates/woocommerce/template-parts/woo-products-grid.php:1047
+msgid "0"
+msgstr ""
+
+#: includes/functions.php:1263
+#: includes/modules/NextWooCarousel/layouts/layout-five.php:75
+#: includes/modules/NextWooCarousel/layouts/layout-four.php:77
+#: includes/modules/NextWooCarousel/layouts/layout-one.php:72
+#: includes/modules/NextWooCarousel/layouts/layout-six.php:77
+#: includes/modules/NextWooCarousel/layouts/layout-three.php:71
+#: includes/modules/NextWooCarousel/layouts/layout-two.php:76
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2247
+#: includes/modules/NextWooFilterMasonry/core/Templates.php:57
+#: includes/modules/NextWooGrid/layouts/layout-eight.php:83
+#: includes/modules/NextWooGrid/layouts/layout-five.php:79
+#: includes/modules/NextWooGrid/layouts/layout-four.php:76
+#: includes/modules/NextWooGrid/layouts/layout-one.php:115
+#: includes/modules/NextWooGrid/layouts/layout-seven.php:89
+#: includes/modules/NextWooGrid/layouts/layout-six.php:81
+#: includes/modules/NextWooGrid/layouts/layout-three.php:84
+#: includes/modules/NextWooGrid/layouts/layout-two.php:89
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1225
+#: templates/woocommerce/template-parts/woo-products-grid.php:139
+#: templates/woocommerce/template-parts/woo-products-grid.php:300
+#: templates/woocommerce/template-parts/woo-products-grid.php:414
+#: templates/woocommerce/template-parts/woo-products-grid.php:535
+#: templates/woocommerce/template-parts/woo-products-grid.php:626
+#: templates/woocommerce/template-parts/woo-products-grid.php:768
+#: templates/woocommerce/template-parts/woo-products-grid.php:925
+#: templates/woocommerce/template-parts/woo-products-grid.php:1047
+msgid "out of 5"
+msgstr ""
+
+#: includes/functions.php:1402
+msgid "Coupon code is Empty"
+msgstr ""
+
+#: includes/functions.php:1427
+msgid "Coupon Code already applied"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:26
+msgid "Configuration"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:27
+msgid "Search Area"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:28
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:31
+#: includes/modules/base/WooCommonSettings.php:12
+msgid "Display"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:29
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:69
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:51
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:33
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:29
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:31
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:29
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:43
+#: includes/modules/NextWooGrid/NextWooGrid.php:43
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:40
+msgid "Category"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:30
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:733
+msgid "Scrollbar"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:31
+msgid "Link"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:36
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:105
+msgid "Search Field"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:38
+msgid "Search Result Texts"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:41
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:137
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:532
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:542
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:577
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:45
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:101
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1064
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:295
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:304
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:299
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:273
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:86
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1041
+#: includes/modules/NextWooGrid/NextWooGrid.php:40
+#: includes/modules/NextWooGrid/NextWooGrid.php:101
+#: includes/modules/NextWooGrid/NextWooGrid.php:1148
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:652
+msgid "Title"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:44
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:141
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:534
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:543
+msgid "Excerpt"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:47
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:149
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:545
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:107
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:92
+#: includes/modules/NextWooGrid/NextWooGrid.php:107
+msgid "Price"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:50
+msgid "No Result"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:55
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:133
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:497
+msgid "Search Button"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:57
+msgid "Search Icon & Loader"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:60
+msgid "Search Icon"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:63
+msgid "Loader"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:72
+msgid "Selected"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:75
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1115
+msgid "List"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:78
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:654
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:75
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:88
+#: includes/modules/NextWooGrid/NextWooGrid.php:67
+#: includes/modules/NextWooGrid/NextWooGrid.php:80
+#: includes/modules/NextWooGrid/NextWooGrid.php:92
+#: includes/modules/NextWooGrid/NextWooGrid.php:123
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:362
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:525
+msgid "Icon"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:83
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:338
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:409
+msgid "Feature Image"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:85
+msgid "Badges & Rating"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:88
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:326
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:399
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:821
+msgid "On Sale"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:91
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:157
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:547
+msgid "Star Rating"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:94
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:161
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:548
+msgid "Rating Count"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:109
+msgid "Search Result Container"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:113
+msgid "Search Result Items"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:117
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:357
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:418
+msgid "Selected Category"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:121
+msgid "Category Arrow Icon"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:125
+msgid "Category List Box"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:129
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:372
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:428
+msgid "Category List"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:145
+msgid "Featured Image"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:153
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:546
+msgid "On Sale Badge"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:178
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:140
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:163
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:185
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:206
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:227
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:246
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:268
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:290
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:312
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:336
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:360
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:381
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:402
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:426
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:448
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:60
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:81
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:101
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:53
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:74
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:56
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:77
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:53
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:74
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:136
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:159
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:180
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:201
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:219
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:240
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:261
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:282
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:305
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:325
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:345
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:365
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:389
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:413
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:434
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:458
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:480
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:499
+#: includes/modules/NextWooGrid/NextWooGrid.php:146
+#: includes/modules/NextWooGrid/NextWooGrid.php:173
+#: includes/modules/NextWooGrid/NextWooGrid.php:198
+#: includes/modules/NextWooGrid/NextWooGrid.php:215
+#: includes/modules/NextWooGrid/NextWooGrid.php:237
+#: includes/modules/NextWooGrid/NextWooGrid.php:259
+#: includes/modules/NextWooGrid/NextWooGrid.php:281
+#: includes/modules/NextWooGrid/NextWooGrid.php:302
+#: includes/modules/NextWooGrid/NextWooGrid.php:326
+#: includes/modules/NextWooGrid/NextWooGrid.php:347
+#: includes/modules/NextWooGrid/NextWooGrid.php:368
+#: includes/modules/NextWooGrid/NextWooGrid.php:389
+#: includes/modules/NextWooGrid/NextWooGrid.php:413
+#: includes/modules/NextWooGrid/NextWooGrid.php:435
+#: includes/modules/NextWooGrid/NextWooGrid.php:524
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:106
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:129
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:154
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:181
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:205
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:232
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:259
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:285
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:311
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:97
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:119
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:138
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:158
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:178
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:199
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:220
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:241
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:262
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:285
+msgid ""
+"Choose a font. All Google web fonts are available here. You can upload a "
+"custom font as well."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:185
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:147
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:169
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:191
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:252
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:274
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:296
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:318
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:342
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:366
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:387
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:408
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:432
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:454
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:66
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:87
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:107
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:59
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:80
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:62
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:83
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:59
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:80
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:142
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:162
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:186
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:225
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:246
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:267
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:288
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:311
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:331
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:351
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:371
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:395
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:419
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:440
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:464
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:486
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:502
+#: includes/modules/NextWooGrid/NextWooGrid.php:152
+#: includes/modules/NextWooGrid/NextWooGrid.php:183
+#: includes/modules/NextWooGrid/NextWooGrid.php:243
+#: includes/modules/NextWooGrid/NextWooGrid.php:265
+#: includes/modules/NextWooGrid/NextWooGrid.php:287
+#: includes/modules/NextWooGrid/NextWooGrid.php:308
+#: includes/modules/NextWooGrid/NextWooGrid.php:332
+#: includes/modules/NextWooGrid/NextWooGrid.php:353
+#: includes/modules/NextWooGrid/NextWooGrid.php:374
+#: includes/modules/NextWooGrid/NextWooGrid.php:395
+#: includes/modules/NextWooGrid/NextWooGrid.php:419
+#: includes/modules/NextWooGrid/NextWooGrid.php:441
+#: includes/modules/NextWooGrid/NextWooGrid.php:527
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:112
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:135
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:163
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:187
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:211
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:241
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:268
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:294
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:320
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:103
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:122
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:144
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:164
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:184
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:205
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:226
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:247
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:268
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:291
+msgid "Align the text to the left, right, center, or justify"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:188
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:150
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:166
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:188
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:230
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:249
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:271
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:293
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:315
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:339
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:363
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:384
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:405
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:429
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:451
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:63
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:84
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:104
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:56
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:77
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:59
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:80
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:56
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:77
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:139
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:165
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:183
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:204
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:222
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:243
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:264
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:285
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:308
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:328
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:348
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:368
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:392
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:416
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:437
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:461
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:483
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:505
+#: includes/modules/NextWooGrid/NextWooGrid.php:155
+#: includes/modules/NextWooGrid/NextWooGrid.php:180
+#: includes/modules/NextWooGrid/NextWooGrid.php:201
+#: includes/modules/NextWooGrid/NextWooGrid.php:240
+#: includes/modules/NextWooGrid/NextWooGrid.php:262
+#: includes/modules/NextWooGrid/NextWooGrid.php:284
+#: includes/modules/NextWooGrid/NextWooGrid.php:305
+#: includes/modules/NextWooGrid/NextWooGrid.php:329
+#: includes/modules/NextWooGrid/NextWooGrid.php:350
+#: includes/modules/NextWooGrid/NextWooGrid.php:371
+#: includes/modules/NextWooGrid/NextWooGrid.php:392
+#: includes/modules/NextWooGrid/NextWooGrid.php:416
+#: includes/modules/NextWooGrid/NextWooGrid.php:438
+#: includes/modules/NextWooGrid/NextWooGrid.php:530
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:115
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:138
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:166
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:190
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:217
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:244
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:271
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:297
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:323
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:100
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:125
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:141
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:161
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:181
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:202
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:223
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:244
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:265
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:288
+msgid "Adjust the spacing between the letters of the text"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:191
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:253
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:153
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:172
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:194
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:215
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:233
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:255
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:277
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:299
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:321
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:345
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:369
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:390
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:411
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:435
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:457
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:69
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:90
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:110
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:62
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:83
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:65
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:86
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:62
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:83
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:145
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:168
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:189
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:207
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:228
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:249
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:270
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:291
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:314
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:334
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:354
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:374
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:398
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:422
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:443
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:467
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:489
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:508
+#: includes/modules/NextWooGrid/NextWooGrid.php:158
+#: includes/modules/NextWooGrid/NextWooGrid.php:186
+#: includes/modules/NextWooGrid/NextWooGrid.php:204
+#: includes/modules/NextWooGrid/NextWooGrid.php:224
+#: includes/modules/NextWooGrid/NextWooGrid.php:246
+#: includes/modules/NextWooGrid/NextWooGrid.php:268
+#: includes/modules/NextWooGrid/NextWooGrid.php:290
+#: includes/modules/NextWooGrid/NextWooGrid.php:311
+#: includes/modules/NextWooGrid/NextWooGrid.php:335
+#: includes/modules/NextWooGrid/NextWooGrid.php:356
+#: includes/modules/NextWooGrid/NextWooGrid.php:377
+#: includes/modules/NextWooGrid/NextWooGrid.php:398
+#: includes/modules/NextWooGrid/NextWooGrid.php:422
+#: includes/modules/NextWooGrid/NextWooGrid.php:444
+#: includes/modules/NextWooGrid/NextWooGrid.php:533
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:118
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:141
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:169
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:193
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:220
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:247
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:274
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:300
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:326
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:106
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:128
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:147
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:167
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:187
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:208
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:229
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:250
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:271
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:294
+msgid "Adjust the space between multiple lines added to the design"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:315
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:390
+msgid "Field"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:444
+msgid "Featured Image Width"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:472
+msgid "Featured Image Height"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:533
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:29
+#: includes/modules/base/WooCommonSettings.php:10
+msgid "Content"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:535
+msgid "Product Categories"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:536
+msgid "Product Tags"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:537
+msgid "Custom Taxonomies"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:538
+msgid "Attributes"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:539
+msgid "SKU"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:544
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:605
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:553
+msgid "Search Field Placeholder"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:556
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:557
+msgid "Search"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:559
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:667
+msgid "Here you can input the placeholder to be used for the search field."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:562
+msgid "Search Result Number"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:568
+msgid ""
+"Here you can input the number of items to be displayed in the search result. "
+"Input -1 for all."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:571
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1058
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:289
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:298
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:293
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:267
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1035
+#: includes/modules/NextWooGrid/NextWooGrid.php:1142
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:646
+msgid "Order by"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:575
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1062
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:293
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:302
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:297
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:271
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1039
+#: includes/modules/NextWooGrid/NextWooGrid.php:1146
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:650
+msgid "Date"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:576
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1063
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:294
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:303
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:298
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:272
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1040
+#: includes/modules/NextWooGrid/NextWooGrid.php:1147
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:651
+msgid "Modified Date"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:578
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1065
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:296
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:305
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:300
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:274
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1042
+#: includes/modules/NextWooGrid/NextWooGrid.php:1149
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:653
+msgid "Slug"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:579
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1066
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:297
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:306
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:301
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:275
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1043
+#: includes/modules/NextWooGrid/NextWooGrid.php:1150
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:654
+msgid "ID"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:583
+msgid "Here you can choose the order type of your results."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:586
+msgid "Order"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:590
+msgid "DESC"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:591
+msgid "ASC"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:598
+msgid "Here you can choose the order of your results."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:601
+msgid "Product Thumbnail Size"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:602
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:965
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:576
+msgid "Here you can specify the size of product image."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:606
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:202
+msgid "Medium"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:607
+msgid "Medium Large"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:608
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1001
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:223
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:229
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:224
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:201
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:968
+#: includes/modules/NextWooGrid/NextWooGrid.php:1058
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:579
+msgid "Full"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:615
+msgid "No Result Text"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:616
+msgid ""
+"Here you can input the custom text to be displayed when no results found."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:619
+msgid "No results found"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:625
+msgid "Search in"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:632
+msgid "Here you can choose where you would like to search in."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:637
+msgid "Show Loading Spinner"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:638
+msgid "This will turn the loading spinner on and off while searching."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:642
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:720
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:753
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:765
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:973
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1215
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1243
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1254
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1310
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1322
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1334
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1349
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1361
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1376
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1454
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1468
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1485
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1788
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1801
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1814
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1827
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1840
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1880
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:207
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:332
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:345
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:359
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:385
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:197
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:213
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:443
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:457
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:469
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:208
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:353
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:366
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:380
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:185
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:310
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:324
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:940
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1083
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1208
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1235
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1272
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1297
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1322
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1375
+#: includes/modules/NextWooGrid/NextWooGrid.php:1030
+#: includes/modules/NextWooGrid/NextWooGrid.php:1075
+#: includes/modules/NextWooGrid/NextWooGrid.php:1214
+#: includes/modules/NextWooGrid/NextWooGrid.php:1227
+#: includes/modules/NextWooGrid/NextWooGrid.php:1240
+#: includes/modules/NextWooGrid/NextWooGrid.php:1253
+#: includes/modules/NextWooGrid/NextWooGrid.php:1266
+#: includes/modules/NextWooGrid/NextWooGrid.php:1309
+#: includes/modules/NextWooGrid/NextWooGrid.php:1337
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:551
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:693
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:729
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:863
+#: includes/modules/base/WooCommonSettings.php:35
+#: includes/modules/base/WooCommonSettings.php:63
+#: includes/modules/base/WooCommonSettings.php:74
+#: includes/modules/base/WooCommonSettings.php:130
+#: includes/modules/base/WooCommonSettings.php:142
+#: includes/modules/base/WooCommonSettings.php:154
+#: includes/modules/base/WooCommonSettings.php:169
+#: includes/modules/base/WooCommonSettings.php:181
+#: includes/modules/base/WooCommonSettings.php:198
+#: includes/modules/base/WooCommonSettings.php:278
+#: includes/modules/base/WooCommonSettings.php:292
+#: includes/modules/base/WooCommonSettings.php:306
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:643
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:721
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:754
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:766
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:974
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1216
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1244
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1255
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1311
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1323
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1335
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1350
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1362
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1377
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1455
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1469
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1486
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1789
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1802
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1815
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1828
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1841
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1881
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:208
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:333
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:346
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:360
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:384
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:198
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:214
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:444
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:458
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:470
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:209
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:354
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:367
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:381
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:186
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:311
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:325
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:941
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1084
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1209
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1236
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1273
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1298
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1323
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1376
+#: includes/modules/NextWooGrid/NextWooGrid.php:1031
+#: includes/modules/NextWooGrid/NextWooGrid.php:1076
+#: includes/modules/NextWooGrid/NextWooGrid.php:1215
+#: includes/modules/NextWooGrid/NextWooGrid.php:1228
+#: includes/modules/NextWooGrid/NextWooGrid.php:1241
+#: includes/modules/NextWooGrid/NextWooGrid.php:1254
+#: includes/modules/NextWooGrid/NextWooGrid.php:1267
+#: includes/modules/NextWooGrid/NextWooGrid.php:1310
+#: includes/modules/NextWooGrid/NextWooGrid.php:1338
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:552
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:694
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:730
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:862
+#: includes/modules/base/WooCommonSettings.php:36
+#: includes/modules/base/WooCommonSettings.php:64
+#: includes/modules/base/WooCommonSettings.php:75
+#: includes/modules/base/WooCommonSettings.php:131
+#: includes/modules/base/WooCommonSettings.php:143
+#: includes/modules/base/WooCommonSettings.php:155
+#: includes/modules/base/WooCommonSettings.php:170
+#: includes/modules/base/WooCommonSettings.php:182
+#: includes/modules/base/WooCommonSettings.php:199
+#: includes/modules/base/WooCommonSettings.php:279
+#: includes/modules/base/WooCommonSettings.php:293
+#: includes/modules/base/WooCommonSettings.php:307
+msgid "No"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:649
+msgid "Show Search Icon & Button"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:650
+msgid ""
+"Here you can choose the position where you want to show the search icon & "
+"search button."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:653
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1068
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1441
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1960
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:299
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:308
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:303
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:277
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1045
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1428
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1469
+#: includes/modules/NextWooGrid/NextWooGrid.php:1152
+#: includes/modules/NextWooGrid/NextWooGrid.php:1451
+#: includes/modules/NextWooGrid/NextWooGrid.php:1493
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:656
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:808
+#: includes/modules/base/WooCommonSettings.php:265
+msgid "None"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:655
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:72
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:85
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:110
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:95
+#: includes/modules/NextWooGrid/NextWooGrid.php:64
+#: includes/modules/NextWooGrid/NextWooGrid.php:77
+#: includes/modules/NextWooGrid/NextWooGrid.php:89
+#: includes/modules/NextWooGrid/NextWooGrid.php:110
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:65
+msgid "Button"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:656
+msgid "Button with Icon"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:663
+msgid "Search Button Text"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:673
+msgid "Display Fields"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:680
+msgid ""
+"Here you can choose which fields you would like to display in search results."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:683
+msgid "Number Of Columns"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:687
+msgid "1"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:688
+msgid "2"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:689
+msgid "3"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:690
+msgid "4"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:691
+msgid "5"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:696
+msgid "Here you can select the number of columns to display result items."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:699
+msgid "Column Spacing"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:713
+msgid "Increase or decrease spacing between columns."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:716
+msgid "Use Masonry"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:728
+msgid ""
+"Here you can select whether or not to display the results in masonry design "
+"appearance."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:737
+msgid "Show"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:738
+msgid "Hide"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:742
+msgid ""
+"Here you can select whether to show or hide scrollbar. This is totally "
+"depends on the browser, we can not guarantee the result of it."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:748
+msgid "Use Current Category"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:749
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:761
+msgid "This will turn the category section on and off."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:760
+msgid "Show Category Section"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:775
+msgid "Category Position"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:779
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:932
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1096
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:515
+msgid "Left"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:780
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:933
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1097
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:516
+msgid "Right"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:781
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:934
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1098
+msgid "Top"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:782
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:935
+msgid "Bottom"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:793
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1014
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:236
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:245
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:240
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:214
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:981
+#: includes/modules/NextWooGrid/NextWooGrid.php:1084
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:592
+msgid "Include Categories"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:801
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1022
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:244
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:253
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:248
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:222
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:989
+#: includes/modules/NextWooGrid/NextWooGrid.php:1092
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:600
+msgid "All Categories"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:804
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1026
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:247
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:256
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:251
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:225
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:992
+#: includes/modules/NextWooGrid/NextWooGrid.php:1096
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:604
+msgid ""
+"Select Categories. If no category is selected, products from all categories "
+"will be displayed."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:813
+msgid "Result Product Link Target"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:817
+msgid "In The Same Window"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:818
+msgid "In The New Tab"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:826
+msgid "Field Text Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:827
+msgid "Here you can define a custom color for Search Field text"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:834
+msgid "Field Focus Text Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:835
+msgid "Here you can define a custom color for Search Field text when in focus."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:845
+msgid "Star Rating Active Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:846
+msgid "Here you can define a custom color for Active Stars."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:855
+msgid "Star Rating Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:856
+msgid "Here you can define a custom color for Star Rating"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:868
+msgid "Search Icon Size"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:869
+msgid "Define the search icon size."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:887
+msgid "Search Icon Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:888
+msgid "Here you can define a custom color for search icon."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:898
+msgid "Loader Icon Size"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:899
+msgid "Define the loader icon size."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:917
+msgid "Loader Icon Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:918
+msgid "Here you can define a custom color for loader icon."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:928
+msgid "Search Button Position"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:946
+msgid "Category Section Width"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:947
+msgid "Increase or decrease category section width."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:963
+msgid "Selected Category Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:964
+msgid "Here you can define a custom color for the selected category."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:973
+msgid "Category List Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:974
+msgid "Here you can define a custom color for the each category list text."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:986
+msgid ""
+"These settings will not work in the visual builder, but will work on the "
+"frontend page."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:992
+msgid "Category Icon Color"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:993
+msgid "Here you can define a custom color for the each category icon."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1002
+msgid "Category Icon Size"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1018
+msgid "Increase or decrease icon size."
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1024
+msgid "Search Field Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1034
+msgid "Search Field Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1044
+msgid "Category Section Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1054
+msgid "Category Section Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1064
+msgid "Search Result Container Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1074
+msgid "Search Result Container Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1084
+msgid "Search Result Item Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1094
+msgid "Title Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1104
+msgid "Title Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1114
+msgid "Excerpt Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1124
+msgid "Excerpt Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1134
+msgid "Featured Image Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1144
+msgid "Featured Image Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1154
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1073
+msgid "On Sale Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1164
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1063
+msgid "On Sale Padding"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1174
+msgid "Price Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1184
+msgid "Star Rating Margin"
+msgstr ""
+
+#: includes/modules/NextWooAjaxSearch/NextWooAjaxSearch.php:1194
+msgid "Rating Count Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:30
+#: includes/modules/base/WooCommonSettings.php:11
+msgid "Elements"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:32
+#: includes/modules/base/WooCommonSettings.php:13
+msgid "Carousel Settings"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:33
+#: includes/modules/base/WooCommonSettings.php:14
+msgid "Navigation Settings"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:34
+#: includes/modules/base/WooCommonSettings.php:15
+msgid "Effect Settings"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:35
+#: includes/modules/NextWooGrid/NextWooGrid.php:127
+#: includes/modules/base/WooCommonSettings.php:16
+msgid "Content Background"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:40
+#: includes/modules/NextWooGrid/NextWooGrid.php:32
+#: includes/modules/base/WooCommonSettings.php:21
+msgid "Image Settings"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:42
+msgid "Product Texts"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:48
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:586
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:759
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:43
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:37
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:337
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:434
+msgid "Description"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:57
+msgid "Price Text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:69
+#: includes/modules/NextWooGrid/NextWooGrid.php:61
+msgid "Add to Cart/Select Option"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:92
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:646
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:809
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:585
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:753
+#: includes/modules/NextWooGrid/NextWooGrid.php:120 woo-essential.php:204
+msgid "Wishlist"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:93
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:657
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:818
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:596
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:762
+#: includes/modules/NextWooGrid/NextWooGrid.php:121 woo-essential.php:199
+msgid "Compare"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:94
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:668
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:827
+#: includes/modules/NextWooGrid/NextWooGrid.php:85
+#: includes/modules/NextWooGrid/NextWooGrid.php:647
+#: includes/modules/NextWooGrid/NextWooGrid.php:824
+#: includes/modules/NextWooGrid/NextWooGrid.php:948
+msgid "Quick View"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:97
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:82
+#: includes/modules/NextWooGrid/NextWooGrid.php:97
+msgid "Quick View Pop Up Box"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:104
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:89
+#: includes/modules/NextWooGrid/NextWooGrid.php:104
+msgid "Desc"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:113
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:98
+#: includes/modules/NextWooGrid/NextWooGrid.php:113
+msgid "Meta"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:118
+#: includes/modules/NextWooGrid/NextWooGrid.php:117
+msgid "Quick Box Popup Background"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:119
+#: includes/modules/NextWooGrid/NextWooGrid.php:118
+msgid "Quick Box Popup Arrow"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:120
+#: includes/modules/NextWooGrid/NextWooGrid.php:119
+msgid "Quick Box Popup Close Button"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:121
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:679
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:836
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:629
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:780
+#: includes/modules/NextWooGrid/NextWooGrid.php:122
+#: includes/modules/NextWooGrid/NextWooGrid.php:693
+#: includes/modules/NextWooGrid/NextWooGrid.php:862
+#: includes/modules/NextWooGrid/NextWooGrid.php:928
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:373
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:464
+msgid "Sale Badge"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:122
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:690
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:845
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:641
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:790
+#: includes/modules/NextWooGrid/NextWooGrid.php:124
+#: includes/modules/NextWooGrid/NextWooGrid.php:704
+#: includes/modules/NextWooGrid/NextWooGrid.php:871
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:385
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:474
+msgid "Out of Stock Badge"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:123
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:701
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:854
+#: includes/modules/NextWooGrid/NextWooGrid.php:125
+#: includes/modules/NextWooGrid/NextWooGrid.php:715
+#: includes/modules/NextWooGrid/NextWooGrid.php:880
+msgid "Featured Badge"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:124
+msgid "Navigation"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:125
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:109
+#: includes/modules/NextWooFilterMasonry/core/FilterOptions.php:161
+#: includes/modules/NextWooGrid/NextWooGrid.php:132
+msgid "Rating"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:209
+#: includes/modules/NextWooGrid/NextWooGrid.php:218
+msgid "Adjust the spacing between the letters of the price texts"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:212
+#: includes/modules/NextWooGrid/NextWooGrid.php:221
+msgid "Align the price text to the left, right, center, or justify"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:469
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1493
+#: includes/modules/NextWooGrid/NextWooGrid.php:456
+#: includes/modules/base/WooCommonSettings.php:314
+msgid "Font Size"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:563
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:740
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:130
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:159
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:103
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:143
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:162
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:117
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:155
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:174
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:103
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:132
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:151
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:539
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:715
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:830
+#: includes/modules/NextWooGrid/NextWooGrid.php:576
+#: includes/modules/NextWooGrid/NextWooGrid.php:765
+#: includes/modules/NextWooGrid/NextWooGrid.php:898
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:397
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:426
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:436
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:314
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:415
+msgid "Image"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:574
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:749
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:550
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:724
+#: includes/modules/NextWooGrid/NextWooGrid.php:587
+#: includes/modules/NextWooGrid/NextWooGrid.php:774
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:325
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:424
+msgid "Text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:598
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:769
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:779
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:72
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:561
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:733
+#: includes/modules/NextWooGrid/NextWooGrid.php:599
+#: includes/modules/NextWooGrid/NextWooGrid.php:784
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:62
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:349
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:444
+#: templates/woocommerce/template-parts/woo-products-grid.php:11
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:610
+#: includes/modules/NextWooGrid/NextWooGrid.php:623
+#: includes/modules/NextWooGrid/NextWooGrid.php:794
+msgid "Add to Cart Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:712
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:126
+msgid "Arrow"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:881
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:190
+#: includes/modules/NextWooGrid/NextWooGrid.php:916
+msgid "Product Image"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:885
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:847
+#: includes/modules/NextWooGrid/NextWooGrid.php:920
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:55
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:494
+msgid "Product Name"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:889
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:186
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:498
+msgid "Product Description"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:893
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:851
+#: includes/modules/NextWooGrid/NextWooGrid.php:49
+#: includes/modules/NextWooGrid/NextWooGrid.php:924
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:46
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:502
+msgid "Product Price"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:897
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:855
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:506
+msgid "Product Rating"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:901
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:859
+#: includes/modules/NextWooGrid/NextWooGrid.php:936
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:510
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:905
+msgid "Select Variable Option Button"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:913
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:883
+#: includes/modules/NextWooGrid/NextWooGrid.php:671
+#: includes/modules/NextWooGrid/NextWooGrid.php:844
+#: includes/modules/NextWooGrid/NextWooGrid.php:964
+msgid "Wishlist Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:917
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:891
+#: includes/modules/NextWooGrid/NextWooGrid.php:682
+#: includes/modules/NextWooGrid/NextWooGrid.php:853
+#: includes/modules/NextWooGrid/NextWooGrid.php:968
+msgid "Compare Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:921
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1822
+#: includes/modules/NextWooGrid/NextWooGrid.php:659
+#: includes/modules/NextWooGrid/NextWooGrid.php:834
+#: includes/modules/NextWooGrid/NextWooGrid.php:972
+#: includes/modules/NextWooGrid/NextWooGrid.php:1248
+msgid "Quick View Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:931
+#: includes/modules/NextWooGrid/NextWooGrid.php:986
+msgid "Select Layout"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:932
+#: includes/modules/NextWooGrid/NextWooGrid.php:987
+msgid "Choose your posts layout."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:937
+#: includes/modules/NextWooGrid/NextWooGrid.php:992
+msgid "Layout 1"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:938
+#: includes/modules/NextWooGrid/NextWooGrid.php:993
+msgid "Layout 2"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:939
+#: includes/modules/NextWooGrid/NextWooGrid.php:994
+msgid "Layout 3"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:940
+#: includes/modules/NextWooGrid/NextWooGrid.php:995
+msgid "Layout 4"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:941
+#: includes/modules/NextWooGrid/NextWooGrid.php:996
+msgid "Layout 5"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:942
+#: includes/modules/NextWooGrid/NextWooGrid.php:997
+msgid "Layout 6"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:949
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:916
+#: includes/modules/NextWooGrid/NextWooGrid.php:1006
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:527
+msgid "Product View Type"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:953
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:920
+#: includes/modules/NextWooGrid/NextWooGrid.php:1010
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:531
+msgid "Default (Menu ordering + name)"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:954
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:921
+#: includes/modules/NextWooGrid/NextWooGrid.php:1011
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:532
+msgid "Latest Products"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:955
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:922
+#: includes/modules/NextWooGrid/NextWooGrid.php:1012
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:533
+msgid "Featured Products"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:956
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:923
+#: includes/modules/NextWooGrid/NextWooGrid.php:1013
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:534
+msgid "Sale Products"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:957
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:924
+#: includes/modules/NextWooGrid/NextWooGrid.php:1014
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:535
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:958
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:925
+#: includes/modules/NextWooGrid/NextWooGrid.php:1015
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:536
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:959
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:926
+#: includes/modules/NextWooGrid/NextWooGrid.php:1016
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:537
+msgid "Product Category"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:962
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:929
+#: includes/modules/NextWooGrid/NextWooGrid.php:1019
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:540
+msgid "Choose which type of product view you would like to display."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:969
+#: includes/modules/NextWooGrid/NextWooGrid.php:1026
+msgid "Hide Out of Stock Products"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:979
+#: includes/modules/NextWooGrid/NextWooGrid.php:1036
+msgid "Hide out of stock products from the loop."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:985
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:952
+#: includes/modules/NextWooGrid/NextWooGrid.php:1042
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:563
+msgid "Out of stock Product Text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:989
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:956
+#: includes/modules/NextWooGrid/NextWooGrid.php:1046
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:567
+msgid "Define the Out of stock product text for your badge."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:997
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:219
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:225
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:220
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:197
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:964
+#: includes/modules/NextWooGrid/NextWooGrid.php:1054
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:575
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:998
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:220
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:226
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:221
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:198
+#: includes/modules/NextWooGrid/NextWooGrid.php:1055
+msgid "Here you can specify the size of category image."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1002
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:224
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:230
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:225
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:969
+#: includes/modules/NextWooGrid/NextWooGrid.php:1059
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:580
+msgid "Woocommerce Thumbnail"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1003
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:225
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:231
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:226
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:203
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:970
+#: includes/modules/NextWooGrid/NextWooGrid.php:1060
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:581
+msgid "Woocommerce Single"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1023
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:601
+msgid "Current Category"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1032
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:182
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:179
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:191
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:168
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:998
+#: includes/modules/NextWooGrid/NextWooGrid.php:1105
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:610
+msgid "Product Count"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1035
+#: includes/modules/NextWooGrid/NextWooGrid.php:1108
+msgid "Define the number of products that should be displayed per page."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1043
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:275
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:284
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:279
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:253
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1021
+#: includes/modules/NextWooGrid/NextWooGrid.php:1128
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:632
+msgid "Sorted By"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1044
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:276
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:285
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:280
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:254
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1022
+#: includes/modules/NextWooGrid/NextWooGrid.php:1129
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:633
+msgid "Choose how your posts should be sorted."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1050
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:282
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:291
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:286
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:260
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1028
+#: includes/modules/NextWooGrid/NextWooGrid.php:1135
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:639
+msgid "Ascending"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1051
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:283
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:292
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:287
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:261
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1029
+#: includes/modules/NextWooGrid/NextWooGrid.php:1136
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:640
+msgid "Descending"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1067
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:298
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:307
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:302
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:276
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1044
+#: includes/modules/NextWooGrid/NextWooGrid.php:1151
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:655
+msgid "Random"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1082
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:307
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:316
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:311
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:285
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1053
+#: includes/modules/NextWooGrid/NextWooGrid.php:1166
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:664
+msgid "Here you can specify the order in which the products will be displayed."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1088
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:322
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:317
+msgid "Image Height"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1089
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:323
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:318
+msgid "Adjust the height of the image within the woocarousel."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1104
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1112
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1343
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1351
+#: includes/modules/NextWooGrid/NextWooGrid.php:1172
+#: includes/modules/NextWooGrid/NextWooGrid.php:1180
+msgid "Quick View Arrow Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1105
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1344
+#: includes/modules/NextWooGrid/NextWooGrid.php:1173
+msgid "Here you can define a custom color for Quick View Arrow"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1113
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1352
+#: includes/modules/NextWooGrid/NextWooGrid.php:1181
+msgid "Here you can define a custom color for Quick View close button"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1138
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1490
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1841
+#: includes/modules/NextWooGrid/NextWooGrid.php:1534
+#: includes/modules/NextWooGrid/NextWooGrid.php:1638
+msgid "Alignment"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1139
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1491
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1842
+#: includes/modules/NextWooGrid/NextWooGrid.php:1535
+#: includes/modules/NextWooGrid/NextWooGrid.php:1639
+msgid "Align to the left, right or center."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1153
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1823
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1856
+#: includes/modules/NextWooGrid/NextWooGrid.php:1654
+msgid "Active Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1154
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1824
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1857
+#: includes/modules/NextWooGrid/NextWooGrid.php:1655
+msgid "Here you can define a custom color for active rating star"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1164
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1831
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1867
+#: includes/modules/NextWooGrid/NextWooGrid.php:1665
+msgid "Inactive Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1165
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1832
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1868
+#: includes/modules/NextWooGrid/NextWooGrid.php:1666
+msgid "Here you can define a custom color for nonactive rating star"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1178
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1182
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1205
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:553
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:481
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:513
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:457
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1881
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1893
+#: includes/modules/NextWooGrid/NextWooGrid.php:2034
+#: includes/modules/NextWooGrid/NextWooGrid.php:2038
+#: includes/modules/NextWooGrid/NextWooGrid.php:2041
+#: includes/modules/NextWooGrid/NextWooGrid.php:2067
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1126
+msgid "Add a background fill color or gradient for the description text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1211
+#: includes/modules/base/WooCommonSettings.php:31
+msgid "Auto Height"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1213
+#: includes/modules/base/WooCommonSettings.php:33
+msgid "Enable this to automatically adjust the height of the images"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1223
+#: includes/modules/base/WooCommonSettings.php:43
+msgid "Speed"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1224
+#: includes/modules/base/WooCommonSettings.php:44
+msgid ""
+"Adjust the speed of the carousel using the slider below (higher the value, "
+"the slider will go slowly and lower the value, the slider will go faster)"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1239
+#: includes/modules/base/WooCommonSettings.php:59
+msgid "Center slide"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1241
+#: includes/modules/base/WooCommonSettings.php:61
+msgid "Enable this to have the active image centered"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1250
+#: includes/modules/base/WooCommonSettings.php:70
+msgid "Autoplay"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1252
+#: includes/modules/base/WooCommonSettings.php:72
+msgid "Enable to get the autoplay feature"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1265
+#: includes/modules/base/WooCommonSettings.php:85
+msgid "Autoplay Delay"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1268
+#: includes/modules/base/WooCommonSettings.php:88
+msgid "Adjust the autoplay delay in milliseconds (ms)"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1277
+#: includes/modules/base/WooCommonSettings.php:97
+msgid "Slides Per View"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1280
+#: includes/modules/base/WooCommonSettings.php:100
+msgid "Place the number of slides you want to view"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1288
+#: includes/modules/base/WooCommonSettings.php:108
+msgid "Space Between"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1290
+#: includes/modules/base/WooCommonSettings.php:110
+msgid "Adjust the space between the images"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1306
+#: includes/modules/base/WooCommonSettings.php:126
+msgid "Use Grab Cursor"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1308
+#: includes/modules/base/WooCommonSettings.php:128
+msgid "Select on or off to control grab cursor"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1318
+#: includes/modules/base/WooCommonSettings.php:138
+msgid "Loop"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1320
+#: includes/modules/base/WooCommonSettings.php:140
+msgid "Enable to have the slider slide continuously in a loop"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1330
+#: includes/modules/base/WooCommonSettings.php:150
+msgid "Pause On Hover"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1332
+#: includes/modules/base/WooCommonSettings.php:152
+msgid "Enable this to have the slider pause when the cursor hovers on top"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1345
+#: includes/modules/base/WooCommonSettings.php:165
+msgid "Keyboard Navigation"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1347
+#: includes/modules/base/WooCommonSettings.php:167
+msgid "Select on or off to control keyboard navigation."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1357
+#: includes/modules/base/WooCommonSettings.php:177
+msgid "Mousewheel Navigation"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1359
+#: includes/modules/base/WooCommonSettings.php:179
+msgid "Select on or off to control slide using mousewheel."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1372
+#: includes/modules/base/WooCommonSettings.php:194
+msgid "Use Slide Shadows"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1374
+#: includes/modules/base/WooCommonSettings.php:196
+msgid "When enabled, it adds a shadow to the back of the images in the slide"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1384
+#: includes/modules/base/WooCommonSettings.php:206
+msgid "Slide Rotate"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1386
+#: includes/modules/base/WooCommonSettings.php:208
+msgid "Use the slider to add a rotation effect"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1400
+#: includes/modules/base/WooCommonSettings.php:222
+msgid "Slide Stretch"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1402
+#: includes/modules/base/WooCommonSettings.php:224
+msgid "Adjust the slide stretch using the slider below"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1416
+#: includes/modules/base/WooCommonSettings.php:238
+msgid "Slide Depth"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1418
+#: includes/modules/base/WooCommonSettings.php:240
+msgid ""
+"Adjust the distance of the images from the center to the surface to the "
+"bottom of the slider\n"
+"                "
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1436
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1465
+#: includes/modules/NextWooGrid/NextWooGrid.php:1489
+#: includes/modules/base/WooCommonSettings.php:260
+msgid "Pagination Type"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1438
+#: includes/modules/base/WooCommonSettings.php:262
+msgid "Select types for the slider like a bullet, fraction, or progress bar"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1442
+#: includes/modules/base/WooCommonSettings.php:266
+msgid "Bullets"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1443
+#: includes/modules/base/WooCommonSettings.php:267
+msgid "Fraction"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1444
+#: includes/modules/base/WooCommonSettings.php:268
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1450
+#: includes/modules/base/WooCommonSettings.php:274
+msgid "Dynamic Bullets"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1452
+#: includes/modules/base/WooCommonSettings.php:276
+msgid "Enable to highlight the bullet for the active image"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1464
+#: includes/modules/base/WooCommonSettings.php:288
+msgid "Pagination Clickable"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1466
+#: includes/modules/base/WooCommonSettings.php:290
+msgid "Make the pagination type clickable"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1481
+#: includes/modules/base/WooCommonSettings.php:302
+msgid "Use Arrow Navigation"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1483
+#: includes/modules/base/WooCommonSettings.php:304
+msgid "Select on or off to control the slide using arrows"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1512
+#: includes/modules/base/WooCommonSettings.php:332
+msgid "Arrow Position"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1514
+#: includes/modules/base/WooCommonSettings.php:334
+msgid "Select the types of arrow position"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1519
+#: includes/modules/base/WooCommonSettings.php:339
+msgid "Default"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1520
+#: includes/modules/base/WooCommonSettings.php:340
+msgid "Inner"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1521
+#: includes/modules/base/WooCommonSettings.php:341
+msgid "Outer"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1522
+#: includes/modules/base/WooCommonSettings.php:342
+msgid "Top Left"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1523
+#: includes/modules/base/WooCommonSettings.php:343
+msgid "Top Center"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1524
+#: includes/modules/base/WooCommonSettings.php:344
+msgid "Top Right"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1525
+#: includes/modules/base/WooCommonSettings.php:345
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1526
+#: includes/modules/base/WooCommonSettings.php:346
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1527
+#: includes/modules/base/WooCommonSettings.php:347
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1536
+#: includes/modules/base/WooCommonSettings.php:356
+msgid "Arrow Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1537
+#: includes/modules/base/WooCommonSettings.php:357
+msgid "Choose a color for the Arrows"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1545
+#: includes/modules/base/WooCommonSettings.php:368
+msgid "Arrow Background Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1546
+#: includes/modules/base/WooCommonSettings.php:369
+msgid "Choose a background color for the Arrows"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1554
+#: includes/modules/base/WooCommonSettings.php:380
+msgid "Dots Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1555
+#: includes/modules/base/WooCommonSettings.php:381
+msgid "Select a color for the Dots"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1566
+#: includes/modules/base/WooCommonSettings.php:392
+msgid "Dots Active Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1567
+#: includes/modules/base/WooCommonSettings.php:393
+msgid "Select a color for the Active Dot"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1578
+#: includes/modules/base/WooCommonSettings.php:404
+msgid "Progressbar Fill Color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1579
+#: includes/modules/base/WooCommonSettings.php:405
+msgid "Select a color for the Progressbar fill color"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1590
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:451
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:356
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:392
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:375
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1606
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:933
+msgid "Content Wrapper Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1600
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:461
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:366
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:402
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:385
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1616
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:943
+msgid "Content Wrapper Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1610
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1627
+#: includes/modules/NextWooGrid/NextWooGrid.php:1699
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:953
+msgid "Product Name Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1620
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1637
+#: includes/modules/NextWooGrid/NextWooGrid.php:1709
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:963
+msgid "Product Name Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1630
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:511
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:973
+msgid "Product Description Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1640
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:521
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:983
+msgid "Product Description Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1650
+#: includes/modules/NextWooGrid/NextWooGrid.php:1719
+msgid "Product Category Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1660
+#: includes/modules/NextWooGrid/NextWooGrid.php:1729
+msgid "Product Category Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1670
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1647
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:993
+msgid "Product Rating Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1680
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1658
+#: includes/modules/NextWooGrid/NextWooGrid.php:1739
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1003
+msgid "Product Price Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1690
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1668
+#: includes/modules/NextWooGrid/NextWooGrid.php:1749
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1013
+msgid "Product Price Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1700
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1678
+#: includes/modules/NextWooGrid/NextWooGrid.php:1759
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1023
+msgid "Add To Cart Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1710
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1688
+#: includes/modules/NextWooGrid/NextWooGrid.php:1769
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1033
+msgid "Add To Cart Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1720
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1698
+#: includes/modules/NextWooGrid/NextWooGrid.php:1779
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1043
+msgid "View Cart Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1730
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1708
+#: includes/modules/NextWooGrid/NextWooGrid.php:1789
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1053
+msgid "View Cart Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1740
+#: includes/modules/base/WooCommonSettings.php:416
+msgid "Arrow Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1750
+#: includes/modules/base/WooCommonSettings.php:429
+msgid "Arrow Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1760
+msgid "Sale Margin"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1770
+msgid "Sale Padding"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1783
+msgid "Add to cart Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1784
+msgid "Choose whether or not the add to cart Icon should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1796
+#: includes/modules/NextWooGrid/NextWooGrid.php:1222
+msgid "Wish List Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1797
+#: includes/modules/NextWooGrid/NextWooGrid.php:1223
+msgid "Choose whether or not the wish list Icon should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1809
+#: includes/modules/NextWooGrid/NextWooGrid.php:1235
+msgid "Add Compare Icon"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1810
+#: includes/modules/NextWooGrid/NextWooGrid.php:1236
+msgid "Choose whether or not the add compare should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1823
+#: includes/modules/NextWooGrid/NextWooGrid.php:1249
+msgid "Choose whether or not the quick view should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1835
+msgid "Add to cart Button"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1836
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1886
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1241
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1381
+#: includes/modules/NextWooGrid/NextWooGrid.php:1334
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:699
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:735
+msgid "Choose whether or not the add to cart button should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1851
+#: includes/modules/NextWooGrid/NextWooGrid.php:1277
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:702
+msgid "Add to cart text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1855
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1868
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1248
+#: includes/modules/NextWooGrid/NextWooGrid.php:1466
+#: includes/modules/NextWooGrid/NextWooGrid.php:1478
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:706
+msgid "Define the Badge type text for your product badge."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1864
+msgid "Select Option Button Text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1877
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1372
+#: includes/modules/NextWooGrid/NextWooGrid.php:1333
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:726
+msgid "Show Price"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1889
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1384
+#: includes/modules/NextWooGrid/NextWooGrid.php:1375
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:738
+msgid "Show Star Rating"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1899
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1394
+#: includes/modules/NextWooGrid/NextWooGrid.php:1385
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:748
+msgid "Here you can choose whether the star rating should be added."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1904
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:753
+msgid "Show Description"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1913
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:762
+msgid "Here you can choose whether the description should be added."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1918
+#: includes/modules/NextWooGrid/NextWooGrid.php:1345
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:767
+msgid "Show Category"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1928
+msgid "Here you can choose whether the categories should be added."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1931
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1399
+#: includes/modules/NextWooGrid/NextWooGrid.php:1422
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:779
+msgid "Featured Product Badge"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1941
+msgid "Here you can show your featured product badge"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1944
+msgid "Featured Product Text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1948
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1416
+#: includes/modules/NextWooGrid/NextWooGrid.php:1439
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:796
+msgid "Define the featured product text for your badge featured."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1956
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1424
+#: includes/modules/NextWooGrid/NextWooGrid.php:1447
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:804
+msgid "Sale Badge Type"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1961
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:115
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1429
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2237
+#: includes/modules/NextWooFilterMasonry/core/Templates.php:62
+#: includes/modules/NextWooGrid/NextWooGrid.php:1452
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:75
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:809
+#: includes/modules/base/WooCommon.php:473
+msgid "Sale"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1962
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1430
+#: includes/modules/NextWooGrid/NextWooGrid.php:1453
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:810
+msgid "Percentage"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1965
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1433
+#: includes/modules/NextWooGrid/NextWooGrid.php:1456
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:813
+msgid "Turn badge on and off."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1971
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1439
+#: includes/modules/NextWooGrid/NextWooGrid.php:1462
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:819
+msgid "Sale Badge type text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1975
+msgid "Define the Badge type text for your product badge sale."
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1983
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1450
+#: includes/modules/NextWooGrid/NextWooGrid.php:1474
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:831
+msgid "Percentage Badge type text"
+msgstr ""
+
+#: includes/modules/NextWooCarousel/NextWooCarousel.php:1987
+msgid "Define the Badge type text for your product badge percentage."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:30
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:26
+msgid "Accordion Settings"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:31
+msgid "Image Overlay"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:37
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:33
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:35
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:33
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:34
+msgid "Name"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:40
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:36
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:38
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:36
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:92
+msgid "Count"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:141
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:194
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:114
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:183
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:128
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:195
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:114
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:172
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:843
+msgid "Content Wrapper"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:168
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:152
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:164
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:141
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:528
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:706
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:30
+msgid "Product"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:178
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:175
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:187
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:164
+msgid "Category Name"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:203
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:209
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:204
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:181
+msgid "Hide Empty Category"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:213
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:219
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:214
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:191
+msgid "Hide empty category from the loop."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:253
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:262
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:257
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:231
+msgid "Category Count"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:256
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:265
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:260
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:234
+msgid "Define the number of category that should be displayed per page."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:264
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:273
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:268
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:242
+msgid "Category Offset"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:267
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:276
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:271
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:245
+msgid "Define the number of category that should be cut down from first."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:328
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:439
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:349
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:306
+msgid "Show Product Count"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:338
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:449
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:359
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:316
+msgid "Choose whether or not show the product count number should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:341
+msgid "Show Product Description"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:351
+msgid "Choose whether or not show the product description should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:354
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:452
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:375
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:319
+msgid "Category Name Stacked"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:355
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:376
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:320
+msgid "Display product categorey count in the bottom of category name."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:371
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:846
+msgid "Accordion Style"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:375
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:850
+msgid "On Hover"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:376
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:851
+msgid "On Click"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:381
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:859
+msgid "Expand Last Interacted Item."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:394
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:875
+msgid "Accordion Direction"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:399
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:880
+msgid "Horizontal"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:400
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:881
+msgid "Vertical"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:405
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:886
+msgid "Accordion Height"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:419
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:900
+msgid "Active Image Size"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:420
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:901
+msgid ""
+"Control how wide or heigh the active image will be in relation to the other "
+"images of the accordion."
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:435
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:916
+msgid "Gutter Space"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:471
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:376
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:412
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:395
+msgid "Category Name Margin"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:481
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:386
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:422
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:405
+msgid "Category Name Padding"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:491
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:396
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:432
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:415
+msgid "Product Count Margin"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:501
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:406
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:442
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:425
+msgid "Product Count Padding"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:531
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:452
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:435
+msgid "Product Image Margin"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:541
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:462
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:445
+msgid "Product Image Padding"
+msgstr ""
+
+#: includes/modules/NextWooCatAccordion/NextWooCatAccordion.php:557
+msgid "Add a background fill color or gradient for the accordion image overlay"
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:193
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1124
+msgid "Show Sub Categories"
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:203
+msgid "Here you can choose whether the sub categories will be shown or not."
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:416
+msgid "Category Image Margin"
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:426
+msgid "Category Image Padding"
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:453
+msgid "Show product count in the bottom of product category name."
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:465
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:362
+msgid "Show Image"
+msgstr ""
+
+#: includes/modules/NextWooCatCarousel/NextWooCatCarousel.php:475
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:372
+msgid "Choose whether or not show the product image should be visible."
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:29
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:27
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:51
+#: includes/modules/NextWooGrid/NextWooGrid.php:33
+msgid "Grid"
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:43
+msgid "Category Settings"
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:106
+msgid "Category Single"
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:146
+msgid "Category Single Box Shadow"
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:475
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:338
+#: includes/modules/NextWooGrid/NextWooGrid.php:1599
+msgid "Grid Number"
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:476
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:339
+msgid "Choose the number which you want to show in grid."
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:492
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:355
+#: includes/modules/NextWooGrid/NextWooGrid.php:1616
+msgid "Grid Gap"
+msgstr ""
+
+#: includes/modules/NextWooCatGrid/NextWooCatGrid.php:493
+#: includes/modules/NextWooCatMasonry/NextWooCatMasonry.php:356
+msgid "Choose the grid gap."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:33
+msgid "Woo Product Filter"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:37
+msgid "Settings"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:40
+msgid "Filter Settings"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:46
+msgid "Background"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:53
+#: includes/modules/NextWooGrid/NextWooGrid.php:36
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:51
+msgid "Product Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:55
+msgid "Price Texts"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:58
+#: includes/modules/NextWooGrid/NextWooGrid.php:52
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:49
+msgid "Regular Price"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:61
+#: includes/modules/NextWooGrid/NextWooGrid.php:55
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:52
+msgid "New Price"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:66
+msgid "Product Settings"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:69
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:59
+msgid "Cart/Select Options Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:102
+msgid "Quick View Popup Box Background"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:103
+msgid "Quick View Popup Box Arrow"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:104
+msgid "Quick View Popup Box Close Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:105
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:879
+msgid "Wishlist Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:106
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:887
+msgid "Compare Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:107
+#: includes/modules/NextWooGrid/NextWooGrid.php:1304
+msgid "Quick View Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:108
+msgid "Filter Rating"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:110
+#: includes/modules/NextWooGrid/NextWooGrid.php:130
+msgid "Pagination"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:112
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:72
+msgid "Badge"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:118
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:78
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:121
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:653
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:800
+msgid "Featured"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:607
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:771
+msgid "Quickview"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:665
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:903
+msgid "Filter Bar"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:677
+msgid "Single Category"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:810
+msgid "Filter Bar Box Shadow"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:820
+msgid "Single Category Box Shadow"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:863
+#: includes/modules/NextWooGrid/NextWooGrid.php:952
+msgid "Add To Cart Icon"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:867
+msgid "Select Options for Variable Product Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:871
+msgid "Select Options Icon for Variable Product Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:895
+msgid "Quickview Button"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:899
+msgid "Quickview Icon"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:907
+msgid "Filter Item"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:936
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:547
+msgid "Hide Out of Stock"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:946
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:557
+msgid "Hide out of stock product from the accordion."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1001
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:613
+msgid "Define the number of product that should be displayed per page."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1010
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:621
+msgid "Product Offset"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1013
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:624
+msgid "Define the number of product that should be cut down from first."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1079
+msgid "Show Product Filter"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1089
+msgid "Choose whether or not the product filter menu should be visible."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1092
+msgid "Filter Bar Position"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1101
+msgid "Choose your filter bar"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1110
+msgid "Category Style"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1114
+msgid "Checkbox"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1118
+msgid "Select Category Style"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1134
+msgid "Display subcategories within parent categories."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1139
+msgid "Clear All Filters"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1149
+msgid ""
+"This enables a reset option to clear all selected filter options such as "
+"category, ratings, etc."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1154
+msgid "Reset Filter"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1164
+msgid "Display reset option for individual filters."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1169
+msgid "Filter by Rating"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1179
+msgid "Enable filter option based on user ratings. "
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1184
+msgid "Menu Size"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1203
+msgid "Show All Text in Filter Menu?"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1204
+msgid "Show the \"All\" text in the filter menu."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1219
+msgid "Change Filter All Text?"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1223
+msgid "Change the default \"All\" text in the filter menu."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1231
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:689
+msgid "Show Add to Cart"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1244
+msgid "Add to Cart Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1256
+msgid "Select Options Button Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1260
+msgid "Define the Select Options Button text for variable products."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1268
+msgid "Show Wishlist"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1278
+msgid "Choose whether or not the Wishlist button should be visible."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1281
+msgid "Wishlist Button Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1285
+msgid "Define the Wishlist Button text for variable products."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1293
+msgid "Show Compare"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1303
+msgid "Choose whether or not the Compare button should be visible."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1306
+msgid "Compare Button Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1310
+msgid "Define the Compare Button text for variable products."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1318
+msgid "Show Quickview"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1328
+msgid "Choose whether or not the Quickview button should be visible."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1331
+msgid "Quickview Button Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1335
+msgid "Define the Quickview Button text for variable products."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1359
+#: includes/modules/NextWooGrid/NextWooGrid.php:1406
+msgid "Show Default Sorting"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1369
+#: includes/modules/NextWooGrid/NextWooGrid.php:1403
+#: includes/modules/NextWooGrid/NextWooGrid.php:1416
+msgid ""
+"Here you can choose whether the product count in a top bar should be added."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1409
+#: includes/modules/NextWooGrid/NextWooGrid.php:1432
+msgid "Here you can your featured product badge"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1412
+#: includes/modules/NextWooGrid/NextWooGrid.php:1435
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:792
+msgid "Featured Product Badge Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1442
+msgid "Define the Sale Badge type text for your product sale badge."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1454
+msgid "Define the percentage badge type text for your product badge."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1470
+#: includes/modules/NextWooGrid/NextWooGrid.php:1494
+msgid "Numbers"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1471
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1482
+#: includes/modules/NextWooFilterMasonry/core/DataFactory.php:33
+#: includes/modules/NextWooFilterMasonry/core/Templates.php:33
+#: includes/modules/NextWooGrid/NextWooGrid.php:1495
+#: includes/modules/NextWooGrid/NextWooGrid.php:1526
+msgid "Load More"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1474
+#: includes/modules/NextWooGrid/NextWooGrid.php:1498
+msgid "Turn pagination on and off."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1480
+#: includes/modules/NextWooGrid/NextWooGrid.php:1524
+msgid "Load More Text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1505
+#: includes/modules/NextWooGrid/NextWooGrid.php:1549
+msgid "Background Color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1506
+#: includes/modules/NextWooGrid/NextWooGrid.php:1550
+msgid "Here you can define a custom color for pagination Background color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1517
+#: includes/modules/NextWooGrid/NextWooGrid.php:1561
+msgid "Active Background Color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1518
+#: includes/modules/NextWooGrid/NextWooGrid.php:1562
+msgid ""
+"Here you can define a custom color for active page number Background color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1532
+msgid "Columns"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1551
+msgid "Gutter"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1567
+msgid "Filter Active Color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1568
+msgid "Choose a color for the active category text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1579
+msgid "Separator Color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1580
+msgid "Choose a color for the category separator"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1591
+msgid "Dot Color"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1592
+msgid "Choose a color for the active filter dot."
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1718
+msgid "Wishlist Margin"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1728
+msgid "Wishlist Padding"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1738
+msgid "Compare Margin"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1748
+msgid "Compare Padding"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1758
+msgid "Quickview Margin"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1768
+msgid "Quickview Padding"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1778
+msgid "Filter Wrapper Margin"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1788
+msgid "Filter Wrapper Padding"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1799
+msgid "Filter Item Margin"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1810
+msgid "Filter Item Padding"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1909
+msgid ""
+"Add a background fill color or gradient for the filter category item text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1925
+msgid ""
+"Add a background fill color or gradient for the filter category active item "
+"text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1941
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1953
+msgid "Add a background fill color or gradient for the add to cart button text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1966
+msgid "Add a background fill color or gradient for the wishlist button text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1978
+msgid "Add a background fill color or gradient for the compare button text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:1990
+msgid "Add a background fill color or gradient for the quickview button text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2007
+msgid "Add a background fill color or gradient for the sale badge text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2019
+msgid "Add a background fill color or gradient for the out of stock badge text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2031
+msgid "Add a background fill color or gradient for the featured badge text"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2070
+#: includes/modules/NextWooGrid/NextWooGrid.php:2136
+msgid "Default sorting"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2071
+#: includes/modules/NextWooGrid/NextWooGrid.php:2137
+msgid "Sort by popularity"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2072
+#: includes/modules/NextWooGrid/NextWooGrid.php:2138
+msgid "Sort by average rating"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2073
+#: includes/modules/NextWooGrid/NextWooGrid.php:2139
+msgid "Sort by latest"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2074
+#: includes/modules/NextWooGrid/NextWooGrid.php:2140
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2075
+#: includes/modules/NextWooGrid/NextWooGrid.php:2141
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2085
+#: includes/modules/NextWooGrid/NextWooGrid.php:2151
+msgid "Relevance"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2208
+msgid "Select Options"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2316
+msgid "Filter By Colors"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2321
+msgid "Filter By Size"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/NextWooFilterMasonry.php:2323
+msgid "Clear"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/core/Action.php:64
+msgid "No item found"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonry/core/FilterOptions.php:48
+msgid "Reset"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonryChild/NextWooFilterMasonryChild.php:25
+msgid "Attribute Item"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonryChild/NextWooFilterMasonryChild.php:30
+msgid "Attribute Title"
+msgstr ""
+
+#: includes/modules/NextWooFilterMasonryChild/NextWooFilterMasonryChild.php:47
+msgid "Attribute Label"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:131
+#: includes/modules/NextWooGrid/NextWooGrid.php:748
+#: includes/modules/NextWooGrid/NextWooGrid.php:889
+msgid "Top Bar"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:635
+#: includes/modules/NextWooGrid/NextWooGrid.php:804
+#: includes/modules/NextWooGrid/NextWooGrid.php:960
+msgid "View Cart Icon"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:932
+msgid "Out of stock Badge"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:940
+msgid "Select Variable Product Options Button"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:956
+msgid "Select Variable Product Options Icon"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:976
+msgid "Product Count Top Bar"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:998
+msgid "Layout 7"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:999
+msgid "Layout 8"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1071
+msgid "Use Current Page"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1081
+msgid "Use product grid module in category, tag page."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1116
+msgid "Offset Number"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1122
+msgid ""
+"Choose how many products you would like to skip. These products will not be "
+"shown."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1209
+msgid "Add to cart/Select Options Icon"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1210
+msgid ""
+"Choose whether or not the add to cart Icon or Select Options (Only for "
+"Variable products) should be visible."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1261
+msgid "Add to cart/Select Options Button"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1262
+msgid ""
+"Choose whether or not the add to cart or Select Options (Only for Variable "
+"products) button should be visible."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1281
+msgid "Define the custom add to cart button text for your products."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1290
+msgid "Select Options text"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1291
+msgid "Define the custom Select Options text for your variable products."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1295
+msgid "Define the custom Select Options Button text."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1305
+msgid "Choose whether or not the quick view button should be visible."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1320
+msgid "Quick View text"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1324
+msgid "Define the quick view text."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1346
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:776
+msgid "Here you can choose whether the category should be added."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1360
+msgid "Show SKU in the proudct"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1370
+msgid "Here you can choose whether the SKU will be showed in the proudct."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1390
+msgid "Show Product Count Top Bar"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1504
+msgid "Next Text"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1505
+msgid "Here you can define Next Link text in numbered pagination."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1514
+msgid "Prev Text"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1515
+msgid "Here you can define Previous Link text in numbered pagination."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1573
+msgid "Active Text Color"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1574
+msgid ""
+"Here you can define a custom color for pagination active page number color"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1585
+msgid "Active Border Color"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1586
+msgid "Here you can define a custom color for pagination active border color"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1600
+msgid "Choose in how many grids you want to show your posts."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1617
+msgid "Choose the grid-gap."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1679
+msgid "Image Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1689
+msgid "Image Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1799
+msgid "Quick View Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1809
+msgid "Quick View Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1819
+msgid "Sale Badge Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1829
+msgid "Sale Badge Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1839
+msgid "Stock of Out Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1849
+msgid "Stock of Out Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1859
+msgid "Featured Badge Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1869
+msgid "Featured Badge Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1879
+msgid "Pagination Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1893
+msgid "Pagination Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1906
+msgid "Load More Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1920
+msgid "Load More Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1933
+msgid "Add to cart Icon Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1943
+msgid "Add to cart Icon Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1953
+msgid "Wish List Icon Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1963
+msgid "Wish List Icon Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1973
+msgid "Add Compare Icon Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1983
+msgid "Add Compare Icon Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:1993
+msgid "Quick View Icon Margin"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:2003
+msgid "Quick View Icon Padding"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:2016
+msgid "Bar Width"
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:2017
+msgid "Adjust the width of the Top Bar."
+msgstr ""
+
+#: includes/modules/NextWooGrid/NextWooGrid.php:2073
+msgid ""
+"Add a background fill color or gradient for the pagination topbar. The Bar "
+"will appear, if the pagination is turned on."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:22
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:26
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:454
+msgid "Mini Cart"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:32
+msgid "Counter Background"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:35
+msgid "Cart Icon Design"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:38
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:408
+msgid "Mini Cart Window"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:42
+msgid "Design"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:45
+msgid "Heading Font"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:58
+msgid "Quantity Font"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:63
+msgid "Mini Cart Image"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:69
+msgid "View Button"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:78
+msgid "Sub Total"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:82
+msgid "Subtotal"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:85
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:478
+msgid "Subtotal Price"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:93
+msgid "Scroll Bar"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:153
+msgid "Heading Title Font."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:180
+msgid "Product Name Font."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:204
+msgid "Quantity Font."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:231
+msgid "Subtotal Font."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:258
+msgid "Subtotal Price Font."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:284
+msgid "Empty Cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:310
+msgid "Count Font"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:458
+msgid "Counter"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:462
+msgid "Mini Cart Item Heading"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:466
+msgid "Mini Cart Item Image"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:470
+msgid "Mini Cart Item Name"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:474
+msgid "Subtotal Text"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:496
+msgid "Choose your Mini Cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:501
+msgid "Hover"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:502
+msgid "Click"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:503
+msgid "Fly Out"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:509
+msgid "Fly Out Left/Right"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:510
+msgid "Choose your fly out mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:526
+msgid "Choose an icon to display with your mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:540
+msgid "Heading Text entered here will appear inside the module."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:545
+msgid "Adjust the icon of the mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:561
+msgid "Icon Background Size"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:562
+msgid "Adjust the icon background size of the mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:578
+msgid "Icon Alignment"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:579
+msgid "Icon Align to the left, right or center."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:591
+msgid "Here you can define a custom color for Icon color"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:600
+msgid "Window Width"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:601
+msgid "Adjust the window width of the mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:618
+msgid "Minicart Image Size"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:619
+msgid "Adjust the Image size of the mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:635
+msgid "Counter Size"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:636
+msgid "Adjust the counter size of the mini cart."
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:652
+msgid "Remove Button Color"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:653
+msgid "Here you can define a custom color for remove button color"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:663
+msgid "Here you can define a custom mini cart border color"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:675
+msgid "Viewcart Button Margin"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:685
+msgid "Viewcart Button Padding"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:695
+msgid "Checkout Button Margin"
+msgstr ""
+
+#: includes/modules/NextWooMiniCart/NextWooMiniCart.php:705
+msgid "Checkout Button Padding"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:27
+msgid "Image Overlay Background"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:81
+msgid "Featued"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:397
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:484
+msgid "Featrued"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:514
+msgid "Select Variable Products Option Button"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:714
+msgid "Select Variable Option Button Text"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:718
+msgid "Define the Select Variable Option Button text for variable products."
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:789
+msgid "Here you can your featured products badge"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:823
+msgid "Define the Badge type text for your sale product badge."
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:835
+msgid "Define the Badge type text for your percentage product badge."
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1083
+msgid "Out of Stock Padding"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1093
+msgid "Out of Stock Margin"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1103
+msgid "Featrued Badge Padding"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1113
+msgid "Featrued Badge Margin"
+msgstr ""
+
+#: includes/modules/NextWooProductAccordion/NextWooProductAccordion.php:1129
+msgid "Add an overlay background fill color or gradient on top of the image"
+msgstr ""
+
+#: includes/modules/base/WooCommon.php:337
+msgid "WooCommerce is missing! Please install and activate WooCommerce."
+msgstr ""
+
+#: includes/modules/base/WooCommon.php:487
+msgid "Out Of Stock"
+msgstr ""
+
+#: includes/modules/base/WooCommon.php:500
+msgid "Hot"
+msgstr ""
+
+#: includes/modules/base/WooCommonSettings.php:22
+msgid "Navigation Style"
+msgstr ""
+
+#: templates/woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: templates/woocommerce/cart/mini-cart.php:116
+msgid " x"
+msgstr ""
+
+#: templates/woocommerce/cart/mini-cart.php:118
+msgid "-"
+msgstr ""
+
+#: templates/woocommerce/cart/mini-cart.php:133
+msgid "Shipping Fee "
+msgstr ""
+
+#: templates/woocommerce/cart/mini-cart.php:172
+msgid "No products in the cart."
+msgstr ""
+
+#: templates/woocommerce/template-parts/woo-products-grid.php:85
+#: templates/woocommerce/template-parts/woo-products-grid.php:227
+#: templates/woocommerce/template-parts/woo-products-grid.php:348
+#: templates/woocommerce/template-parts/woo-products-grid.php:469
+#: templates/woocommerce/template-parts/woo-products-grid.php:590
+#: templates/woocommerce/template-parts/woo-products-grid.php:710
+#: templates/woocommerce/template-parts/woo-products-grid.php:850
+#: templates/woocommerce/template-parts/woo-products-grid.php:986
+msgid "% "
+msgstr ""
+
+#: woo-essential-updater.php:270
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: woo-essential-updater.php:278
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: woo-essential-updater.php:527
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: woo-essential-updater.php:527
+msgid "Error"
+msgstr ""
+
+#: woo-essential.php:156 woo-essential.php:165
+msgid ""
+"Woo-Essential is enabled but not effective. It requires WooCommerce in order "
+"to work."
+msgstr ""
+
+#: woo-essential.php:158
+msgid "Click here to activate WooCommerce"
+msgstr ""
+
+#: woo-essential.php:167
+msgid "Click here to install WooCommerce"
+msgstr ""
+
+#: woo-essential.php:180
+msgid ""
+"We are excited to introduce our latest module - the Woo Ajax Search! Take a "
+"look and discover how it can enhance your search functionality."
+msgstr ""
+
+#: woo-essential.php:188
+msgid "Activate YITH WooCommerce Compare"
+msgstr ""
+
+#: woo-essential.php:188
+msgid "Install YITH WooCommerce Compare"
+msgstr ""
+
+#: woo-essential.php:193
+msgid "Activate YITH WooCommerce Wishlist"
+msgstr ""
+
+#: woo-essential.php:193
+msgid "Install YITH WooCommerce Wishlist"
+msgstr ""
+
+#: woo-essential.php:233
+#, php-format
+msgid "For %2$s %3$s you will require %1$s"
+msgstr ""

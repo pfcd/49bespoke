@@ -1,0 +1,36 @@
+{
+  "name": "woocommerce-carousel-for-divi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "divi-scripts": "file:./dev/divi-scripts-modified",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-id-swiper": "^1.6.9",
+    "react-star-ratings": "^2.3.0"
+  },
+  "scripts": {
+    "start": "divi-scripts start",
+    "build": "divi-scripts build",
+    "update-build": "yarn upgrade \"file:./dev/divi-scripts-modified\" && divi-scripts build",
+    "zip": "divi-scripts build && divi-scripts zip",
+    "eject": "divi-scripts eject"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  },
+  "cde": {
+    "gettext": "dswc-woocommerce-carousel-for-divi",
+    "prefix": "dswc"
+  }
+}

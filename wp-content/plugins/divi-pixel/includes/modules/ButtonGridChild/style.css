@@ -1,0 +1,24 @@
+.dipi_button_grid_child .dipi-button-wrap:hover,
+.dipi_button_grid_child .dipi-button-wrap {
+    transition: all .3s ease 0ms !important;
+}
+
+body #page-container .dipi_button_grid_child .dipi-button-wrap:after,
+body #page-container .dipi_button_grid_child .dipi-button-wrap:before {
+    line-height: inherit;
+    font-size: inherit !important;
+}
+.et-db #et-boc .et-l .et_pb_column .et_pb_module.dipi_button_grid_child,
+div.dipi_button_grid.et_pb_module .dipi-button-grid-container div.dipi_button_grid_child.et_pb_module {
+    margin: 0.5em;
+}
+.dipi_button_grid_child  > .et_pb_module_inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.dipi-button-grid[data-icon]:not([data-icon=""]):after {
+    content: attr(data-icon);
+}

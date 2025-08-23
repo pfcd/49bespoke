@@ -1,0 +1,57 @@
+.dipi_image_rotator .hidden {
+	display: none;
+}
+.dipi_image_rotator .dipi-image-rotator-playpause-buttons {
+	position: relative;
+	z-index: 2;
+}
+.dipi_image_rotator  .dipi-image-rotator-images {
+	position: relative;
+	line-height: 0;
+}
+
+.dipi_image_rotator .rotate_on_wheel .dipi-image-rotator-images {
+	cursor: all-scroll;
+}
+.dipi_image_rotator .rotate_on_drag .dipi-image-rotator-images {
+	cursor: grab;
+}
+.dipi_image_rotator .rotate_on_drag.dragging .dipi-image-rotator-images {
+	cursor: grabbing;
+}
+.dipi_image_rotator .dipi-image-rotator .dipi-image-rotator-images img {
+	width: 100%;
+	height: auto
+
+}
+.dipi_image_rotator .dipi-image-rotator img.indicator-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+	z-index: 1;
+}
+.dipi_image_rotator .dipi-img-rotator-play,
+.dipi_image_rotator .dipi-img-rotator-pause {
+	cursor: pointer;
+	display: inline-block;
+}
+.dipi_image_rotator .dipi-image-rotator-inner {
+	display: flex;
+    flex-direction: column;
+}
+.dipi_image_rotator .dipi-image-rotator.button-pos-bottom .dipi-image-rotator-inner {
+	flex-direction: column-reverse;
+}
+.dipi-image-rotator-preload{
+	position: absolute;
+	top:0;left: 0;bottom: 0;right: 0;
+	z-index: 1;
+	background: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dipi-image-rotator-loaded .dipi-image-rotator-preload{
+	display: none;
+}

@@ -1,0 +1,23 @@
+.dsdep-cart-contents {
+  color : inherit !important;
+
+  &:hover {
+    color : $mainColor !important;
+    }
+
+  &:before {
+    content        : "\e015";
+    font-family    : "ETmodules";
+    display        : inline-block;
+    margin-right   : 10px;
+    color          : $mainColor;
+    font-size      : 21px !important;
+    vertical-align : middle;
+    line-height    : normal;
+    }
+
+  .number {
+    font-weight : bold;
+    }
+
+  }

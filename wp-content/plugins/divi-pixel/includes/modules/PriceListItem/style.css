@@ -1,0 +1,25 @@
+.dipi_price_list_item .dipi_price_list_item_wrapper {
+    display: flex;
+}
+
+.dipi_price_list_item .dipi_price_list_text_wrapper {
+    padding: 2%;
+    width: 100%;
+    flex: 1;
+    overflow-wrap: break-word;
+}
+
+.dipi_price_list_item .dipi_price_list_header {
+    display: flex;
+}
+
+.dipi_price_list_item .dipi_price_list_separator {
+    flex: 1;
+    flex-basis: 10%;
+}
+
+.dipi_price_list_item .dipi_price_list_image_wrapper img {
+    display: block;
+    width: 100%;
+    border-style: solid;
+}

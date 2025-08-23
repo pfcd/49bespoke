@@ -1,0 +1,66 @@
+.dipi_tile_scroll {
+  overflow: hidden;
+}
+
+.dipi-tile-scroll-items {
+
+}
+.dipi_tile_scroll .dipi_tile_scroll_container {
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+}
+.dipi_tile_scroll .dipi-tile-scroll-overlay{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.dipi_tile_scroll .dipi-tile-scroll-content {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dipi_tile_scroll .dipi-content-image-icon-wrap,
+.dipi_tile_scroll .dipi-content-heading,
+.dipi_tile_scroll .dipi-desc,
+.dipi_tile_scroll  .dipi-button-wrapper {
+    text-align: center;
+}
+.dipi_tile_scroll .dipi-content-image {
+  display: inline-flex;
+}
+.dipi_tile_scroll .dipi-tile-scroll-content-wrapper {
+  border-style: solid;
+}
+.dipi_tile_scroll .content-ico-circle {
+  border-radius: 100% !important;
+  border-style: solid;
+  background: #eee;
+}
+
+.dipi_tile_scroll .dipi_content_button[data-icon]:not([data-icon=""]):after {
+  content: attr(data-icon);
+}
+
+.dipi_tile_scroll  .dipi-tile-scroll-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dipi_tile_scroll .anim_direct_row .dipi-tile-scroll-items {
+  flex-direction: column;
+}
+
+.dipi_tile_scroll .anim_direct_column .dipi-tile-scroll-items .dipi_tile_scroll_item_container {
+  flex-direction: column;
+}
+.dipi_tile_scroll .dipi-tile-scroll-items > .et_pb_module {
+  margin: 0 !important;
+}

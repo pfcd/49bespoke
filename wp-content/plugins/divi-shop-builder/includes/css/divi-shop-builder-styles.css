@@ -1,0 +1,23 @@
+/*
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified. Last modified 2023-08-14
+*/
+
+@font-face {
+  font-family : "Divi Shop Builder";
+  src         : url("../media/fonts/divishopbuilder.eot");
+  src         : url("../media/fonts/divishopbuilder.eot#iefix") format("embedded-opentype"),
+  url("../media/fonts/divishopbuilder.woff2") format("woff2"),
+  url("../media/fonts/divishopbuilder.woff") format("woff"),
+  url("../media/fonts/divishopbuilder.ttf") format("truetype");
+  }
+ 
+
+@font-face {
+  font-family : "DSB-Mini-Cart";
+  src         : url("../media/fonts/DSB-Mini-Cart.eot");
+  src         : url("../media/fonts/DSB-Mini-Cart.eot#iefix") format("embedded-opentype"),
+  url("../media/fonts/DSB-Mini-Cart.woff") format("woff"),
+  url("../media/fonts/DSB-Mini-Cart.ttf") format("truetype");
+}

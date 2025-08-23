@@ -1,0 +1,30 @@
+.dsdep-optin,
+.et-db #et-boc .et-l .dsdep-optin {
+
+  input, select {
+    @include formInputMixin();
+    @include formWhite();
+    }
+
+  textarea {
+    @include formTextareaMixin();
+    @include formWhite();
+    }
+  }
+
+.dsdep-inline-optin,
+.et-db #et-boc .et-l .dsdep-inline-optin {
+
+  @media (min-width : 1200px) {
+    .et_pb_newsletter_fields {
+      .et_pb_newsletter_field {
+        flex-basis : calc(100% - 160px);
+        }
+
+      .et_pb_newsletter_button_wrap {
+        flex-basis : 150px;
+        }
+      }
+    }
+  }
+

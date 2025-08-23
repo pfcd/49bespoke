@@ -1,0 +1,8 @@
+{
+  "builder-bundle-free.css": "/styles/backend-style-free.min.css",
+  "builder-bundle-free.js": "/scripts/builder-bundle-free.min.js",
+  "builder-bundle-pro.css": "/styles/backend-style-free.min.css",
+  "builder-bundle-pro.js": "/scripts/builder-bundle-pro.min.js",
+  "frontend-bundle-free.js": "/scripts/frontend-bundle-free.min.js",
+  "frontend-bundle-pro.js": "/scripts/frontend-bundle-pro.min.js"
+}

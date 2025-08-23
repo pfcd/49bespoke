@@ -1,0 +1,634 @@
+<wpml-config>
+  <custom-types>
+		<custom-type translate="1">dipi_popup_maker</custom-type>
+    <custom-type translate="1">dipi_testimonial</custom-type>
+	</custom-types>
+  <custom-fields>
+      <custom-field action="translate" style="line" label="Testimonial Name">testimonial_name</custom-field>
+      <custom-field action="translate" style="line" label="Testimonial Compnay Name">company_name</custom-field>
+      <custom-field action="translate" style="line" label="Testimonial Compnay Link">company_link</custom-field>
+      <custom-field action="translate" style="line" label="Testimonial Star">testimonial_star</custom-field>
+      <custom-field action="copy">dipi_popup-active</custom-field>
+  </custom-fields>
+  <taxonomies>
+    <taxonomy translate="1">dipi_cpt_category</taxonomy>
+  </taxonomies>
+  <admin-texts>
+   <key name="dipi_login_page_link" />
+   <key name="dipi_btt_link" />
+   <key name="dipi_rename_projects_singular" />
+   <key name="dipi_rename_projects_plural" />
+   <key name="dipi_rename_projects_slug" />
+   <key name="dipi_rename_projects_icon" />
+   <key name="dipi_rename_projects_cat_slug" />
+   <key name="dipi_read_more_button_text" />
+   <key name="dipi_menu_button_text" />
+   <key name="dipi_menu_button_url" />
+   <key name="dipi_blog_nav_prev" />
+   <key name="dipi_blog_nav_next" />
+   <key name="dipi_related_articles_heading" />
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>dipi_blog_slider</tag>
+      <attributes>
+        <attribute>show_more_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_advanced_tabs_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>subtitle</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>at_button_text</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="link">at_button_url</attribute>
+        <attribute>alt</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_balloon</tag>
+      <attributes>
+        <attribute>balloon_title</attribute>
+        <attribute encoding="allow_html_tags">balloon_description</attribute>
+        <attribute type="media-url">balloon_img</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_before_after_slider</tag>
+      <attributes>
+        <attribute type="media-url">before_image</attribute>
+        <attribute type="media-url">after_image</attribute>
+        <attribute>before_image_alt</attribute>
+        <attribute>after_image_alt</attribute>
+        <attribute>before_label</attribute>
+        <attribute>after_label</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_breadcrumbs</tag>
+      <attributes>
+        <attribute>bc_home_text</attribute>
+        <attribute type="link">bc_home_url</attribute>
+        <attribute>bc_separator_sysmbol</attribute>
+        <attribute type="link">bc_post_type_root</attribute>
+        <attribute>bc_post_type_label</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_button_grid</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_button_grid_child</tag>
+      <attributes>
+        <attribute>text_info</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_carousel</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_carousel_child</tag>
+      <attributes>
+        <attribute type="media-url">img_src</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>title_text</attribute>
+        <attribute encoding="allow_html_tags">desc_text</attribute>
+        <attribute>carousel_button_text</attribute>
+        <attribute type="link">button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_content_toggle</tag>
+      <attributes>
+        <attribute>first_text</attribute>
+        <attribute>second_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_countdown</tag>
+      <attributes>
+        <attribute type="link">forwarding_url</attribute>
+        <attribute>html</attribute>
+        <attribute>label_weeks</attribute>
+        <attribute>label_days</attribute>
+        <attribute>label_hours</attribute>
+        <attribute>label_minutes</attribute>
+        <attribute>label_seconds</attribute>
+        <attribute type="link">countdown_button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_counter</tag>
+      <attributes>
+        <attribute>prefix</attribute>
+        <attribute>suffix</attribute>
+        <attribute>count_number_thousands_separator</attribute>
+        <attribute>count_number_decimal_separator</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_dual_heading</tag>
+      <attributes>
+        <attribute>first_heading</attribute>
+        <attribute>second_heading</attribute>
+        <attribute>background_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_expanding_cta</tag>
+      <attributes>
+        <attribute>content_title</attribute>
+        <attribute encoding="allow_html_tags">content_description</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute>second_button_text</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute type="link">content_button_link</attribute>
+        <attribute type="link">second_button_link</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_fancy_text</tag>
+      <attributes>
+        <attribute>prefix</attribute>
+        <attribute>suffix</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_fancy_text_child</tag>
+      <attributes>
+        <attribute>text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_faq</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_filterable_gallery</tag>
+      <attributes>
+        <attribute>prev_btn_text</attribute>
+        <attribute>next_btn_text</attribute>
+        <attribute>load_more_text</attribute>
+        <attribute>all_filter_label</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_filterable_grid</tag>
+      <attributes>
+        <attribute>prev_btn_text</attribute>
+        <attribute>next_btn_text</attribute>
+        <attribute>load_more_text</attribute>
+        <attribute>all_filter_label</attribute>
+        <attribute>author_prefix</attribute>
+        <attribute>read_more_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_flip_box</tag>
+      <attributes>
+        <attribute>front_title</attribute>
+        <attribute encoding="allow_html_tags">front_content</attribute>
+        <attribute>front_image_alt</attribute>
+        <attribute type="link">front_button_link</attribute>
+        <attribute type="media-url">front_image</attribute>
+        <attribute type="media-url">back_image</attribute>
+        <attribute>back_title</attribute>
+        <attribute encoding="allow_html_tags">back_content</attribute>
+        <attribute>back_image_alt</attribute>
+        <attribute>back_button_text</attribute>
+        <attribute type="link">back_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_floating_multi_images_child</tag>
+      <attributes>
+        <attribute type="media-url">img_src</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_horizontal_timeline</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">image_tablet</attribute>
+        <attribute type="media-url">image_phone</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_horizontal_timeline_item</tag>
+      <attributes>
+        <attribute>ribbon</attribute>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>button_text</attribute>
+        <attribute>alt</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_hover_box</tag>
+      <attributes>
+        <attribute>content_title</attribute>
+        <attribute>content_image_alt</attribute>
+        <attribute>content_hover_title</attribute>
+        <attribute>content_hover_image_alt</attribute>
+        <attribute>content_hover_button_text</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute>content_hover_button_link</attribute>
+        <attribute encoding="allow_html_tags">body_text</attribute>
+        <attribute encoding="allow_html_tags">content_hover_content</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_hover_gallery</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_hover_gallery_item</tag>
+      <attributes>
+        <attribute>image_alt</attribute>
+        <attribute>title</attribute>
+        <attribute>content_image_alt</attribute>
+        <attribute>button_text</attribute>
+        <attribute encoding="allow_html_tags">content_text</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_accordion</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_accordion_child</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">accordion_description</attribute>
+        <attribute type="media-url">bg_img</attribute>
+        <attribute type="media-url">accordion_image</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>accordion_title</attribute>
+        <attribute>accordion_button_text</attribute>
+        <attribute type="link">accordion_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_gallery</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_gallery_child</tag>
+      <attributes>
+        <attribute>img_alt</attribute>
+        <attribute type="media-url">item_image</attribute>
+        <attribute type="media-url">item_thumb_image</attribute>
+        <attribute>thumb_img_alt</attribute>
+        <attribute>image_title</attribute>
+        <attribute encoding="allow_html_tags">image_description</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_hotspot</tag>
+      <attributes>
+        <attribute>img_alt</attribute>
+        <attribute type="media-url">img_src</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_hotspot_child</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>tooltip_desc</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>tooltip_img_alt</attribute>
+        <attribute>tooltip_title</attribute>
+        <attribute encoding="allow_html_tags">tooltip_desc</attribute>
+        <attribute type="media-url">hotspot_image</attribute>
+        <attribute type="media-url">tooltip_img_src</attribute>
+        <attribute>tooltip_button_text</attribute>
+        <attribute type="link">tooltip_button_link</attribute>
+        <attribute type="link">hotspot_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_magnifier</tag>
+      <attributes>
+        <attribute type="media-url">main_image</attribute>
+        <attribute>img_alt</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_mask</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">custom_mask</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_showcase</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_showcase_child</tag>
+      <attributes>
+        <attribute type="media-url">bg_img</attribute>
+        <attribute>title</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_info_circle</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_info_circle_item</tag>
+      <attributes>
+        <attribute type="media-url">info_image</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute>content_title</attribute>
+        <attribute encoding="allow_html_tags">content_description</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">content_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_lottie_icon</tag>
+      <attributes>
+        <attribute>lottie_title</attribute>
+        <attribute encoding="allow_html_tags">lottie_content</attribute>
+        <attribute>lottie_button_text</attribute>
+        <attribute type="link">lottie_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_panorama</tag>
+      <attributes>
+        <attribute type="media-url">image2d</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">image0</attribute>
+        <attribute type="media-url">image1</attribute>
+        <attribute type="media-url">image2</attribute>
+        <attribute type="media-url">image3</attribute>
+        <attribute type="media-url">image4</attribute>
+        <attribute type="media-url">image5</attribute>
+        <attribute type="media-url">poster</attribute>
+        <attribute>videomp4</attribute>
+        <attribute>videowebm</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_masonry_gallery</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_parallax_images</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_parallax_images_item</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute>alt</attribute>
+        <attribute encoding="allow_html_tags">text_content</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_price_list</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_price_list_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>price</attribute>
+        <attribute>price_prefix</attribute>
+        <attribute>price_suffix</attribute>
+        <attribute>content</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_pricing_table</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_pricing_table_item</tag>
+      <attributes>
+        <attribute encoding="allow_html_tags">text_content</attribute>
+        <attribute type="media-url">item_image</attribute>
+        <attribute type="media-url">ribbon_image</attribute>
+        <attribute>item_image_alt</attribute>
+        <attribute>price</attribute>
+        <attribute>price_prefix</attribute>
+        <attribute>feature_text</attribute>
+        <attribute>button_text</attribute>
+        <attribute>ribbon_text</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_scroll_image</tag>
+      <attributes>
+        <attribute>img_alt</attribute>
+        <attribute type="media-url">scroll_image</attribute>
+        <attribute type="media-url">direction_image</attribute>
+        <attribute>direction_img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_star_rating</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">description</attribute>
+        <attribute>rating_scale</attribute>
+        <attribute>rating</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_svg_animator</tag>
+      <attributes>
+        <attribute type="media-url">src</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_testimonial</tag>
+      <attributes>
+        <attribute>readmore_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_text_highlighter</tag>
+      <attributes>
+        <attribute>text_highlighter_prefix</attribute>
+        <attribute>text_highlighter_text</attribute>
+        <attribute>text_highlighter_suffix</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_tile_scroll</tag>
+      <attributes>
+        <attribute>content_img_alt</attribute>
+        <attribute>content_title</attribute>
+        <attribute encoding="allow_html_tags">content_description</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute type="link">content_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_tile_scroll_item</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_tilt_image</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">tilt_overlay_image</attribute>
+        <attribute>image_alt</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>tilt_overlay_title_text</attribute>
+        <attribute encoding="allow_html_tags">tilt_overlay_desc_text</attribute>
+        <attribute>tilt_overlay_btn_text</attribute>
+        <attribute type="link">tilt_overlay_btn_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_timeline</tag>
+      <attributes>
+        <attribute type="media-url">timeline_image</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_timeline_item</tag>
+      <attributes>
+        <attribute>ribbon</attribute>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>button_text</attribute>
+        <attribute>alt</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_typing_text</tag>
+      <attributes>
+        <attribute>typing_prefix</attribute>
+        <attribute>typing_text</attribute>
+        <attribute>typing_suffix</attribute>
+        <attribute>text_wrapper_tag</attribute>
+        <attribute>cursor_char</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_content_slider_child</tag>
+      <attributes>
+        <attribute>desc_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_divider</tag>
+      <attributes>
+        <attribute>content_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_table_maker</tag>
+      <attributes>
+        <attribute>table_title</attribute>
+        <attribute>table_description</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_table_maker_child</tag>
+      <attributes>
+        <attribute>content_title</attribute>
+        <attribute>table_description</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute>content_button_link</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>

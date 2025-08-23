@@ -1,0 +1,192 @@
+// General button styles
+@mixin generalButtonMixin() {
+  /* General button */
+  font-weight    : 600 !important;
+  padding        : 9px 25px !important;
+  text-align     : center;
+  line-height    : 1.7em !important;
+  text-transform : uppercase;
+  font-size      : 14px;
+  border-style   : solid;
+  //border-radius  : $buttonRadius;
+  &:hover {
+    padding : 9px 25px !important;
+    }
+  &:not([disabled]):not(.disabled) {
+    cursor : pointer;
+    }
+  }
+
+// Primary button
+@mixin primaryButtonMixin() {
+  ///* Primary button */
+  //color        : $whiteColor !important;
+  //background   : $mainColor !important;
+  //border-color : $mainColor !important;
+  @include generalButtonMixin();
+  //
+  //&:hover {
+  //  /* Primary button hover */
+  //  color        : $whiteColor !important;
+  //  background   : $mainHoverColor !important;
+  //  border-color : $mainHoverColor !important;
+  //  }
+  }
+
+.dsdep-button-primary,
+.et_pb_button.dsdep-button-primary,
+body.et-db #et-boc .et-l .et_pb_button.dsdep-button-primary,
+body.et-db #et-boc .dsdep-button-primary.et_pb_button,
+body .dsdep-button-primary.et_pb_button,
+.dsdep-module-button-primary .et_pb_button {
+  @include primaryButtonMixin();
+  }
+
+// Secondary button
+@mixin secondButtonMixin() {
+  ///* Secondary button */
+  //color        : $darkGrey !important;
+  //background   : $whiteColor !important;
+  //border-color : $whiteColor !important;
+  @include generalButtonMixin();
+  //
+  //&:hover {
+  //  /* Secondary button hover */
+  //  color        : $mainColor !important;
+  //  background   : $whiteColor !important;
+  //  border-color : $whiteColor !important;
+  //  }
+  }
+
+.dsdep-button-second,
+.et_pb_button.dsdep-button-second,
+body.et-db #et-boc .et-l .et_pb_button.dsdep-button-second,
+body.et-db #et-boc .dsdep-button-second.et_pb_button,
+body .dsdep-button-second.et_pb_button,
+.dsdep-module-button-second .et_pb_button {
+  @include secondButtonMixin();
+  }
+
+// Outline button
+@mixin outlineButtonMixin() {
+  ///* Outline button */
+  //color        : $darkGrey !important;
+  //background   : transparent !important;
+  //border-color : $darkBorderColor !important;
+  @include generalButtonMixin();
+  //
+  //&:hover {
+  //  /* Outline button hover */
+  //  color        : $darkGrey !important;
+  //  background   : transparent !important;
+  //  border-color : $mainColor !important;
+  //  }
+  }
+
+.dsdep-button-outline,
+.et_pb_button.dsdep-button-outline,
+body.et-db #et-boc .et-l .et_pb_button.dsdep-button-outline,
+body.et-db #et-boc .dsdep-button-outline.et_pb_button,
+body .dsdep-button-outline.et_pb_button,
+.dsdep-module-button-outline .et_pb_button {
+  @include outlineButtonMixin();
+  }
+
+// Disabled Button
+@mixin disabledButtonMixin() {
+  cursor           : not-allowed;
+  border-color     : $lightGrey !important;
+  background-color : $lightGrey !important;
+  color            : #FFF !important;
+  opacity          : 1;
+  @include generalButtonMixin();
+
+  &:hover {
+    cursor           : not-allowed;
+    border-color     : $lightGrey !important;
+    background-color : $lightGrey !important;
+    color            : #FFF !important;
+    }
+  }
+
+// Medium Button
+@mixin mediumButtonMixin() {
+  padding   : 14px 24px !important;
+  font-size : 16px !important;
+  &:hover {
+    padding : 14px 24px !important;
+    }
+  }
+
+.dsdep-button-medium,
+.et_pb_button.dsdep-button-medium,
+body.et-db #et-boc .et-l .et_pb_button.dsdep-button-medium,
+body.et-db #et-boc .dsdep-button-medium.et_pb_button,
+body .dsdep-button-medium.et_pb_button,
+.dsdep-module-button-medium .et_pb_button {
+  @include mediumButtonMixin();
+  }
+
+// Large button
+@mixin largeButtonMixin() {
+  padding   : 15px 35px !important;
+  font-size : 18px !important;
+  &:hover {
+    padding : 15px 35px !important;
+    }
+  }
+
+.dsdep-button-large,
+.et_pb_button.dsdep-button-large,
+body.et-db #et-boc .et-l .dsdep-button-large.et_pb_button,
+body.et-db #et-boc .dsdep-button-large.et_pb_button,
+body .dsdep-button-large.et_pb_button,
+.dsdep-module-button-large .et_pb_button {
+  @include largeButtonMixin();
+  }
+
+
+@mixin underlineButton($type: primary) {
+  border          : none !important;
+  background      : transparent !important;
+  padding         : 0 !important;
+  font-size       : 16px;
+  font-weight     : 600;
+  text-decoration : underline !important;
+  display         : inline-block;
+
+  &:hover {
+    background : transparent !important;
+    padding    : 0 !important;
+    }
+
+  @if ($type == primary) {
+    color : $mainColor !important;
+    &:hover {
+      color : $mainHoverColor !important;
+      }
+    }
+  @if ($type == second) {
+    color : $secondColor !important;
+    &:hover {
+      color : $secondHoverColor !important;
+      }
+    }
+  }
+
+.dsdep-button-underline-primary,
+.et_pb_button.dsdep-button-underline-primary,
+body.et-db #et-boc .dsdep-button-underline-primary.et_pb_button,
+body .dsdep-button-underline-primary.et_pb_button,
+.dsdep-module-button-underline-primary .et_pb_button {
+  @include underlineButton(primary);
+  }
+
+.dsdep-button-underline-second,
+.et_pb_button.dsdep-button-underline-second,
+body.et-db #et-boc .dsdep-button-underline-second.et_pb_button,
+body .dsdep-button-underline-second.et_pb_button,
+.dsdep-module-button-underline-second .et_pb_button {
+  @include underlineButton(second);
+  }
+

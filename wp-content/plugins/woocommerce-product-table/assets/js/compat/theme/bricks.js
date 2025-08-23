@@ -1,0 +1,1 @@
+jQuery(".wc-product-table").on("draw.wcpt responsiveDisplay.wcpt",(function(){"object"==typeof bricksWooQuantityTriggersFn&&bricksWooQuantityTriggersFn.run(),"object"==typeof bricksWooLoopQtyListenerFn&&bricksWooLoopQtyListenerFn.run()}));

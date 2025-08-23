@@ -1,0 +1,86 @@
+.dipi-breadcrumbs ul {
+    list-style: none !important;
+    list-style-type: none !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    margin: 0;
+    transition: all .3s ease-in-out;
+}
+
+.dipi-breadcrumbs.dipi-bc-left ul {
+    justify-content: flex-start;
+}
+
+.dipi-breadcrumbs.dipi-bc-center ul {
+    justify-content: center;
+}
+
+.dipi-breadcrumbs.dipi-bc-right ul {
+    justify-content: flex-end;
+}
+
+.dipi-breadcrumbs .dipi-breadcrumb-item {
+    display: block;
+    border-style: solid;
+    transition: all .3s ease-in-out;
+    margin-bottom: 5px;
+}
+
+.dipi-breadcrumbs .dipi-breadcrumb-item a {
+    transition: all .3s ease-in-out;
+    display: block;
+    border-style: solid;
+}
+
+.dipi-breadcrumbs ul li:hover {
+    transition: all .3s ease-in-out;
+}
+
+.dipi-breadcrumb-item:hover a,
+.dipi-breadcrumb-item a {
+    transition: all .3s ease-in-out;
+}
+
+.dipi-breadcrumbs ul .dipi-breadcrumb-separator {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.dipi-breadcrumbs .dipi-separator-icon {
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+
+.dipi-breadcrumbs .dipi-separator-icon:hover {
+    transition: all .3s ease-in-out;
+}
+
+.dipi-breadcrumb-home a span {
+    display: flex;
+    align-items: center;
+}
+
+.dipi-breadcrumb-home:hover .dipi-home-icon:before,
+.dipi-breadcrumb-home .dipi-home-icon:before {
+    transition: all .3s ease-in-out;
+}
+
+.dipi-breadcrumb-home .dipi-home-icon {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.dipi-breadcrumbs .dipi-breadcrumb-home .dipi-home-icon:before {
+    content: "\e074";
+}
+
+@media only screen and (max-width: 481px) {
+    .dipi-breadcrumbs ul li {
+        margin-bottom: 8px;
+    }
+}

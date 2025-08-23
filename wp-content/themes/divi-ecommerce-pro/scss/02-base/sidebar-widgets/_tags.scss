@@ -1,0 +1,28 @@
+// Tag Cloud Widget
+
+#sidebar .et_pb_widget.widget_tag_cloud,
+.dsdep-sidebar .et_pb_widget.widget_tag_cloud,
+#sidebar .et_pb_widget.widget_product_tag_cloud,
+.dsdep-sidebar .et_pb_widget.widget_product_tag_cloud {
+
+  .tagcloud {
+    a {
+      padding        : 4px 10px;
+      line-height    : 1.5;
+      text-transform : uppercase;
+      background     : transparent;
+      border         : 1px solid;
+      border-color   : $darkBorderColor;
+      font-size      : 14px;
+      font-weight    : 500;
+      margin-bottom  : 10px;
+      margin-right   : 7px;
+      border-radius  : $mainRadius;
+
+      &:hover {
+        border-color : $mainColor;
+        }
+
+      }
+    }
+  }

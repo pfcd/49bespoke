@@ -1,0 +1,97 @@
+.dipi_faq .dipi-faq-wrapper * {
+    border-style: solid;
+}
+.dipi_faq .dipi-faq-entry:last-of-type {
+    margin-bottom: 0;
+}
+
+.dipi-faq-entry {
+    transition: all .3s ease, height 0s;
+    border: 1px solid #d9d9d9;
+}
+
+.dipi-faq-title {
+    transition: all .3s ease, height 0s;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.dipi-faq-title h1,
+.dipi-faq-title h2,
+.dipi-faq-title h3,
+.dipi-faq-title h4,
+.dipi-faq-title h5,
+.dipi-faq-title h6{padding:0;margin:0;}
+
+.dipi-faq-title span,
+.dipi-faq-title p,
+.dipi-faq-title h1,
+.dipi-faq-title h2,
+.dipi-faq-title h3,
+.dipi-faq-title h4,
+.dipi-faq-title h5,
+.dipi-faq-title h6{display: flex;width: 100%;align-items: center;}
+.dipi-faq-accordion .dipi-faq-title,
+.dipi-faq-toggles .dipi-faq-title {
+    cursor: pointer;
+}
+
+.dipi-faq-accordion.dipi-faq-accordion-not-closable .dipi-faq-title {
+    cursor: inherit;
+}
+
+.dipi-faq-title:before, 
+.dipi-faq-title:after,
+.dipi-faq-title .dipi-faq-icon-open, 
+.dipi-faq-title .dipi-faq-icon-closed {
+    transition: all .3s ease;
+    font-family: ETmodules!important;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    /* FIXME: Make Configurable ltr/rtl */
+    right: 20px;
+    left: auto;
+}
+
+/* :before = closed icon */
+.open .dipi-faq-title:before,
+.open .dipi-faq-title .dipi-faq-icon-closed {
+    opacity: 0;
+}
+
+/* :after = open icon */
+.closed .dipi-faq-title:after,
+.closed .dipi-faq-title .dipi-faq-icon-open {
+    opacity: 0;
+}
+.dipi-faq-accordion-not-closable .open  .dipi-faq-title .dipi-faq-icon-open,
+.dipi-faq-accordion-not-closable .open  .dipi-faq-title:after {
+    opacity: 0;
+}
+
+.dipi-faq-content {
+    transition: all .3s ease, height 0s, padding-top 0s, padding-bottom 0s;
+    border-style: solid;
+}
+
+.dipi-faq-plain .dipi-faq-icon-open,
+.dipi-faq-plain .dipi-faq-icon-closed {
+    display: none;
+}
+
+.dipi-faq-plain .dipi-faq-content {
+    display: block !important;
+}

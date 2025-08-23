@@ -1,0 +1,77 @@
+/* Widget - Cart */
+
+.dsdep-sidebar .widget_shopping_cart,
+.woocommerce .widget_shopping_cart,
+.woocommerce.widget_shopping_cart {
+  .total {
+    border          : none;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : space-between;
+
+    .amount {
+      font-weight : bold;
+      color       : $mainColor;
+      font-size   : 20px;
+      }
+    }
+
+  span.quantity {
+    padding-top : 5px;
+    display     : inline-block;
+    }
+
+  a.remove {
+    top           : 20px !important;
+    left          : 5px !important;
+    color         : #FFF !important;
+    background    : $danger;
+    opacity       : 0.7;
+    line-height   : 1em !important;
+    font-size     : 20px !important;
+    border-radius : $mainRadius !important;
+
+    &:hover {
+      opacity : 1;
+      }
+    }
+
+
+  a.button {
+    @include outlineButtonMixin();
+    }
+
+  .woocommerce-mini-cart__buttons {
+    margin-top : 5px;
+
+    @media (min-width : 1050px) {
+      a.button {
+        width   : 49%;
+        display : inline-block;
+
+        &:first-child {
+          margin-right : 2%;
+          }
+
+        &:last-child {
+          margin-right : 0;
+          }
+        }
+      }
+
+    @media (min-width : 300px) and (max-width : 980px) {
+      a.button {
+        width   : 49%;
+        display : inline-block;
+
+        &:first-child {
+          margin-right : 2%;
+          }
+
+        &:last-child {
+          margin-right : 0;
+          }
+        }
+      }
+    }
+  }

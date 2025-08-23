@@ -1,0 +1,49 @@
+.dipi_reveal .dipi-reveal-button {
+   cursor: pointer;
+   display: inline-block;
+}
+.dipi_reveal .dipi-reveal {
+   text-align: center;
+   transition: all 0.8s;
+}
+.dipi-reveal-container-parent,
+.dipi-reveal-container {
+   overflow: hidden !important;
+   position: relative;
+   transition: height 0.8s;
+}
+.dipi_reveal .dipi-reveal-button:before,
+.dipi_reveal .dipi-reveal-button:after
+{
+   content: attr(data-icon);
+}
+.dipi-reveal-container-parent .dipi-reveal-container.dipi-reveal-oa-html ~ .dipi-reveal-overlay,
+.dipi-reveal-container.dipi-reveal-oa-html .dipi-reveal-overlay,
+.dipi-reveal-container.dipi-reveal-oa-css:after {
+   position: absolute;
+   left: 0;
+   top: 0;
+   right:0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   transition: all 0.8s;
+   visibility: visible;
+   pointer-events: none;
+}
+.dipi-reveal-container-parent .dipi-reveal-container-collapsed.dipi-reveal-oa-html ~ .dipi-reveal-overlay,
+.dipi-reveal-container-collapsed.dipi-reveal-oa-html .dipi-reveal-overlay,
+.dipi-reveal-container-collapsed:not(.et_pb_hovered_child):after {
+  z-index:0; /* 2 is same value as default z-index of column */
+}
+.dipi-reveal-container-parent .dipi-reveal-container-collapsed.dipi-reveal-oa-html ~ .dipi-reveal-overlay,
+.dipi-reveal-container-collapsed.dipi-reveal-oa-html .dipi-reveal-overlay,
+.dipi-reveal-container-collapsed.dipi-reveal-oa-css:after {
+   opacity: 1;
+}
+
+/* Show Reveal module on top alway in visual builder */
+.et-db #et-boc .et-l #et-fb-app  .et_pb_hovered.dipi_reveal.et_fb_element_controls_visible {
+   z-index: 9999999999;
+}

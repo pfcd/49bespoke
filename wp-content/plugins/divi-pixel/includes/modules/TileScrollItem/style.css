@@ -1,0 +1,11 @@
+.dipi_tile_scroll .dipi_tile_scroll_item_container {
+  display: flex;
+}
+.dipi_tile_scroll .dipi_tile_scroll_item .dipi-tile-scroll__line-img {
+  border-style: solid;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}

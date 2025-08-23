@@ -1,0 +1,94 @@
+.dipi_gravity_forms_styler .alert {
+  display: none;
+}
+body.et-fb .dipi_gravity_forms_styler .alert,
+body.et-bfb .dipi_gravity_forms_styler .alert{
+  display: block;
+  background-color: #fff9f9;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #888;
+  border: 1px solid #ffe6e6;
+  margin-bottom: 15px;
+}
+.dipi_gravity_forms_styler .dipi_gf_styler_wrapper,
+.dipi_gravity_forms_styler .gf_progressbar,
+.dipi_gravity_forms_styler .gf_progressbar .gf_progressbar_percentage,
+.dipi_gravity_forms_styler .gsection,
+.dipi_gravity_forms_styler .gfield_html,
+.dipi_gravity_forms_styler .dipi_gravity_forms_styler .gfield_html,
+.dipi_gravity_forms_styler .gform_wrapper .gfield
+{
+  border-style: solid;
+  border-width: 0;
+}
+.dipi_gravity_forms_styler .gform_wrapper fieldset {
+  border-width: 0;
+}
+.dipi_gravity_forms_styler .gform_wrapper .gf_progressbar_percentage {
+  max-height:100%;
+}
+.dipi_gravity_forms_styler .ginput_container_select,
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_address .ginput_address_country
+ {
+  position: relative;
+}
+
+.dipi_gravity_forms_styler .ginput_container_select:after,
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_address .ginput_address_country:after
+
+ {
+  content: "";
+  top: 0;
+  right: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 1em;
+}
+.dipi_gravity_forms_styler .ginput_container_select:has(select.medium):after {
+  right: calc(50% + 8px);
+}
+.dipi_gravity_forms_styler .ginput_container_select:has(select.small):after {
+  right: calc(75% + 12px);
+}
+
+
+/* Style arrow of country selector */
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_address .ginput_address_country:after{
+  right: 1.9608%;
+}
+
+.dipi_gravity_forms_styler .gform_wrapper .gfield--type-address:not(.field_sublabel_hidden_label) .ginput_container_address .ginput_address_country:after
+{
+  height: calc(100% - 1.7em - 5px);
+}
+.dipi_gravity_forms_styler .gform_wrapper .gfield--type-address.field_sublabel_above:not(.field_sublabel_hidden_label) .ginput_container_address .ginput_address_country:after
+{
+  bottom: 0;
+  top: auto;
+}
+ 
+.dipi_gravity_forms_styler .ginput_container_select:not(.et_pb_custom_button_icon):after,
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_address .ginput_address_country:not(.et_pb_custom_button_icon):after
+{
+  background-image:url('data:image/svg+xml,\00003csvg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\00003cpath fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z">\00003c/path>\00003c/svg>');
+}
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_select.et_pb_custom_button_icon[data-icon]:not([data-icon=""]):after,
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_address .ginput_address_country[data-icon]:not([data-icon=""]):after
+{
+  content: attr(data-icon);
+}
+.dipi_gravity_forms_styler .gform_wrapper .ginput_container_address .ginput_address_country.et_pb_custom_button_icon label {
+  position: absolute; /* To exclude from height of custom arrow */
+}
+.dipi_gravity_forms_styler  .gform_wrapper .ginput_container_time.gfield_time_ampm {
+  flex-basis: auto;
+  max-width: unset;
+}

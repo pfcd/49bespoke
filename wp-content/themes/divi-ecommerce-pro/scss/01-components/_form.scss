@@ -1,0 +1,174 @@
+// Reusable form mixins
+@mixin formElementMixin() {
+  box-shadow   : none !important;
+  font-size    : 14px !important;
+  border-width : 1px !important;;
+  border-style : solid !important;
+  border-color : $lightBorderColor !important;
+  font-weight  : normal;
+  color        : $baseFontColor !important;
+  background   : #FFF !important;
+
+  &:focus {
+    border-color : $mainColor !important;
+    }
+
+  &::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    opacity : 0.85;
+    }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    opacity : 0.55;
+    }
+
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    opacity : 0.55;
+    }
+
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    opacity : 0.55;
+    }
+  }
+
+// Reusable input mixin
+@mixin formInputMixin() {
+  @include formElementMixin();
+  height        : 45px !important;
+  line-height   : 45px !important;
+  padding       : 0 16px !important;
+  border-radius : $formRadius !important;
+
+  &::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    height      : 45px;
+    line-height : 45px !important;
+    }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    height      : 45px;
+    line-height : 45px !important;
+    }
+
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    height      : 45px;
+    line-height : 45px !important;
+    }
+
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    height      : 45px;
+    line-height : 45px !important;
+    }
+  }
+
+// Reusable textarea mixin
+@mixin formTextareaMixin() {
+  @include formElementMixin();
+  padding       : 16px !important;
+  line-height   : 1.5;
+  border-radius : $mainRadius !important;
+  }
+
+@mixin formWhite() {
+  background-color : #FFF !important;
+  border-color     : $darkBorderColor !important;
+  }
+
+@mixin formGrey() {
+  background-color : $lightGrey !important;
+  border-color     : $lightGrey !important;
+  }
+
+// Reusable radio input mixin
+@mixin formRadioMixin() {
+  /* Radio */
+  background-color   : transparent !important;
+  border             : none;
+  border-radius      : 50%;
+  box-shadow         : inset 0 0 0 2px $darkBorderColor !important;
+  cursor             : pointer;
+  font               : inherit;
+  height             : 20px;
+  outline            : none;
+  width              : 20px !important;
+  -moz-appearance    : none;
+  -webkit-appearance : none;
+  margin-right       : 10px !important;
+  padding            : 0 !important;
+  display            : inline-block !important;
+  vertical-align     : sub;
+
+  &:checked {
+    background-color : white;
+    box-shadow       : inset 0 0 0 5px $mainColor !important;
+    @include transition();
+
+    &:before {
+      display : none !important;
+      }
+    }
+  }
+
+@mixin formCheckboxMixin() {
+  width        : 20px !important;
+  margin-right : 8px !important;
+  margin-top   : -10px !important;
+  display      : inline-block;
+
+  &:before {
+    position      : relative;
+    display       : block;
+    width         : 20px;
+    height        : 20px;
+    margin-top    : -3px;
+    margin-left   : -3px;
+    border-radius : 3px;
+    border        : 1px solid $darkBorderColor;
+    content       : "";
+    background    : #FFF;
+    }
+  &:after {
+    position            : relative;
+    display             : block;
+    left                : -1px;
+    top                 : -20px;
+    width               : 19px;
+    height              : 19px;
+    border-radius       : 3px;
+    border-width        : 0;
+    content             : "";
+    background-repeat   : no-repeat;
+    background-position : center;
+    }
+  &:checked:after {
+    background-image : url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAQAAABuW59YAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAB2SURBVHjaAGkAlv8A3QDyAP0A/QD+Dam3W+kCAAD8APYAAgTVZaZCGwwA5wr0AvcA+Dh+7UX/x24AqK3Wg/8nt6w4/5q71wAAVP9g/7rTXf9n/+9N+AAAtpJa/zf/S//DhP8H/wAA4gzWj2P4lsf0JP0A/wADAHB0Ngka6UmKAAAAAElFTkSuQmCC");
+    }
+  &:disabled:after {
+    -webkit-filter : opacity(0.4);
+    }
+  &:not(:disabled):checked:hover:after {
+    background-image : url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAQAAABuW59YAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAB2SURBVHjaAGkAlv8A3QDyAP0A/QD+Dam3W+kCAAD8APYAAgTVZaZCGwwA5wr0AvcA+Dh+7UX/x24AqK3Wg/8nt6w4/5q71wAAVP9g/7rTXf9n/+9N+AAAtpJa/zf/S//DhP8H/wAA4gzWj2P4lsf0JP0A/wADAHB0Ngka6UmKAAAAAElFTkSuQmCC");
+    }
+  &:not(:disabled):hover:after {
+    border-color : $mainColor;
+    }
+  &:not(:disabled):hover:before {
+    border-color : $mainColor;
+    }
+  }
+
+@mixin formLabelMixin() {
+  font-size      : 14px !important;
+  font-weight    : normal !important;
+  line-height    : 1.5;
+  text-align     : left;
+  color          : $baseHeaderColor;
+  text-transform : none;
+  margin-bottom  : 6px;
+  }

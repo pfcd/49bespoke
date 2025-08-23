@@ -1,0 +1,64 @@
+/*
+Theme Name:  Divi Ecommerce Pro
+Theme URI:   https://diviecommercepro.aspengrovestudio.com/
+Description: WooCommerce Divi Child Theme
+Author:      WP Zone
+Author URI:  https://wpzone.co/
+Template:    Divi
+Version:     1.0.10
+License:     GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Tags:        Divi, Ecommerce, WooCommerce, Child Theme
+Text Domain: divi-ecommerce-pro
+GitLab Theme URI: https://gitlab.com/aspengrovestudios/divi-ecommerce-pro/
+AGS Info: ids.aspengrove 955361 ids.divispace 812518 legacy.key agstheme_divi-ecommerce-pro_license_key legacy.status agstheme_divi-ecommerce-pro_license_key_status adminPage admin.php?page=AGS_child_theme docs https://wpzone.co/docs/divi-ecommerce-pro/
+Update URI:  https://wpzone.co/
+*/
+
+/*
+Divi Ecommerce Pro Child Theme
+Copyright (C) 2023 WP Zone
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+==========
+
+CREDITS:
+
+Parts of this theme are based on and/or copied from WordPress, copyright 2011-2020
+by the contributors. Licensed under the GNU General Public License (GPL), version
+2 or later.
+
+Parts of this theme are based on and/or copied from WooCommerce by Automattic,
+copyright 2015 by the contributors. Licensed under the GNU General Public License
+(GPL), version 3 or later.
+
+Parts of this theme are based on and/or copied from Divi by Elegant Themes. Licensed
+under the GNU General Public License (GPL), version 2.
+
+See the aspen-plugin-installer.php file for additional credit and licensing information.
+
+See the files in the plugin's updater/ and aspen-demo-content/ directories for additional
+credit and licensing information.
+
+See the license.txt file in the theme's root directory for the text of the GPL, version 3.
+*/
+
+/*
+ *
+ * IMPORTANT: UTILIZING THE AUTOMATIC UPDATE FEATURE OF THIS CHILD THEME WILL OVERWRITE ANY
+ * CUSTOM CODE PLACED WITHIN THIS FILE. IF YOU WISH TO AUTOMATICALLY UPDATE, PLEASE PLACE
+ * YOUR CODE IN THEME OPTIONS >> CUSTOM CSS OTHERWISE YOU CAN MANUALLY UPDATE THE THEME FILES
+ *
+ */

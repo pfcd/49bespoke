@@ -1,0 +1,36 @@
+variables:
+  VERSION: 1.0.10
+  NAMES: etm,ds
+
+include:
+  - project: "aspengrovestudios/release-automation"
+    ref: master
+    file: "/templates/1.1.10/.gitlab-ci.yml"
+
+stages:
+  - agsreleaser
+  - phpcs
+
+agsreleaser:
+  when: manual
+
+phpcs:
+  stage: phpcs
+  timeout: 180s
+  script: /entrypoint.sh -s -p --ignore=admin/updater
+  when: manual
+
+phpcs-errors-only:
+  stage: phpcs
+  timeout: 180s
+  allow_failure: true
+  script: /entrypoint.sh -s -p --ignore=admin/updater -n
+  when: manual
+
+# variable represents docker image user to run tests
+# it can be set both in gitlab group ci/cd settings (global for all repositories)
+# or overriden per-repository settings
+# note: set this variable as not-protected
+image:
+  name: $PHPCS_MARKETPLACE_IMAGE
+  entrypoint: [""]

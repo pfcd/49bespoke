@@ -1,0 +1,83 @@
+.dsdep-my-account .woocommerce,
+.dsdep-checkout .woocommerce {
+
+  table.woocommerce-orders-table,
+  table.woocommerce-table--order-downloads {
+
+    tbody {
+      @media (min-width : 768px) {
+        td {
+          border-width : 0 1px 1px 0;
+          border-style : solid;
+          border-color : $lightBorderColor;
+
+          &:first-child {
+            border-left-width : 1px;
+            }
+          }
+
+        tr {
+          &:first-child td {
+            border-top-width : 1px;
+
+            &:first-child {
+              border-top-left-radius : $mainRadius;
+              }
+
+            &:last-child {
+              border-top-right-radius : $mainRadius;
+              }
+            }
+
+          &:last-child td {
+
+            &:first-child {
+              border-bottom-left-radius : $mainRadius;
+              }
+
+            &:last-child {
+              border-bottom-right-radius : $mainRadius;
+              }
+            }
+          }
+        }
+      }
+
+    td {
+      &.woocommerce-orders-table__cell-order-number {
+        a {
+          @include underlineButton(primary);
+          }
+        }
+
+      &.woocommerce-orders-table__cell-order-total {
+        span.woocommerce-Price-amount {
+          font-weight : bold;
+          }
+        }
+
+      &.woocommerce-orders-table__cell-order-actions {
+        a.woocommerce-button {
+          @include underlineButton(primary);
+          }
+        }
+      }
+    }
+
+  table.woocommerce-table--order-downloads {
+    a.woocommerce-MyAccount-downloads-file {
+      @include underlineButton(primary);
+      }
+    }
+
+  .woocommerce-order-details {
+    .order-again {
+      text-align : center;
+
+      a.button {
+        @include primaryButtonMixin();
+        box-shadow : $primaryShadow;
+        }
+      }
+    }
+  }

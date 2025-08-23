@@ -1,0 +1,24 @@
+/* Fix customizer styling issues and make settings readable */
+
+#sub-accordion-section-dsdep_woocommerce input[type=checkbox]:checked:before {
+    margin : 0 0 0 -5px !important;
+}
+
+#sub-accordion-section-dsdep_woocommerce .customize-control-checkbox .customize-control-description {
+    text-transform : none;
+    font-weight    : normal;
+    margin-bottom  : 5px;
+    margin-top     : 5px;
+}
+
+#sub-accordion-section-dsdep_woocommerce .customize-control-checkbox {
+    margin-bottom : 10px !important;
+}
+
+#sub-accordion-section-dsdep_woocommerce .customize-control-number {
+    margin-bottom : 20px !important;
+}
+
+#sub-accordion-section-dsdep_border .customize-control-range .customize-control-title {
+    margin-bottom : 10px !important;
+}

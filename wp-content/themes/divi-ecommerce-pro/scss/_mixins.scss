@@ -1,0 +1,342 @@
+// ------------------------------------------------------------------------------------------- //
+//   MEDIA QUERIES MIXIN
+//   Usage:
+//      .foo {
+//        @include screen(large) {
+//          width: 20%;
+//        }
+//        @include screen(small, min) {
+//          width: 80%;
+//        }
+//        @include screen(custom, max, 400) {
+//          width: 100%;
+//        }
+//      }
+// ------------------------------------------------------------------------------------------- //
+
+@mixin screen($size, $type: max, $pixels: $breakSmall) {
+  @if $size == "small" {
+    @media screen and ($type + -width: $breakSmall) {
+      @content;
+      }
+    } @else if $size == "large" {
+    @media screen and ($type + -width: $breakLarge) {
+      @content;
+      }
+    } @else if $size == "custom" {
+    @media screen and ($type + -width: $pixels + px) {
+      @content;
+      }
+    } @else {
+    @content;
+    }
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   RESPONSIVE FONTS MIXIN
+//   Usage: $font-desktop, $font-tablet, $font-phone
+//      h2 {
+//        @include responsiveFontSize(30px, 25px, 20px);
+//      }
+// ------------------------------------------------------------------------------------------- //
+
+@mixin responsiveFontSize($font-desktop, $font-tablet, $font-phone) {
+  font-size : $font-desktop;
+
+  @media (max-width : $breakLarge) {
+    font-size : $font-tablet;
+    }
+
+  @media (max-width : $breakSmall) {
+    font-size : $font-phone;
+    }
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   GRADIENT MIXIN
+//   Usage: $start-color, $end-color, $orientation - vertical/horizontal/radial
+//      .gradient {
+//        @include backgroundGradient(red, black, 'vertical');
+//      }
+// ------------------------------------------------------------------------------------------- //
+
+@mixin backgroundGradient($start-color, $end-color, $orientation) {
+  background : $start-color;
+
+  @if $orientation == "vertical" {
+    background : -webkit-linear-gradient(top, $start-color, $end-color);
+    background : linear-gradient(to bottom, $start-color, $end-color);
+    } @else if $orientation == "horizontal" {
+    background : -webkit-linear-gradient(left, $start-color, $end-color);
+    background : linear-gradient(to right, $start-color, $end-color);
+    } @else {
+    background : -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+    background : radial-gradient(ellipse at center, $start-color, $end-color);
+    }
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   QUICK PADDING & MARGIN MIXINS
+//   Usage:
+//    @include padding(top, right, bottom, left);
+//    @include margin(top, right, bottom, left);
+//
+//   If you don't want to set a value use null property.
+//   Example:
+//        @include padding(1px, null, 3px, 4px);
+//   Output (no right padding in output):
+//        padding-top: 1px;
+//        padding-bottom: 3px;
+//        padding-left: 4px;
+// ------------------------------------------------------------------------------------------- //
+
+// Padding
+@mixin padding($top, $right, $bottom, $left) {
+  padding-top    : $top;
+  padding-right  : $right;
+  padding-bottom : $bottom;
+  padding-left   : $left;
+  }
+
+// Margin
+@mixin margin($top, $right, $bottom, $left) {
+  margin-top    : $top;
+  margin-right  : $right;
+  margin-bottom : $bottom;
+  margin-left   : $left;
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   TRANSFORM MIXIN
+//   Usage: @include: transform(3px);
+// ------------------------------------------------------------------------------------------- //
+
+@mixin transform($property) {
+  -webkit-transform : $property;
+  -moz-transform    : $property;
+  -ms-transform     : $property;
+  transform         : $property;
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   BORDER RADIUS MIXIN
+//   Usage: @include: borderRadius(3px);
+// ------------------------------------------------------------------------------------------- //
+
+@mixin borderRadius($property) {
+  -webkit-border-radius : $property;
+  -moz-border-radius    : $property;
+  border-radius         : $property;
+  }
+
+@mixin circle {
+  @include borderRadius(100%);
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   TRANSITION MIXIN
+//   Usage: @include: transition($property, $duration, $easing);
+// ------------------------------------------------------------------------------------------- //
+
+@mixin transition($property: all, $duration: 0.3s, $easing: linear) {
+  transition         : $property $duration $easing;
+  -webkit-transition : $property $duration $easing;
+  -moz-transition    : $property $duration $easing;
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   BOX SHADOW MIXIN
+//   Usage: @include: boxShadow($left, $top, $radius, $color;
+// ------------------------------------------------------------------------------------------- //
+
+@mixin boxShadow($left, $top, $blur, $color) {
+  box-shadow         : $left $top $blur $color;
+  -webkit-box-shadow : $left $top $blur $color;
+  -moz-box-shadow    : $left $top $blur $color;
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   KEYFRAMES MIXIN
+//  @include keyframes(background) {
+//    0% {
+//      background: white;
+//    }
+//    50% {
+//      background: lightblue;
+//    }
+//    100% {
+//      background: royalblue;
+//    }
+//  }
+// ------------------------------------------------------------------------------------------- //
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+    }
+  @-moz-keyframes #{$name} {
+    @content;
+    }
+  @keyframes #{$name} {
+    @content;
+    }
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   ARROW MIXIN
+//   Usage: @include arrow(up, 10px, #efefef);
+// ------------------------------------------------------------------------------------------- //
+
+@mixin arrow($direction: down, $size: 5px, $color: black) {
+  width  : 0;
+  height : 0;
+  @if ($direction == left) {
+    border-top    : $size solid transparent;
+    border-bottom : $size solid transparent;
+    border-right  : $size solid $color;
+    } @else if ($direction == right) {
+    border-top    : $size solid transparent;
+    border-bottom : $size solid transparent;
+    border-left   : $size solid $color;
+    } @else if ($direction == down) {
+    border-left   : $size solid transparent;
+    border-right  : $size solid transparent;
+    border-top    : $size solid $color;
+    } @else if ($direction == up) {
+    border-left   : $size solid transparent;
+    border-right  : $size solid transparent;
+    border-bottom : $size solid $color;
+    }
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   CENTER HEIGHT MIXIN
+//   Vertically centers block elements with known height.
+//
+//    Usage: @include: centerHeight(50px);
+//    Output:
+///     div {
+///       position: absolute;
+///       top: 50%;
+///      height: 50px;
+///       margin-top: -25px;
+///     }
+// ------------------------------------------------------------------------------------------- //
+
+@mixin centerHeight($height) {
+  position   : absolute;
+  top        : 50%;
+  height     : $height;
+  margin-top : -($height / 2);
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   CENTER  UNKNOWN HEIGHT MIXIN
+//   Vertically centers block elements with unknown height.
+//
+//    Usage: @include centerHeightUnk();
+// ------------------------------------------------------------------------------------------- //
+
+@mixin centerHeightUnk {
+  top : 50% !important;
+  @include transform(translateY(-50%));
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   PUSH AUTO MIXIN
+//   To quickly centre a block element without having to worry about
+//    if there is any top or bottom margin already applied.
+//
+//   Usage: @include pushAuto();
+// ------------------------------------------------------------------------------------------- //
+
+@mixin pushAuto {
+  display      : block;
+  margin-left  : auto;
+  margin-right : auto;
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   TEXT SHORTEN MIXIN
+//  This mixin performs truncation on any text that overflows its containing
+//   element and adds an ellipsis (…) to the end.
+//   Usage: @include: textShorten();
+// ------------------------------------------------------------------------------------------- //
+
+@mixin textShorten {
+  overflow      : hidden;
+  text-overflow : ellipsis;
+  white-space   : nowrap;
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   SEMI TRANSPARENT BACKGROUND MIXIN
+// ------------------------------------------------------------------------------------------- //
+@mixin bgOpacity($color, $opacity) {
+  background : $color;
+  background : rgba($color, $opacity);
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   CLEARFIX
+// ------------------------------------------------------------------------------------------- //
+@mixin clearfix {
+  &:before, &:after {
+    display : block;
+    content : "";
+    clear   : both;
+    }
+  }
+
+@mixin removeClearfix {
+  /* Remove clearfix */
+  &:before, &:after {
+    display : none !important;
+    }
+  }
+
+// ------------------------------------------------------------------------------------------- //
+//   FLEXBOX
+//  @url https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mixins
+// ------------------------------------------------------------------------------------------- //
+@mixin flexbox {
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : -webkit-flex;
+  display : flex !important;
+  }
+
+@mixin inline-flex {
+  display : -webkit-inline-box;
+  display : -moz-inline-box;
+  display : -webkit-inline-flex;
+  display : -ms-inline-flexbox;
+  display : inline-flex;
+  }
+
+@mixin flex-direction($value: row) {
+  @if $value == row-reverse {
+    -webkit-box-direction : reverse;
+    -webkit-box-orient    : horizontal;
+    -moz-box-direction    : reverse;
+    -moz-box-orient       : horizontal;
+    } @else if $value == column {
+    -webkit-box-direction : normal;
+    -webkit-box-orient    : vertical;
+    -moz-box-direction    : normal;
+    -moz-box-orient       : vertical;
+    } @else if $value == column-reverse {
+    -webkit-box-direction : reverse;
+    -webkit-box-orient    : vertical;
+    -moz-box-direction    : reverse;
+    -moz-box-orient       : vertical;
+    } @else {
+    -webkit-box-direction : normal;
+    -webkit-box-orient    : horizontal;
+    -moz-box-direction    : normal;
+    -moz-box-orient       : horizontal;
+    }
+  -webkit-flex-direction : $value;
+  -ms-flex-direction     : $value;
+  flex-direction         : $value;
+  }

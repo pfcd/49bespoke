@@ -1,0 +1,89 @@
+.dipi-reading-progress-wrap .dipi-reading-progress {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    z-index: 100000;
+}
+
+.et-tb-has-header .dipi-reading-progress-wrap .dipi-reading-progress-main {
+    position: relative;
+}
+
+.dipi-reading-progress-wrap .dipi-reading-progress-top {
+    top: 0;
+}
+
+.admin-bar .dipi-reading-progress-wrap .dipi-reading-progress-top {
+    top: 30px;
+}
+
+@media (max-width: 782px) {
+    .admin-bar .dipi-reading-progress-wrap .dipi-reading-progress-top {
+        top: 46px;
+    }
+}
+
+.dipi-reading-progress-wrap .dipi-reading-progress-bottom {
+    bottom: 0;
+}
+
+.dipi-reading-progress-wrap-builder .dipi-reading-progress {
+    position: unset;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.dipi-reading-progress-wrap .dipi-reading-progress .dipi-reading-progress-fill {
+    height: 5px;
+    width: 0%;
+    transition: width 50ms ease;
+}
+
+.dipi-builder-reading-progress-fill {
+    width: 27.5% !important;
+}
+
+.dipi-builder-reading-progress-bar-preview {
+    background-color: bisque;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    position: relative;
+}
+
+.dipi-builder-reading-progress-bar-preview:before {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    top: 100%;
+    left: 50%;
+    border-top: 12px solid bisque;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+
+@-webkit-keyframes bars {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes bars {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+.dipi-progress-striped {
+    animation: bars 5s linear infinite;
+    background-size: 40px 40px;
+    background-image: linear-gradient(135deg, #fff 50%, transparent 50%, transparent 50%, #fff 50%, #fff 50%, transparent 50%, transparent);
+}

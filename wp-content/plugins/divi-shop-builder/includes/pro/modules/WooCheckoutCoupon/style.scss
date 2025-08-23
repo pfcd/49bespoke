@@ -1,0 +1,83 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (or the corresponding source SCSS file) has been modified by Ahamed Arshad Azmi, Jonathan Hall and/or others.
+This file (or the corresponding source SCSS file) was last modified 2020-11-25
+*/
+
+.ags_woo_checkout_coupon {
+
+    .woocommerce-form-coupon-toggle>.woocommerce-info>a {
+        color: inherit !important;
+    }
+
+    .et_pb_custom_button_icon:after {
+        content: attr(data-icon) !important;
+    }
+
+    button,
+    .button,
+    button.button {
+
+        &:after,
+        &:before {
+            position: relative;
+            font-size: inherit;
+        }
+
+        &:disabled[disabled],
+        &.disabled,
+        &[disabled] {
+            padding: .3em 1em;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .ags_woo_checkout_coupon {
+
+        &.toggle_model_off {
+
+            .woocommerce-form-coupon {
+                display: inherit !important;
+                height: auto !important;
+                padding: 20px !important;
+                margin: 2em 0 !important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 479px) {
+
+    .ags_woo_checkout_coupon {
+
+        &.toggle_model_tablet_off {
+
+            .woocommerce-form-coupon {
+                display: inherit !important;
+                height: auto !important;
+                padding: 20px !important;
+                margin: 2em 0 !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 478px) {
+
+    .ags_woo_checkout_coupon {
+
+        &.toggle_model_phone_off {
+
+            .woocommerce-form-coupon {
+                display: inherit !important;
+                height: auto !important;
+                padding: 20px !important;
+                margin: 2em 0 !important;
+            }
+        }
+    }
+}

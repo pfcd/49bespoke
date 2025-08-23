@@ -1,0 +1,269 @@
+.dipi-testimonial-main .swiper-container {
+    height: auto;
+    display: flex;
+    align-items: start;
+    overflow: hidden !important;
+}
+.dipi-testimonial-review-popup-open .dipi-testimonial-item , 
+.dipi-testimonial-main .dipi-testimonial-item {
+    border-style: solid;
+}
+
+.dipi-testimonial-main .dipi-testimonial-img {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.dipi-testimonial-main .dipi-testimonial-img > img,
+.dipi-review-popup-text .dipi-testimonial-img > img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dipi-testimonial-rating {
+    margin-bottom: 20px;
+}
+
+.dipi-testimonial-text {
+    margin-bottom: 10px;
+}
+
+.dipi-testimonial-name {
+    margin-bottom: 10px;
+}
+
+.dipi-company-name {
+    margin-bottom: 10px;
+}
+
+.dipi-profile-info > div {
+    margin-bottom: 0 !important;
+    line-height: 1.2;
+}
+
+.dipi-testimonial-main .swiper-container-3d .dipi-testimonial-wrapper {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.dipi-testimonial-main .swiper-container .dipi-testimonial-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    flex-wrap: nowrap;
+    overflow: visible
+}
+
+.dipi-testimonial-main .swiper-container .dipi-testimonial-item {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0 !important;
+    flex-direction: column;
+    float: none !important;
+    clear: none !important;
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    overflow: hidden;
+}
+
+.dipi-testimonial-main .swiper-pagination {
+    text-align: center;
+    width: 100%;
+}
+
+.dipi-testimonial-main .swiper-pagination .swiper-pagination-bullets {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.dipi-testimonial-main .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 4px;
+    width: 8px;
+    height: 8px;
+}
+
+.dipi-testimonial-main .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.dipi-testimonial-main .swiper-pagination .swiper-pagination-bullet:last-child {
+    margin-right: 0
+}
+
+.dipi-testimonial-rating {
+    font-size: 20px;
+}
+
+.dipi-testimonial-rating span {
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+    cursor: default;
+}
+
+.dipi-testimonial-main .swiper-button-next,
+.dipi-testimonial-main .swiper-button-prev {
+    background-image: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    margin-top: 0;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
+}
+
+.dipi-testimonial-main .swiper-button-next:after,
+.dipi-testimonial-main .swiper-button-prev:after {
+    content: attr(data-icon);
+    display: block;
+    font-family: ETmodules;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.dipi-testimonial-main .swiper-button-prev {
+    left: -66px;
+}
+.dipi-testimonial-main .swiper-button-next {
+    right: -66px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.dipi-review-popup-text {
+    width: 620px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #fff;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .dipi-review-popup-text {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .dipi-review-popup-text {
+        margin-top: 20%;
+    }
+}
+
+.dipi-review-popup-text .mfp-close {
+    top: -15px;
+    right: -15px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    background: #000;
+    color: #fff;
+}
+
+.mfp-wrap .mfp-container .dipi-review-popup-text .mfp-close:hover {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.mfp-wrap .mfp-container .dipi-review-popup-text .mfp-close:active {
+    top: -15px !important;
+}
+
+.dipi-testimonial-review-popup-open .dipi-review-popup-bottom {
+    margin-top: 30px;
+}
+
+.dipi-testimonial-review-popup-open .dipi-review-popup-bottom .dipi-testimonial-img {
+    margin-right: 10px;
+}
+
+.dipi-testimonial-review-popup-open .dipi-review-popup-bottom {
+    display: flex;
+    align-items: center;
+}
+
+/* start state */
+.dipi-mfp-with-zoom {
+	/* animate in */
+	/* animate out */
+}
+ .dipi-mfp-with-zoom .dipi-review-popup-text {
+	 opacity: 0;
+	 transition: all 0.3s ease-in-out;
+	 transform: scale(0.8);
+}
+ .dipi-mfp-with-zoom.mfp-bg {
+	 opacity: 0;
+	 transition: all 0.3s ease-out;
+}
+ .dipi-mfp-with-zoom.mfp-ready .dipi-review-popup-text {
+	 opacity: 1;
+	 transform: scale(1);
+}
+ .dipi-mfp-with-zoom.mfp-ready.mfp-bg {
+	 opacity: 0.8;
+}
+ .dipi-mfp-with-zoom.mfp-removing .dipi-review-popup-text {
+	 transform: scale(0.8);
+	 opacity: 0;
+}
+ .dipi-mfp-with-zoom.mfp-removing.mfp-bg {
+	 opacity: 0;
+}
+
+
+.dipi_testimonial.et_pb_module .swiper-arrow-button.show_on_hover {
+  opacity: 0;
+}
+.dipi_testimonial .swiper-button-prev.swiper-arrow-button.show_on_hover {
+  left: 0 !important;
+}
+.dipi_testimonial .swiper-button-next.swiper-arrow-button.show_on_hover {
+  right: 0 !important;
+}
+.dipi_testimonial.et_pb_module:hover .swiper-arrow-button.show_on_hover,
+.dipi_testimonial.et_pb_module .swiper-arrow-button.show_on_hover:hover
+{
+  opacity: 1;
+}
+.dipi_testimonial .swiper-button-prev.swiper-arrow-button.show_on_hover:before,
+.dipi_testimonial .swiper-button-next.swiper-arrow-button.show_on_hover:before
+{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  content: " ";
+  position: absolute;
+}
+
+.dipi_testimonial .swiper-button-prev.swiper-arrow-button.show_on_hover:before {
+  left: 50%;
+}
+
+.dipi_testimonial .swiper-button-next.swiper-arrow-button.show_on_hover:before {
+  right: 50%;
+}

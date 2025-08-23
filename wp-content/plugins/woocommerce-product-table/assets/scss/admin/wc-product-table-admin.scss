@@ -1,0 +1,461 @@
+@import '@automattic/color-studio/dist/color-variables.scss';
+
+// Import Gutenberg variables
+@import '@wordpress/base-styles/_colors.scss';
+@import '@wordpress/base-styles/_variables.scss';
+@import '@wordpress/base-styles/_mixins.scss';
+@import '@wordpress/base-styles/_breakpoints.scss';
+@import '@wordpress/base-styles/_animations.scss';
+@import '@wordpress/base-styles/_z-index.scss';
+@import '@wordpress/base-styles/_default-custom-properties.scss';
+
+@include wordpress-admin-schemes;
+
+.woocommerce-layout__header {
+	background: $studio-white;
+	box-sizing: border-box;
+	padding: 0;
+	width: 100%;
+
+	.woocommerce-layout__header-wrapper {
+		display: flex;
+		align-items: center;
+		min-height: $header-height;
+		padding-right: 20px;
+	}
+
+	.woocommerce-layout__header-breadcrumbs-wrapper {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.woocommerce-layout__header-heading {
+		display: flex !important;
+		align-items: center;
+		padding: 0;
+		flex: 1 auto;
+		height: $header-height;
+		background: $studio-white;
+		font-weight: 600;
+		font-size: 14px;
+		margin: 0;
+	}
+}
+
+body.product_page_tables {
+	#wpcontent {
+		padding-left: 0;
+	}
+
+	.woocommerce-layout__header,
+	.inside-wrapper {
+		padding-left: 20px;
+	}
+
+	.nav-tab-wrapper {
+		margin-left: 20px;
+	}
+}
+
+.barn2-settings-inner {
+	.woocommerce-layout__header-heading {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav-tab-wrapper~.notice {
+		margin-top: 1rem;
+		margin-left: 20px;
+	}
+
+	table.form-table {
+		td {
+			label[for='wcpt_misc_settings[add_selected_text_singular_placeholder]'] {
+				margin-right: 7px;
+			}
+			label[for='wcpt_misc_settings[add_selected_text_plural_placeholder]'] {
+				margin: 0px 7px 0px 15px;
+			}
+			.half-width {
+				width: 14em;
+			}
+		}
+	}
+
+	input[name="clear_cache"] {
+		display: none;
+
+		&.display {
+			display: inline-block;
+		}
+	}
+}
+
+
+/* OLD */
+
+#product_table_settings_selecting-description {
+
+	+table.form-table th {
+		padding-top: 10px;
+	}
+
+	+table.form-table td {
+		padding-top: 5px;
+	}
+}
+
+.woocommerce-product-table-settings {
+
+	.forminp-radio {
+		li:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+}
+
+.barn2-table-generator-admin-list,
+.barn2-table-generator-admin-settings,
+.barn2-table-generator-admin-design {
+
+	#b2-pages-wrapper {
+		padding: 0;
+	}
+
+	.barn2-layout__header {
+		background: #fff;
+		box-sizing: border-box;
+		padding: 0;
+		width: 100%;
+		z-index: 1001;
+	}
+
+	.barn2-layout__header .barn2-layout__header-heading {
+		display: flex;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		flex: 1 auto;
+		background: #fff;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.barn2-layout__header .barn2-layout__header-wrapper {
+		display: flex;
+		align-items: center;
+		min-height: 60px;
+		padding: 0 20px;
+	}
+
+	.form-table .td-first-checkbox th,
+	.form-table .td-first-checkbox td {
+		padding-bottom: 0;
+	}
+
+	.form-table .td-checkbox th,
+	.form-table .td-checkbox td {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.barn2-table-generator-admin-design {
+	.form-table {
+		th {
+			padding: 40px 10px 0px 0;
+		}
+		td {
+			padding: 10px 10px 0px;
+		}
+
+		.design-templates-group {
+			td {
+				padding: 36px 10px 0px;
+			}
+		}
+
+		.option-group-start {
+			td {
+				padding: 35px 10px 0px;
+			}	
+		}
+
+		.color-field {
+			display: flex;
+			align-items: center;
+			margin-bottom: 6px;
+
+			.wp-picker-container .wp-color-result.button {
+				margin: 0 6px 0px 0;
+			}
+
+			.description {
+				margin-top: 0px;
+			}
+		}
+	}
+
+	.submit {
+		button[name="reset_design_settings"] {
+			border: none;
+			background: transparent;
+
+			&:focus {
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+.product_page_tables #b2-table-generator>.wrap {
+	margin: 0;
+	padding: 0;
+}
+
+.barn2-help-tip {
+	color: #666;
+	display: inline-block;
+	font-style: normal;
+	line-height: 16px;
+	position: relative;
+	vertical-align: baseline;
+	font-size: 1.2em;
+    width: 12px;
+    height: 12px;
+}
+
+.barn2-help-tip::after {
+	font-family: "Dashicons";
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: "\f223";
+	cursor: help;
+}
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_content {
+	color: #fff;
+	font-size: 0.8em;
+	max-width: 150px;
+	background: #333;
+	text-align: center;
+	border-radius: 3px;
+	padding: 0.618em 1em;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#tiptip_content a {
+	color: #fff;
+}
+
+#tiptip_content code {
+	padding: 1px;
+	background: #888;
+}
+
+#tiptip_arrow,
+#tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder {
+	display: none;
+	z-index: 8675309;
+	position: absolute;
+	top: 0;
+	/*rtl:ignore*/
+	left: 0;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: #333;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: #333;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: #333;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: #333;
+}
+
+.barn2-checkbox-control__label-description {
+	display: block;
+	margin-top: 8px;
+	margin-left: 20px;
+	color: rgba(44, 51, 56);
+
+	&.hidden {
+		display: none;
+	}
+}
+
+.barn2-checkbox-control__label-description {
+	display: block;
+	margin-top: 8px;
+	margin-left: 20px;
+	color: rgba(44, 51, 56);
+
+	&.hidden {
+		display: none;
+	}
+}
+
+.barn2-wizard-input {
+	.barn2-checkbox-control__label-description {
+		margin-left: 0;
+		margin-bottom: 8px;
+	}
+}
+
+#barn2-form-refine {
+	.components-checkbox-control__input-container {
+		vertical-align: top;		
+	}
+}
+
+.barn2-lightbox-content {
+    position: fixed;
+    top: 0px;
+    left: 160px;
+    width: calc(100% - 160px);
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3764705882);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    box-sizing: border-box;
+
+	@media (max-width: 782px) {
+		width: 100%;
+		left: 0px;
+	}
+	
+	img {
+		width: 100%;
+		max-width: 800px;
+	}
+}
+body.folded,
+body.sticky-menu {
+	.barn2-lightbox-content {
+		width: calc(100% - 36px);
+		left: 36px;
+	}
+}
+
+.color-field .description {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+
+@media (max-width: 520px) {
+	.color-size-field {
+		display: flex;
+	}
+}
+@media (max-width: 782px) {
+	.barn2-table-generator-admin-design {
+		.form-table {
+			tr:not(.option-group-start) {
+				th[scope=row] {
+					display: none;
+				}
+			}
+
+			.color-size-field input[type="number"] {
+				height: 32px;
+				min-height: 32px;
+				width: 80px;
+			}
+		}	
+	}
+}
+
+.icon-animate img {
+	display: inline-block;
+	animation: icon-animate 1s infinite linear;
+}
+
+@keyframes icon-animate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}

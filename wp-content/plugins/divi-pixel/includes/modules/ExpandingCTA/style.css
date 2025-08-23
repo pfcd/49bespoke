@@ -1,0 +1,117 @@
+.dipi_expanding_cta .dipi-content-image-icon-wrap,
+.dipi_expanding_cta .dipi_expanding_cta_container .dipi_expanding_cta-content-wrapper
+{
+    border-style: solid;
+}
+.dipi_expanding_cta .dipi_expanding_cta_container .dipi_expanding_cta-content-wrapper,
+.dipi_expanding_cta_container   {
+    position: relative;
+    z-index: 1;
+}
+
+.dipi_expanding_cta .dipi-content-image-icon-wrap.dipi-icon-wrap {
+    width: fit-content;
+}
+.dipi_expanding_cta .dipi_extending_cta-overlay {
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+/* Styling of Expanded CTA & Overlay */
+.dipi_expanding_cta .dipi_expanding_cta_container .dipi_expanding_cta_container-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: normal;
+    border-style: solid;
+}
+.dipi_expanding_cta .dipi_expanding_cta_container .dipi_expanding_cta_container-background,
+.dipi_expanding_cta .dipi_expanding_cta_container .dipi_expanding_cta-content-wrapper,
+.dipi_expanding_cta .dipi_expanding_cta_container > .et_parallax_bg_wrap
+{
+    transition: transform 500ms ease-in-out, box-shadow 500ms ease-in-out !important; /* without !important, transition won't work when border is set*/
+}
+.dipi_expanding_cta.dipi-expanded-cta .dipi_expanding_cta_container .dipi_expanding_cta_container-background,
+.dipi_expanding_cta.dipi-expanded-cta .dipi_expanding_cta_container .dipi_expanding_cta-content-wrapper{
+    transform: scale(1.2);
+}
+.dipi_expanding_cta.dipi-expanded-cta .dipi_extending_cta-overlay {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+}
+/* Animated CTA Section slide out menu and back to top button */
+.dipi-has-expanding-cta-body header#main-header {
+    transition: all 500ms ease-in-out !important;
+}
+.dipi-has-expanding-cta-body .et_pb_scroll_top {
+    transition: all .5s ease-in-out;
+}
+/* Non theme builder header */
+body.dipi-expanded-body.dipi-hide_header_in-expanded-body header#main-header {
+    margin-top: -100px;
+}
+/* Theme builder header */
+.dipi-has-expanding-cta-body .et-l--header .et_pb_section_0_tb_header,
+.dipi-has-expanding-cta-body .et-l--header .et_pb_sticky
+{
+    transition: all .5s ease-in-out;
+}
+body.dipi-expanded-body.dipi-hide_header_in-expanded-body .et-l--header .et_pb_section--fixed,
+body.dipi-expanded-body.dipi-hide_header_in-expanded-body .et-l--header .et_pb_sticky
+{
+    top: -100% !important;
+}
+
+body.dipi-expanded-body.dipi-hide_btt_in-expanded-body .et_pb_scroll_top {
+    right: -100%;
+}
+
+/* hide the horizontal scrollbar when CTA section expands */
+
+body.dipi-expanded-body #et-main-area {
+    overflow-x: hidden;
+}
+.dipi-expanded-body .et-l.et-l--header,
+body.dipi-expanding_cta-on-top-removing .et-l.et-l--header,
+body.dipi-has-expanding-cta-body #theme-builder-area--et_header_layout
+{
+    z-index: 99999;
+}
+.dipi-expanding_cta-on-top {
+    z-index:9999 !important;
+}
+.dipi-expanding_cta-on-top-removing {
+    z-index: 9990 !important;
+}
+.dipi_expanding_cta .dipi-content-heading,
+.dipi_expanding_cta .dipi-desc,
+.dipi_expanding_cta .dipi_expanding_cta-content-wrapper .dipi-button-wrapper {
+    text-align: center;
+}
+.dipi_expanding_cta .dipi_extending_cta-overlay {
+    background-color: rgba(12,113,195,0.63);
+}
+
+.dipi_expanding_cta .dipi_expanding_cta-content{
+    margin: auto;
+}
+.dipi_content_button ,
+.dipi_second_button{
+    display: inline-block;
+}

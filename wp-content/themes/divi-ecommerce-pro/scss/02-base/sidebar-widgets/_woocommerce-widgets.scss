@@ -1,0 +1,55 @@
+
+.et-db #et-boc .et-l .dsdep-sidebar,
+.et-db #et-boc .et-l #sidebar {
+  ul.product_list_widget, ul.cart_list {
+    li {
+      padding       : 15px 0 !important;
+      margin-bottom : 0;
+
+      &:not(:last-child) {
+        border-bottom : 1px solid $lightBorderColor;
+        }
+
+      img {
+        float         : left;
+        margin-left   : 0;
+        width         : 75px;
+        margin-right  : 15px;
+        box-shadow    : $secondaryShadow;
+        border-radius : $mainRadius;
+        }
+
+      a {
+        line-height : 1.2;
+        }
+      }
+
+    .star-rating {
+      margin : 6px 0;
+      }
+    }
+
+  ul.product_list_widget li span.product-title,
+  ul.cart_list li span.product-title,
+  ul.cart_list li a:not(.remove),
+  ul.product_list_widget li a {
+    font-size   : 15px;
+    font-weight : 600;
+    color       : $baseHeaderColor;
+
+    &:hover {
+      color : $mainColor;
+      }
+    }
+
+  .widget_recent_reviews {
+    span.reviewer {
+      font-size      : 13px;
+      text-transform : uppercase;
+      }
+    }
+  }
+
+
+
+

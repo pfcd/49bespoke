@@ -1,0 +1,47 @@
+// Show something on phones
+@media (min-width : $breakSmall) {
+  .dsdepdep-show-mobile-only {
+    display : none !important;
+    }
+  }
+
+// Show  something on tablets
+@media (max-width : $breakSmall) {
+  .dsdep-show-tablet-only {
+    display : none !important;
+    }
+  }
+
+@media (min-width : $breakLarge) {
+  .dsdep-show-tablet-only {
+    display : none !important;
+    }
+  }
+
+// Show something on desktop
+@media (max-width : $breakLarge) {
+  .dsdep-show-desktop-only {
+    display : none !important;
+    }
+  }
+
+// Hide something on phones
+@media (max-width : $breakSmall) {
+  .dsdep-hide-mobile-only {
+    display : none !important;
+    }
+  }
+
+// Hide something on tablets
+@media (min-width : $breakSmall) and (max-width : $breakLarge) {
+  .dsdep-hide-tablet-only {
+    display : none !important;
+    }
+  }
+
+// Hide something on desktop
+@media (min-width : $breakLarge) {
+  .dsdep-hide-desktop-only {
+    display : none !important;
+    }
+  }

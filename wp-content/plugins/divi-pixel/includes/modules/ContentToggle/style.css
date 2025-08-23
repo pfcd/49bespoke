@@ -1,0 +1,78 @@
+.dipi-content-toggle__button-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.dipi-content-toggle__button {
+    position: relative;
+    display: inline-block;
+    width: 4.4em;
+    height: 2.2em;
+    vertical-align: middle;
+}
+input.dipi-content-toggle__switch {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+    /* border-radius: 1.5em; */
+}
+.dipi-content-toggle__slider {
+    background-color: #d3d3d3;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 100em;
+}
+.dipi-content-toggle__slider:before {
+    position: absolute;
+    content: "";
+    height: 1.8em;
+    width: 1.8em;
+    left: 0.2em;
+    bottom: .2em;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #fff;
+    border-radius: 50%;
+}
+input.dipi-content-toggle__switch:checked + .dipi-content-toggle__slider {
+    background: #ff4200;
+}
+input.dipi-content-toggle__switch:checked + .dipi-content-toggle__slider:before {
+    transform: translateX(2.2em);
+}
+.dipi-content-toggle__first-text {
+    margin-right: 12px;
+}
+.dipi-content-toggle__text h5 {
+    padding-bottom: 0;
+}
+.dipi-content-toggle_second-text {
+    margin-left: 12px;
+}
+.dipi-content-toggle__second-layout {
+    display: none;
+}

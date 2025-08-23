@@ -1,0 +1,1 @@
+!function(t){function d(d,n=!1){0!==t(this).find(".cart div.quantity:not(.buttons_added)").length&&(t(this).find(".cart div.quantity").addClass("buttons_added"),t(document).trigger("updated_cart_totals"))}function n(){t(".wc-product-table").on("responsiveDisplay.wcpt draw.wcpt",d)}n(),t(document).on("updated_cart_totals",n)}(jQuery);

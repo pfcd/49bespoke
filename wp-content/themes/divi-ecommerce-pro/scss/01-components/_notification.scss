@@ -1,0 +1,67 @@
+@mixin notificationMixin($type: general) {
+  padding       : 13px 25px 13px 45px !important;
+  line-height   : 1.5;
+  font-size     : 15px !important;
+  margin-bottom : 40px !important;
+  color         : $baseHeaderColor !important;
+  position      : relative;
+  border-radius : $mainRadius;
+  border        : none !important;
+  background    : transparent !important;
+  box-shadow    : $secondaryShadow !important;
+
+  a {
+    font-weight : 700;
+    }
+
+  @if ($type == general) {
+    a, a.button {
+      color : $mainColor !important;
+      }
+    &:before {
+      content : "\70" !important;
+      color   : $mainColor !important;
+      }
+    }
+
+  @if ($type == error) {
+    a, a.button {
+      color : $danger !important;
+      }
+    &:before {
+      content : "\71" !important;
+      color   : $danger !important;
+      }
+    }
+
+  @if ($type == warning) {
+    &:before {
+      content : "\73" !important;
+      color   : $warning !important;
+      }
+    }
+
+  @if ($type == success) {
+    a, a.button {
+      color : $success !important;
+      }
+
+    &:before {
+      content : "\52" !important;
+      color   : $success !important;
+      }
+    }
+
+  &:before {
+    font-family : ETModules;
+    text-align  : center;
+    position    : absolute;
+    @include centerHeightUnk();
+    left        : 10px;
+    font-size   : 21px;
+    display     : block !important;
+    margin-top  : 0;
+    text-shadow : none;
+    }
+
+  }

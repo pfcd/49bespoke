@@ -1,0 +1,26 @@
+.dipi_customizer_control_heading .dipi_customizer_control_heading_label {
+    margin-top: 30px;
+    margin-bottom: 0;
+    /*border-bottom: 1px solid #ecedee;*/
+    font-size: 1.1em;
+    line-height: 1.2em;
+    font-weight: 700;
+    /* background: -webkit-linear-gradient(left, #ff4200, #f05c12);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    display: flex;
+    align-items: center;
+    color: #ff4200;
+}
+
+.dipi_customizer_control_heading .dipi_customizer_control_heading_label .dipi-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.dipi_customizer_control_heading_description {
+    margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+.ags_woo_account_content {
+  .select2-container .select2-selection--single {
+    height: unset
+    }
+  .woocommerce table th {
+    font-weight: 500;
+    }
+}
+
+.et_pb_module[class*="ags_woo_account_"] .woocommerce-MyAccount-content {
+  float : none;
+  width : 100%;
+  }

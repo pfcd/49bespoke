@@ -1,0 +1,50 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (or the corresponding source SCSS file) has been modified by Ahamed Arshad Azmi, Jonathan Hall and/or others.
+This file (or the corresponding source SCSS file) was last modified 2020-11-25
+*/
+
+.ags_woo_notices {
+    [class^='woocommerce-'] .button {
+        background: #fff;
+
+        &:hover {
+            background: #fff;
+        }
+    }
+	
+	.woocommerce-notices-wrapper > * {
+		border: 0 solid #000 !important;
+	}
+	
+	/* divi-shop-builder\includes\modules\WooCartList\style.scss */
+    button,
+    .button,
+    button.button {
+
+        &:after,
+        &:before {
+            position: relative!important;
+            /*font-size: inherit;*/
+        }
+		
+		/*
+        &:disabled[disabled],
+        &.disabled,
+        &[disabled] {
+            padding: .3em 1em;
+        }
+		*/
+
+    }
+
+    .woocommerce-info a.button {
+        height: unset!important
+    }
+    .woocommerce-message a.button {
+        height: unset!important
+    }
+	
+}
+

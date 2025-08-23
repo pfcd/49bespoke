@@ -1,0 +1,58 @@
+Version 1.0.15 December 20, 2023
+- possible button styling issue
+
+Version 1.0.14 September 19, 2023
+- Add: display products based on tags
+
+Version 1.0.13 November 29, 2022
+- Fix: default button icon is not displaying in VB
+- Fix: equal height is not working
+- Add: pagination position setting
+- Fix: Overlay Color description
+- Change permissions to access plugin admin page from install_plugins to manage_options
+- Add: buttons position setting
+- Rebrand to WP Zone
+- Add: Slide Elements Alignment setting
+
+Version 1.0.12 August 17, 2022
+- Add ajax cart button option
+
+Version 1.0.11 July 6, 2022
+- Add option: Image Click Action
+
+Version 1.0.10 March 28, 2022
+- Change product sale status detection to use WooCommerce method
+
+Version 1.0.9 February 23, 2022
+Fix: Product sort option may not work when the product carousel module is used on the main shop page
+
+Version 1.0.8 October 13, 2021
+- Add setting to disable/enable navigation through slides using mouse wheel
+
+Version 1.0.7 September 17, 2021
+- Updated license statements
+- Change site URL in updater for WP Zone product version
+
+Version 1.0.6 August 30th, 2021
+- Fix: Products that are set to be hidden from the catalog still appear in the carousel
+
+Version 1.0.5 July 30th, 2021
+- Fix: Add missing HTML escaping in updater
+
+Version 1.0.4  December 20th, 2021
+- New: custom text for sale badge
+
+Version 1.0.3  December 20th, 2021
+- New: specify action of the button in carousel. Redirect to cart or to the product page.
+
+Version 1.0.2  December 13, 2020
+- Added translations to the adming page
+- New: addons tab on the admin page
+
+Version 1.0.1  November 25, 2020
+- Fix: pause on hover; autoplay doesn't start after mouse leave
+- Fix: custom module width doesn't work properly when using x%
+- Fix: column layout tablet mobile preview doesn't work
+- New: add tablet and mobile option to slide by number of slide(s) setting
+- Remove redundant CSS file
+- Browser support improvement

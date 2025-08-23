@@ -1,0 +1,37 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="16.5" y1="42.7" x2="47.4527" y2="42.7" gradientTransform="matrix(1 0 0 -1 0 66)">
+		<stop  offset="7.689312e-07" style="stop-color:#E85C1B"/>
+		<stop  offset="1" style="stop-color:#E54720"/>
+	</linearGradient>
+	<path class="st0" d="M46,21.8H18c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h28c0.8,0,1.5-0.7,1.5-1.5S46.8,21.8,46,21.8z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="16.5" y1="30.9" x2="47.4527" y2="30.9" gradientTransform="matrix(1 0 0 -1 0 66)">
+		<stop  offset="7.689312e-07" style="stop-color:#E85C1B"/>
+		<stop  offset="1" style="stop-color:#E54720"/>
+	</linearGradient>
+	<path class="st1" d="M46,33.6H18c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h28c0.8,0,1.5-0.7,1.5-1.5S46.8,33.6,46,33.6z"/>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="16.5" y1="18.5" x2="47.4527" y2="18.5" gradientTransform="matrix(1 0 0 -1 0 66)">
+		<stop  offset="7.689312e-07" style="stop-color:#E85C1B"/>
+		<stop  offset="1" style="stop-color:#E54720"/>
+	</linearGradient>
+	<path class="st2" d="M46,46H18c-0.8,0-1.5,0.7-1.5,1.5S17.2,49,18,49h28c0.8,0,1.5-0.7,1.5-1.5S46.8,46,46,46z"/>
+	
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="4.5" y1="34.075" x2="59.5156" y2="34.075" gradientTransform="matrix(1 0 0 -1 0 66)">
+		<stop  offset="7.689312e-07" style="stop-color:#E85C1B"/>
+		<stop  offset="1" style="stop-color:#E54720"/>
+	</linearGradient>
+	<path class="st3" d="M56.2,8.2H40.1l-7-7c-0.6-0.6-1.5-0.6-2.1,0l-7,7H7.8c-1.8,0-3.3,1.5-3.3,3.3v48.3c0,1.8,1.5,3.3,3.3,3.3h48.3
+		c1.8,0,3.3-1.5,3.3-3.3V11.6C59.5,9.7,58,8.2,56.2,8.2z M56.5,59.9c0,0.2-0.2,0.3-0.3,0.3H7.8c-0.2,0-0.3-0.2-0.3-0.3V11.6
+		c0-0.2,0.2-0.3,0.3-0.3h16.7c0.4,0,0.8-0.2,1.1-0.4L32,4.4l6.4,6.4c0.3,0.3,0.7,0.4,1.1,0.4h16.7c0.2,0,0.3,0.2,0.3,0.3V59.9z"/>
+</g>
+</svg>

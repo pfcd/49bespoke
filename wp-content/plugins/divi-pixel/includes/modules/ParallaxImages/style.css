@@ -1,0 +1,32 @@
+.dipi-parallax-images{
+    position: relative;
+}
+.dipi-parallax-images .dipi_parallax_images_item {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+   
+}
+
+
+.dipi_parallax_images .et_pb_module_inner,
+.dipi_parallax_images .et_pb_module_inner .dipi-parallax-images {
+    height: 100%;
+}
+
+/* .dipi-parallax-images .dipi_parallax_images_item:first-child,
+.dipi-parallax-images .dipi_parallax_images_item img {
+    position: relative !important;
+} */
+
+/* .dipi-parallax-images .dipi_parallax_images_item.et_pb_module:first-child {
+    left:auto;
+    translate: auto;
+} */
+.dipi-parallax-images .dipi_parallax_images_item .et_pb_module_inner,
+.dipi-parallax-images .dipi_parallax_images_item .et_pb_module_inner .dipi-pi-item-image{
+    height: 100%;
+}
+.dipi-pi-item-image{border-style:solid;}
+.dipi-pi-item-image img{display: block;}
+.dipi-pi-content-text{    pointer-events: auto;}

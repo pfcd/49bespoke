@@ -1,0 +1,14 @@
+.dipi-lottie-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.dipi-lottie-content {
+	padding: 20px;
+}
+
+.dipi-lottie-desc {
+	font-size: 14px;
+	line-height: 15px;
+	padding-bottom: 30px;
+}

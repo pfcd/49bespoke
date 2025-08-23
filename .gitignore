@@ -1,0 +1,26 @@
+# --- WordPress caches & large files ---
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/et-cache/
+wp-content/litespeed/
+wp-content/w3tc-config/
+wp-content/object-cache.php
+
+# --- Build/vendor noise ---
+node_modules/
+vendor/
+
+# --- Misc clutter ---
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar
+*.tar.gz
+*.gz
+.DS_Store
+.svn/
+*.swp

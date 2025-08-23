@@ -1,0 +1,60 @@
+.dsdep-accordion,
+.et-db #et-boc .et-l .dsdep-accordion {
+  .et_pb_toggle {
+    border-radius    : 0;
+    border-width     : 0 0 1px 0;
+    border-style     : solid;
+    border-color     : $darkBorderColor;
+    background-color : transparent;
+    padding          : 24px;
+
+    .et_pb_toggle_title {
+      @include responsiveFontSize(21px, 20px, 19px);
+
+      &:before {
+        content   : "\4c";
+        color     : $mainColor;
+        font-size : 32px;
+        top       : 8px;
+        }
+      }
+
+    &.et_pb_toggle_close {
+      .et_pb_toggle_title {
+        color : $baseHeaderColor;
+        }
+      }
+
+    &.et_pb_toggle_open {
+      background : transparent;
+
+      .et_pb_toggle_title {
+        &:before {
+          //content : "\4b";
+          //display : block;
+          }
+        }
+      }
+    }
+
+  // Counter
+  counter-reset : counter;
+
+  .et_pb_toggle {
+    padding-left : 60px;
+    position     : relative;
+
+    &:before {
+      counter-increment : counter;
+      content           : counters(counter, ".", decimal-leading-zero);
+      position          : absolute;
+      left              : 0;
+      top               : 20px;
+      font-weight       : 600;
+      color             : $mainColor;
+      font-family       : $fontHeading;
+      @include responsiveFontSize(28px, 26px, 24px);
+      }
+    }
+  }
+

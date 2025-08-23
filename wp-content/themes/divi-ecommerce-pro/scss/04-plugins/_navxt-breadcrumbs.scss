@@ -1,0 +1,15 @@
+.navxt-breadcrumbs {
+  font-size   : 14px;
+  line-height : $baseLineHeight;
+
+  a {
+    color       : inherit;
+    font-weight : 600;
+
+    &:hover {
+      opacity : 1;
+      }
+    }
+
+  }
+

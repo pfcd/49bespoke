@@ -1,0 +1,8 @@
+.dipi-button-grid-container {
+    display: flex;
+}
+
+.dipi_button_grid>div,
+.dipi_button_grid .dipi-button-grid-container {
+    height: 100%;
+}

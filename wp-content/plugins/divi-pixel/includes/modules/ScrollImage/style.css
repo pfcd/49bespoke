@@ -1,0 +1,205 @@
+.dipi_scroll_image {
+    transition: all 500ms;
+}
+
+.dipi-scroll-image {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.dipi-scroll-image .dipi-image-scroll-container {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.dipi-scroll-image .dipi-image-scroll-content:hover {
+    display: none;
+}
+
+.dipi-image-scroll-container .dipi-image-scroll-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: all 600ms;
+}
+
+.dipi-image-scroll-container .dipi-image-scroll-overlay,
+.dipi-image-scroll-container .dipi-image-scroll-content {
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    z-index: 4;
+}
+.dipi-image-scroll-container:hover .dipi-image-scroll-overlay:not(.reveal),
+.dipi-image-scroll-container:hover .dipi-image-scroll-overlay.reveal_fade,
+.dipi-image-scroll-container:hover .dipi-image-scroll-content {
+    opacity: 0 !important;
+    z-index: -1;
+}
+.dipi-image-scroll-container:hover .dipi-image-scroll-overlay.reveal_top {
+    transform: translateY(-100%);
+}
+.dipi-image-scroll-container:hover .dipi-image-scroll-overlay.reveal_bottom {
+    transform: translateY(100%);
+ 
+}
+.dipi-image-scroll-container:hover .dipi-image-scroll-overlay.reveal_left {
+    transform: translateX(-100%);
+}
+.dipi-image-scroll-container:hover .dipi-image-scroll-overlay.reveal_right {
+    transform: translateX(100%);
+ 
+}
+.dipi-image-scroll-container .dipi-image-scroll-overlay.reveal_top,
+.dipi-image-scroll-container .dipi-image-scroll-overlay.reveal_bottom ,
+.dipi-image-scroll-container .dipi-image-scroll-overlay.reveal_left,
+.dipi-image-scroll-container .dipi-image-scroll-overlay.reveal_right {
+    transition: .6s ease;
+}
+
+.dipi-image-scroll-container:hover .dipi-image-scroll-content .dipi-image-scroll-icon {
+    display: none;
+}
+
+.dipi-image-scroll-container .dipi-image-scroll-image img {
+    transition: all 10s;
+    
+}
+
+.dipi_scroll_image .dipi-container-scroll-anim-reset .dipi-image-scroll-image img {
+    transition: all 0s !important;
+}
+
+.dipi-image-scroll-icon {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.dipi-image-scroll-container .dipi-image-scroll-vertical.dipi-image-scroll-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.dipi-image-scroll-container .dipi-image-scroll-horizontal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.dipi-image-scroll-container .dipi-image-scroll-horizontal.dipi-image-scroll-image img {
+    max-width: none;
+    height: 100%;
+}
+
+.dipi-image-scroll-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    z-index: 6 !important;
+    height: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+
+.dipi-image-scroll-content>img {
+    cursor: pointer;
+    border-style: solid;
+}
+
+.dipi-image-container-scroll {
+    overflow: auto;
+}
+.dipi-image-scroll-horizontal .dipi-image-container-scroll {
+    overflow-y: hidden;
+}
+.dipi-image-container-scroll img {
+    display: block;
+}
+
+
+.dipi-icon-animate.dipi-image-scroll-vertical .dipi-image-scroll-icon,
+.dipi-icon-animate.dipi-image-scroll-vertical .dipi-image-scroll-content>img {
+    -webkit-animation-name: dp-scroll-vertical;
+    animation-name: dp-scroll-vertical;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes dp-scroll-vertical {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+}
+
+@keyframes dp-scroll-vertical {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+}
+
+.dipi-icon-animate.dipi-image-scroll-horizontal .dipi-image-scroll-icon,
+.dipi-icon-animate.dipi-image-scroll-horizontal .dipi-image-scroll-content>img {
+    -webkit-animation-name: dp-scroll-horizontal;
+    animation-name: dp-scroll-horizontal;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes dp-scroll-horizontal {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+    100% {
+        -webkit-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        transform: translateX(5px)
+    }
+}
+
+@keyframes dp-scroll-horizontal {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+    100% {
+        -webkit-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        transform: translateX(5px)
+    }
+}

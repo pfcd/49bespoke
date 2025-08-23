@@ -1,0 +1,86 @@
+.brand-page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-back-link a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+  border-radius: 4px;
+}
+.brand-back-link a:hover {
+  background: #eaeaea;
+}
+
+/* Wrapper styling */
+.brand-wrapper ul.products {
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Brand grid: updated for 4-column layout */
+.brand-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .brand-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .brand-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Brand card */
+.brand-item {
+  border: 1px solid #999;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+.brand-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Brand logo */
+.brand-logo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+.brand-logo:hover img {
+  transform: scale(1.05);
+}
+
+/* Brand title under logo */
+.brand-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Brand description */
+.brand-description {
+  font-size: 0.95em;
+  color: #666;
+  margin: 0 auto;
+  line-height: 1.4;
+}

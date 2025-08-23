@@ -1,0 +1,1267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Ecommerce Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2020-12-15 18:10+0100\n"
+"Last-Translator: Aspen Grove Studios\n"
+"Language-Team: Aspen Grove Studios>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: admin/admin-functions.php:9
+#, php-format
+msgid ""
+"Thank you for using %sDivi Ecommerce Pro Child Theme from Aspen Grove Studios"
+"%s "
+msgstr ""
+
+#: admin/admin-functions.php:39 admin/importer/importer.php:113
+msgid "Divi Ecommerce Pro"
+msgstr ""
+
+#: admin/admin-functions.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: admin/admin-functions.php:47 admin/admin-functions.php:106
+#: admin/admin-functions.php:136 admin/importer/importer.php:118
+#: admin/importer/importer.php:120 admin/importer/importer.php:125
+#: admin/importer/importer.php:218
+#: admin/importer/includes/site-import-page.php:11
+#: admin/importer/includes/site-import/step2.php:11
+msgid "Import Demo Data"
+msgstr ""
+
+#: admin/admin-functions.php:63
+msgid "Divi Ecommerce Pro Child Theme"
+msgstr ""
+
+#: admin/admin-functions.php:67 admin/importer/includes/site-import-page.php:16
+msgid "Support"
+msgstr ""
+
+#: admin/admin-functions.php:72
+msgid "Demo Content"
+msgstr ""
+
+#: admin/admin-functions.php:73
+msgid "License"
+msgstr ""
+
+#: admin/admin-functions.php:81
+msgid "This Demo"
+msgstr ""
+
+#: admin/admin-functions.php:83
+#, php-format
+msgid ""
+"Use  our built-in demo content tool. This will install the content and the "
+"design structure as shown in %1$s"
+msgstr ""
+
+#: admin/admin-functions.php:86
+msgid "The items that will be imported are:"
+msgstr ""
+
+#: admin/admin-functions.php:88
+msgid "Demo text content"
+msgstr ""
+
+#: admin/admin-functions.php:89
+msgid "Placeholder media files"
+msgstr ""
+
+#: admin/admin-functions.php:90
+msgid "Navigation Menu "
+msgstr ""
+
+#: admin/admin-functions.php:91
+msgid "Demo posts, pages and products "
+msgstr ""
+
+#: admin/admin-functions.php:92
+msgid "Site widgets (if applicable)"
+msgstr ""
+
+#: admin/admin-functions.php:95
+msgid "Please note: "
+msgstr ""
+
+#: admin/admin-functions.php:97
+msgid "No WordPress settings will be imported."
+msgstr ""
+
+#: admin/admin-functions.php:98
+msgid ""
+"No existing posts, pages, products, images, categories or any data will be "
+"modified or deleted."
+msgstr ""
+
+#: admin/admin-functions.php:99
+msgid ""
+"The importer will install only placeholder images showing their usage "
+"dimension. You can refer to our demo site and replace the placeholder with "
+"your own images."
+msgstr ""
+
+#: admin/importer/importer.php:121
+msgid ""
+"Something went wrong while retrieving the demo data. Your security token may "
+"have expired; please try refreshing the page and try again. If the problem "
+"persists, please contact support."
+msgstr ""
+
+#: admin/importer/importer.php:123
+msgid ""
+"Select which version of the demo data you would like to import, then click "
+"Continue. In the next step, you can choose which items you would like to "
+"import."
+msgstr ""
+
+#: admin/importer/importer.php:124
+msgid "Choose which items you would like to import."
+msgstr ""
+
+#: admin/importer/importer.php:126
+#: admin/importer/includes/site-import/step2.php:132
+msgid "Importing Demo Data..."
+msgstr ""
+
+#: admin/importer/importer.php:127
+#: admin/importer/includes/site-import/step2.php:142
+msgid "Import Complete!"
+msgstr ""
+
+#: admin/importer/importer.php:128
+#: admin/importer/includes/site-import/step2.php:159
+msgid "Enjoy your new child theme!"
+msgstr ""
+
+#: admin/importer/importer.php:128
+#: admin/importer/includes/site-import/step2.php:160
+msgid "Please check to make sure that the import was successful."
+msgstr ""
+
+#: admin/importer/importer.php:129
+#: admin/importer/includes/site-import/step2.php:173
+msgid "Something went wrong."
+msgstr ""
+
+#: admin/importer/importer.php:129
+#: admin/importer/includes/site-import/step2.php:174
+msgid ""
+"Unfortunately, demo data import could not be completed due to an error. "
+"Please try again."
+msgstr ""
+
+#: admin/importer/importer.php:221
+msgid "Site Import"
+msgstr ""
+
+#: admin/importer/importer.php:222 admin/importer/importer.php:295
+msgid "Site Export"
+msgstr ""
+
+#: admin/importer/importer.php:223
+msgid "Site Export Packager"
+msgstr ""
+
+#: admin/importer/importer.php:225
+#: admin/importer/includes/site-import-page.php:15
+msgid "Settings"
+msgstr ""
+
+#: admin/importer/importer.php:290
+msgid "Unknown"
+msgstr ""
+
+#: admin/importer/importer.php:356
+msgid "Unable to load theme demo data: Invalid data"
+msgstr ""
+
+#: admin/importer/importer.php:365
+msgid "Unable to load theme demo data: Invalid layout ID"
+msgstr ""
+
+#: admin/importer/importer.php:370
+msgid "Unable to load theme demo data: Invalid layout data"
+msgstr ""
+
+#: admin/importer/importer.php:377
+msgid "Unable to load theme demo data: Unsupported editor"
+msgstr ""
+
+#: admin/importer/importer.php:383
+msgid "Unable to load theme demo data: Missing button text"
+msgstr ""
+
+#: admin/importer/importer.php:389
+msgid "Unable to load theme demo data: Missing progress heading"
+msgstr ""
+
+#: admin/importer/importer.php:395
+msgid "Unable to load theme demo data: Missing complete heading"
+msgstr ""
+
+#: admin/importer/includes/api.php:28
+msgid "Invalid endpoint name:"
+msgstr ""
+
+#: admin/importer/includes/api.php:35
+msgid "Missing or invalid arguments"
+msgstr ""
+
+#: admin/importer/includes/downloader.php:44
+msgid "Downloading layout information..."
+msgstr ""
+
+#: admin/importer/includes/downloader.php:58
+#: admin/importer/includes/downloader.php:102
+msgid "Processing layout..."
+msgstr ""
+
+#: admin/importer/includes/downloader.php:61
+#, php-format
+msgid "Downloading image 1 of %s ..."
+msgstr ""
+
+#: admin/importer/includes/downloader.php:97
+msgid ""
+"One or more image(s) may not have been imported correctly. Please check the "
+"import to confirm."
+msgstr ""
+
+#: admin/importer/includes/downloader.php:104
+#, php-format
+msgid "Downloading image %s of %s..."
+msgstr ""
+
+#: admin/importer/includes/downloader.php:120
+msgid ""
+"One or more image(s) may not have been inserted into your content correctly. "
+"Please check the import to confirm."
+msgstr ""
+
+#: admin/importer/includes/site-import-page.php:13
+msgid "WP Layouts Site Importer"
+msgstr ""
+
+#: admin/importer/includes/site-import-page.php:29
+msgid "The import process has timed out. Please try again."
+msgstr ""
+
+#: admin/importer/includes/site-import-page.php:43
+msgid ""
+"This content was created with a newer version of WP Layouts than the version "
+"installed on your site. We recommend that you update to the latest version "
+"of WP Layouts before importing this content."
+msgstr ""
+
+#: admin/importer/includes/site-import-page.php:79
+#: admin/updater/theme-updater.php:207
+msgid "Continue"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:56
+msgid "Error reading config."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:112
+msgid "Invalid selected task name(s)."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:120
+msgid "Invalid last task name."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:221
+msgid "Importing demo content..."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:225
+msgid "Could not load demo content."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:236
+msgid "Importing theme options..."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:251
+msgid "Importing widgets..."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:262
+msgid "Importing Caldera Forms data..."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:266
+msgid "An error occurred while importing Caldera Forms data."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:269
+msgid ""
+"The Caldera Forms plugin could not be found. Caldera Forms data will not be "
+"imported."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:359
+msgid ""
+"The XML file containing the dummy content is not available or could not be "
+"read or written. Please ensure that the file permissions are set to chmod "
+"755."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:360
+msgid ""
+"If this doesn't work please use the WordPress importer and manually import "
+"the XML file (located in your theme .zip file in the admin/demo-files "
+"directory)."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:421
+msgid "An error occurred while importing theme and/or plugin options."
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:431
+msgid "Theme/plugin options import data could not be found"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:493
+msgid "Skipping widgets import due to invalid widgets data"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:529
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:551
+msgid "Site does not support widget"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:574
+msgid "Widget already exists"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:656
+msgid "Imported"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:659
+msgid "Imported to Inactive"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:665
+msgid "No Title"
+msgstr ""
+
+#: admin/importer/includes/site-import/aspen-importer.php:696
+#, php-format
+msgid ""
+"A Caldera Form with ID \"%s\" already exists on the site. This form will not "
+"be imported."
+msgstr ""
+
+#: admin/importer/includes/site-import/parsers/class-wxr-parser-regex.php:92
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:28
+msgid "Before you begin, make sure all the required"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:29
+msgid "plugins are activated"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:30
+msgid "if applicable"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:33
+msgid ""
+"Please click the import button once and wait for the process to complete."
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:34
+msgid ""
+"Please do not navigate away from this page until the import is complete."
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:47
+msgid "Check/uncheck all"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:53
+msgid "Content: pages, blog posts, menu items, etc."
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:57
+msgid "Images"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:63
+msgid "Theme builder templates"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:69
+msgid "Blog post categories"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:73
+msgid "Blog post tags"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:77
+msgid "Menus & taxonomy terms"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:87
+msgid "Theme/plugin options"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:96
+msgid "Menu location assignments"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:105
+msgid "Widgets"
+msgstr ""
+
+#: admin/importer/includes/site-import/step2.php:114
+msgid "Caldera Forms"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:154
+msgid "Error loading state: "
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:158
+msgid "Missing state PID"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:162
+msgid "State PID mismatch"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:166
+msgid "Missing state information"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:172
+msgid "Missing state field"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:207
+msgid "Content import error: The file does not exist"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:215
+#, php-format
+msgid "Content import error: %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:286
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:340
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:342
+#, php-format
+msgid "Category import error: %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:387
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:389
+#, php-format
+msgid "Post tag error: %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:442
+#: admin/importer/includes/site-import/wordpress-importer.php:704
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:444
+#, php-format
+msgid "Term import error: %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:535
+#, php-format
+msgid "Failed to import \"%s\" (%d): Invalid post type %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:595
+#, php-format
+msgid "%s %s already exists."
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:666
+#, php-format
+msgid "Failed to import %s \"%s\""
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:668
+#, php-format
+msgid "Import error: %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:706
+#, php-format
+msgid "Post term import error: %s %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:894
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:900
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:962
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:975
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:1054
+msgid "Remote server did not respond"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:1060
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:1067
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:1072
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/importer/includes/site-import/wordpress-importer.php:1078
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/importer/integrations/SiteImporter/SiteImporter.php:11
+msgid "WP Layouts Site Imports"
+msgstr ""
+
+#: admin/importer/integrations/SiteImporter/SiteImporter.php:12
+msgid "WP Layouts Site Import"
+msgstr ""
+
+#: admin/importer/js/admin.js:75 admin/importer/js/admin.js:109
+#: admin/importer/js/admin.js:145 admin/importer/js/admin.js:241
+#: admin/importer/js/admin.js:358 admin/importer/js/admin.js:725
+#: admin/importer/js/admin.js:731 admin/importer/js/admin.js:1092
+#: admin/importer/js/admin.js:1463 admin/updater/theme-updater.php:265
+msgid "Error"
+msgstr ""
+
+#: admin/importer/js/admin.js:76
+msgid ""
+"Something went wrong while updating the layout. Please try again if your "
+"changes were not saved."
+msgstr ""
+
+#: admin/importer/js/admin.js:110
+msgid "Something went wrong while deleting the layout."
+msgstr ""
+
+#: admin/importer/js/admin.js:117 admin/importer/js/admin.js:175
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/importer/js/admin.js:118
+msgid "Are you sure that you want to delete this layout?"
+msgstr ""
+
+#: admin/importer/js/admin.js:146
+msgid ""
+"Something went wrong while retrieving or resetting the layout's read key."
+msgstr ""
+
+#: admin/importer/js/admin.js:176
+msgid ""
+"Are you sure that you want to reset this layout's read key? Any packages "
+"depending on this read key will no longer work."
+msgstr ""
+
+#: admin/importer/js/admin.js:201 admin/importer/js/admin.js:708
+msgid "Remove ${layoutName}"
+msgstr ""
+
+#: admin/importer/js/admin.js:242
+msgid "Something went wrong while packaging the site export."
+msgstr ""
+
+#: admin/importer/js/admin.js:334
+msgid "No site exports selected"
+msgstr ""
+
+#: admin/importer/js/admin.js:335
+msgid "Please select at least one site export to include in the package."
+msgstr ""
+
+#: admin/importer/js/admin.js:359
+msgid "Something went wrong during the export."
+msgstr ""
+
+#: admin/importer/js/admin.js:726
+msgid "Please select your new site export before continuing."
+msgstr ""
+
+#: admin/importer/js/admin.js:732
+msgid ""
+"Your replacement export cannot be the same as the export you are editing."
+msgstr ""
+
+#: admin/importer/js/admin.js:737
+msgid "Warning"
+msgstr ""
+
+#: admin/importer/js/admin.js:738
+msgid ""
+"This will permanently delete the data in your old site export, and may "
+"overwrite the API authentication key for your new export. Are you sure that "
+"you would like to proceed?"
+msgstr ""
+
+#: admin/importer/js/admin.js:777 admin/importer/js/admin.js:785
+msgid "OK"
+msgstr ""
+
+#: admin/importer/js/admin.js:778 admin/importer/js/admin.js:851
+msgid "Cancel"
+msgstr ""
+
+#: admin/importer/js/admin.js:781
+msgid "Yes"
+msgstr ""
+
+#: admin/importer/js/admin.js:782
+msgid "No"
+msgstr ""
+
+#: admin/importer/js/admin.js:820
+msgid "Export Layout"
+msgstr ""
+
+#: admin/importer/js/admin.js:836
+msgid ""
+"To save this content in your online layout storage, enter a name for the "
+"layout below."
+msgstr ""
+
+#: admin/importer/js/admin.js:839 admin/importer/js/admin.js:1373
+msgid "Layout Name"
+msgstr ""
+
+#: admin/importer/js/admin.js:844
+msgid "Export"
+msgstr ""
+
+#: admin/importer/js/admin.js:868
+msgid "Generating layout image..."
+msgstr ""
+
+#: admin/importer/js/admin.js:883
+msgid "Uploading layout contents and image..."
+msgstr ""
+
+#: admin/importer/js/admin.js:1057
+msgid "An unknown error occurred: "
+msgstr ""
+
+#: admin/importer/js/admin.js:1062
+msgid "Done!"
+msgstr ""
+
+#: admin/importer/js/admin.js:1065
+msgid "Close"
+msgstr ""
+
+#: admin/importer/js/admin.js:1084
+msgid ""
+"Something went wrong while exporting your layout. Please ensure that you are "
+"logged in to the WP Layouts plugin and that your site URL has not changed "
+"since last logging in, then refresh the page and try again (your security "
+"token may have expired) or contact support via https://wplayouts.space/ if "
+"the problem persists."
+msgstr ""
+
+#: admin/importer/js/admin.js:1088
+msgid ""
+"The layout could not be uploaded. Your layout storage quota may be "
+"exhausted, or your plan may be expired. Please upgrade or renew your plan, "
+"or contact us if you think this message is in error."
+msgstr ""
+
+#: admin/importer/js/admin.js:1102
+msgid "Display:"
+msgstr ""
+
+#: admin/importer/js/admin.js:1106 admin/importer/js/admin.js:1109
+msgid "Grid"
+msgstr ""
+
+#: admin/importer/js/admin.js:1115 admin/importer/js/admin.js:1118
+msgid "Table"
+msgstr ""
+
+#: admin/importer/js/admin.js:1123
+msgid "Newest first"
+msgstr ""
+
+#: admin/importer/js/admin.js:1124
+msgid "Oldest first"
+msgstr ""
+
+#: admin/importer/js/admin.js:1125
+msgid "A to Z"
+msgstr ""
+
+#: admin/importer/js/admin.js:1126
+msgid "Z to A"
+msgstr ""
+
+#: admin/importer/js/admin.js:1177 admin/importer/js/admin.js:1635
+msgid "Import Layout"
+msgstr ""
+
+#: admin/importer/js/admin.js:1306
+msgid "My Layouts"
+msgstr ""
+
+#: admin/importer/js/admin.js:1311
+msgid "WP Layouts"
+msgstr ""
+
+#: admin/importer/js/admin.js:1359
+msgid "Layout Collection"
+msgstr ""
+
+#: admin/importer/js/admin.js:1364
+msgid "Number of Layouts"
+msgstr ""
+
+#: admin/importer/js/admin.js:1381
+msgid "Editor"
+msgstr ""
+
+#: admin/importer/js/admin.js:1390
+msgid "Upload Date"
+msgstr ""
+
+#: admin/importer/js/admin.js:1397
+msgid "Preview"
+msgstr ""
+
+#: admin/importer/js/admin.js:1442
+msgid "Sorry, this feature is only available in WP Layouts Pro."
+msgstr ""
+
+#: admin/importer/js/admin.js:1446
+msgid ""
+"WP Layouts Pro includes unlimited access to our pre-designed layouts for use "
+"in your sites! "
+msgstr ""
+
+#: admin/importer/js/admin.js:1449
+msgid ""
+"Please upgrade to a Pro pricing plan to enable this feature in your WP "
+"Layouts account."
+msgstr ""
+
+#: admin/importer/js/admin.js:1464
+msgid ""
+"Something went wrong while retrieving the list of layouts. Please try again "
+"or contact support."
+msgstr ""
+
+#: admin/importer/js/admin.js:1519
+msgid ""
+"Sorry, we don't have any layout collections for this page builder yet. "
+"Please check back later!"
+msgstr ""
+
+#: admin/importer/js/admin.js:1519
+msgid "There are no layouts to display."
+msgstr ""
+
+#: admin/importer/js/admin.js:1661
+msgid "Import Warning(s)"
+msgstr ""
+
+#: admin/importer/js/admin.js:1677
+msgid "You have selected the layout \"${layoutName}\" for import."
+msgstr ""
+
+#: admin/importer/js/admin.js:1682
+msgid ""
+"Any unsaved content in the Divi builder will be saved prior to import "
+"(unless you choose to replace existing content). Any unsaved changes you "
+"have made outside of the Divi builder will be lost."
+msgstr ""
+
+#: admin/importer/js/admin.js:1687
+msgid "Insert the layout above any existing content"
+msgstr ""
+
+#: admin/importer/js/admin.js:1688
+msgid "Insert the layout below any existing content"
+msgstr ""
+
+#: admin/importer/js/admin.js:1689
+msgid "Replace any existing content with the layout"
+msgstr ""
+
+#: admin/importer/js/admin.js:1744
+msgid "Starting import..."
+msgstr ""
+
+#: admin/importer/js/admin.js:1774
+msgid ""
+"Something went wrong while retrieving the layout. Your security token may "
+"have expired; please try refreshing the page and try again. If the problem "
+"persists, please contact WP Layouts support via"
+msgstr ""
+
+#: admin/updater/theme-updater.php:32
+msgid "Theme License"
+msgstr ""
+
+#: admin/updater/theme-updater.php:33
+msgid "Enter your theme license key."
+msgstr ""
+
+#: admin/updater/theme-updater.php:34
+msgid "License Key"
+msgstr ""
+
+#: admin/updater/theme-updater.php:35
+msgid "License Action"
+msgstr ""
+
+#: admin/updater/theme-updater.php:36
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/updater/theme-updater.php:37
+msgid "Activate License"
+msgstr ""
+
+#: admin/updater/theme-updater.php:38 admin/updater/theme-updater.php:51
+msgid "License status is unknown."
+msgstr ""
+
+#: admin/updater/theme-updater.php:39
+msgid "Renew?"
+msgstr ""
+
+#: admin/updater/theme-updater.php:40
+msgid "unlimited"
+msgstr ""
+
+#: admin/updater/theme-updater.php:41
+msgid "License key is active."
+msgstr ""
+
+#: admin/updater/theme-updater.php:42
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: admin/updater/theme-updater.php:43
+msgid "Lifetime License."
+msgstr ""
+
+#: admin/updater/theme-updater.php:44
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: admin/updater/theme-updater.php:45
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: admin/updater/theme-updater.php:46
+msgid "License key has expired."
+msgstr ""
+
+#: admin/updater/theme-updater.php:47
+msgid "License keys do not match."
+msgstr ""
+
+#: admin/updater/theme-updater.php:48
+msgid "License is inactive."
+msgstr ""
+
+#: admin/updater/theme-updater.php:49
+msgid "License key is disabled."
+msgstr ""
+
+#: admin/updater/theme-updater.php:50
+msgid "Site is inactive."
+msgstr ""
+
+#: admin/updater/theme-updater.php:52
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: admin/updater/theme-updater.php:53
+#, php-format
+msgid "%1$s is available. %2$sCheck out what's new%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: admin/updater/theme-updater.php:54
+#, php-format
+msgid "%1$s is available. %2$sRenew your license key%3$s to update."
+msgstr ""
+
+#: admin/updater/theme-updater.php:191
+#, php-format
+msgid "Thank you for purchasing %s. <br />Please enter your license key below."
+msgstr ""
+
+#: admin/updater/theme-updater.php:199 admin/updater/theme-updater.php:572
+msgid "License Key:"
+msgstr ""
+
+#: admin/updater/theme-updater.php:205 admin/updater/theme-updater.php:601
+msgid "An unknown error has occurred. Please try again."
+msgstr ""
+
+#: admin/updater/theme-updater.php:296 admin/updater/theme-updater.php:342
+#: admin/updater/theme-updater.php:407
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/updater/theme-updater.php:309
+#, php-format
+msgid "Your license key expired on %1$s. Please visit our website to renew."
+msgstr ""
+
+#: admin/updater/theme-updater.php:316
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/updater/theme-updater.php:321
+msgid "Invalid license key."
+msgstr ""
+
+#: admin/updater/theme-updater.php:327
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/updater/theme-updater.php:332
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/updater/theme-updater.php:337
+msgid ""
+"Your license key has reached its activation limit. Please deactivate the key "
+"on one of your other sites before activating it on this site."
+msgstr ""
+
+#: admin/updater/theme-updater.php:418
+msgid "An error occurred while deactivating your license key."
+msgstr ""
+
+#: admin/updater/theme-updater.php:585
+msgid "This license key does not expire."
+msgstr ""
+
+#: admin/updater/theme-updater.php:587
+#, php-format
+msgid ""
+"Expired on %1$s. %2$sRenew now%3$s to continue receiving updates and support."
+msgstr ""
+
+#: admin/updater/theme-updater.php:592
+#, php-format
+msgid "Expires on %1$s. %2$sClick here%3$s to renew."
+msgstr ""
+
+#: admin/updater/theme-updater.php:603
+msgid "Deactivate License Key"
+msgstr ""
+
+#: customizer/customizer.php:24
+msgid "Divi Ecommerce Pro Settings"
+msgstr ""
+
+#: customizer/customizer.php:32
+msgid "Color Scheme"
+msgstr ""
+
+#: customizer/customizer.php:35
+msgid "Color settings will be applied to your Divi Child Theme color scheme."
+msgstr ""
+
+#: customizer/customizer.php:40
+msgid "Buttons Settings"
+msgstr ""
+
+#: customizer/customizer.php:46
+msgid "Primary Button Color Scheme"
+msgstr ""
+
+#: customizer/customizer.php:49
+msgid "Color settings below will be applied to primary buttons."
+msgstr ""
+
+#: customizer/customizer.php:53
+msgid "Secondary Button Color Scheme"
+msgstr ""
+
+#: customizer/customizer.php:56
+msgid "Color settings below will be applied to secondary buttons."
+msgstr ""
+
+#: customizer/customizer.php:60
+msgid "Outline Button Color Scheme"
+msgstr ""
+
+#: customizer/customizer.php:63
+msgid "Color settings below will be applied to outline buttons."
+msgstr ""
+
+#: customizer/customizer.php:67
+msgid "Border Settings"
+msgstr ""
+
+#: customizer/customizer.php:86
+msgid "Main Accent"
+msgstr ""
+
+#: customizer/customizer.php:102
+msgid "Main Accent Hover Color"
+msgstr ""
+
+#: customizer/customizer.php:118
+msgid "Second Accent"
+msgstr ""
+
+#: customizer/customizer.php:134
+msgid "Second Accent Hover Color"
+msgstr ""
+
+#: customizer/customizer.php:150
+msgid "Light grey color"
+msgstr ""
+
+#: customizer/customizer.php:166
+msgid "Dark grey color"
+msgstr ""
+
+#: customizer/customizer.php:182
+msgid "Body Text Color"
+msgstr ""
+
+#: customizer/customizer.php:198
+msgid "Header Text Color"
+msgstr ""
+
+#: customizer/customizer.php:214
+msgid "Primary Box Shadow"
+msgstr ""
+
+#: customizer/customizer.php:230
+msgid "Secondary Box Shadow"
+msgstr ""
+
+#: customizer/customizer.php:251
+msgid "Border width"
+msgstr ""
+
+#: customizer/customizer.php:272
+msgid "Border radius"
+msgstr ""
+
+#: customizer/customizer.php:294 customizer/customizer.php:385
+#: customizer/customizer.php:476
+msgid "Text Color"
+msgstr ""
+
+#: customizer/customizer.php:309 customizer/customizer.php:400
+#: customizer/customizer.php:491
+msgid "Border Color"
+msgstr ""
+
+#: customizer/customizer.php:324 customizer/customizer.php:415
+#: customizer/customizer.php:506
+msgid "Background Color"
+msgstr ""
+
+#: customizer/customizer.php:339 customizer/customizer.php:430
+#: customizer/customizer.php:521
+msgid "Hover Text Color"
+msgstr ""
+
+#: customizer/customizer.php:354 customizer/customizer.php:445
+#: customizer/customizer.php:536
+msgid "Hover Border Color"
+msgstr ""
+
+#: customizer/customizer.php:369 customizer/customizer.php:460
+#: customizer/customizer.php:551
+msgid "Hover Background Color"
+msgstr ""
+
+#: customizer/customizer.php:571
+msgid "Light Border Color"
+msgstr ""
+
+#: customizer/customizer.php:587
+msgid "Dark Border Color"
+msgstr ""
+
+#: customizer/customizer.php:602
+msgid "General border radius (px)"
+msgstr ""
+
+#: customizer/customizer.php:606 customizer/customizer.php:628
+msgid "General border radius applied to form elements, cards, boxes etc."
+msgstr ""
+
+#: customizer/customizer.php:624
+msgid "Form border radius (px)"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:56
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:72
+msgid "Enable Flash Sale Badges"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:76
+#, php-format
+msgid "Replace \"Sale\" badges with % discount."
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:86
+msgid "Display \"New\" badge"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:90
+msgid ""
+"Adds a new badge to product entry for any product added in the last X days."
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:103
+msgid "Number of days"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:124
+msgid "Display custom product overlay"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:128
+msgid ""
+"Enables a product overlay with the custom text. The product overlay is "
+"displayed on the shop page, archive product pages and product category pages "
+"upon hovering the product image."
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:142
+msgid "Product overlay text"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:147
+msgid ""
+"Changes the text displayed on the product overlay. \"Display custom product "
+"overlay\" needs to be enabled in order this feature to work."
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:161
+msgid "Empty cart image"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:164
+msgid "Choose empty cart image"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:173
+msgid "Empty wishlist image"
+msgstr ""
+
+#: customizer/woocommerce-customizer.php:176
+msgid "Choose empty wishlist image"
+msgstr ""
+
+#: functions.php:74
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:75
+msgid "This is the WooCommerce shop sidebar"
+msgstr ""
+
+#: functions.php:120
+msgid "All news"
+msgstr ""
+
+#: woocommerce/ti-wishlist-empty.php:37 woocommerce/ti-wishlist-empty.php:43
+msgid "Wishlist is currently empty."
+msgstr ""
+
+#: woocommerce/ti-wishlist-empty.php:41
+msgid "Your Wishlist is currently empty."
+msgstr ""
+
+#: woocommerce/ti-wishlist-empty.php:51
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:27
+msgid "Your Cart is empty. Looks like you have not made your choice yet..."
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:73 woocommerce/wc-function-hooks.php:87
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:137
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:223
+msgid "New"
+msgstr ""

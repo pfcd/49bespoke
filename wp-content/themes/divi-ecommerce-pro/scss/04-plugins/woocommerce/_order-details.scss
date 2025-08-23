@@ -1,0 +1,181 @@
+@mixin orderTable() {
+  border           : none;
+  background-color : transparent;
+  margin-bottom    : 0 !important;
+
+  thead th {
+    background-color : transparent !important;
+    font-size        : 16px;
+    font-weight      : 600;
+    padding          : 10px 5px;
+    color            : $baseFontColor;
+
+    &:last-child {
+      text-align : right;
+      }
+    }
+  tbody {
+    td {
+      padding      : 25px 5px !important;
+      border-top   : 1px solid;
+      border-color : #CACACA !important;
+      font-size    : 14px;
+
+      &:last-child {
+        text-align : right;
+        }
+
+      &.woocommerce-table__product-name a {
+        color : $baseHeaderColor;
+
+        &:hover {
+          color : $mainColor;
+          }
+        }
+      }
+
+    tr:first-child {
+      td {
+        border : none;
+        }
+      }
+    }
+
+  tfoot {
+    td, th {
+      padding      : 25px 5px !important;
+      border-top   : 1px solid;
+      border-color : #CACACA !important;
+      font-weight  : 600;
+      }
+
+    td {
+      text-align : right;
+      }
+
+    tr:last-child {
+      .amount {
+        font-size   : 21px;
+        font-weight : 600;
+        }
+      }
+    }
+  }
+
+.dsdep-my-account .woocommerce,
+.woocommerce-order-received {
+
+  mark {
+    background-color : transparent;
+    color            : $mainColor;
+    }
+
+  section {
+    margin-top : 20px;
+    }
+
+  .woocommerce-order-details {
+    background-color : $lightGrey;
+    border-radius    : $mainRadius;
+    padding          : 35px 20px;
+
+    @media (min-width : $breakSmall) {
+      padding : 40px 30px;
+      }
+
+    @media (min-width : $breakLarge) {
+      padding : 48px;
+      }
+
+    .woocommerce-order-details__title {
+      font-weight : 600;
+      @include responsiveFontSize(28px, 26px, 24px);
+      }
+
+    table.shop_table {
+      @include orderTable();
+      }
+    }
+
+  .woocommerce-customer-details {
+    h2 {
+      font-weight    : 600;
+      padding-bottom : 24px;
+      @include responsiveFontSize(28px, 26px, 24px);
+      }
+
+    .woocommerce-column {
+      width : 100%;
+      float : none;
+
+      &:first-child {
+        padding-bottom : 40px;
+        margin-bottom  : 40px;
+        }
+      }
+    }
+
+  @media (min-width : $breakSmall) {
+    .woocommerce-order-details {
+      width          : 67%;
+      display        : inline-block;
+      vertical-align : top;
+      }
+    .woocommerce-customer-details {
+      width          : 32%;
+      display        : inline-block;
+      vertical-align : top;
+      padding-left   : 30px;
+      }
+    }
+  }
+
+
+.woocommerce-order-received .woocommerce-order {
+  .woocommerce-thankyou-order-received {
+    @include responsiveFontSize(21px, 20px, 19px);
+    color         : $baseHeaderColor;
+    font-weight   : bold;
+    margin-bottom : 40px;
+    display       : block;
+    }
+
+  ul.woocommerce-order-overview {
+    padding       : 0;
+    margin-bottom : 56px;
+
+    li {
+      padding        : 0;
+      margin         : 0 -1px 15px;
+      border         : none;
+      font-size      : 14px;
+      font-weight    : 600;
+      text-transform : none;
+      color          : $baseFontColor;
+      float          : none;
+
+      strong {
+        margin-top   : 10px;
+        border       : 1px solid;
+        width        : 100%;
+        display      : block;
+        padding      : 10px 16px;
+        border-color : $lightBorderColor;
+        font-size    : 16px;
+        font-weight  : normal;
+        line-height  : $baseLineHeight;
+        color        : $baseHeaderColor;
+        }
+      }
+
+    @media (min-width : 400px) {
+      display   : flex;
+      flex-wrap : wrap;
+
+      li {
+        flex        : 1;
+        white-space : nowrap;
+        }
+      }
+    }
+  }
