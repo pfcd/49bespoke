@@ -3,7 +3,7 @@
  * Plugin Name: Hide Woo Categories (UI Toggle)
  * Description: Adds a "Hide this category" checkbox to WooCommerce product categories and hides those categories & their products sitewide (shop/search/menus/widgets/Divi). Blocks direct URLs and add-to-cart.
  * Author: Your Company
- * Version: 1.1.0
+ * Version: 1.1.1
  */
 
 if ( ! defined('ABSPATH') ) exit;
@@ -125,7 +125,7 @@ function hc_get_hidden_cat_ids_cascade() {
  * Woo product queries: exclude hidden categories.
  */
 add_action('woocommerce_product_query', function ( $q ) {
-    $hidden = hc_get_hidden_cat_ids();
+    $hidden = hc_get_hidden_cat_ids_cascade();
     if ( empty($hidden) ) return;
 
     $tax_query   = (array) $q->get('tax_query');
@@ -141,7 +141,7 @@ add_action('woocommerce_product_query', function ( $q ) {
 
 /**
  * Exclude hidden categories from ALL front-end product queries
- * (covers Woo shop/archives/search and FiboSearch frontend queries).
+ * (covers Woo shop/archives/search and many custom queries).
  */
 add_action('pre_get_posts', function ( $q ) {
     if ( is_admin() ) return;
@@ -154,7 +154,7 @@ add_action('pre_get_posts', function ( $q ) {
     );
     if ( ! $is_product_ctx ) return;
 
-    $hidden = hc_get_hidden_cat_ids();
+    $hidden = hc_get_hidden_cat_ids_cascade();
     if ( empty($hidden) ) return;
 
     $tax_query   = (array) $q->get('tax_query');
@@ -174,7 +174,7 @@ add_action('pre_get_posts', function ( $q ) {
 add_filter('woocommerce_product_subcategories_args', function ($args) {
     if ( is_admin() ) return $args;
 
-    $hidden = hc_get_hidden_cat_ids();
+    $hidden = hc_get_hidden_cat_ids_cascade();
     if ( empty($hidden) ) return $args;
 
     $args['exclude'] = array_unique(array_merge(
@@ -188,7 +188,7 @@ add_filter('woocommerce_product_subcategories_args', function ($args) {
  * Product Categories widget: exclude hidden categories.
  */
 add_filter('woocommerce_product_categories_widget_args', function ( $args ) {
-    $hidden = hc_get_hidden_cat_ids();
+    $hidden = hc_get_hidden_cat_ids_cascade();
     if ( empty($hidden) ) return $args;
 
     $args['exclude'] = array_merge( isset($args['exclude']) ? (array) $args['exclude'] : [], $hidden );
@@ -201,12 +201,13 @@ add_filter('woocommerce_product_categories_widget_args', function ( $args ) {
 add_filter('wp_nav_menu_objects', function ($items) {
     if ( is_admin() ) return $items;
 
-    $hidden = hc_get_hidden_cat_ids();
+    $hidden = hc_get_hidden_cat_ids_cascade();
     if ( empty($hidden) ) return $items;
 
     $filtered = [];
+    $hidden_map = array_flip($hidden);
     foreach ( $items as $item ) {
-        if ( $item->object === 'product_cat' && in_array( (int) $item->object_id, $hidden, true ) ) {
+        if ( $item->object === 'product_cat' && isset($hidden_map[(int) $item->object_id]) ) {
             continue; // skip hidden category menu item
         }
         $filtered[] = $item;
@@ -344,14 +345,14 @@ add_filter('woocommerce_add_to_cart_validation', function ( $passed, $product_id
  * Frontend search query (free & pro): exclude hidden-category products.
  */
 add_filter('dgwt/wcas/search_query/args', function ($args) {
-    $hidden = hc_get_hidden_cat_ids();
-    if ( empty($hidden) ) return $args;
+    $blocked = hc_get_hidden_cat_ids_cascade();
+    if ( empty($blocked) ) return $args;
 
     $tax_query   = isset($args['tax_query']) ? (array) $args['tax_query'] : [];
     $tax_query[] = [
         'taxonomy'         => 'product_cat',
         'field'            => 'term_id',
-        'terms'            => $hidden,
+        'terms'            => $blocked,
         'operator'         => 'NOT IN',
         'include_children' => true,
     ];
@@ -363,13 +364,13 @@ add_filter('dgwt/wcas/search_query/args', function ($args) {
  * Pro indexer: prevent indexing hidden-category products.
  */
 add_filter('dgwt/wcas/indexer/tax_query', function ($tax_query) {
-    $hidden = hc_get_hidden_cat_ids();
-    if ( empty($hidden) ) return $tax_query;
+    $blocked = hc_get_hidden_cat_ids_cascade();
+    if ( empty($blocked) ) return $tax_query;
 
     $tax_query[] = [
         'taxonomy'         => 'product_cat',
         'field'            => 'term_id',
-        'terms'            => $hidden,
+        'terms'            => $blocked,
         'operator'         => 'NOT IN',
         'include_children' => true,
     ];
@@ -378,15 +379,16 @@ add_filter('dgwt/wcas/indexer/tax_query', function ($tax_query) {
 
 /**
  * Pro TNT engine runtime: exclude hidden-category products.
+ * (updated hook name)
  */
-add_filter('dgwt/wcas/tntsearch/query/args', function ($args) {
-    $hidden = hc_get_hidden_cat_ids();
-    if ( empty($hidden) ) return $args;
+add_filter('dgwt/wcas/tnt/search_query_args', function ($args) {
+    $blocked = hc_get_hidden_cat_ids_cascade();
+    if ( empty($blocked) ) return $args;
 
     $args['tax_query'][] = [
         'taxonomy'         => 'product_cat',
         'field'            => 'term_id',
-        'terms'            => $hidden,
+        'terms'            => $blocked,
         'operator'         => 'NOT IN',
         'include_children' => true,
     ];
@@ -697,10 +699,12 @@ add_filter('dgwt/wcas/search/product_cat/args', function ($args) {
     return $args;
 });
 
+/**
+ * When the toggle changes, ping FiboSearch to refresh a category’s index entry.
+ */
 add_action('created_product_cat', function ($term_id) {
     update_term_meta($term_id, 'hc_hidden', isset($_POST['hc_hidden']) ? '1' : '0');
 
-    // Tell FiboSearch a category changed (updates just this term in the index)
     $t = get_term($term_id, 'product_cat');
     if ($t && ! is_wp_error($t)) {
         do_action('edited_term', (int) $term_id, (int) $t->term_taxonomy_id, 'product_cat');
@@ -710,22 +714,8 @@ add_action('created_product_cat', function ($term_id) {
 add_action('edited_product_cat', function ($term_id) {
     update_term_meta($term_id, 'hc_hidden', isset($_POST['hc_hidden']) ? '1' : '0');
 
-    // Tell FiboSearch a category changed (updates just this term in the index)
     $t = get_term($term_id, 'product_cat');
     if ($t && ! is_wp_error($t)) {
         do_action('edited_term', (int) $term_id, (int) $t->term_taxonomy_id, 'product_cat');
     }
 });
-
-add_filter('dgwt/wcas/search/product_cat/args', function ($args) {
-    if (function_exists('hc_get_hidden_cat_ids_cascade')) {
-        $exclude = (array) hc_get_hidden_cat_ids_cascade();
-        if (!empty($exclude)) {
-            $args['exclude'] = isset($args['exclude'])
-                ? array_unique(array_merge((array) $args['exclude'], $exclude))
-                : $exclude;
-        }
-    }
-    return $args;
-});
-
