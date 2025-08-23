@@ -33,3 +33,6 @@ config.2.php
 *.sql
 *.gz
 *.tar.gz
+error_log
+*/error_log
+*.log
